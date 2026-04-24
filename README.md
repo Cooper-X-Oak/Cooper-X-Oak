@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100%" src="./assets/spring-hero-pixel-premium-v7.svg?v=20260424b" alt="Premium animated spring pixel art hero" />
+  <img width="100%" src="./assets/spring-hero-pixel-premium-v7.svg?v=20260424c" alt="Premium animated spring pixel art hero" />
 
   <br />
   <br />
