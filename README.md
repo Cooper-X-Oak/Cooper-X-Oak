@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100%" src="./assets/mascot-panel.svg" alt="Cooper Oak mascot panel" />
+  <img width="100%" src="./assets/spring-hero-scene.jpg" alt="Spring pixel anime scene" />
 
   <br />
   <br />
