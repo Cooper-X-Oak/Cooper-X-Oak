@@ -1,0 +1,52 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="62" y1="16" x2="1138" y2="264" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF0F7"/>
+      <stop offset="0.46" stop-color="#D5F2FF"/>
+      <stop offset="1" stop-color="#ECFAF1"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#B9EBCF"/>
+      <stop offset="1" stop-color="#E7F8D6"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FF91C0"/>
+      <stop offset="1" stop-color="#7ED2FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="280" rx="24" fill="url(#bg)"/>
+  <rect x="18" y="18" width="1164" height="244" rx="20" fill="#FFFFFF" fill-opacity="0.58" stroke="#9FDAFF" stroke-width="2"/>
+  <path d="M18 212 C210 166 326 228 480 190 C644 150 746 232 910 184 C1040 148 1102 188 1182 160 V262 H18 Z" fill="url(#hill)" fill-opacity="0.76"/>
+
+  <text x="54" y="58" fill="#6D8AAE" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="3">CONTRIBUTION MEADOW</text>
+  <text x="54" y="102" fill="#35537A" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="900">Public learning leaves a trail.</text>
+  <text x="54" y="136" fill="#607D9F" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">game plugins, AI utilities, browser workflows, and small tools blooming in public</text>
+
+  <g transform="translate(54 166)">
+    <rect width="326" height="54" rx="16" fill="#FFFFFF" fill-opacity="0.72" stroke="#F4B3D1"/>
+    <rect x="18" y="18" width="220" height="18" rx="9" fill="#FFF1F7"/>
+    <rect x="18" y="18" width="154" height="18" rx="9" fill="url(#bar)">
+      <animate attributeName="width" values="120;176;154" dur="4.2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="252" y="32" fill="#E481A9" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="900">BUILD</text>
+  </g>
+
+  <g transform="translate(430 56)">
+    <rect x="0" y="0" width="676" height="142" rx="20" fill="#FFFFFF" fill-opacity="0.62" stroke="#BFE6FF"/>
+    <g fill="#DFF3FF">
+      <rect x="28" y="28" width="16" height="16" rx="4"/><rect x="52" y="28" width="16" height="16" rx="4"/><rect x="76" y="28" width="16" height="16" rx="4"/><rect x="100" y="28" width="16" height="16" rx="4"/><rect x="124" y="28" width="16" height="16" rx="4"/><rect x="148" y="28" width="16" height="16" rx="4"/><rect x="172" y="28" width="16" height="16" rx="4"/><rect x="196" y="28" width="16" height="16" rx="4"/><rect x="220" y="28" width="16" height="16" rx="4"/><rect x="244" y="28" width="16" height="16" rx="4"/><rect x="268" y="28" width="16" height="16" rx="4"/><rect x="292" y="28" width="16" height="16" rx="4"/><rect x="316" y="28" width="16" height="16" rx="4"/><rect x="340" y="28" width="16" height="16" rx="4"/><rect x="364" y="28" width="16" height="16" rx="4"/><rect x="388" y="28" width="16" height="16" rx="4"/><rect x="412" y="28" width="16" height="16" rx="4"/><rect x="436" y="28" width="16" height="16" rx="4"/><rect x="460" y="28" width="16" height="16" rx="4"/><rect x="484" y="28" width="16" height="16" rx="4"/><rect x="508" y="28" width="16" height="16" rx="4"/><rect x="532" y="28" width="16" height="16" rx="4"/><rect x="556" y="28" width="16" height="16" rx="4"/><rect x="580" y="28" width="16" height="16" rx="4"/><rect x="604" y="28" width="16" height="16" rx="4"/>
+      <rect x="28" y="52" width="16" height="16" rx="4"/><rect x="52" y="52" width="16" height="16" rx="4"/><rect x="76" y="52" width="16" height="16" rx="4"/><rect x="100" y="52" width="16" height="16" rx="4"/><rect x="124" y="52" width="16" height="16" rx="4"/><rect x="148" y="52" width="16" height="16" rx="4"/><rect x="172" y="52" width="16" height="16" rx="4"/><rect x="196" y="52" width="16" height="16" rx="4"/><rect x="220" y="52" width="16" height="16" rx="4"/><rect x="244" y="52" width="16" height="16" rx="4"/><rect x="268" y="52" width="16" height="16" rx="4"/><rect x="292" y="52" width="16" height="16" rx="4"/><rect x="316" y="52" width="16" height="16" rx="4"/><rect x="340" y="52" width="16" height="16" rx="4"/><rect x="364" y="52" width="16" height="16" rx="4"/><rect x="388" y="52" width="16" height="16" rx="4"/><rect x="412" y="52" width="16" height="16" rx="4"/><rect x="436" y="52" width="16" height="16" rx="4"/><rect x="460" y="52" width="16" height="16" rx="4"/><rect x="484" y="52" width="16" height="16" rx="4"/><rect x="508" y="52" width="16" height="16" rx="4"/><rect x="532" y="52" width="16" height="16" rx="4"/><rect x="556" y="52" width="16" height="16" rx="4"/><rect x="580" y="52" width="16" height="16" rx="4"/><rect x="604" y="52" width="16" height="16" rx="4"/>
+      <rect x="28" y="76" width="16" height="16" rx="4"/><rect x="52" y="76" width="16" height="16" rx="4"/><rect x="76" y="76" width="16" height="16" rx="4"/><rect x="100" y="76" width="16" height="16" rx="4"/><rect x="124" y="76" width="16" height="16" rx="4"/><rect x="148" y="76" width="16" height="16" rx="4"/><rect x="172" y="76" width="16" height="16" rx="4"/><rect x="196" y="76" width="16" height="16" rx="4"/><rect x="220" y="76" width="16" height="16" rx="4"/><rect x="244" y="76" width="16" height="16" rx="4"/><rect x="268" y="76" width="16" height="16" rx="4"/><rect x="292" y="76" width="16" height="16" rx="4"/><rect x="316" y="76" width="16" height="16" rx="4"/><rect x="340" y="76" width="16" height="16" rx="4"/><rect x="364" y="76" width="16" height="16" rx="4"/><rect x="388" y="76" width="16" height="16" rx="4"/><rect x="412" y="76" width="16" height="16" rx="4"/><rect x="436" y="76" width="16" height="16" rx="4"/><rect x="460" y="76" width="16" height="16" rx="4"/><rect x="484" y="76" width="16" height="16" rx="4"/><rect x="508" y="76" width="16" height="16" rx="4"/><rect x="532" y="76" width="16" height="16" rx="4"/><rect x="556" y="76" width="16" height="16" rx="4"/><rect x="580" y="76" width="16" height="16" rx="4"/><rect x="604" y="76" width="16" height="16" rx="4"/>
+    </g>
+    <g fill="#FF9BC6"><rect x="76" y="52" width="16" height="16" rx="4"/><rect x="148" y="76" width="16" height="16" rx="4"/><rect x="220" y="28" width="16" height="16" rx="4"/><rect x="340" y="52" width="16" height="16" rx="4"/><rect x="460" y="76" width="16" height="16" rx="4"/><rect x="556" y="28" width="16" height="16" rx="4"/></g>
+    <g fill="#83D2FF"><rect x="100" y="76" width="16" height="16" rx="4"/><rect x="196" y="52" width="16" height="16" rx="4"/><rect x="292" y="76" width="16" height="16" rx="4"/><rect x="388" y="28" width="16" height="16" rx="4"/><rect x="508" y="52" width="16" height="16" rx="4"/><rect x="604" y="76" width="16" height="16" rx="4"/></g>
+    <g fill="#B9EBCF"><rect x="124" y="28" width="16" height="16" rx="4"/><rect x="244" y="76" width="16" height="16" rx="4"/><rect x="412" y="52" width="16" height="16" rx="4"/><rect x="532" y="76" width="16" height="16" rx="4"/></g>
+    <text x="28" y="122" fill="#6D8AAE" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">2026 BUILD LOG - STYLIZED ACTIVITY, NOT A THIRD-PARTY WIDGET</text>
+  </g>
+
+  <g opacity="0.88">
+    <rect x="112" y="232" width="8" height="8" fill="#FF9BC6"><animate attributeName="y" values="232;220;232" dur="3.6s" repeatCount="indefinite"/></rect>
+    <rect x="904" y="220" width="8" height="8" fill="#FFB9D6"><animate attributeName="y" values="220;235;220" dur="4.2s" repeatCount="indefinite"/></rect>
+    <rect x="1062" y="202" width="8" height="8" fill="#FF9BC6"><animate attributeName="y" values="202;190;202" dur="3.8s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>

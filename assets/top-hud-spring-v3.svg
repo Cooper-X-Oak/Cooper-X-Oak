@@ -1,0 +1,80 @@
+<svg width="1200" height="180" viewBox="0 0 1200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="60" y1="0" x2="1140" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFDDEA"/>
+      <stop offset="0.44" stop-color="#BFEAFF"/>
+      <stop offset="1" stop-color="#F8FCFF"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FF8FBE"/>
+      <stop offset="1" stop-color="#78CFFF"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-30%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#8BCDF4" flood-opacity="0.26"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="180" rx="26" fill="url(#sky)"/>
+  <rect x="18" y="18" width="1164" height="144" rx="22" fill="#FFFFFF" fill-opacity="0.56" stroke="#94D7FF" stroke-width="2"/>
+  <path d="M0 132 C190 98 272 158 422 124 C560 94 660 148 800 118 C960 84 1040 150 1200 104 V180 H0 Z" fill="#FFFFFF" fill-opacity="0.48"/>
+
+  <g opacity="0.95">
+    <rect x="52" y="44" width="12" height="12" fill="#FF9BC6"/>
+    <rect x="64" y="56" width="12" height="12" fill="#FF9BC6"/>
+    <rect x="40" y="56" width="12" height="12" fill="#FFB9D6"/>
+    <rect x="52" y="68" width="12" height="12" fill="#FFD7E8"/>
+    <rect x="1112" y="42" width="12" height="12" fill="#FF9BC6"/>
+    <rect x="1124" y="54" width="12" height="12" fill="#FF9BC6"/>
+    <rect x="1100" y="54" width="12" height="12" fill="#FFB9D6"/>
+    <rect x="1112" y="66" width="12" height="12" fill="#FFD7E8"/>
+  </g>
+
+  <g filter="url(#soft)">
+    <rect x="94" y="40" width="452" height="100" rx="18" fill="#FFF9FD" fill-opacity="0.84" stroke="#F4B3D1"/>
+    <text x="124" y="72" fill="#6B8EB8" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="3">SAKURA SKY PROFILE UI</text>
+    <text x="124" y="113" fill="#35537A" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="900">Cooper Oak</text>
+    <rect x="408" y="88" width="106" height="28" rx="14" fill="url(#ribbon)"/>
+    <text x="427" y="107" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="900">PIXEL ARC</text>
+  </g>
+
+  <g filter="url(#soft)">
+    <rect x="584" y="40" width="184" height="100" rx="18" fill="#FFFFFF" fill-opacity="0.72" stroke="#A8DFFF"/>
+    <text x="612" y="72" fill="#7B95B7" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="800">BUILD MODE</text>
+    <text x="612" y="108" fill="#4E8FDC" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="900">PUBLIC</text>
+  </g>
+
+  <g filter="url(#soft)">
+    <rect x="794" y="40" width="164" height="100" rx="18" fill="#FFFFFF" fill-opacity="0.72" stroke="#F4B3D1"/>
+    <text x="822" y="72" fill="#7B95B7" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="800">STARTED</text>
+    <text x="822" y="108" fill="#E481A9" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="900">2026</text>
+  </g>
+
+  <g filter="url(#soft)">
+    <rect x="984" y="40" width="142" height="100" rx="18" fill="#FFFFFF" fill-opacity="0.72" stroke="#B9E8D0"/>
+    <text x="1011" y="72" fill="#7B95B7" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="800">QUEST</text>
+    <text x="1011" y="108" fill="#45A878" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="900">100</text>
+  </g>
+
+  <g opacity="0.78">
+    <circle cx="650" cy="32" r="14" fill="#FFFFFF"/>
+    <circle cx="668" cy="32" r="20" fill="#FFFFFF"/>
+    <circle cx="694" cy="34" r="13" fill="#FFFFFF"/>
+    <rect x="648" y="36" width="52" height="12" fill="#FFFFFF"/>
+    <circle cx="260" cy="150" r="11" fill="#FFFFFF"/>
+    <circle cx="276" cy="148" r="16" fill="#FFFFFF"/>
+    <circle cx="298" cy="151" r="10" fill="#FFFFFF"/>
+    <rect x="260" y="153" width="44" height="10" fill="#FFFFFF"/>
+  </g>
+
+  <g opacity="0.9">
+    <rect x="172" y="148" width="8" height="8" fill="#FF9BC6">
+      <animate attributeName="y" values="148;158;148" dur="3.4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="742" y="22" width="8" height="8" fill="#FFB9D6">
+      <animate attributeName="y" values="22;36;22" dur="4.1s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1082" y="136" width="8" height="8" fill="#FF9BC6">
+      <animate attributeName="y" values="136;126;136" dur="3.7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

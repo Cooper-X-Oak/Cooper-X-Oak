@@ -1,92 +1,82 @@
 <div align="center">
-  <img width="100%" src="./assets/spring-hero-poster-premium.gif?v=20260424b" alt="Spring pixel anime hero poster" />
+  <img width="100%" src="./assets/spring-hero-poster-premium.gif?v=20260424c" alt="Spring pixel anime hero poster" />
 
   <br />
   <br />
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=5C8FD3&center=true&vCenter=true&width=920&lines=mods+%2F+AI+tools+%2F+automation;pixel+anime+builder+system;main+quest%3A+100+projects" alt="Typing intro" />
+  <img width="100%" src="./assets/top-hud-spring-v3.svg" alt="Sakura sky profile HUD" />
 
-<p>
-  <img src="https://img.shields.io/badge/Builder-In_Public-FFF6FB?style=for-the-badge&labelColor=FF96C6&color=FFF6FB" alt="Builder in public" />
-  <img src="https://img.shields.io/badge/Started-2026-F4FBFF?style=for-the-badge&labelColor=89CFFF&color=F4FBFF" alt="Started 2026" />
-  <img src="https://img.shields.io/badge/Goal-100_Projects-FFF9F0?style=for-the-badge&labelColor=FFC4D9&color=FFF9F0" alt="Goal 100 projects" />
-</p>
-
-<p>
-  <a href="https://github.com/Cooper-X-Oak?tab=repositories">archive</a> •
-  <a href="https://github.com/Cooper-X-Oak?tab=stars">star log</a> •
-  <a href="https://github.com/Cooper-X-Oak/LongYinMod_RisingFame">skill card</a> •
-  <a href="https://github.com/Cooper-X-Oak/OpenType">equipment</a>
-</p>
-
+  <p>
+    <a href="https://github.com/Cooper-X-Oak?tab=repositories">archive</a> &nbsp;|&nbsp;
+    <a href="https://github.com/Cooper-X-Oak?tab=stars">star log</a> &nbsp;|&nbsp;
+    <a href="https://github.com/Cooper-X-Oak/LongYinMod_RisingFame">skill card</a> &nbsp;|&nbsp;
+    <a href="https://github.com/Cooper-X-Oak/OpenType">equipment</a>
+  </p>
 </div>
 
-## Character Sheet
-
 <div align="center">
+  <img width="100%" src="./assets/title-character-spring-v3.svg" alt="Character Sheet" />
   <img width="100%" src="./assets/character-sheet-spring-v2.svg" alt="Character sheet" />
 </div>
 
-## World Map
+<br />
 
 <div align="center">
+  <img width="100%" src="./assets/title-world-spring-v3.svg" alt="World Map" />
   <img width="100%" src="./assets/world-map-spring-v2.svg" alt="Builder map" />
 </div>
 
-## Skill Deck
+<br />
 
 <div align="center">
+  <img width="100%" src="./assets/title-skills-spring-v3.svg" alt="Skill Deck" />
 
-<a href="https://github.com/Cooper-X-Oak/LongYinMod_RisingFame">
-  <img width="47%" src="./assets/project-longyin-spring-v2.svg" alt="LongYinMod card" />
-</a>
-<a href="https://github.com/Cooper-X-Oak/OpenType">
-  <img width="47%" src="./assets/project-opentype-spring-v2.svg" alt="OpenType card" />
-</a>
+  <a href="https://github.com/Cooper-X-Oak/LongYinMod_RisingFame">
+    <img width="47%" src="./assets/project-longyin-spring-v2.svg" alt="LongYinMod card" />
+  </a>
+  <a href="https://github.com/Cooper-X-Oak/OpenType">
+    <img width="47%" src="./assets/project-opentype-spring-v2.svg" alt="OpenType card" />
+  </a>
 
-<a href="https://github.com/Cooper-X-Oak/render-your-content">
-  <img width="47%" src="./assets/project-render-spring-v2.svg" alt="render-your-content card" />
-</a>
-<a href="https://github.com/Cooper-X-Oak/majstyle.js">
-  <img width="47%" src="./assets/project-majstyle-spring-v2.svg" alt="majstyle card" />
-</a>
-
+  <a href="https://github.com/Cooper-X-Oak/render-your-content">
+    <img width="47%" src="./assets/project-render-spring-v2.svg" alt="render-your-content card" />
+  </a>
+  <a href="https://github.com/Cooper-X-Oak/majstyle.js">
+    <img width="47%" src="./assets/project-majstyle-spring-v2.svg" alt="majstyle card" />
+  </a>
 </div>
 
-## Battle Stats
+<br />
 
 <div align="center">
-
-<img width="100%" src="./assets/battle-stats-spring-v2.svg" alt="Spring battle stats" />
-
+  <img width="100%" src="./assets/title-stats-spring-v3.svg" alt="Battle Stats" />
+  <img width="100%" src="./assets/battle-stats-spring-v2.svg" alt="Spring battle stats" />
 </div>
 
-## Loadout
+<br />
 
 <div align="center">
-
-<img width="100%" src="./assets/loadout-spring-v2.svg" alt="Tech stack loadout" />
-
+  <img width="100%" src="./assets/title-loadout-spring-v3.svg" alt="Loadout" />
+  <img width="100%" src="./assets/loadout-spring-v2.svg" alt="Tech stack loadout" />
 </div>
 
-## Fast Travel
+<br />
 
 <div align="center">
-
-<img width="100%" src="./assets/fast-travel-spring-v2.svg" alt="Fast travel" />
-
+  <img width="100%" src="./assets/title-travel-spring-v3.svg" alt="Fast Travel" />
+  <img width="100%" src="./assets/fast-travel-spring-v2.svg" alt="Fast travel" />
 </div>
 
-## Field Activity
+<br />
 
 <div align="center">
-
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=Cooper-X-Oak&bg_color=F7FCFF&color=5E7698&line=89CFFF&point=FF96C6&area=true&area_color=EAF6FF&hide_border=true" alt="Activity graph" />
-
+  <img width="100%" src="./assets/title-activity-spring-v3.svg" alt="Field Activity" />
+  <img width="100%" src="./assets/field-activity-spring-v3.svg" alt="Contribution meadow" />
 </div>
 
-## Status HUD
+<br />
 
 <div align="center">
+  <img width="100%" src="./assets/title-status-spring-v3.svg" alt="Status HUD" />
   <img width="100%" src="./assets/status-hud-spring-v2.svg" alt="Otaku builder status" />
 </div>
