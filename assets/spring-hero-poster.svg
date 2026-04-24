@@ -1,0 +1,58 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="topFade" x1="0" y1="0" x2="0" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117" stop-opacity="0.12"/>
+      <stop offset="0.7" stop-color="#0D1117" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#0D1117" stop-opacity="0.36"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="731" y1="74" x2="1184" y2="660" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#11182ACC"/>
+      <stop offset="1" stop-color="#0D1322F0"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="760" y1="94" x2="1148" y2="634" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#79AFFF"/>
+      <stop offset="0.45" stop-color="#B37CFF"/>
+      <stop offset="1" stop-color="#6EF0C2"/>
+    </linearGradient>
+  </defs>
+
+  <image href="./spring-hero-scene-pixel.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice"/>
+  <rect width="1280" height="720" fill="url(#topFade)"/>
+
+  <rect x="36" y="36" width="1208" height="648" rx="28" stroke="#FFFFFF" stroke-opacity="0.10" stroke-width="2"/>
+
+  <rect x="758" y="76" width="456" height="568" rx="28" fill="url(#panel)" stroke="url(#stroke)" stroke-width="2"/>
+
+  <rect x="790" y="104" width="390" height="36" rx="12" fill="#0E1322" stroke="#3A4566"/>
+  <circle cx="820" cy="122" r="6" fill="#FF7AA2"/>
+  <circle cx="840" cy="122" r="6" fill="#FFC857"/>
+  <circle cx="860" cy="122" r="6" fill="#6EF0C2"/>
+  <text x="894" y="129" fill="#A7B3D8" font-family="Segoe UI, Arial, sans-serif" font-size="16">COOPER-OAK.EXE / SPRING ARC</text>
+
+  <text x="792" y="192" fill="#A7B3D8" font-family="Segoe UI, Arial, sans-serif" font-size="18">CHARACTER ROLE</text>
+  <text x="792" y="252" fill="#F7F8FF" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="900">COOPER OAK</text>
+  <text x="792" y="300" fill="#D5D9F5" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">pixel anime builder profile</text>
+
+  <text x="792" y="358" fill="#D5D9F5" font-family="Segoe UI, Arial, sans-serif" font-size="26">game mods -> AI tools</text>
+  <text x="792" y="394" fill="#D5D9F5" font-family="Segoe UI, Arial, sans-serif" font-size="26">automation -> 100 projects</text>
+
+  <rect x="792" y="430" width="122" height="36" rx="18" fill="#1B233B"/>
+  <text x="819" y="453" fill="#DFFFEA" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">START 2026</text>
+
+  <rect x="926" y="430" width="116" height="36" rx="18" fill="#1B233B"/>
+  <text x="951" y="453" fill="#DDE9FF" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">TRACTION MODS</text>
+
+  <rect x="1054" y="430" width="130" height="36" rx="18" fill="#1B233B"/>
+  <text x="1086" y="453" fill="#FFF0D2" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">QUEST 100+</text>
+
+  <rect x="792" y="496" width="392" height="110" rx="22" fill="#11182A" stroke="#394566"/>
+  <text x="818" y="528" fill="#A7B3D8" font-family="Segoe UI, Arial, sans-serif" font-size="16">PRIMARY SIGNALS</text>
+  <text x="818" y="564" fill="#67E27F" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="900">LongYinMod_RisingFame</text>
+  <text x="818" y="591" fill="#D3D9F5" font-family="Segoe UI, Arial, sans-serif" font-size="18">first public validation / useful things people used</text>
+
+  <rect x="64" y="52" width="216" height="34" rx="17" fill="#11182ACC" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <text x="90" y="75" fill="#F7F8FF" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">SPRING PIXEL ARC</text>
+
+  <rect x="66" y="604" width="332" height="48" rx="24" fill="#11182ACC" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <text x="94" y="635" fill="#F7F8FF" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">beautiful scene + builder identity</text>
+</svg>
