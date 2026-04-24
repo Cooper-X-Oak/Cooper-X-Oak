@@ -1,0 +1,39 @@
+<svg width="1200" height="330" viewBox="0 0 1200 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="330" rx="24" fill="#11162A"/>
+  <rect x="18" y="18" width="1164" height="294" rx="18" fill="#0D1322" stroke="#3A4566"/>
+
+  <rect x="38" y="38" width="220" height="254" rx="18" fill="#151B31" stroke="#42517A"/>
+  <text x="62" y="70" fill="#A7B3D8" font-family="Segoe UI, Arial, sans-serif" font-size="14">CHARACTER DATA</text>
+  <text x="62" y="116" fill="#F7F8FF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="900">Cooper Oak</text>
+  <text x="62" y="148" fill="#D3D9F5" font-family="Segoe UI, Arial, sans-serif" font-size="18">codename: Vibe Builder</text>
+  <text x="62" y="178" fill="#D3D9F5" font-family="Segoe UI, Arial, sans-serif" font-size="18">class: Tool Crafter</text>
+  <text x="62" y="208" fill="#D3D9F5" font-family="Segoe UI, Arial, sans-serif" font-size="18">faction: Public Ship</text>
+  <text x="62" y="238" fill="#D3D9F5" font-family="Segoe UI, Arial, sans-serif" font-size="18">origin: 2026 start</text>
+  <rect x="58" y="256" width="120" height="20" rx="10" fill="#1A2139"/>
+  <text x="78" y="270" fill="#FFC857" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">RARE: BUILDER</text>
+
+  <rect x="284" y="38" width="878" height="82" rx="18" fill="#151B31" stroke="#42517A"/>
+  <text x="310" y="70" fill="#A7B3D8" font-family="Segoe UI, Arial, sans-serif" font-size="14">MAIN TITLE</text>
+  <text x="310" y="102" fill="#F7F8FF" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="900">PIXEL ANIME BUILDER PROFILE</text>
+
+  <rect x="284" y="142" width="270" height="150" rx="18" fill="#151B31" stroke="#42517A"/>
+  <text x="309" y="174" fill="#A7B3D8" font-family="Segoe UI, Arial, sans-serif" font-size="14">ATTRIBUTE</text>
+  <text x="309" y="205" fill="#67E27F" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="900">MOD POWER</text>
+  <rect x="309" y="220" width="206" height="18" rx="9" fill="#1C2440"/>
+  <rect x="309" y="220" width="162" height="18" rx="9" fill="#67E27F"/>
+  <text x="309" y="266" fill="#D3D9F5" font-family="Segoe UI, Arial, sans-serif" font-size="16">first public traction source</text>
+
+  <rect x="588" y="142" width="270" height="150" rx="18" fill="#151B31" stroke="#42517A"/>
+  <text x="613" y="174" fill="#A7B3D8" font-family="Segoe UI, Arial, sans-serif" font-size="14">ATTRIBUTE</text>
+  <text x="613" y="205" fill="#79AFFF" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="900">AI EXPANSION</text>
+  <rect x="613" y="220" width="206" height="18" rx="9" fill="#1C2440"/>
+  <rect x="613" y="220" width="142" height="18" rx="9" fill="#79AFFF"/>
+  <text x="613" y="266" fill="#D3D9F5" font-family="Segoe UI, Arial, sans-serif" font-size="16">current growth direction</text>
+
+  <rect x="892" y="142" width="270" height="150" rx="18" fill="#151B31" stroke="#42517A"/>
+  <text x="917" y="174" fill="#A7B3D8" font-family="Segoe UI, Arial, sans-serif" font-size="14">MAIN QUEST</text>
+  <text x="917" y="205" fill="#FFC857" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="900">100 PROJECTS</text>
+  <rect x="917" y="220" width="206" height="18" rx="9" fill="#1C2440"/>
+  <rect x="917" y="220" width="104" height="18" rx="9" fill="#FFC857"/>
+  <text x="917" y="266" fill="#D3D9F5" font-family="Segoe UI, Arial, sans-serif" font-size="16">long arc progression goal</text>
+</svg>

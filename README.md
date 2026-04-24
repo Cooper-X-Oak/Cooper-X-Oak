@@ -4,7 +4,7 @@
   <br />
   <br />
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=920&lines=Game+mods+%2F+AI+tools+%2F+automation;Building+weird+useful+projects+in+public;Started+in+2026+%E2%86%92+toward+100+projects" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=C7D2F0&center=true&vCenter=true&width=920&lines=mods+%2F+AI+tools+%2F+automation;pixel+anime+builder+system;main+quest%3A+100+projects" alt="Typing intro" />
 
 <p>
   <img src="https://img.shields.io/badge/Builder-In_Public-111111?style=for-the-badge&labelColor=1f6feb&color=111111" alt="Builder in public" />
@@ -13,21 +13,27 @@
 </p>
 
 <p>
-  <a href="https://github.com/Cooper-X-Oak?tab=repositories">Repos</a> •
-  <a href="https://github.com/Cooper-X-Oak?tab=stars">Stars</a> •
-  <a href="https://github.com/Cooper-X-Oak/LongYinMod_RisingFame">Top Project</a> •
-  <a href="https://github.com/Cooper-X-Oak/OpenType">Product Direction</a>
+  <a href="https://github.com/Cooper-X-Oak?tab=repositories">archive</a> •
+  <a href="https://github.com/Cooper-X-Oak?tab=stars">star log</a> •
+  <a href="https://github.com/Cooper-X-Oak/LongYinMod_RisingFame">skill card</a> •
+  <a href="https://github.com/Cooper-X-Oak/OpenType">equipment</a>
 </p>
 
 </div>
 
-## Builder Map
+## Character Sheet
+
+<div align="center">
+  <img width="100%" src="./assets/character-sheet.svg" alt="Character sheet" />
+</div>
+
+## World Map
 
 <div align="center">
   <img width="100%" src="./assets/builder-map.svg" alt="Builder map" />
 </div>
 
-## Featured Projects
+## Skill Deck
 
 <div align="center">
 
@@ -47,7 +53,7 @@
 
 </div>
 
-## Signals
+## Battle Stats
 
 <div align="center">
 
@@ -63,7 +69,7 @@
 
 </div>
 
-## Stack
+## Loadout
 
 <div align="center">
 
@@ -78,7 +84,7 @@
   <img src="https://img.shields.io/badge/Windows_Tools-0078D6?style=flat-square&logo=windows&logoColor=white" alt="Windows tools" />
 </p>
 
-## Quick Access
+## Fast Travel
 
 <div align="center">
 
@@ -88,7 +94,7 @@
 
 </div>
 
-## Activity
+## Field Activity
 
 <div align="center">
 
@@ -96,7 +102,7 @@
 
 </div>
 
-## Builder Note
+## Status HUD
 
 <div align="center">
   <img width="100%" src="./assets/status-bars.svg" alt="Otaku builder status" />
