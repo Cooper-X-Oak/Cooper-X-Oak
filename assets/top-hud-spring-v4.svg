@@ -1,0 +1,25 @@
+<svg width="1200" height="210" viewBox="0 0 1200 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="38" y1="0" x2="1162" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE0ED"/><stop offset="0.44" stop-color="#BDEBFF"/><stop offset="1" stop-color="#FFFDF6"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="90" y1="38" x2="1110" y2="176" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.88"/><stop offset="1" stop-color="#F3FCFF" stop-opacity="0.66"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FF8FBE"/><stop offset="0.5" stop-color="#87D5FF"/><stop offset="1" stop-color="#AEE8C7"/></linearGradient>
+    <filter id="shadow" x="-8%" y="-20%" width="116%" height="150%"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#7ABFE8" flood-opacity="0.24"/></filter>
+  </defs>
+  <rect width="1200" height="210" rx="30" fill="url(#sky)"/>
+  <path d="M0 158 C170 122 278 184 436 146 C610 104 724 184 894 138 C1042 98 1118 132 1200 104 V210 H0 Z" fill="#FFFFFF" fill-opacity="0.45"/>
+  <g opacity="0.75"><circle cx="704" cy="40" r="16" fill="#FFFFFF"/><circle cx="728" cy="39" r="25" fill="#FFFFFF"/><circle cx="760" cy="42" r="17" fill="#FFFFFF"/><rect x="704" y="45" width="64" height="14" fill="#FFFFFF"/><circle cx="258" cy="176" r="14" fill="#FFFFFF"/><circle cx="280" cy="172" r="24" fill="#FFFFFF"/><circle cx="310" cy="176" r="15" fill="#FFFFFF"/><rect x="258" y="181" width="60" height="13" fill="#FFFFFF"/></g>
+  <rect x="28" y="24" width="1144" height="162" rx="26" fill="url(#glass)" stroke="#92D9FF" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="92" y="62" width="420" height="86" rx="18" fill="#FFF8FC" stroke="#F3B5D2"/>
+  <text x="124" y="94" fill="#7791B4" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="4">SAKURA QUEST UI</text>
+  <text x="124" y="130" fill="#2F4F78" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="900">Cooper Oak</text>
+  <rect x="374" y="101" width="104" height="26" rx="13" fill="url(#ink)"/>
+  <text x="396" y="119" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="900">PIXEL ARC</text>
+  <g transform="translate(560 56)"><rect width="154" height="98" rx="20" fill="#FFFFFF" fill-opacity="0.72" stroke="#A9E0FF"/><text x="28" y="38" fill="#7B95B7" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="900">MODE</text><text x="28" y="72" fill="#4F91DC" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="900">PUBLIC</text></g>
+  <g transform="translate(744 56)"><rect width="154" height="98" rx="20" fill="#FFFFFF" fill-opacity="0.72" stroke="#F3B5D2"/><text x="28" y="38" fill="#7B95B7" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="900">START</text><text x="28" y="72" fill="#E783AC" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="900">2026</text></g>
+  <g transform="translate(928 56)"><rect width="154" height="98" rx="20" fill="#FFFFFF" fill-opacity="0.72" stroke="#B8E8CF"/><text x="28" y="38" fill="#7B95B7" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="900">QUEST</text><text x="28" y="72" fill="#48A879" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="900">100</text></g>
+  <g opacity="0.95"><rect x="68" y="76" width="12" height="12" fill="#FF9BC6"/><rect x="80" y="88" width="12" height="12" fill="#FFB9D6"/><rect x="56" y="88" width="12" height="12" fill="#FFD6E7"/><rect x="68" y="100" width="12" height="12" fill="#9BDDFF"/><rect x="1110" y="58" width="10" height="10" fill="#FFB9D6"><animate attributeName="y" values="58;70;58" dur="3.8s" repeatCount="indefinite"/></rect><rect x="1054" y="156" width="8" height="8" fill="#FF8FBE"><animate attributeName="y" values="156;142;156" dur="4.2s" repeatCount="indefinite"/></rect></g>
+</svg>
