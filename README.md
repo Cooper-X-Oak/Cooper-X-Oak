@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100%" src="./assets/hero-system.svg" alt="Cooper Oak hero" />
+  <img width="100%" src="./assets/mascot-panel.svg" alt="Cooper Oak mascot panel" />
 
   <br />
   <br />
