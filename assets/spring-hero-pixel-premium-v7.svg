@@ -111,28 +111,38 @@
   <text x="152" y="165" fill="#EAF7FF" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="900">SPRING PIXEL ARC</text>
 
   <g id="character" class="bob" filter="url(#sceneShadow)">
-    <path d="M332 404 L286 462 L352 438 Z" fill="#263A5A" opacity="0.75"/>
-    <path d="M396 404 L460 462 L408 438 Z" fill="#263A5A" opacity="0.75"/>
-    <rect x="332" y="394" width="96" height="118" rx="9" fill="#101C31"/>
-    <rect x="344" y="394" width="72" height="18" fill="#2A4163" opacity="0.78"/>
-    <rect x="350" y="510" width="26" height="76" fill="#101C31"/>
-    <rect x="394" y="510" width="26" height="76" fill="#101C31"/>
-    <rect x="326" y="584" width="70" height="14" fill="#07111F"/>
-    <rect x="382" y="584" width="70" height="14" fill="#07111F"/>
-    <rect x="346" y="334" width="76" height="72" rx="14" fill="#F2C7B2"/>
-    <rect x="346" y="334" width="76" height="16" fill="#F9D7C5"/>
-    <rect x="328" y="310" width="112" height="34" fill="#ECEFF5"/>
-    <rect x="342" y="292" width="82" height="26" fill="#D7DCE6"/>
-    <rect x="364" y="280" width="52" height="20" fill="#F5F7FB"/>
-    <rect x="328" y="344" width="24" height="64" fill="#C7CEDA"/>
-    <rect x="422" y="342" width="28" height="68" fill="#8B99AC"/>
-    <rect x="360" y="362" width="10" height="10" fill="#182536" class="blink"/>
-    <rect x="394" y="362" width="10" height="10" fill="#182536" class="blink"/>
-    <rect x="373" y="382" width="20" height="5" fill="#E894A1"/>
-    <rect x="304" y="418" width="62" height="19" fill="#13223A" transform="rotate(-23 304 418)"/>
-    <rect x="408" y="410" width="66" height="19" fill="#13223A" transform="rotate(25 408 410)"/>
-    <rect x="298" y="470" width="220" height="8" fill="#5D4737" transform="rotate(-27 298 470)"/>
-    <rect x="496" y="374" width="50" height="8" fill="#F0D7A8" transform="rotate(-27 496 374)"/>
+    <ellipse cx="360" cy="596" rx="118" ry="13" fill="#07111F" opacity="0.42"/>
+    <path d="M292 330 L246 386 L220 508 L282 542 L326 500 L330 380 Z" fill="#F7F8F2"/>
+    <path d="M292 330 L246 386 L220 508 L282 542 L326 500 L330 380 Z" fill="#C9D0D0" opacity="0.36"/>
+    <path d="M310 308 L252 356 L228 442 L260 520 L326 482 L348 356 Z" fill="#FFFFFF"/>
+    <path d="M310 308 L252 356 L228 442 L260 520 L326 482 L348 356 Z" fill="#DCE2E2" opacity="0.48"/>
+    <path d="M316 288 L266 322 L250 374 L294 404 L348 366 L354 318 Z" fill="#F8FAF5"/>
+    <path d="M306 314 L278 340 L278 378 L320 392 L346 362 L342 326 Z" fill="#101722"/>
+    <rect x="294" y="332" width="32" height="42" fill="#27212A"/>
+    <rect x="286" y="342" width="18" height="22" fill="#E7C2AE"/>
+    <rect x="308" y="342" width="18" height="24" fill="#B58D7E"/>
+    <rect x="286" y="366" width="40" height="48" fill="#5A463E"/>
+    <rect x="300" y="374" width="18" height="34" fill="#2F2A2C"/>
+    <rect x="274" y="404" width="70" height="86" fill="#3A3030"/>
+    <rect x="292" y="414" width="36" height="74" fill="#6B5649"/>
+    <rect x="292" y="488" width="22" height="80" fill="#1A1D23"/>
+    <rect x="326" y="488" width="24" height="80" fill="#1A1D23"/>
+    <rect x="262" y="564" width="70" height="14" fill="#0A111B"/>
+    <rect x="316" y="564" width="72" height="14" fill="#0A111B"/>
+    <rect x="246" y="402" width="74" height="18" fill="#F7F8F2" transform="rotate(-20 246 402)"/>
+    <rect x="314" y="394" width="82" height="18" fill="#DCE2E2" transform="rotate(24 314 394)"/>
+    <rect x="366" y="424" width="22" height="84" fill="#111827" transform="rotate(18 366 424)"/>
+    <rect x="378" y="502" width="10" height="58" fill="#EAEDEA"/>
+    <rect x="388" y="552" width="34" height="10" fill="#EAEDEA"/>
+    <rect x="206" y="486" width="84" height="18" fill="#F8FAF5" transform="rotate(-18 206 486)"/>
+    <rect x="220" y="520" width="64" height="16" fill="#DCE2E2" transform="rotate(-8 220 520)"/>
+    <rect x="258" y="326" width="18" height="18" fill="#FFFFFF"/>
+    <rect x="242" y="370" width="14" height="38" fill="#FFFFFF" opacity="0.88"/>
+    <rect x="244" y="454" width="16" height="52" fill="#FFFFFF" opacity="0.72"/>
+    <rect x="304" y="346" width="7" height="7" fill="#EAF7FF" class="blink"/>
+    <rect x="314" y="386" width="20" height="6" fill="#8E6C62"/>
+    <rect x="228" y="386" width="24" height="18" fill="#0D1320" opacity="0.36"/>
+    <rect x="222" y="506" width="26" height="18" fill="#0D1320" opacity="0.24"/>
   </g>
 
   <g id="glass-card" filter="url(#sceneShadow)">
