@@ -1,8 +1,12 @@
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:1f6feb,40:2ea043,100:f0883e&section=header&text=Cooper%20Oak&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38" />
+
 <div align="center">
 
 # Cooper Oak
 
 ### Building game mods, AI tools, and weird useful experiments in public
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=900&lines=Game+mods+that+got+real+traction;AI+tools+and+automation+in+public;Shipping+toward+100+projects" alt="Typing intro" />
 
 Started coding from scratch in 2026.  
 First traction came from game plugins. Now expanding into AI tools, automation, and more shipped projects.
@@ -22,6 +26,15 @@ First traction came from game plugins. Now expanding into AI tools, automation, 
 </div>
 
 ---
+
+## Mission
+
+```text
+Started from zero in 2026
+  -> first public traction through game mods
+  -> expanding into AI tools, automation, and content workflows
+  -> building toward 100 shipped projects
+```
 
 ## Snapshot
 
@@ -53,6 +66,15 @@ First traction came from game plugins. Now expanding into AI tools, automation, 
 <a href="https://github.com/Cooper-X-Oak/majstyle.js">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=Cooper-X-Oak&repo=majstyle.js&theme=default&border_color=d0d7de&title_color=1f6feb&icon_color=1f6feb" />
 </a>
+
+</div>
+
+## Signals
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Cooper-X-Oak&show_icons=true&theme=transparent&border_color=30363d&title_color=58a6ff&icon_color=2ea043&text_color=c9d1d9&rank_icon=github" alt="GitHub stats" />
+<img height="165" src="https://streak-stats.demolab.com?user=Cooper-X-Oak&theme=transparent&border=30363d&ring=58A6FF&fire=F0883E&currStreakLabel=C9D1D9&sideNums=C9D1D9&currStreakNum=FFFFFF&dates=8B949E" alt="GitHub streak" />
 
 </div>
 
@@ -111,8 +133,8 @@ Structured rendering for Markdown and HTML into clean, shareable card images and
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Cooper-X-Oak&show_icons=true&theme=default&border_color=d0d7de&title_color=1f6feb&icon_color=1f6feb&rank_icon=github" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cooper-X-Oak&layout=compact&theme=default&border_color=d0d7de&title_color=1f6feb" alt="Top languages" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cooper-X-Oak&layout=compact&theme=transparent&border_color=30363d&title_color=58a6ff&text_color=c9d1d9" alt="Top languages" />
+<img height="165" src="https://github-profile-trophy.vercel.app/?username=Cooper-X-Oak&theme=onestar&no-frame=true&no-bg=true&margin-w=10&row=1&column=4" alt="Trophies" />
 
 </div>
 
@@ -134,12 +156,8 @@ Current goal: **100 shipped projects**.
 - Want the most ambitious direction: [render-your-content](https://github.com/Cooper-X-Oak/render-your-content)
 - Want a fun utility with sharp use-case focus: [majstyle.js](https://github.com/Cooper-X-Oak/majstyle.js)
 
-## Start Here
-
-- If you want the most validated project: [LongYinMod_RisingFame](https://github.com/Cooper-X-Oak/LongYinMod_RisingFame)
-- If you want the cleanest product direction: [OpenType](https://github.com/Cooper-X-Oak/OpenType)
-- If you want the most ambitious content-tool idea: [render-your-content](https://github.com/Cooper-X-Oak/render-your-content)
-
 ---
 
 > Ship first. Refine hard.
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:f0883e,45:2ea043,100:1f6feb&section=footer" />
