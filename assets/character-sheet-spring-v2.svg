@@ -1,0 +1,62 @@
+<svg width="1200" height="330" viewBox="0 0 1200 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="70" y1="24" x2="1110" y2="306" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE4F1"/>
+      <stop offset="0.42" stop-color="#DDF3FF"/>
+      <stop offset="1" stop-color="#F8FCFF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="44" y1="38" x2="1134" y2="292" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7FB" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#F2FAFF" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="accentA" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FF8FBE"/>
+      <stop offset="1" stop-color="#7ACBFF"/>
+    </linearGradient>
+    <linearGradient id="accentB" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#8DD7FF"/>
+      <stop offset="1" stop-color="#B0F0D0"/>
+    </linearGradient>
+    <linearGradient id="accentC" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#FFB1D2"/>
+      <stop offset="1" stop-color="#FFDFA8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="330" rx="24" fill="url(#bg)"/>
+  <rect x="18" y="18" width="1164" height="294" rx="18" fill="url(#panel)" stroke="#A8D8F6" stroke-width="2"/>
+
+  <rect x="38" y="38" width="220" height="254" rx="18" fill="#FFFFFF" fill-opacity="0.7" stroke="#F3B8D5"/>
+  <text x="62" y="70" fill="#7A94B8" font-family="Segoe UI, Arial, sans-serif" font-size="14">CHARACTER DATA</text>
+  <text x="62" y="116" fill="#38527A" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="900">Cooper Oak</text>
+  <text x="62" y="148" fill="#567398" font-family="Segoe UI, Arial, sans-serif" font-size="18">codename: Spring Builder</text>
+  <text x="62" y="178" fill="#567398" font-family="Segoe UI, Arial, sans-serif" font-size="18">class: Tool Crafter</text>
+  <text x="62" y="208" fill="#567398" font-family="Segoe UI, Arial, sans-serif" font-size="18">faction: Public Ship</text>
+  <text x="62" y="238" fill="#567398" font-family="Segoe UI, Arial, sans-serif" font-size="18">origin: 2026 start</text>
+  <rect x="58" y="256" width="134" height="22" rx="11" fill="url(#accentA)"/>
+  <text x="77" y="271" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">RARITY: BLOOM</text>
+
+  <rect x="284" y="38" width="878" height="82" rx="18" fill="#FFFFFF" fill-opacity="0.64" stroke="#A8D8F6"/>
+  <text x="310" y="70" fill="#7A94B8" font-family="Segoe UI, Arial, sans-serif" font-size="14">MAIN TITLE</text>
+  <text x="310" y="102" fill="#35527A" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="900">SPRING PIXEL BUILDER PROFILE</text>
+
+  <rect x="284" y="142" width="270" height="150" rx="18" fill="#FFFFFF" fill-opacity="0.7" stroke="#B9E6D0"/>
+  <text x="309" y="174" fill="#7A94B8" font-family="Segoe UI, Arial, sans-serif" font-size="14">ATTRIBUTE</text>
+  <text x="309" y="205" fill="#4CA879" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="900">MOD POWER</text>
+  <rect x="309" y="220" width="206" height="18" rx="9" fill="#E8F7EE"/>
+  <rect x="309" y="220" width="162" height="18" rx="9" fill="url(#accentB)"/>
+  <text x="309" y="266" fill="#587496" font-family="Segoe UI, Arial, sans-serif" font-size="16">first public traction source</text>
+
+  <rect x="588" y="142" width="270" height="150" rx="18" fill="#FFFFFF" fill-opacity="0.7" stroke="#A8D8F6"/>
+  <text x="613" y="174" fill="#7A94B8" font-family="Segoe UI, Arial, sans-serif" font-size="14">ATTRIBUTE</text>
+  <text x="613" y="205" fill="#4D86D8" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="900">AI EXPANSION</text>
+  <rect x="613" y="220" width="206" height="18" rx="9" fill="#EAF6FF"/>
+  <rect x="613" y="220" width="142" height="18" rx="9" fill="url(#accentA)"/>
+  <text x="613" y="266" fill="#587496" font-family="Segoe UI, Arial, sans-serif" font-size="16">current growth direction</text>
+
+  <rect x="892" y="142" width="270" height="150" rx="18" fill="#FFFFFF" fill-opacity="0.7" stroke="#F3B8D5"/>
+  <text x="917" y="174" fill="#7A94B8" font-family="Segoe UI, Arial, sans-serif" font-size="14">MAIN QUEST</text>
+  <text x="917" y="205" fill="#E48AAE" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="900">100 PROJECTS</text>
+  <rect x="917" y="220" width="206" height="18" rx="9" fill="#FFF2F7"/>
+  <rect x="917" y="220" width="104" height="18" rx="9" fill="url(#accentC)"/>
+  <text x="917" y="266" fill="#587496" font-family="Segoe UI, Arial, sans-serif" font-size="16">long arc progression goal</text>
+</svg>

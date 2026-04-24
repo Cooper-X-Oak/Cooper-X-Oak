@@ -1,0 +1,36 @@
+<svg width="1200" height="250" viewBox="0 0 1200 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="58" y1="18" x2="1138" y2="236" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF0F7"/>
+      <stop offset="0.5" stop-color="#E1F4FF"/>
+      <stop offset="1" stop-color="#F7FCFF"/>
+    </linearGradient>
+    <linearGradient id="path" x1="126" y1="140" x2="1085" y2="140" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF99C8"/>
+      <stop offset="0.48" stop-color="#85CCFF"/>
+      <stop offset="1" stop-color="#A6E7C8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="250" rx="28" fill="url(#bg)"/>
+  <rect x="14" y="14" width="1172" height="222" rx="22" fill="#FFFFFF" fill-opacity="0.54" stroke="#A8D8F6"/>
+  <path d="M126 146C192 146 224 92 300 92C376 92 405 175 486 175C567 175 586 62 681 62C776 62 796 178 897 178C998 178 1022 116 1085 116" stroke="url(#path)" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="126" cy="146" r="13" fill="#FF99C8"/>
+  <circle cx="300" cy="92" r="13" fill="#85CCFF"/>
+  <circle cx="486" cy="175" r="13" fill="#85CCFF"/>
+  <circle cx="681" cy="62" r="13" fill="#A6E7C8"/>
+  <circle cx="897" cy="178" r="13" fill="#85CCFF"/>
+  <circle cx="1085" cy="116" r="13" fill="#FFB8D4"/>
+
+  <text x="96" y="188" fill="#46668D" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">start</text>
+  <text x="72" y="210" fill="#7D95B0" font-family="Segoe UI, Arial, sans-serif" font-size="14">from zero</text>
+  <text x="247" y="54" fill="#46668D" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">mods</text>
+  <text x="210" y="232" fill="#7D95B0" font-family="Segoe UI, Arial, sans-serif" font-size="14">first traction</text>
+  <text x="438" y="152" fill="#46668D" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">tools</text>
+  <text x="418" y="214" fill="#7D95B0" font-family="Segoe UI, Arial, sans-serif" font-size="14">real use cases</text>
+  <text x="621" y="34" fill="#46668D" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">AI</text>
+  <text x="586" y="232" fill="#7D95B0" font-family="Segoe UI, Arial, sans-serif" font-size="14">workflow leverage</text>
+  <text x="843" y="210" fill="#46668D" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">ship</text>
+  <text x="824" y="232" fill="#7D95B0" font-family="Segoe UI, Arial, sans-serif" font-size="14">build in public</text>
+  <text x="1032" y="92" fill="#46668D" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">100</text>
+  <text x="986" y="214" fill="#7D95B0" font-family="Segoe UI, Arial, sans-serif" font-size="14">projects direction</text>
+</svg>

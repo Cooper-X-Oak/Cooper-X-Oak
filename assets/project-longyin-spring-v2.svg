@@ -1,0 +1,27 @@
+<svg width="560" height="230" viewBox="0 0 560 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="18" y1="14" x2="526" y2="214" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF0F7"/>
+      <stop offset="0.52" stop-color="#E2F5FF"/>
+      <stop offset="1" stop-color="#F7FCFF"/>
+    </linearGradient>
+    <linearGradient id="tag" x1="28" y1="28" x2="174" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF9CC9"/>
+      <stop offset="1" stop-color="#8DD4FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="560" height="230" rx="24" fill="url(#bg)"/>
+  <rect x="14" y="14" width="532" height="202" rx="18" fill="#FFFFFF" fill-opacity="0.62" stroke="#A8D8F6"/>
+  <rect x="28" y="28" width="146" height="26" rx="13" fill="url(#tag)"/>
+  <text x="49" y="46" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">SSR SKILL CARD</text>
+  <text x="28" y="88" fill="#36557B" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="900">LongYinMod</text>
+  <text x="28" y="120" fill="#36557B" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="900">RisingFame</text>
+  <text x="29" y="153" fill="#6781A3" font-family="Segoe UI, Arial, sans-serif" font-size="16">stable mod / player utility / visible traction</text>
+  <rect x="28" y="175" width="126" height="22" rx="11" fill="#E9F7EE"/>
+  <text x="55" y="190" fill="#54A97D" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">TYPE: MOD CORE</text>
+  <text x="388" y="84" fill="#FF92C4" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="900">21★</text>
+  <text x="376" y="116" fill="#6B84A7" font-family="Segoe UI, Arial, sans-serif" font-size="16">traction points</text>
+  <rect x="338" y="136" width="182" height="54" rx="18" fill="#FFFFFF" fill-opacity="0.74" stroke="#F2BDD7"/>
+  <text x="361" y="159" fill="#7C96B8" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">PASSIVE BONUS</text>
+  <text x="361" y="179" fill="#36557B" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">public proof + user pull</text>
+</svg>

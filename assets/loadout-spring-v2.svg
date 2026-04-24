@@ -1,0 +1,38 @@
+<svg width="1200" height="210" viewBox="0 0 1200 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="28" y1="14" x2="1152" y2="194" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF1F8"/>
+      <stop offset="0.54" stop-color="#E3F4FF"/>
+      <stop offset="1" stop-color="#F9FDFF"/>
+    </linearGradient>
+    <linearGradient id="tag" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FF9BC8"/>
+      <stop offset="1" stop-color="#86CEFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="210" rx="24" fill="url(#bg)"/>
+  <rect x="18" y="18" width="1164" height="174" rx="18" fill="#FFFFFF" fill-opacity="0.64" stroke="#A8D8F6"/>
+  <text x="38" y="54" fill="#6E8AB0" font-family="Segoe UI, Arial, sans-serif" font-size="16">SPRING LOADOUT</text>
+
+  <rect x="38" y="74" width="168" height="40" rx="20" fill="url(#tag)"/>
+  <text x="83" y="100" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Python</text>
+  <rect x="224" y="74" width="168" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.86" stroke="#A8D8F6"/>
+  <text x="281" y="100" fill="#5C8FD3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">JavaScript</text>
+  <rect x="410" y="74" width="168" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.86" stroke="#F2BDD7"/>
+  <text x="473" y="100" fill="#E18BAE" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">C#</text>
+  <rect x="596" y="74" width="168" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.86" stroke="#BDE7D3"/>
+  <text x="652" y="100" fill="#55A47C" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">GitHub</text>
+
+  <rect x="38" y="130" width="218" height="36" rx="18" fill="#FFF3F8" stroke="#F2BDD7"/>
+  <text x="72" y="153" fill="#E18BAE" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Tampermonkey scripts</text>
+  <rect x="274" y="130" width="184" height="36" rx="18" fill="#EEF8FF" stroke="#A8D8F6"/>
+  <text x="322" y="153" fill="#5C8FD3" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Windows tools</text>
+  <rect x="476" y="130" width="170" height="36" rx="18" fill="#F0FBF4" stroke="#BDE7D3"/>
+  <text x="520" y="153" fill="#55A47C" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">BepInEx mods</text>
+  <rect x="664" y="130" width="176" height="36" rx="18" fill="#FFF8EF" stroke="#FFD6A4"/>
+  <text x="708" y="153" fill="#E5A263" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Automation flow</text>
+
+  <text x="914" y="100" fill="#35537A" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="900">toolmaker stack</text>
+  <text x="914" y="132" fill="#5E789A" font-family="Segoe UI, Arial, sans-serif" font-size="18">practical utilities first, polish second, ship fast</text>
+  <text x="914" y="160" fill="#E18BAE" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">same spring palette, no more cyber leftovers</text>
+</svg>

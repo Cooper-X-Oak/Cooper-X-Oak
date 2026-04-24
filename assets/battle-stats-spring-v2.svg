@@ -1,0 +1,41 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="34" y1="16" x2="1146" y2="238" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF0F7"/>
+      <stop offset="0.5" stop-color="#E1F4FF"/>
+      <stop offset="1" stop-color="#F7FCFF"/>
+    </linearGradient>
+    <linearGradient id="pinkBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FF9EC9"/>
+      <stop offset="1" stop-color="#86CEFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="260" rx="24" fill="url(#bg)"/>
+  <rect x="18" y="18" width="1164" height="224" rx="18" fill="#FFFFFF" fill-opacity="0.62" stroke="#A8D8F6"/>
+
+  <text x="40" y="56" fill="#6E8AB0" font-family="Segoe UI, Arial, sans-serif" font-size="16">SPRING BATTLE STATS</text>
+  <text x="40" y="98" fill="#35537A" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="900">29</text>
+  <text x="108" y="98" fill="#5E789A" font-family="Segoe UI, Arial, sans-serif" font-size="20">public repos</text>
+
+  <text x="40" y="144" fill="#35537A" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="900">35</text>
+  <text x="108" y="144" fill="#5E789A" font-family="Segoe UI, Arial, sans-serif" font-size="20">received stars</text>
+
+  <text x="40" y="190" fill="#35537A" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="900">16</text>
+  <text x="108" y="190" fill="#5E789A" font-family="Segoe UI, Arial, sans-serif" font-size="20">original repos</text>
+
+  <rect x="350" y="56" width="382" height="148" rx="20" fill="#FFFFFF" fill-opacity="0.72" stroke="#F2BDD7"/>
+  <text x="378" y="88" fill="#7A94B8" font-family="Segoe UI, Arial, sans-serif" font-size="14">CURRENT ARC</text>
+  <text x="378" y="126" fill="#E48AAE" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="900">GAME MODS → AI TOOLS</text>
+  <text x="378" y="160" fill="#5E789A" font-family="Segoe UI, Arial, sans-serif" font-size="18">from practical plugin traction into broader toolmaking</text>
+  <rect x="378" y="176" width="198" height="18" rx="9" fill="#FFF1F7"/>
+  <rect x="378" y="176" width="142" height="18" rx="9" fill="url(#pinkBlue)"/>
+
+  <rect x="774" y="36" width="384" height="188" rx="26" fill="#FFFFFF" fill-opacity="0.76" stroke="#A8D8F6"/>
+  <circle cx="964" cy="130" r="54" fill="#FFF6FB" stroke="#FFB9D5" stroke-width="6"/>
+  <text x="942" y="142" fill="#35537A" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="900">5</text>
+  <text x="920" y="184" fill="#6E8AB0" font-family="Segoe UI, Arial, sans-serif" font-size="18">followers</text>
+  <text x="820" y="94" fill="#86CEFF" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">13 following</text>
+  <text x="820" y="124" fill="#5E789A" font-family="Segoe UI, Arial, sans-serif" font-size="18">account opened 2020-07-22</text>
+  <text x="820" y="154" fill="#5E789A" font-family="Segoe UI, Arial, sans-serif" font-size="18">builder reset started in 2026</text>
+  <text x="820" y="196" fill="#E48AAE" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">quest focus: 100 shipped projects</text>
+</svg>

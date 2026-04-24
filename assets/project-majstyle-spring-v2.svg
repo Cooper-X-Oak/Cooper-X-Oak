@@ -1,0 +1,26 @@
+<svg width="560" height="230" viewBox="0 0 560 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="18" y1="14" x2="526" y2="214" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2F8FF"/>
+      <stop offset="0.45" stop-color="#FFF0F7"/>
+      <stop offset="1" stop-color="#F9FDFF"/>
+    </linearGradient>
+    <linearGradient id="tag" x1="28" y1="28" x2="168" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8AD4FF"/>
+      <stop offset="1" stop-color="#FFC0D8"/>
+    </linearGradient>
+  </defs>
+  <rect width="560" height="230" rx="24" fill="url(#bg)"/>
+  <rect x="14" y="14" width="532" height="202" rx="18" fill="#FFFFFF" fill-opacity="0.62" stroke="#A8D8F6"/>
+  <rect x="28" y="28" width="140" height="26" rx="13" fill="url(#tag)"/>
+  <text x="52" y="46" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">SUPPORT UNIT</text>
+  <text x="28" y="94" fill="#35537A" font-family="Segoe UI, Arial, sans-serif" font-size="33" font-weight="900">majstyle.js</text>
+  <text x="29" y="132" fill="#6781A3" font-family="Segoe UI, Arial, sans-serif" font-size="16">mahjong helper / style read / sharp utility</text>
+  <rect x="28" y="172" width="148" height="22" rx="11" fill="#EFF8FF"/>
+  <text x="55" y="187" fill="#6297D8" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">ROLE: TABLE SUPPORT</text>
+  <text x="356" y="84" fill="#FF9BC8" font-family="Segoe UI, Arial, sans-serif" font-size="50" font-weight="900">AUX</text>
+  <text x="358" y="115" fill="#6B84A7" font-family="Segoe UI, Arial, sans-serif" font-size="16">small / sharp / useful</text>
+  <rect x="320" y="138" width="200" height="52" rx="18" fill="#FFFFFF" fill-opacity="0.74" stroke="#F2BDD7"/>
+  <text x="343" y="160" fill="#7C96B8" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">SUPPORT EFFECT</text>
+  <text x="343" y="180" fill="#35537A" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">read table / reduce noise</text>
+</svg>
