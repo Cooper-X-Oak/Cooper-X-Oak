@@ -1,8 +1,10 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=165&color=0:1f6feb,35:2ea043,100:f0883e&section=header&text=Cooper%20Oak&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38" />
-
 <div align="center">
+  <img width="100%" src="./assets/hero-system.svg" alt="Cooper Oak hero" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&pause=1200&color=58A6FF&center=true&vCenter=true&width=920&lines=Game+mods+%2F+AI+tools+%2F+automation;Building+weird+useful+projects+in+public;Started+in+2026+%E2%86%92+toward+100+projects" alt="Typing intro" />
+  <br />
+  <br />
+
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=920&lines=Game+mods+%2F+AI+tools+%2F+automation;Building+weird+useful+projects+in+public;Started+in+2026+%E2%86%92+toward+100+projects" alt="Typing intro" />
 
 <p>
   <img src="https://img.shields.io/badge/Builder-In_Public-111111?style=for-the-badge&labelColor=1f6feb&color=111111" alt="Builder in public" />
@@ -17,6 +19,12 @@
   <a href="https://github.com/Cooper-X-Oak/OpenType">Product Direction</a>
 </p>
 
+</div>
+
+## Builder Map
+
+<div align="center">
+  <img width="100%" src="./assets/builder-map.svg" alt="Builder map" />
 </div>
 
 ## Featured
@@ -100,5 +108,3 @@ automation -> leverage
 ```
 
 </div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:f0883e,45:2ea043,100:1f6feb&section=footer" />

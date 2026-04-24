@@ -1,0 +1,35 @@
+<svg width="1200" height="250" viewBox="0 0 1200 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="250" rx="28" fill="#0D1117"/>
+  <path d="M126 146C192 146 224 92 300 92C376 92 405 175 486 175C567 175 586 62 681 62C776 62 796 178 897 178C998 178 1022 116 1085 116" stroke="url(#g)" stroke-width="6" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="g" x1="126" y1="140" x2="1085" y2="140" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2EA043"/>
+      <stop offset="0.45" stop-color="#58A6FF"/>
+      <stop offset="1" stop-color="#F0883E"/>
+    </linearGradient>
+  </defs>
+  <circle cx="126" cy="146" r="13" fill="#2EA043"/>
+  <circle cx="300" cy="92" r="13" fill="#58A6FF"/>
+  <circle cx="486" cy="175" r="13" fill="#58A6FF"/>
+  <circle cx="681" cy="62" r="13" fill="#F0883E"/>
+  <circle cx="897" cy="178" r="13" fill="#58A6FF"/>
+  <circle cx="1085" cy="116" r="13" fill="#F0883E"/>
+
+  <text x="96" y="188" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">start</text>
+  <text x="72" y="210" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">from zero</text>
+
+  <text x="247" y="54" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">mods</text>
+  <text x="210" y="232" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">first traction</text>
+
+  <text x="438" y="152" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">tools</text>
+  <text x="418" y="214" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">real use cases</text>
+
+  <text x="621" y="34" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">AI</text>
+  <text x="586" y="232" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">workflow leverage</text>
+
+  <text x="843" y="210" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">ship</text>
+  <text x="824" y="232" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">build in public</text>
+
+  <text x="1032" y="92" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">100</text>
+  <text x="986" y="214" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">projects direction</text>
+</svg>
