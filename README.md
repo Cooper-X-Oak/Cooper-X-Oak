@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100%" src="./assets/spring-hero-poster-premium.gif" alt="Spring pixel anime hero poster" />
+  <img width="100%" src="./assets/spring-hero-poster-premium.gif?v=20260424b" alt="Spring pixel anime hero poster" />
 
   <br />
   <br />
@@ -24,13 +24,13 @@
 ## Character Sheet
 
 <div align="center">
-  <img width="100%" src="./assets/character-sheet.svg" alt="Character sheet" />
+  <img width="100%" src="./assets/character-sheet.svg?v=20260424b" alt="Character sheet" />
 </div>
 
 ## World Map
 
 <div align="center">
-  <img width="100%" src="./assets/builder-map.svg" alt="Builder map" />
+  <img width="100%" src="./assets/builder-map.svg?v=20260424b" alt="Builder map" />
 </div>
 
 ## Skill Deck
@@ -38,17 +38,17 @@
 <div align="center">
 
 <a href="https://github.com/Cooper-X-Oak/LongYinMod_RisingFame">
-  <img width="47%" src="./assets/project-longyin.svg" alt="LongYinMod card" />
+  <img width="47%" src="./assets/project-longyin.svg?v=20260424b" alt="LongYinMod card" />
 </a>
 <a href="https://github.com/Cooper-X-Oak/OpenType">
-  <img width="47%" src="./assets/project-opentype.svg" alt="OpenType card" />
+  <img width="47%" src="./assets/project-opentype.svg?v=20260424b" alt="OpenType card" />
 </a>
 
 <a href="https://github.com/Cooper-X-Oak/render-your-content">
-  <img width="47%" src="./assets/project-render.svg" alt="render-your-content card" />
+  <img width="47%" src="./assets/project-render.svg?v=20260424b" alt="render-your-content card" />
 </a>
 <a href="https://github.com/Cooper-X-Oak/majstyle.js">
-  <img width="47%" src="./assets/project-majstyle.svg" alt="majstyle card" />
+  <img width="47%" src="./assets/project-majstyle.svg?v=20260424b" alt="majstyle card" />
 </a>
 
 </div>
@@ -105,5 +105,5 @@
 ## Status HUD
 
 <div align="center">
-  <img width="100%" src="./assets/status-bars.svg" alt="Otaku builder status" />
+  <img width="100%" src="./assets/status-bars.svg?v=20260424b" alt="Otaku builder status" />
 </div>
