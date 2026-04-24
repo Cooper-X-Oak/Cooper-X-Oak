@@ -99,12 +99,5 @@
 ## Builder Note
 
 <div align="center">
-
-```text
-game mods -> traction
-AI tools -> expansion
-automation -> leverage
-100 projects -> direction
-```
-
+  <img width="100%" src="./assets/status-bars.svg" alt="Otaku builder status" />
 </div>

@@ -1,16 +1,16 @@
-<svg width="560" height="220" viewBox="0 0 560 220" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="560" height="220" rx="26" fill="#0D1117"/>
-  <rect x="0" y="0" width="560" height="220" rx="26" fill="#171320"/>
-  <circle cx="479" cy="66" r="84" fill="#F0883E" fill-opacity="0.08"/>
-  <circle cx="425" cy="168" r="95" fill="#58A6FF" fill-opacity="0.08"/>
-  <rect x="26" y="24" width="144" height="28" rx="14" fill="#F0883E"/>
-  <text x="47" y="43" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">AMBITION</text>
-  <text x="28" y="96" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">render-your-</text>
-  <text x="28" y="129" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">content</text>
-  <text x="29" y="165" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="16">Structured rendering for shareable</text>
-  <text x="29" y="187" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="16">content outputs and visual cards.</text>
-  <text x="356" y="88" fill="#F0883E" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="900">RENDER</text>
-  <text x="371" y="120" fill="#C9D1D9" font-family="Segoe UI, Arial, sans-serif" font-size="18">format -> card</text>
-  <rect x="349" y="144" width="176" height="42" rx="21" fill="#161B22" stroke="#30363D"/>
-  <text x="390" y="170" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">TS / Rendering</text>
+<svg width="560" height="230" viewBox="0 0 560 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="560" height="230" rx="24" fill="#191428"/>
+  <rect x="14" y="14" width="532" height="202" rx="18" fill="#0D1322" stroke="#3B4768"/>
+  <rect x="28" y="28" width="144" height="26" rx="13" fill="#392411" stroke="#FFC857"/>
+  <text x="50" y="46" fill="#FFF1D5" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">MAIN QUEST</text>
+  <text x="28" y="88" fill="#F7F8FF" font-family="Segoe UI, Arial, sans-serif" font-size="29" font-weight="900">render-your-</text>
+  <text x="28" y="120" fill="#F7F8FF" font-family="Segoe UI, Arial, sans-serif" font-size="29" font-weight="900">content</text>
+  <text x="29" y="153" fill="#AAB6D6" font-family="Segoe UI, Arial, sans-serif" font-size="16">content engine / visual output / ambitious build</text>
+  <rect x="28" y="175" width="150" height="22" rx="11" fill="#182034"/>
+  <text x="59" y="190" fill="#FFD58A" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">ARC: RENDER PATH</text>
+  <text x="336" y="84" fill="#FFC857" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="900">QUEST</text>
+  <text x="343" y="115" fill="#FFF1D5" font-family="Segoe UI, Arial, sans-serif" font-size="16">format -> card</text>
+  <rect x="312" y="138" width="208" height="52" rx="18" fill="#151D31" stroke="#31415F"/>
+  <text x="335" y="160" fill="#9FB2DA" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">MISSION REWARD</text>
+  <text x="335" y="180" fill="#F7F8FF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">big upside / system depth</text>
 </svg>

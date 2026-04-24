@@ -1,15 +1,15 @@
-<svg width="560" height="220" viewBox="0 0 560 220" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="560" height="220" rx="26" fill="#0D1117"/>
-  <rect x="0" y="0" width="560" height="220" rx="26" fill="#121826"/>
-  <path d="M0 220L184 106L318 220H0Z" fill="#0E1D2C"/>
-  <path d="M406 0H560V103L430 220H304L406 0Z" fill="#16263B"/>
-  <rect x="27" y="24" width="168" height="28" rx="14" fill="#1F6FEB"/>
-  <text x="46" y="43" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">PRODUCT DIRECTION</text>
-  <text x="28" y="96" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">OpenType</text>
-  <text x="29" y="138" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="16">Windows voice input, hotkey-driven,</text>
-  <text x="29" y="160" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="16">minimal, geek-first.</text>
-  <text x="406" y="88" fill="#58A6FF" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="900">TYPE</text>
-  <text x="392" y="120" fill="#C9D1D9" font-family="Segoe UI, Arial, sans-serif" font-size="18">speak -> transcribe</text>
-  <rect x="356" y="144" width="168" height="42" rx="21" fill="#161B22" stroke="#30363D"/>
-  <text x="396" y="170" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Python / Windows</text>
+<svg width="560" height="230" viewBox="0 0 560 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="560" height="230" rx="24" fill="#13172C"/>
+  <rect x="14" y="14" width="532" height="202" rx="18" fill="#0D1322" stroke="#3B4768"/>
+  <rect x="28" y="28" width="158" height="26" rx="13" fill="#16233E" stroke="#79AFFF"/>
+  <text x="47" y="46" fill="#E0ECFF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">MAIN EQUIPMENT</text>
+  <text x="28" y="94" fill="#F7F8FF" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="900">OpenType</text>
+  <text x="29" y="132" fill="#AAB6D6" font-family="Segoe UI, Arial, sans-serif" font-size="16">voice input tool / geek utility / product path</text>
+  <rect x="28" y="172" width="144" height="22" rx="11" fill="#182034"/>
+  <text x="57" y="187" fill="#9FC3FF" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">CLASS: INPUT GEAR</text>
+  <text x="356" y="84" fill="#79AFFF" font-family="Segoe UI, Arial, sans-serif" font-size="50" font-weight="900">VOICE</text>
+  <text x="358" y="115" fill="#D6E7FF" font-family="Segoe UI, Arial, sans-serif" font-size="16">speak -> type</text>
+  <rect x="320" y="138" width="200" height="52" rx="18" fill="#151D31" stroke="#31415F"/>
+  <text x="343" y="160" fill="#9FB2DA" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">LOADOUT EFFECT</text>
+  <text x="343" y="180" fill="#F7F8FF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">minimal / direct / usable</text>
 </svg>
