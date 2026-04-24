@@ -1,194 +1,183 @@
-<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="560" viewBox="0 0 1200 560" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="520" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0A0F1E"/>
-      <stop offset="0.52" stop-color="#17122C"/>
-      <stop offset="1" stop-color="#1C1135"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090D1A"/>
+      <stop offset="0.5" stop-color="#1A1230"/>
+      <stop offset="1" stop-color="#231238"/>
     </linearGradient>
-    <linearGradient id="frame" x1="40" y1="40" x2="1160" y2="480" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#62A8FF"/>
-      <stop offset="0.5" stop-color="#8A6CFF"/>
-      <stop offset="1" stop-color="#57E389"/>
+    <linearGradient id="panelStroke" x1="40" y1="40" x2="1160" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#79AFFF"/>
+      <stop offset="0.45" stop-color="#B37CFF"/>
+      <stop offset="1" stop-color="#6EF0C2"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F4F8FF"/>
+      <stop offset="1" stop-color="#B8C7FF"/>
     </linearGradient>
     <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur stdDeviation="22"/>
     </filter>
   </defs>
 
-  <rect width="1200" height="520" rx="28" fill="url(#bg)"/>
-  <rect x="28" y="28" width="1144" height="464" rx="24" fill="#11182A" stroke="url(#frame)" stroke-width="2"/>
+  <rect width="1200" height="560" rx="28" fill="url(#bg)"/>
+  <circle cx="1030" cy="88" r="72" fill="#B37CFF" fill-opacity="0.18" filter="url(#glow)"/>
+  <circle cx="930" cy="438" r="88" fill="#58A6FF" fill-opacity="0.12" filter="url(#glow)"/>
+  <circle cx="210" cy="468" r="82" fill="#6EF0C2" fill-opacity="0.08" filter="url(#glow)"/>
 
-  <circle cx="1014" cy="98" r="72" fill="#8A6CFF" fill-opacity="0.16" filter="url(#glow)"/>
-  <circle cx="904" cy="404" r="84" fill="#58A6FF" fill-opacity="0.12" filter="url(#glow)"/>
-  <circle cx="164" cy="432" r="72" fill="#57E389" fill-opacity="0.08" filter="url(#glow)"/>
+  <rect x="28" y="28" width="1144" height="504" rx="24" fill="#12182A" stroke="url(#panelStroke)" stroke-width="2"/>
+  <rect x="54" y="54" width="1092" height="38" rx="12" fill="#0E1322" stroke="#343D5D"/>
+  <circle cx="82" cy="73" r="6" fill="#FF7AA2"/>
+  <circle cx="102" cy="73" r="6" fill="#FFC857"/>
+  <circle cx="122" cy="73" r="6" fill="#6EF0C2"/>
+  <text x="154" y="79" fill="#98A1C4" font-family="Segoe UI, Arial, sans-serif" font-size="16">COOPER-OAK.EXE / OTAKU-BUILDER CHARACTER PANEL</text>
 
-  <rect x="54" y="52" width="1092" height="36" rx="10" fill="#0D1322" stroke="#333C5A"/>
-  <circle cx="82" cy="70" r="6" fill="#FF6B81"/>
-  <circle cx="102" cy="70" r="6" fill="#F3B33D"/>
-  <circle cx="122" cy="70" r="6" fill="#57E389"/>
-  <text x="152" y="76" fill="#8B93B7" font-family="Segoe UI, Arial, sans-serif" font-size="16">COOPER-OAK.EXE / PIXEL ANIME OPERATOR PANEL</text>
+  <rect x="62" y="112" width="360" height="370" rx="22" fill="#0E1322" stroke="#3A4466"/>
+  <rect x="82" y="132" width="320" height="330" rx="18" fill="#131B31"/>
 
-  <rect x="60" y="112" width="348" height="330" rx="20" fill="#0D1322" stroke="#3B476B"/>
+  <g transform="translate(125 145)">
+    <rect x="96" y="0" width="16" height="16" fill="#A976FF"/>
+    <rect x="112" y="0" width="16" height="16" fill="#A976FF"/>
+    <rect x="128" y="0" width="16" height="16" fill="#A976FF"/>
+    <rect x="144" y="0" width="16" height="16" fill="#A976FF"/>
+    <rect x="160" y="0" width="16" height="16" fill="#A976FF"/>
 
-  <g transform="translate(110 140)">
-    <rect x="64" y="0" width="16" height="16" fill="#A074FF"/>
-    <rect x="80" y="0" width="16" height="16" fill="#A074FF"/>
-    <rect x="96" y="0" width="16" height="16" fill="#A074FF"/>
-    <rect x="112" y="0" width="16" height="16" fill="#A074FF"/>
-    <rect x="128" y="0" width="16" height="16" fill="#A074FF"/>
-    <rect x="144" y="0" width="16" height="16" fill="#A074FF"/>
+    <rect x="64" y="16" width="16" height="16" fill="#A976FF"/>
+    <rect x="80" y="16" width="16" height="16" fill="#A976FF"/>
+    <rect x="96" y="16" width="16" height="16" fill="#DCE6FF"/>
+    <rect x="112" y="16" width="16" height="16" fill="#E8EEFF"/>
+    <rect x="128" y="16" width="16" height="16" fill="#EEF3FF"/>
+    <rect x="144" y="16" width="16" height="16" fill="#E8EEFF"/>
+    <rect x="160" y="16" width="16" height="16" fill="#DCE6FF"/>
+    <rect x="176" y="16" width="16" height="16" fill="#A976FF"/>
+    <rect x="192" y="16" width="16" height="16" fill="#A976FF"/>
 
-    <rect x="48" y="16" width="16" height="16" fill="#A074FF"/>
-    <rect x="64" y="16" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="80" y="16" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="96" y="16" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="112" y="16" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="128" y="16" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="144" y="16" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="160" y="16" width="16" height="16" fill="#A074FF"/>
+    <rect x="48" y="32" width="16" height="16" fill="#A976FF"/>
+    <rect x="64" y="32" width="16" height="16" fill="#DCE6FF"/>
+    <rect x="80" y="32" width="16" height="16" fill="#EEF3FF"/>
+    <rect x="96" y="32" width="16" height="16" fill="#F6F9FF"/>
+    <rect x="112" y="32" width="16" height="16" fill="#F6F9FF"/>
+    <rect x="128" y="32" width="16" height="16" fill="#F6F9FF"/>
+    <rect x="144" y="32" width="16" height="16" fill="#F6F9FF"/>
+    <rect x="160" y="32" width="16" height="16" fill="#EEF3FF"/>
+    <rect x="176" y="32" width="16" height="16" fill="#DCE6FF"/>
+    <rect x="192" y="32" width="16" height="16" fill="#A976FF"/>
 
-    <rect x="32" y="32" width="16" height="16" fill="#A074FF"/>
-    <rect x="48" y="32" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="64" y="32" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="80" y="32" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="96" y="32" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="112" y="32" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="128" y="32" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="144" y="32" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="160" y="32" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="176" y="32" width="16" height="16" fill="#A074FF"/>
+    <rect x="32" y="48" width="16" height="16" fill="#A976FF"/>
+    <rect x="48" y="48" width="16" height="16" fill="#DCE6FF"/>
+    <rect x="64" y="48" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="80" y="48" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="96" y="48" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="112" y="48" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="128" y="48" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="144" y="48" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="160" y="48" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="176" y="48" width="16" height="16" fill="#DCE6FF"/>
+    <rect x="192" y="48" width="16" height="16" fill="#A976FF"/>
 
-    <rect x="16" y="48" width="16" height="16" fill="#A074FF"/>
-    <rect x="32" y="48" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="48" y="48" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="64" y="48" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="80" y="48" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="96" y="48" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="112" y="48" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="128" y="48" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="144" y="48" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="160" y="48" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="176" y="48" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="192" y="48" width="16" height="16" fill="#A074FF"/>
+    <rect x="16" y="64" width="16" height="16" fill="#A976FF"/>
+    <rect x="32" y="64" width="16" height="16" fill="#DCE6FF"/>
+    <rect x="48" y="64" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="64" y="64" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="80" y="64" width="16" height="16" fill="#26314F"/>
+    <rect x="96" y="64" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="112" y="64" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="128" y="64" width="16" height="16" fill="#26314F"/>
+    <rect x="144" y="64" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="160" y="64" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="176" y="64" width="16" height="16" fill="#DCE6FF"/>
+    <rect x="192" y="64" width="16" height="16" fill="#A976FF"/>
 
-    <rect x="16" y="64" width="16" height="16" fill="#A074FF"/>
-    <rect x="32" y="64" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="48" y="64" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="64" y="64" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="80" y="64" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="96" y="64" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="112" y="64" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="128" y="64" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="144" y="64" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="160" y="64" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="176" y="64" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="192" y="64" width="16" height="16" fill="#A074FF"/>
+    <rect x="16" y="80" width="16" height="16" fill="#A976FF"/>
+    <rect x="32" y="80" width="16" height="16" fill="#DCE6FF"/>
+    <rect x="48" y="80" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="64" y="80" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="80" y="80" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="96" y="80" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="112" y="80" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="128" y="80" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="144" y="80" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="160" y="80" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="176" y="80" width="16" height="16" fill="#DCE6FF"/>
+    <rect x="192" y="80" width="16" height="16" fill="#A976FF"/>
 
-    <rect x="0" y="80" width="16" height="16" fill="#A074FF"/>
-    <rect x="16" y="80" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="32" y="80" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="48" y="80" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="64" y="80" width="16" height="16" fill="#1B233B"/>
-    <rect x="80" y="80" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="96" y="80" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="112" y="80" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="128" y="80" width="16" height="16" fill="#1B233B"/>
-    <rect x="144" y="80" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="160" y="80" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="176" y="80" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="192" y="80" width="16" height="16" fill="#A074FF"/>
+    <rect x="32" y="96" width="16" height="16" fill="#A976FF"/>
+    <rect x="48" y="96" width="16" height="16" fill="#DCE6FF"/>
+    <rect x="64" y="96" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="80" y="96" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="96" y="96" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="112" y="96" width="16" height="16" fill="#E35D73"/>
+    <rect x="128" y="96" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="144" y="96" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="160" y="96" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="176" y="96" width="16" height="16" fill="#DCE6FF"/>
+    <rect x="192" y="96" width="16" height="16" fill="#A976FF"/>
 
-    <rect x="0" y="96" width="16" height="16" fill="#A074FF"/>
-    <rect x="16" y="96" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="32" y="96" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="48" y="96" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="64" y="96" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="80" y="96" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="96" y="96" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="112" y="96" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="128" y="96" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="144" y="96" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="160" y="96" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="176" y="96" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="192" y="96" width="16" height="16" fill="#A074FF"/>
+    <rect x="48" y="112" width="16" height="16" fill="#A976FF"/>
+    <rect x="64" y="112" width="16" height="16" fill="#DCE6FF"/>
+    <rect x="80" y="112" width="16" height="16" fill="#DCE6FF"/>
+    <rect x="96" y="112" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="112" y="112" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="128" y="112" width="16" height="16" fill="#F3CBD2"/>
+    <rect x="144" y="112" width="16" height="16" fill="#DCE6FF"/>
+    <rect x="160" y="112" width="16" height="16" fill="#DCE6FF"/>
+    <rect x="176" y="112" width="16" height="16" fill="#A976FF"/>
 
-    <rect x="16" y="112" width="16" height="16" fill="#A074FF"/>
-    <rect x="32" y="112" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="48" y="112" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="64" y="112" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="80" y="112" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="96" y="112" width="16" height="16" fill="#D74F62"/>
-    <rect x="112" y="112" width="16" height="16" fill="#D74F62"/>
-    <rect x="128" y="112" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="144" y="112" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="160" y="112" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="176" y="112" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="192" y="112" width="16" height="16" fill="#A074FF"/>
+    <rect x="64" y="128" width="16" height="16" fill="#A976FF"/>
+    <rect x="80" y="128" width="16" height="16" fill="#A976FF"/>
+    <rect x="96" y="128" width="16" height="16" fill="#DCE6FF"/>
+    <rect x="112" y="128" width="16" height="16" fill="#DCE6FF"/>
+    <rect x="128" y="128" width="16" height="16" fill="#DCE6FF"/>
+    <rect x="144" y="128" width="16" height="16" fill="#DCE6FF"/>
+    <rect x="160" y="128" width="16" height="16" fill="#A976FF"/>
+    <rect x="176" y="128" width="16" height="16" fill="#A976FF"/>
 
-    <rect x="32" y="128" width="16" height="16" fill="#A074FF"/>
-    <rect x="48" y="128" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="64" y="128" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="80" y="128" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="96" y="128" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="112" y="128" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="128" y="128" width="16" height="16" fill="#F6D0D0"/>
-    <rect x="144" y="128" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="160" y="128" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="176" y="128" width="16" height="16" fill="#A074FF"/>
+    <rect x="80" y="144" width="16" height="16" fill="#2C3758"/>
+    <rect x="96" y="144" width="16" height="16" fill="#6CA8FF"/>
+    <rect x="112" y="144" width="16" height="16" fill="#6CA8FF"/>
+    <rect x="128" y="144" width="16" height="16" fill="#6CA8FF"/>
+    <rect x="144" y="144" width="16" height="16" fill="#2C3758"/>
 
-    <rect x="48" y="144" width="16" height="16" fill="#A074FF"/>
-    <rect x="64" y="144" width="16" height="16" fill="#A074FF"/>
-    <rect x="80" y="144" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="96" y="144" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="112" y="144" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="128" y="144" width="16" height="16" fill="#D8E5FF"/>
-    <rect x="144" y="144" width="16" height="16" fill="#A074FF"/>
-    <rect x="160" y="144" width="16" height="16" fill="#A074FF"/>
+    <rect x="64" y="160" width="16" height="16" fill="#2C3758"/>
+    <rect x="80" y="160" width="16" height="16" fill="#6CA8FF"/>
+    <rect x="96" y="160" width="16" height="16" fill="#6CA8FF"/>
+    <rect x="112" y="160" width="16" height="16" fill="#7BE08E"/>
+    <rect x="128" y="160" width="16" height="16" fill="#7BE08E"/>
+    <rect x="144" y="160" width="16" height="16" fill="#6CA8FF"/>
+    <rect x="160" y="160" width="16" height="16" fill="#6CA8FF"/>
+    <rect x="176" y="160" width="16" height="16" fill="#2C3758"/>
 
-    <rect x="64" y="160" width="16" height="16" fill="#2B3652"/>
-    <rect x="80" y="160" width="16" height="16" fill="#58A6FF"/>
-    <rect x="96" y="160" width="16" height="16" fill="#58A6FF"/>
-    <rect x="112" y="160" width="16" height="16" fill="#58A6FF"/>
-    <rect x="128" y="160" width="16" height="16" fill="#58A6FF"/>
-    <rect x="144" y="160" width="16" height="16" fill="#2B3652"/>
-
-    <rect x="48" y="176" width="16" height="16" fill="#2B3652"/>
-    <rect x="64" y="176" width="16" height="16" fill="#58A6FF"/>
-    <rect x="80" y="176" width="16" height="16" fill="#58A6FF"/>
-    <rect x="96" y="176" width="16" height="16" fill="#57E389"/>
-    <rect x="112" y="176" width="16" height="16" fill="#57E389"/>
-    <rect x="128" y="176" width="16" height="16" fill="#58A6FF"/>
-    <rect x="144" y="176" width="16" height="16" fill="#58A6FF"/>
-    <rect x="160" y="176" width="16" height="16" fill="#2B3652"/>
-
-    <rect x="32" y="192" width="16" height="16" fill="#2B3652"/>
-    <rect x="48" y="192" width="16" height="16" fill="#2B3652"/>
-    <rect x="64" y="192" width="16" height="16" fill="#58A6FF"/>
-    <rect x="80" y="192" width="16" height="16" fill="#58A6FF"/>
-    <rect x="96" y="192" width="16" height="16" fill="#57E389"/>
-    <rect x="112" y="192" width="16" height="16" fill="#57E389"/>
-    <rect x="128" y="192" width="16" height="16" fill="#58A6FF"/>
-    <rect x="144" y="192" width="16" height="16" fill="#58A6FF"/>
-    <rect x="160" y="192" width="16" height="16" fill="#2B3652"/>
-    <rect x="176" y="192" width="16" height="16" fill="#2B3652"/>
+    <rect x="48" y="176" width="16" height="16" fill="#2C3758"/>
+    <rect x="64" y="176" width="16" height="16" fill="#2C3758"/>
+    <rect x="80" y="176" width="16" height="16" fill="#6CA8FF"/>
+    <rect x="96" y="176" width="16" height="16" fill="#6CA8FF"/>
+    <rect x="112" y="176" width="16" height="16" fill="#7BE08E"/>
+    <rect x="128" y="176" width="16" height="16" fill="#7BE08E"/>
+    <rect x="144" y="176" width="16" height="16" fill="#6CA8FF"/>
+    <rect x="160" y="176" width="16" height="16" fill="#6CA8FF"/>
+    <rect x="176" y="176" width="16" height="16" fill="#2C3758"/>
+    <rect x="192" y="176" width="16" height="16" fill="#2C3758"/>
   </g>
 
-  <text x="94" y="392" fill="#8B93B7" font-family="Segoe UI, Arial, sans-serif" font-size="16">PIXEL OPERATOR / PUBLIC BUILDER UNIT</text>
+  <rect x="92" y="410" width="300" height="36" rx="18" fill="#171F36" stroke="#3B476B"/>
+  <text x="121" y="433" fill="#D8E4FF" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">CHIBI OPERATOR / VIBE-CODER UNIT</text>
 
-  <rect x="438" y="114" width="672" height="150" rx="20" fill="#0D1322" stroke="#38435F"/>
-  <text x="470" y="156" fill="#8B93B7" font-family="Segoe UI, Arial, sans-serif" font-size="15">SYSTEM ROLE</text>
-  <text x="470" y="204" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="900">ANIME UI BUILDER PROFILE</text>
-  <text x="470" y="236" fill="#C7D2F0" font-family="Segoe UI, Arial, sans-serif" font-size="22">game mods -> AI tools -> automation -> 100 projects</text>
+  <rect x="448" y="118" width="650" height="160" rx="22" fill="#0E1322" stroke="#3A4466"/>
+  <text x="482" y="160" fill="#9AA4CA" font-family="Segoe UI, Arial, sans-serif" font-size="16">CHARACTER ROLE</text>
+  <text x="482" y="214" fill="#F7F8FF" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="900">ANIME UI BUILDER PROFILE</text>
+  <text x="482" y="248" fill="#D5D9F5" font-family="Segoe UI, Arial, sans-serif" font-size="24">mods -> AI tools -> automation -> 100 projects</text>
 
-  <rect x="438" y="286" width="202" height="118" rx="18" fill="#0D1322" stroke="#38435F"/>
-  <text x="465" y="322" fill="#8B93B7" font-family="Segoe UI, Arial, sans-serif" font-size="14">STARTED</text>
-  <text x="465" y="372" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="900">2026</text>
+  <rect x="448" y="300" width="202" height="130" rx="20" fill="#0E1322" stroke="#3A4466"/>
+  <text x="476" y="338" fill="#9AA4CA" font-family="Segoe UI, Arial, sans-serif" font-size="14">ARC START</text>
+  <text x="476" y="394" fill="#F7F8FF" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="900">2026</text>
 
-  <rect x="673" y="286" width="202" height="118" rx="18" fill="#0D1322" stroke="#38435F"/>
-  <text x="700" y="322" fill="#8B93B7" font-family="Segoe UI, Arial, sans-serif" font-size="14">TRACTION</text>
-  <text x="700" y="372" fill="#57E389" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="900">MODS</text>
+  <rect x="672" y="300" width="202" height="130" rx="20" fill="#0E1322" stroke="#3A4466"/>
+  <text x="700" y="338" fill="#9AA4CA" font-family="Segoe UI, Arial, sans-serif" font-size="14">POWER TYPE</text>
+  <text x="700" y="394" fill="#67E27F" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="900">MODS</text>
 
-  <rect x="908" y="286" width="202" height="118" rx="18" fill="#0D1322" stroke="#38435F"/>
-  <text x="935" y="322" fill="#8B93B7" font-family="Segoe UI, Arial, sans-serif" font-size="14">DIRECTION</text>
-  <text x="935" y="372" fill="#F3B33D" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="900">100+</text>
+  <rect x="896" y="300" width="202" height="130" rx="20" fill="#0E1322" stroke="#3A4466"/>
+  <text x="924" y="338" fill="#9AA4CA" font-family="Segoe UI, Arial, sans-serif" font-size="14">MAIN QUEST</text>
+  <text x="924" y="394" fill="#FFC54D" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="900">100+</text>
+
+  <rect x="980" y="130" width="98" height="28" rx="14" fill="#1A2139"/>
+  <text x="1005" y="149" fill="#FFD8EC" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">kawaii-ui</text>
 </svg>
