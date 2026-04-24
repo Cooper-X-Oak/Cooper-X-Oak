@@ -1,0 +1,171 @@
+<svg width="1200" height="1760" viewBox="0 0 1200 1760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="page" x1="80" y1="0" x2="1120" y2="1760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF0F7"/>
+      <stop offset="0.28" stop-color="#EAF8FF"/>
+      <stop offset="0.58" stop-color="#F8FDFF"/>
+      <stop offset="1" stop-color="#FFF8EA"/>
+    </linearGradient>
+    <radialGradient id="orbPink" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(88 166) rotate(28) scale(520 360)">
+      <stop stop-color="#FF8FBE" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#FF8FBE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbBlue" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1040 430) rotate(160) scale(560 380)">
+      <stop stop-color="#6ED0FF" stop-opacity="0.48"/>
+      <stop offset="1" stop-color="#6ED0FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbGreen" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(900 1320) rotate(170) scale(500 330)">
+      <stop stop-color="#A5EBC4" stop-opacity="0.48"/>
+      <stop offset="1" stop-color="#A5EBC4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity="0.82"/>
+      <stop offset="0.48" stop-color="#FFFFFF" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#EEF9FF" stop-opacity="0.62"/>
+    </linearGradient>
+    <linearGradient id="darkGlass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.36"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="0.18" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="0.42" stop-color="#FFFFFF" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.06"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#FF7FB5"/>
+      <stop offset="0.48" stop-color="#76D2FF"/>
+      <stop offset="1" stop-color="#9CE7C0"/>
+    </linearGradient>
+    <filter id="shadow" x="-8%" y="-12%" width="116%" height="130%">
+      <feDropShadow dx="0" dy="22" stdDeviation="18" flood-color="#5AA8D8" flood-opacity="0.2"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#FFFFFF" flood-opacity="0.75"/>
+    </filter>
+    <filter id="smallShadow" x="-10%" y="-25%" width="120%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#6BAFE0" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="1760" rx="42" fill="url(#page)"/>
+  <rect width="1200" height="1760" rx="42" fill="url(#orbPink)"/>
+  <rect width="1200" height="1760" rx="42" fill="url(#orbBlue)"/>
+  <rect width="1200" height="1760" rx="42" fill="url(#orbGreen)"/>
+  <path d="M0 276 C180 218 340 324 526 256 C724 184 862 330 1200 198 V1760 H0 Z" fill="#FFFFFF" fill-opacity="0.18"/>
+  <path d="M0 1450 C240 1380 390 1546 600 1440 C840 1320 986 1504 1200 1390 V1760 H0 Z" fill="#FFFFFF" fill-opacity="0.24"/>
+
+  <rect x="30" y="30" width="1140" height="1700" rx="40" fill="url(#glass)" stroke="#FFFFFF" stroke-opacity="0.86" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="58" y="58" width="1084" height="5" rx="2.5" fill="url(#shine)"/>
+
+  <text x="74" y="108" fill="#6D86A8" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="5">SPRING PIXEL OPERATING SYSTEM</text>
+  <text x="74" y="158" fill="#25466F" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="900">Beautiful tools, shipped in public.</text>
+  <rect x="74" y="186" width="360" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.56"/>
+  <rect x="74" y="186" width="246" height="12" rx="6" fill="url(#accent)"/>
+
+  <g transform="translate(74 238)">
+    <rect width="330" height="210" rx="30" fill="url(#darkGlass)" stroke="#FFFFFF" stroke-opacity="0.88" filter="url(#smallShadow)"/>
+    <rect x="24" y="22" width="282" height="4" rx="2" fill="url(#shine)"/>
+    <text x="28" y="58" fill="#6D86A8" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="900" letter-spacing="3">CHARACTER</text>
+    <text x="28" y="104" fill="#25466F" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="900">Cooper Oak</text>
+    <text x="28" y="138" fill="#617FA3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="650">Spring Builder</text>
+    <rect x="28" y="164" width="132" height="28" rx="14" fill="url(#accent)"/>
+    <text x="52" y="183" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="900">RARE ARC</text>
+  </g>
+
+  <g transform="translate(438 238)">
+    <rect width="330" height="210" rx="30" fill="url(#darkGlass)" stroke="#FFFFFF" stroke-opacity="0.88" filter="url(#smallShadow)"/>
+    <rect x="24" y="22" width="282" height="4" rx="2" fill="url(#shine)"/>
+    <text x="28" y="58" fill="#6D86A8" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="900" letter-spacing="3">MAIN SIGNAL</text>
+    <text x="28" y="104" fill="#25466F" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="900">Game Mods</text>
+    <text x="28" y="138" fill="#617FA3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="650">first visible stars</text>
+    <text x="236" y="116" fill="#FF7FB5" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="900">21</text>
+  </g>
+
+  <g transform="translate(802 238)">
+    <rect width="324" height="210" rx="30" fill="url(#darkGlass)" stroke="#FFFFFF" stroke-opacity="0.88" filter="url(#smallShadow)"/>
+    <rect x="24" y="22" width="276" height="4" rx="2" fill="url(#shine)"/>
+    <text x="28" y="58" fill="#6D86A8" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="900" letter-spacing="3">QUESTLINE</text>
+    <text x="28" y="104" fill="#25466F" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="900">AI Tools</text>
+    <text x="28" y="138" fill="#617FA3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="650">toward 100 projects</text>
+    <rect x="28" y="164" width="220" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.58"/>
+    <rect x="28" y="164" width="132" height="12" rx="6" fill="url(#accent)"/>
+  </g>
+
+  <g transform="translate(74 510)">
+    <rect width="1052" height="290" rx="34" fill="url(#darkGlass)" stroke="#FFFFFF" stroke-opacity="0.88" filter="url(#shadow)"/>
+    <rect x="28" y="24" width="996" height="5" rx="2.5" fill="url(#shine)"/>
+    <text x="34" y="70" fill="#6D86A8" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="900" letter-spacing="4">WORLD MAP</text>
+    <text x="34" y="114" fill="#25466F" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="900">from player utility to product craft</text>
+    <path d="M96 206 C228 138 334 224 450 170 C584 108 694 240 828 174 C900 138 946 118 988 142" stroke="url(#accent)" stroke-width="10" stroke-linecap="round" opacity="0.72"/>
+    <g font-family="Segoe UI, Arial, sans-serif" font-weight="900" fill="#25466F">
+      <circle cx="96" cy="206" r="18" fill="#FF9BC6"/><text x="62" y="248" font-size="17">start</text>
+      <circle cx="306" cy="162" r="18" fill="#76D2FF"/><text x="270" y="130" font-size="17">mods</text>
+      <circle cx="522" cy="156" r="18" fill="#9CE7C0"/><text x="498" y="124" font-size="17">tools</text>
+      <circle cx="746" cy="194" r="18" fill="#76D2FF"/><text x="724" y="236" font-size="17">ship</text>
+      <circle cx="988" cy="142" r="18" fill="#FF9BC6"/><text x="964" y="112" font-size="17">100</text>
+    </g>
+  </g>
+
+  <g transform="translate(74 862)">
+    <text x="0" y="0" fill="#6D86A8" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="900" letter-spacing="4">PROJECT GLASS DECK</text>
+    <g transform="translate(0 34)">
+      <rect width="500" height="170" rx="30" fill="url(#darkGlass)" stroke="#FFFFFF" stroke-opacity="0.88" filter="url(#smallShadow)"/>
+      <rect x="24" y="22" width="452" height="4" rx="2" fill="url(#shine)"/>
+      <text x="32" y="70" fill="#25466F" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="900">LongYinMod</text>
+      <text x="32" y="106" fill="#617FA3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="650">public proof / player utility</text>
+      <text x="368" y="88" fill="#FF7FB5" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="900">21</text>
+    </g>
+    <g transform="translate(552 34)">
+      <rect width="500" height="170" rx="30" fill="url(#darkGlass)" stroke="#FFFFFF" stroke-opacity="0.88" filter="url(#smallShadow)"/>
+      <rect x="24" y="22" width="452" height="4" rx="2" fill="url(#shine)"/>
+      <text x="32" y="70" fill="#25466F" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="900">OpenType</text>
+      <text x="32" y="106" fill="#617FA3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="650">voice input / minimal flow</text>
+      <text x="338" y="88" fill="#64B8FF" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="900">VOICE</text>
+    </g>
+    <g transform="translate(0 238)">
+      <rect width="500" height="170" rx="30" fill="url(#darkGlass)" stroke="#FFFFFF" stroke-opacity="0.88" filter="url(#smallShadow)"/>
+      <rect x="24" y="22" width="452" height="4" rx="2" fill="url(#shine)"/>
+      <text x="32" y="70" fill="#25466F" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="900">render-your-content</text>
+      <text x="32" y="106" fill="#617FA3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="650">format into visual output</text>
+      <text x="350" y="88" fill="#F0A65F" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="900">CARD</text>
+    </g>
+    <g transform="translate(552 238)">
+      <rect width="500" height="170" rx="30" fill="url(#darkGlass)" stroke="#FFFFFF" stroke-opacity="0.88" filter="url(#smallShadow)"/>
+      <rect x="24" y="22" width="452" height="4" rx="2" fill="url(#shine)"/>
+      <text x="32" y="70" fill="#25466F" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="900">majstyle.js</text>
+      <text x="32" y="106" fill="#617FA3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="650">small helper / sharp utility</text>
+      <text x="376" y="88" fill="#FF7FB5" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="900">AUX</text>
+    </g>
+  </g>
+
+  <g transform="translate(74 1328)">
+    <rect width="1052" height="180" rx="34" fill="url(#darkGlass)" stroke="#FFFFFF" stroke-opacity="0.88" filter="url(#shadow)"/>
+    <rect x="28" y="24" width="996" height="5" rx="2.5" fill="url(#shine)"/>
+    <text x="34" y="68" fill="#6D86A8" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="900" letter-spacing="4">LOADOUT</text>
+    <g font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">
+      <rect x="34" y="92" width="130" height="38" rx="19" fill="url(#accent)"/><text x="72" y="117" fill="#FFFFFF">Python</text>
+      <rect x="188" y="92" width="170" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.46" stroke="#FFFFFF"/><text x="238" y="117" fill="#4F91DC">JavaScript</text>
+      <rect x="382" y="92" width="110" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.46" stroke="#FFFFFF"/><text x="424" y="117" fill="#E783AC">C#</text>
+      <rect x="516" y="92" width="130" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.46" stroke="#FFFFFF"/><text x="560" y="117" fill="#45A878">GitHub</text>
+      <text x="760" y="112" fill="#25466F" font-size="28">toolmaker stack</text>
+    </g>
+  </g>
+
+  <g transform="translate(74 1550)">
+    <rect width="1052" height="128" rx="34" fill="url(#darkGlass)" stroke="#FFFFFF" stroke-opacity="0.88" filter="url(#shadow)"/>
+    <rect x="28" y="24" width="996" height="5" rx="2.5" fill="url(#shine)"/>
+    <text x="34" y="64" fill="#6D86A8" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="900" letter-spacing="4">STATUS HUD</text>
+    <rect x="34" y="84" width="720" height="14" rx="7" fill="#FFFFFF" fill-opacity="0.55"/>
+    <rect x="34" y="84" width="518" height="14" rx="7" fill="url(#accent)">
+      <animate attributeName="width" values="440;620;518" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="800" y="96" fill="#25466F" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="900">NEXT: ship more</text>
+  </g>
+
+  <g opacity="0.85">
+    <rect x="1040" y="124" width="10" height="10" rx="2" fill="#FF8FBE"><animate attributeName="y" values="124;146;124" dur="4.2s" repeatCount="indefinite"/></rect>
+    <rect x="168" y="480" width="10" height="10" rx="2" fill="#76D2FF"><animate attributeName="y" values="480;456;480" dur="5s" repeatCount="indefinite"/></rect>
+    <rect x="1010" y="1210" width="10" height="10" rx="2" fill="#FF8FBE"><animate attributeName="y" values="1210;1230;1210" dur="4.8s" repeatCount="indefinite"/></rect>
+    <rect x="244" y="1600" width="10" height="10" rx="2" fill="#9CE7C0"><animate attributeName="y" values="1600;1578;1600" dur="4.5s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>

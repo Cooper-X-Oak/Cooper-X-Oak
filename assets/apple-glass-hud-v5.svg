@@ -1,0 +1,77 @@
+<svg width="1200" height="240" viewBox="0 0 1200 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="base" x1="54" y1="0" x2="1146" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE7F0"/>
+      <stop offset="0.42" stop-color="#BDEEFF"/>
+      <stop offset="1" stop-color="#FFF7E8"/>
+    </linearGradient>
+    <radialGradient id="pinkGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(160 58) rotate(18) scale(390 170)">
+      <stop stop-color="#FF8FBE" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#FF8FBE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blueGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(920 42) rotate(160) scale(430 190)">
+      <stop stop-color="#6ED0FF" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#6ED0FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="74" y1="32" x2="1126" y2="208" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.86"/>
+      <stop offset="0.48" stop-color="#FFFFFF" stop-opacity="0.48"/>
+      <stop offset="1" stop-color="#EAF8FF" stop-opacity="0.62"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="78" y1="34" x2="1122" y2="34" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.1"/>
+      <stop offset="0.2" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="0.44" stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#FF7FB5"/>
+      <stop offset="0.48" stop-color="#76D2FF"/>
+      <stop offset="1" stop-color="#9CE7C0"/>
+    </linearGradient>
+    <filter id="softShadow" x="-8%" y="-28%" width="116%" height="170%">
+      <feDropShadow dx="0" dy="22" stdDeviation="18" flood-color="#5AA8D8" flood-opacity="0.26"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#FFFFFF" flood-opacity="0.85"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="240" rx="36" fill="url(#base)"/>
+  <rect width="1200" height="240" rx="36" fill="url(#pinkGlow)"/>
+  <rect width="1200" height="240" rx="36" fill="url(#blueGlow)"/>
+  <path d="M0 172 C190 126 306 206 486 154 C650 106 742 202 934 142 C1078 98 1140 126 1200 92 V240 H0 Z" fill="#FFFFFF" fill-opacity="0.38"/>
+
+  <rect x="34" y="28" width="1132" height="184" rx="34" fill="url(#glass)" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="58" y="48" width="1084" height="4" rx="2" fill="url(#shine)"/>
+  <rect x="58" y="52" width="1084" height="136" rx="26" stroke="#9BDDFF" stroke-opacity="0.55"/>
+
+  <g opacity="0.92">
+    <rect x="88" y="70" width="13" height="13" rx="3" fill="#FF8FBE"/>
+    <rect x="101" y="83" width="13" height="13" rx="3" fill="#FFC4DC"/>
+    <rect x="75" y="83" width="13" height="13" rx="3" fill="#FFE0EC"/>
+    <rect x="88" y="96" width="13" height="13" rx="3" fill="#8BD8FF"/>
+  </g>
+
+  <text x="142" y="92" fill="#6E86A8" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="5">LIQUID GLASS PROFILE</text>
+  <text x="142" y="138" fill="#25466F" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="900">Cooper Oak</text>
+  <text x="142" y="168" fill="#5D789E" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="650">game mods -> AI tools -> 100 public projects</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-weight="900">
+    <rect x="638" y="72" width="138" height="94" rx="24" fill="#FFFFFF" fill-opacity="0.46" stroke="#FFFFFF" stroke-opacity="0.86"/>
+    <rect x="654" y="86" width="106" height="3" rx="1.5" fill="#FFFFFF" fill-opacity="0.9"/>
+    <text x="670" y="112" fill="#6E86A8" font-size="13" letter-spacing="2">MODE</text>
+    <text x="670" y="146" fill="#4F91DC" font-size="26">PUBLIC</text>
+
+    <rect x="808" y="72" width="138" height="94" rx="24" fill="#FFFFFF" fill-opacity="0.46" stroke="#FFFFFF" stroke-opacity="0.86"/>
+    <rect x="824" y="86" width="106" height="3" rx="1.5" fill="#FFFFFF" fill-opacity="0.9"/>
+    <text x="840" y="112" fill="#6E86A8" font-size="13" letter-spacing="2">START</text>
+    <text x="840" y="146" fill="#E783AC" font-size="26">2026</text>
+
+    <rect x="978" y="72" width="138" height="94" rx="24" fill="#FFFFFF" fill-opacity="0.46" stroke="#FFFFFF" stroke-opacity="0.86"/>
+    <rect x="994" y="86" width="106" height="3" rx="1.5" fill="#FFFFFF" fill-opacity="0.9"/>
+    <text x="1010" y="112" fill="#6E86A8" font-size="13" letter-spacing="2">QUEST</text>
+    <text x="1010" y="146" fill="#45A878" font-size="26">100</text>
+  </g>
+
+  <rect x="472" y="118" width="126" height="30" rx="15" fill="url(#accent)" opacity="0.92"/>
+  <text x="497" y="138" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="900">SPRING ARC</text>
+</svg>
