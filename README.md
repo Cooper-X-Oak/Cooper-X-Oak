@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100%" src="./assets/spring-hero-poster-premium.gif?v=20260424e" alt="Spring pixel anime hero poster" />
+  <img width="100%" src="./assets/spring-hero-pixel-motion-v6.svg" alt="Animated spring pixel anime hero poster" />
 
   <br />
   <br />
