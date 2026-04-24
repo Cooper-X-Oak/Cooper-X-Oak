@@ -1,0 +1,185 @@
+<svg width="1200" height="620" viewBox="0 0 1200 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#0F7990"/>
+      <stop offset="0.42" stop-color="#35AFC1"/>
+      <stop offset="0.75" stop-color="#BEE7C0"/>
+      <stop offset="1" stop-color="#FFE2C9"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(360 260) rotate(90) scale(230 300)">
+      <stop stop-color="#FFF2A8" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#FFF2A8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="760" y1="232" x2="1130" y2="530" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.28"/>
+      <stop offset="0.4" stop-color="#172235" stop-opacity="0.66"/>
+      <stop offset="1" stop-color="#07111F" stop-opacity="0.88"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#FF8FBE"/><stop offset="0.52" stop-color="#7ED8FF"/><stop offset="1" stop-color="#B4F06E"/>
+    </linearGradient>
+    <pattern id="scan" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="3" fill="#FFFFFF" opacity="0.035"/>
+      <rect y="3" width="6" height="3" fill="#001424" opacity="0.045"/>
+    </pattern>
+    <pattern id="grain" width="18" height="18" patternUnits="userSpaceOnUse">
+      <rect x="2" y="3" width="2" height="2" fill="#FFFFFF" opacity="0.12"/>
+      <rect x="11" y="5" width="2" height="2" fill="#001424" opacity="0.12"/>
+      <rect x="6" y="13" width="2" height="2" fill="#FFFFFF" opacity="0.08"/>
+      <rect x="15" y="15" width="2" height="2" fill="#001424" opacity="0.1"/>
+    </pattern>
+    <filter id="sceneShadow" x="-10%" y="-12%" width="120%" height="132%">
+      <feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#061321" flood-opacity="0.32"/>
+    </filter>
+    <filter id="logoShadow" x="-10%" y="-35%" width="120%" height="170%">
+      <feDropShadow dx="14" dy="18" stdDeviation="0" flood-color="#063447" flood-opacity="0.82"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#D8FF32" flood-opacity="0.42"/>
+    </filter>
+    <style>
+      .cloud-a { animation: cloudA 34s linear infinite; }
+      .cloud-b { animation: cloudB 42s linear infinite; }
+      .petal-a { animation: petalA 8s linear infinite; }
+      .petal-b { animation: petalB 10s linear infinite; }
+      .petal-c { animation: petalC 12s linear infinite; }
+      .shine { animation: shine 5.5s ease-in-out infinite; }
+      .blink { animation: blink 3.7s steps(1) infinite; }
+      .bob { animation: bob 2.8s ease-in-out infinite alternate; }
+      @keyframes cloudA { from { transform: translateX(-80px); } to { transform: translateX(100px); } }
+      @keyframes cloudB { from { transform: translateX(90px); } to { transform: translateX(-120px); } }
+      @keyframes petalA { from { transform: translate(0,-100px) rotate(0deg); opacity:0; } 14%{opacity:1;} to { transform: translate(-70px,650px) rotate(210deg); opacity:0; } }
+      @keyframes petalB { from { transform: translate(0,-140px) rotate(0deg); opacity:0; } 16%{opacity:1;} to { transform: translate(110px,670px) rotate(-240deg); opacity:0; } }
+      @keyframes petalC { from { transform: translate(0,-80px) rotate(0deg); opacity:0; } 14%{opacity:1;} to { transform: translate(35px,640px) rotate(160deg); opacity:0; } }
+      @keyframes shine { 0%{opacity:0;transform:translateX(-140px);} 48%,58%{opacity:.48;} 100%{opacity:0;transform:translateX(150px);} }
+      @keyframes blink { 0%,94%,100%{opacity:1;} 95%,97%{opacity:.15;} }
+      @keyframes bob { from { transform: translateY(0); } to { transform: translateY(-5px); } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="620" fill="url(#sky)"/>
+  <rect width="1200" height="620" fill="url(#sun)"/>
+  <rect width="1200" height="620" fill="url(#scan)"/>
+  <rect width="1200" height="620" fill="url(#grain)" opacity="0.72"/>
+
+  <path d="M0 470 C150 420 300 500 470 448 C660 390 790 506 982 436 C1080 400 1142 392 1200 360 V620 H0 Z" fill="#9BD06F"/>
+  <path d="M0 528 C220 480 380 552 600 506 C840 458 968 542 1200 478 V620 H0 Z" fill="#69A553"/>
+  <rect y="555" width="1200" height="65" fill="#477B45" opacity="0.72"/>
+
+  <g class="cloud-a" opacity="0.55">
+    <rect x="310" y="216" width="154" height="24" fill="#DDF4EF"/>
+    <rect x="356" y="192" width="104" height="24" fill="#EAF9F4"/>
+    <rect x="460" y="216" width="120" height="24" fill="#CDEBF0"/>
+  </g>
+  <g class="cloud-b" opacity="0.45">
+    <rect x="556" y="294" width="170" height="22" fill="#EAF9F4"/>
+    <rect x="594" y="272" width="84" height="22" fill="#EAF9F4"/>
+    <rect x="686" y="294" width="102" height="22" fill="#D8F0F0"/>
+  </g>
+
+  <g id="tree">
+    <rect x="28" y="122" width="44" height="405" fill="#342A3B"/>
+    <rect x="70" y="230" width="28" height="256" fill="#403149"/>
+    <rect x="88" y="335" width="150" height="28" fill="#342A3B" transform="rotate(16 88 335)"/>
+    <rect x="58" y="284" width="160" height="25" fill="#342A3B" transform="rotate(-17 58 284)"/>
+    <g opacity="0.98">
+      <rect x="-20" y="60" width="95" height="48" fill="#F6ABC4"/>
+      <rect x="72" y="42" width="126" height="56" fill="#F9C0D3"/>
+      <rect x="198" y="60" width="112" height="48" fill="#FFD3E0"/>
+      <rect x="-50" y="108" width="132" height="58" fill="#E99AB7"/>
+      <rect x="82" y="106" width="138" height="64" fill="#F6ABC4"/>
+      <rect x="220" y="126" width="122" height="56" fill="#FFD3E0"/>
+      <rect x="-34" y="170" width="108" height="54" fill="#F9C0D3"/>
+      <rect x="74" y="168" width="132" height="58" fill="#E99AB7"/>
+      <rect x="206" y="178" width="116" height="50" fill="#F6ABC4"/>
+      <rect x="22" y="226" width="126" height="48" fill="#F6ABC4"/>
+      <rect x="148" y="226" width="120" height="48" fill="#FFD3E0"/>
+    </g>
+    <g opacity="0.42">
+      <rect x="4" y="78" width="70" height="34" fill="#D47D9F"/>
+      <rect x="112" y="132" width="56" height="30" fill="#FFFFFF"/>
+      <rect x="244" y="150" width="58" height="30" fill="#FFFFFF"/>
+      <rect x="36" y="194" width="76" height="30" fill="#D47D9F"/>
+    </g>
+  </g>
+
+  <g id="logo" filter="url(#logoShadow)">
+    <text x="122" y="124" font-family="Impact, Arial Black, sans-serif" font-size="112" font-weight="900" letter-spacing="5" fill="#0B1D21" stroke="#C8F234" stroke-width="16" paint-order="stroke fill">COOPER</text>
+    <text x="122" y="124" font-family="Impact, Arial Black, sans-serif" font-size="112" font-weight="900" letter-spacing="5" fill="#FFFFFF" stroke="#172217" stroke-width="9" paint-order="stroke fill">COOPER</text>
+    <text x="610" y="124" font-family="Impact, Arial Black, sans-serif" font-size="112" font-weight="900" letter-spacing="5" fill="#0B1D21" stroke="#C8F234" stroke-width="16" paint-order="stroke fill">OAK</text>
+    <text x="610" y="124" font-family="Impact, Arial Black, sans-serif" font-size="112" font-weight="900" letter-spacing="5" fill="#FFFFFF" stroke="#172217" stroke-width="9" paint-order="stroke fill">OAK</text>
+  </g>
+  <rect x="128" y="142" width="224" height="34" rx="17" fill="#101A2A" fill-opacity="0.74"/>
+  <text x="152" y="165" fill="#EAF7FF" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="900">SPRING PIXEL ARC</text>
+
+  <g id="character" class="bob" filter="url(#sceneShadow)">
+    <path d="M332 404 L286 462 L352 438 Z" fill="#263A5A" opacity="0.75"/>
+    <path d="M396 404 L460 462 L408 438 Z" fill="#263A5A" opacity="0.75"/>
+    <rect x="332" y="394" width="96" height="118" rx="9" fill="#101C31"/>
+    <rect x="344" y="394" width="72" height="18" fill="#2A4163" opacity="0.78"/>
+    <rect x="350" y="510" width="26" height="76" fill="#101C31"/>
+    <rect x="394" y="510" width="26" height="76" fill="#101C31"/>
+    <rect x="326" y="584" width="70" height="14" fill="#07111F"/>
+    <rect x="382" y="584" width="70" height="14" fill="#07111F"/>
+    <rect x="346" y="334" width="76" height="72" rx="14" fill="#F2C7B2"/>
+    <rect x="346" y="334" width="76" height="16" fill="#F9D7C5"/>
+    <rect x="328" y="310" width="112" height="34" fill="#ECEFF5"/>
+    <rect x="342" y="292" width="82" height="26" fill="#D7DCE6"/>
+    <rect x="364" y="280" width="52" height="20" fill="#F5F7FB"/>
+    <rect x="328" y="344" width="24" height="64" fill="#C7CEDA"/>
+    <rect x="422" y="342" width="28" height="68" fill="#8B99AC"/>
+    <rect x="360" y="362" width="10" height="10" fill="#182536" class="blink"/>
+    <rect x="394" y="362" width="10" height="10" fill="#182536" class="blink"/>
+    <rect x="373" y="382" width="20" height="5" fill="#E894A1"/>
+    <rect x="304" y="418" width="62" height="19" fill="#13223A" transform="rotate(-23 304 418)"/>
+    <rect x="408" y="410" width="66" height="19" fill="#13223A" transform="rotate(25 408 410)"/>
+    <rect x="298" y="470" width="220" height="8" fill="#5D4737" transform="rotate(-27 298 470)"/>
+    <rect x="496" y="374" width="50" height="8" fill="#F0D7A8" transform="rotate(-27 496 374)"/>
+  </g>
+
+  <g id="glass-card" filter="url(#sceneShadow)">
+    <rect x="748" y="206" width="382" height="340" rx="34" fill="url(#glass)" stroke="#9DDAFF" stroke-opacity="0.22"/>
+    <rect x="774" y="230" width="330" height="34" rx="14" fill="#FFFFFF" fill-opacity="0.055"/>
+    <circle cx="798" cy="247" r="7" fill="#FF8FBE"/><circle cx="820" cy="247" r="7" fill="#FFD08F"/><circle cx="842" cy="247" r="7" fill="#83DDAA"/>
+    <text x="880" y="253" fill="#B9C5D4" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="900">COOPER-OAK.EXE</text>
+    <text x="780" y="314" fill="#AAB7C8" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="2">BUILDER PROFILE</text>
+    <text x="780" y="374" fill="#F3F7FF" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="900">MODS -> AI</text>
+    <text x="780" y="422" fill="#D8E4F1" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">pixel art systems</text>
+    <rect x="780" y="450" width="116" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.1"/>
+    <text x="802" y="470" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="900">START 2026</text>
+    <rect x="910" y="450" width="154" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.1"/>
+    <text x="932" y="470" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="900">100 PROJECTS</text>
+    <rect x="780" y="498" width="300" height="50" rx="18" fill="#07111F" fill-opacity="0.5" stroke="#9DDAFF" stroke-opacity="0.12"/>
+    <text x="804" y="528" fill="#6ED77B" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="900">LongYinMod_RisingFame</text>
+    <path class="shine" d="M815 226 L854 226 L990 540 L950 540 Z" fill="#FFFFFF" opacity="0.16"/>
+  </g>
+
+  <g opacity="0.92">
+    <rect x="112" y="532" width="360" height="40" rx="20" fill="#0D1625" fill-opacity="0.74"/>
+    <text x="138" y="558" fill="#EAF7FF" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="900">animated SVG / tiny file / premium pixel style</text>
+  </g>
+
+  <g id="flowers">
+    <rect x="24" y="560" width="8" height="60" fill="#5CAA60"/><rect x="70" y="548" width="8" height="72" fill="#85BF5C"/><rect x="166" y="550" width="8" height="70" fill="#85BF5C"/><rect x="1050" y="550" width="8" height="70" fill="#85BF5C"/><rect x="1120" y="548" width="8" height="72" fill="#85BF5C"/>
+    <rect x="18" y="554" width="12" height="12" rx="4" fill="#FFF8F2"/><rect x="30" y="552" width="12" height="12" rx="4" fill="#FFB9D6"/>
+    <rect x="152" y="544" width="12" height="12" rx="4" fill="#FFF8F2"/><rect x="164" y="542" width="12" height="12" rx="4" fill="#FFB9D6"/>
+    <rect x="980" y="552" width="12" height="12" rx="4" fill="#FFF8F2"/><rect x="992" y="550" width="12" height="12" rx="4" fill="#FFB9D6"/>
+    <rect x="1150" y="548" width="12" height="12" rx="4" fill="#FFF8F2"/><rect x="1162" y="546" width="12" height="12" rx="4" fill="#FFB9D6"/>
+  </g>
+
+  <g id="petals">
+    <rect class="petal-a" x="96" y="-20" width="12" height="22" rx="6" fill="#FFB4CF"/>
+    <rect class="petal-b" x="154" y="-140" width="10" height="18" rx="5" fill="#FFF3F6" style="animation-delay:-1.6s"/>
+    <rect class="petal-c" x="214" y="-80" width="14" height="24" rx="7" fill="#FF8FBE" style="animation-delay:-3.1s"/>
+    <rect class="petal-b" x="332" y="-40" width="14" height="24" rx="7" fill="#FF8FBE"/>
+    <rect class="petal-c" x="430" y="-190" width="9" height="16" rx="4" fill="#FFF3F6" style="animation-delay:-4.4s"/>
+    <rect class="petal-a" x="560" y="-210" width="12" height="22" rx="6" fill="#FFB4CF" style="animation-delay:-6s"/>
+    <rect class="petal-c" x="642" y="-150" width="8" height="16" rx="4" fill="#FFF3F6" style="animation-delay:-2.8s"/>
+    <rect class="petal-a" x="744" y="-120" width="12" height="22" rx="6" fill="#FFB4CF" style="animation-delay:-2s"/>
+    <rect class="petal-b" x="820" y="-260" width="10" height="18" rx="5" fill="#FF8FBE" style="animation-delay:-7.6s"/>
+    <rect class="petal-c" x="930" y="-180" width="8" height="16" rx="4" fill="#FFF3F6" style="animation-delay:-5.2s"/>
+    <rect class="petal-b" x="1030" y="-70" width="14" height="24" rx="7" fill="#FFF3F6" style="animation-delay:-4s"/>
+    <rect class="petal-a" x="1120" y="-180" width="12" height="22" rx="6" fill="#FF8FBE" style="animation-delay:-5s"/>
+  </g>
+
+  <rect x="18" y="18" width="1164" height="584" rx="18" stroke="#CCFF2F" stroke-opacity="0.72" stroke-width="2"/>
+  <rect x="24" y="24" width="1152" height="572" rx="14" stroke="#001424" stroke-opacity="0.34" stroke-width="2"/>
+</svg>
