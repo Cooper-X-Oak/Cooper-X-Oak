@@ -1,15 +1,26 @@
 <svg width="560" height="230" viewBox="0 0 560 230" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="560" height="230" rx="24" fill="#13172C"/>
-  <rect x="14" y="14" width="532" height="202" rx="18" fill="#0D1322" stroke="#3B4768"/>
-  <rect x="28" y="28" width="158" height="26" rx="13" fill="#16233E" stroke="#79AFFF"/>
-  <text x="47" y="46" fill="#E0ECFF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">MAIN EQUIPMENT</text>
-  <text x="28" y="94" fill="#F7F8FF" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="900">OpenType</text>
-  <text x="29" y="132" fill="#AAB6D6" font-family="Segoe UI, Arial, sans-serif" font-size="16">voice input tool / geek utility / product path</text>
-  <rect x="28" y="172" width="144" height="22" rx="11" fill="#182034"/>
-  <text x="57" y="187" fill="#9FC3FF" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">CLASS: INPUT GEAR</text>
-  <text x="356" y="84" fill="#79AFFF" font-family="Segoe UI, Arial, sans-serif" font-size="50" font-weight="900">VOICE</text>
-  <text x="358" y="115" fill="#D6E7FF" font-family="Segoe UI, Arial, sans-serif" font-size="16">speak -> type</text>
-  <rect x="320" y="138" width="200" height="52" rx="18" fill="#151D31" stroke="#31415F"/>
-  <text x="343" y="160" fill="#9FB2DA" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">LOADOUT EFFECT</text>
-  <text x="343" y="180" fill="#F7F8FF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">minimal / direct / usable</text>
+  <defs>
+    <linearGradient id="bg" x1="18" y1="14" x2="526" y2="214" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF7FF"/>
+      <stop offset="0.5" stop-color="#FFF1F8"/>
+      <stop offset="1" stop-color="#F7FCFF"/>
+    </linearGradient>
+    <linearGradient id="tag" x1="28" y1="28" x2="186" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7ECFFF"/>
+      <stop offset="1" stop-color="#FFB2D1"/>
+    </linearGradient>
+  </defs>
+  <rect width="560" height="230" rx="24" fill="url(#bg)"/>
+  <rect x="14" y="14" width="532" height="202" rx="18" fill="#FFFFFF" fill-opacity="0.62" stroke="#A8D8F6"/>
+  <rect x="28" y="28" width="158" height="26" rx="13" fill="url(#tag)"/>
+  <text x="47" y="46" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">MAIN EQUIPMENT</text>
+  <text x="28" y="94" fill="#35537A" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="900">OpenType</text>
+  <text x="29" y="132" fill="#6781A3" font-family="Segoe UI, Arial, sans-serif" font-size="16">voice input tool / geek utility / product path</text>
+  <rect x="28" y="172" width="144" height="22" rx="11" fill="#EAF5FF"/>
+  <text x="57" y="187" fill="#4E8EDC" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">CLASS: INPUT GEAR</text>
+  <text x="356" y="84" fill="#67B8FF" font-family="Segoe UI, Arial, sans-serif" font-size="50" font-weight="900">VOICE</text>
+  <text x="358" y="115" fill="#6B84A7" font-family="Segoe UI, Arial, sans-serif" font-size="16">speak -> type</text>
+  <rect x="320" y="138" width="200" height="52" rx="18" fill="#FFFFFF" fill-opacity="0.74" stroke="#A8D8F6"/>
+  <text x="343" y="160" fill="#7C96B8" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">LOADOUT EFFECT</text>
+  <text x="343" y="180" fill="#35537A" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">minimal / direct / usable</text>
 </svg>

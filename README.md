@@ -4,12 +4,12 @@
   <br />
   <br />
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=C7D2F0&center=true&vCenter=true&width=920&lines=mods+%2F+AI+tools+%2F+automation;pixel+anime+builder+system;main+quest%3A+100+projects" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=5C8FD3&center=true&vCenter=true&width=920&lines=mods+%2F+AI+tools+%2F+automation;pixel+anime+builder+system;main+quest%3A+100+projects" alt="Typing intro" />
 
 <p>
-  <img src="https://img.shields.io/badge/Builder-In_Public-111111?style=for-the-badge&labelColor=1f6feb&color=111111" alt="Builder in public" />
-  <img src="https://img.shields.io/badge/Started-2026-111111?style=for-the-badge&labelColor=2ea043&color=111111" alt="Started 2026" />
-  <img src="https://img.shields.io/badge/Goal-100_Projects-111111?style=for-the-badge&labelColor=f0883e&color=111111" alt="Goal 100 projects" />
+  <img src="https://img.shields.io/badge/Builder-In_Public-FFF6FB?style=for-the-badge&labelColor=FF96C6&color=FFF6FB" alt="Builder in public" />
+  <img src="https://img.shields.io/badge/Started-2026-F4FBFF?style=for-the-badge&labelColor=89CFFF&color=F4FBFF" alt="Started 2026" />
+  <img src="https://img.shields.io/badge/Goal-100_Projects-FFF9F0?style=for-the-badge&labelColor=FFC4D9&color=FFF9F0" alt="Goal 100 projects" />
 </p>
 
 <p>
@@ -57,14 +57,14 @@
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Cooper-X-Oak&show_icons=true&theme=transparent&border_color=30363d&title_color=58a6ff&icon_color=2ea043&text_color=c9d1d9&rank_icon=github" alt="GitHub stats" />
-<img height="165" src="https://streak-stats.demolab.com?user=Cooper-X-Oak&theme=transparent&border=30363d&ring=58A6FF&fire=F0883E&currStreakLabel=C9D1D9&sideNums=C9D1D9&currStreakNum=FFFFFF&dates=8B949E" alt="GitHub streak" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Cooper-X-Oak&show_icons=true&theme=transparent&border_color=A8D8F6&title_color=5C8FD3&icon_color=FF96C6&text_color=5E7698&rank_icon=github" alt="GitHub stats" />
+<img height="165" src="https://streak-stats.demolab.com?user=Cooper-X-Oak&theme=transparent&border=A8D8F6&ring=FF96C6&fire=FFC48E&currStreakLabel=5E7698&sideNums=5E7698&currStreakNum=35537A&dates=8AA3C2" alt="GitHub streak" />
 
 </div>
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cooper-X-Oak&layout=compact&theme=transparent&border_color=30363d&title_color=58a6ff&text_color=c9d1d9" alt="Top languages" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cooper-X-Oak&layout=compact&theme=transparent&border_color=A8D8F6&title_color=5C8FD3&text_color=5E7698" alt="Top languages" />
 <img height="165" src="https://github-profile-trophy.vercel.app/?username=Cooper-X-Oak&theme=onestar&no-frame=true&no-bg=true&margin-w=10&row=1&column=4" alt="Trophies" />
 
 </div>
@@ -98,7 +98,7 @@
 
 <div align="center">
 
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=Cooper-X-Oak&bg_color=0d1117&color=c9d1d9&line=58a6ff&point=2ea043&area=true&hide_border=true" alt="Activity graph" />
+<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=Cooper-X-Oak&bg_color=F7FCFF&color=5E7698&line=89CFFF&point=FF96C6&area=true&area_color=EAF6FF&hide_border=true" alt="Activity graph" />
 
 </div>
 
