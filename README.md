@@ -8,56 +8,70 @@ Started coding from scratch in 2026.
 First traction came from game plugins. Now expanding into AI tools, automation, and more shipped projects.
 
 <p>
-  <a href="https://github.com/Cooper-X-Oak?tab=repositories">Repositories</a> •
-  <a href="https://github.com/Cooper-X-Oak?tab=stars">Stars</a>
+  <a href="https://github.com/Cooper-X-Oak?tab=repositories">All Repositories</a> •
+  <a href="https://github.com/Cooper-X-Oak?tab=stars">Starred Projects</a> •
+  <a href="https://github.com/Cooper-X-Oak/Cooper-X-Oak">Profile Repo</a>
 </p>
 
 </div>
 
 ---
 
-## What I Build
+## Focus
 
-I like making niche tools that start from real use cases:
+I build niche tools that start from concrete use cases and get shipped fast.
 
-- game mods and plugin-style utilities
-- AI-assisted workflows
+- game mods with real player value
+- AI-assisted tools and workflows
 - browser and desktop automation
-- content extraction, transformation, and rendering
-- small experiments that are useful enough to ship
+- content extraction and rendering experiments
+- small software that is strange, specific, and useful
 
-## Current Direction
+## Current Arc
 
 My strongest public validation so far comes from game plugin projects.  
-That is not the final destination, but it is the clearest proof that I can build things people actually use.
+That is where I first proved I could make something people actually wanted.
 
-Now I am taking that same builder mindset into:
+Now I am pushing that same builder mindset into:
 
-- AI-native tools
-- automation-first utilities
-- small internet products
+- AI-native utilities
+- automation-first products
+- voice and input workflows
+- content tools for creation and distribution
 
-## Featured Projects
-
-### [OpenType](https://github.com/Cooper-X-Oak/OpenType)
-Minimal Windows voice input for geeks. Speak with a hotkey and type directly into the current cursor position.
+## Featured
 
 ### [LongYinMod_RisingFame](https://github.com/Cooper-X-Oak/LongYinMod_RisingFame)
-A practical BepInEx mod project and one of my most publicly validated repositories.
+Stable, practical BepInEx mod work with the clearest public validation on this profile.
+
+### [OpenType](https://github.com/Cooper-X-Oak/OpenType)
+Minimal Windows voice input for geeks. Hold a hotkey, speak, transcribe, and type into the current app.
 
 ### [render-your-content](https://github.com/Cooper-X-Oak/render-your-content)
-An experimental rendering pipeline for turning structured content into shareable visual outputs.
+Structured rendering for Markdown and HTML into clean, shareable card images and paginated visual outputs.
+
+## What I Build Around
+
+- I like building from real friction instead of abstract ideas.
+- I care about shipping and proof more than polished narratives.
+- I treat this profile as a public record of skill compounding through released work.
 
 ## Building In Public
 
 I am not trying to look like a finished senior engineer.  
-This profile is a live record of learning fast, shipping often, and compounding through real projects.
+I am trying to become a dangerous builder by shipping repeatedly in public.
 
 Current goal: **100 shipped projects**.
 
-## Tech I Reach For
+## Stack
 
 `Python` `TypeScript` `JavaScript` `C#` `Tampermonkey` `BepInEx` `Automation`
+
+## Start Here
+
+- If you want the most validated project: [LongYinMod_RisingFame](https://github.com/Cooper-X-Oak/LongYinMod_RisingFame)
+- If you want the cleanest product direction: [OpenType](https://github.com/Cooper-X-Oak/OpenType)
+- If you want the most ambitious content-tool idea: [render-your-content](https://github.com/Cooper-X-Oak/render-your-content)
 
 ---
 
