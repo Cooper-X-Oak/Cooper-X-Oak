@@ -1,0 +1,13 @@
+<svg width="1200" height="72" viewBox="0 0 1200 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="72" rx="18" fill="#0D1117"/>
+  <rect x="18" y="16" width="170" height="40" rx="12" fill="#161B2E" stroke="#38435F"/>
+  <text x="42" y="42" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">SYSTEM BLOCK</text>
+  <path d="M214 36H1180" stroke="url(#g)" stroke-width="4" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="g" x1="214" y1="36" x2="1180" y2="36" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58A6FF"/>
+      <stop offset="0.5" stop-color="#8A6CFF"/>
+      <stop offset="1" stop-color="#57E389"/>
+    </linearGradient>
+  </defs>
+</svg>

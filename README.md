@@ -21,13 +21,17 @@
 
 </div>
 
-## Builder Map
+<div align="center">
+  <img width="100%" src="./assets/section-bar.svg" alt="System block" />
+</div>
 
 <div align="center">
   <img width="100%" src="./assets/builder-map.svg" alt="Builder map" />
 </div>
 
-## Featured
+<div align="center">
+  <img width="100%" src="./assets/section-bar.svg" alt="System block" />
+</div>
 
 <div align="center">
 
@@ -47,7 +51,9 @@
 
 </div>
 
-## Signals
+<div align="center">
+  <img width="100%" src="./assets/section-bar.svg" alt="System block" />
+</div>
 
 <div align="center">
 
@@ -63,7 +69,9 @@
 
 </div>
 
-## Stack
+<div align="center">
+  <img width="100%" src="./assets/section-bar.svg" alt="System block" />
+</div>
 
 <div align="center">
 
@@ -78,7 +86,9 @@
   <img src="https://img.shields.io/badge/Windows_Tools-0078D6?style=flat-square&logo=windows&logoColor=white" alt="Windows tools" />
 </p>
 
-## Quick Access
+<div align="center">
+  <img width="100%" src="./assets/section-bar.svg" alt="System block" />
+</div>
 
 <div align="center">
 
@@ -88,7 +98,9 @@
 
 </div>
 
-## Activity
+<div align="center">
+  <img width="100%" src="./assets/section-bar.svg" alt="System block" />
+</div>
 
 <div align="center">
 
@@ -96,7 +108,9 @@
 
 </div>
 
-## Builder Note
+<div align="center">
+  <img width="100%" src="./assets/section-bar.svg" alt="System block" />
+</div>
 
 <div align="center">
 
