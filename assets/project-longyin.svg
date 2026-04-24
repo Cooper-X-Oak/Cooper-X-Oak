@@ -1,0 +1,15 @@
+<svg width="560" height="220" viewBox="0 0 560 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="560" height="220" rx="26" fill="#0D1117"/>
+  <path d="M0 48L114 0H560V220H0V48Z" fill="#121A28"/>
+  <path d="M0 156L137 118L240 220H0V156Z" fill="#0F2418"/>
+  <rect x="26" y="24" width="144" height="28" rx="14" fill="#2EA043"/>
+  <text x="48" y="43" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">BEST VALIDATION</text>
+  <text x="28" y="96" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">LongYinMod</text>
+  <text x="28" y="129" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">RisingFame</text>
+  <text x="29" y="165" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="16">Game mod with real traction, stars,</text>
+  <text x="29" y="187" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="16">and clear user value.</text>
+  <text x="434" y="74" fill="#2EA043" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="900">21★</text>
+  <text x="420" y="112" fill="#C9D1D9" font-family="Segoe UI, Arial, sans-serif" font-size="18">public proof</text>
+  <rect x="392" y="136" width="134" height="42" rx="21" fill="#161B22" stroke="#30363D"/>
+  <text x="425" y="162" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">C# / BepInEx</text>
+</svg>

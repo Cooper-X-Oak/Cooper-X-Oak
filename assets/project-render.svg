@@ -1,0 +1,16 @@
+<svg width="560" height="220" viewBox="0 0 560 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="560" height="220" rx="26" fill="#0D1117"/>
+  <rect x="0" y="0" width="560" height="220" rx="26" fill="#171320"/>
+  <circle cx="479" cy="66" r="84" fill="#F0883E" fill-opacity="0.08"/>
+  <circle cx="425" cy="168" r="95" fill="#58A6FF" fill-opacity="0.08"/>
+  <rect x="26" y="24" width="144" height="28" rx="14" fill="#F0883E"/>
+  <text x="47" y="43" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">AMBITION</text>
+  <text x="28" y="96" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">render-your-</text>
+  <text x="28" y="129" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">content</text>
+  <text x="29" y="165" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="16">Structured rendering for shareable</text>
+  <text x="29" y="187" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="16">content outputs and visual cards.</text>
+  <text x="356" y="88" fill="#F0883E" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="900">RENDER</text>
+  <text x="371" y="120" fill="#C9D1D9" font-family="Segoe UI, Arial, sans-serif" font-size="18">format -> card</text>
+  <rect x="349" y="144" width="176" height="42" rx="21" fill="#161B22" stroke="#30363D"/>
+  <text x="390" y="170" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">TS / Rendering</text>
+</svg>

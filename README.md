@@ -32,17 +32,17 @@
 <div align="center">
 
 <a href="https://github.com/Cooper-X-Oak/LongYinMod_RisingFame">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Cooper-X-Oak&repo=LongYinMod_RisingFame&theme=transparent&border_color=30363d&title_color=58a6ff&icon_color=2ea043&text_color=c9d1d9" />
+  <img width="47%" src="./assets/project-longyin.svg" alt="LongYinMod card" />
 </a>
 <a href="https://github.com/Cooper-X-Oak/OpenType">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Cooper-X-Oak&repo=OpenType&theme=transparent&border_color=30363d&title_color=58a6ff&icon_color=2ea043&text_color=c9d1d9" />
+  <img width="47%" src="./assets/project-opentype.svg" alt="OpenType card" />
 </a>
 
 <a href="https://github.com/Cooper-X-Oak/render-your-content">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Cooper-X-Oak&repo=render-your-content&theme=transparent&border_color=30363d&title_color=58a6ff&icon_color=2ea043&text_color=c9d1d9" />
+  <img width="47%" src="./assets/project-render.svg" alt="render-your-content card" />
 </a>
 <a href="https://github.com/Cooper-X-Oak/majstyle.js">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Cooper-X-Oak&repo=majstyle.js&theme=transparent&border_color=30363d&title_color=58a6ff&icon_color=2ea043&text_color=c9d1d9" />
+  <img width="47%" src="./assets/project-majstyle.svg" alt="majstyle card" />
 </a>
 
 </div>

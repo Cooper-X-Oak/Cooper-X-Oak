@@ -1,0 +1,15 @@
+<svg width="560" height="220" viewBox="0 0 560 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="560" height="220" rx="26" fill="#0D1117"/>
+  <rect x="0" y="0" width="560" height="220" rx="26" fill="#17171C"/>
+  <path d="M356 0H560V90L450 220H314L356 0Z" fill="#272114"/>
+  <path d="M0 220L0 132L154 94L228 220H0Z" fill="#1E1923"/>
+  <rect x="26" y="24" width="134" height="28" rx="14" fill="#C69026"/>
+  <text x="53" y="43" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">UTILITY</text>
+  <text x="28" y="96" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="800">majstyle.js</text>
+  <text x="29" y="138" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="16">A sharp-use-case Mahjong Soul</text>
+  <text x="29" y="160" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="16">style and risk analyzer.</text>
+  <text x="404" y="88" fill="#E3B341" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="900">PLAY</text>
+  <text x="394" y="120" fill="#C9D1D9" font-family="Segoe UI, Arial, sans-serif" font-size="18">table-reading tool</text>
+  <rect x="365" y="144" width="158" height="42" rx="21" fill="#161B22" stroke="#30363D"/>
+  <text x="405" y="170" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">JS / Userscript</text>
+</svg>
