@@ -1,0 +1,34 @@
+# Credentials / secrets (never commit)
+*.env
+.env.*
+cookies.txt
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.*
+*token*
+*secret*
+
+# Temp / scratch artifacts
+.scratch/
+.temp/
+.draft/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Python (artifacts/ tooling)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node deps / build (if any tooling added later)
+node_modules/
+dist/
+build/
