@@ -154,3 +154,34 @@ review remain separate required capabilities.
   `visual_design`, `craft`, implementation, or final review.
 - The relationship between the new Ring Ledger signature and the current GitHub
   account avatar remains unanswered and must not be inferred.
+
+## Production decisions — questions 53–65
+
+The previously unresolved launch decisions were subsequently user-locked and
+independently adjudicated for GitHub/GFM production:
+
+- Launch uses a dual-mark transition: keep the current GitHub account avatar
+  and use Ring Ledger as the README signature.
+- A dedicated public Capability Routing Issue is the experiment case and the
+  destination for counterexamples.
+- The case and Profile follow `Question → Hypothesis → Evidence → Next`.
+- Evidence is the page's only restrained black field and consists of three
+  natural-language proof sentences, never terminal output.
+- The three public proofs are: missing visual authority blocks UI mutation;
+  applicable specific providers outrank generic fallbacks; route/evaluation
+  history remains append-only.
+- Production is an open editorial translation: all identity, experiment,
+  evidence, and CTA semantics stay in GFM; SVGs are shallow visual roles.
+- One deterministic Ring Ledger model emits two light/dark visual roles. A
+  320px render is evidence, not a third runtime asset.
+- Hero uses a cross-row reverse lock: right-heavy glyph image, then left-aligned
+  H1 and lead. It is never a table or literal two-column composition.
+- The Evidence marker is decorative and directly precedes the native Evidence
+  heading. It contains no proof copy, URL, or CTA.
+- Ring Ledger continues through a two-level native heading ledger and exactly
+  three thematic breaks. Principles, Open loop, Discuss, and experiment fields
+  receive no repeated Ring SVG.
+
+The full measurable contract is `visual-design-spec.md`. These decisions close
+the high-impact pre-production question set; exact implementation values are
+verified against that contract rather than reopened as preference questions.

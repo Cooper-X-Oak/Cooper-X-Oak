@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "run_id": "issue-4-profile-v2-professional-identity",
-  "active_revision": "routing/revision-003.yaml",
+  "active_revision": "routing/revision-006.yaml",
   "revisions": [
     {
       "id": "revision-001",
@@ -32,6 +32,36 @@
       "created_at": "2026-07-15T14:26:13.520268Z",
       "sealed_at": "2026-07-15T14:30:28.323560Z",
       "reason": "Record an isolated draft review of the three reversible Pixel Laboratory concept boards while keeping canonical product visual design, craft, design review, and UI mutation unresolved."
+    },
+    {
+      "id": "revision-004",
+      "path": "routing/revision-004.yaml",
+      "status": "sealed",
+      "sha256": "f259fbbc989f49a6d11d0c74b41c8eb0178c727f800ab9062b1ea9e0afd1efd5",
+      "parent_sha256": "26c3b6bec50588928c00bee0c3470e393446e1be5b08641a28a9549ad7a87d51",
+      "created_at": "2026-07-15T15:26:21.344260Z",
+      "sealed_at": "2026-07-15T15:33:56.927765Z",
+      "reason": "Resolve canonical Ring Ledger visual design, static craft, GitHub implementation, evidence, independent final review, and gate roles from user decisions 53-65."
+    },
+    {
+      "id": "revision-005",
+      "path": "routing/revision-005.yaml",
+      "status": "sealed",
+      "sha256": "718e9173d35c8dcd19503cc122f95688409d4e87ea0488ffead71cb62d107b66",
+      "parent_sha256": "f259fbbc989f49a6d11d0c74b41c8eb0178c727f800ab9062b1ea9e0afd1efd5",
+      "created_at": "2026-07-15T15:52:10.743351Z",
+      "sealed_at": "2026-07-15T15:52:44.042097Z",
+      "reason": "Remove the circular requirement for evaluation outputs to exist before entering evaluating; gate resolution consumes the current release profile and implementation evidence, then produces round-001."
+    },
+    {
+      "id": "revision-006",
+      "path": "routing/revision-006.yaml",
+      "status": "sealed",
+      "sha256": "456ba2b10a6f84ff9b17f706f0baa55adf2eecd60691464e35b8133acc1e74b2",
+      "parent_sha256": "718e9173d35c8dcd19503cc122f95688409d4e87ea0488ffead71cb62d107b66",
+      "created_at": "2026-07-15T16:10:27.775079Z",
+      "sealed_at": "2026-07-15T16:11:49.009054Z",
+      "reason": "Assign each evaluation output to exactly one responsibility before sealing: evidence collection owns deterministic evidence, independent design review owns report.md, and gate resolution owns evidence.json. The artifact, providers, actors, and passed independent verdict are unchanged."
     }
   ]
 }

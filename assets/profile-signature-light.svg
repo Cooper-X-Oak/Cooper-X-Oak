@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="signature-title signature-desc" viewBox="0 0 1200 240">
-  <title id="signature-title">COOPER OAK</title>
-  <desc id="signature-desc">Cooper Oak pixel-green editorial signature.</desc>
-  <rect width="1200" height="240" fill="#f0f0f0"/>
-  <text x="48" y="96" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800">COOPER OAK</text>
-  <text x="50" y="144" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="600">GAME MODS · AI TOOLS · USEFUL EXPERIMENTS</text>
-  <rect x="48" y="180" width="168" height="8" fill="#6ed959"/>
-  <rect x="216" y="183" width="576" height="2" fill="#c7c7c7"/>
-  <text x="48" y="220" fill="#4d4d4d" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="500">BUILT IN PUBLIC · 2026—</text>
-  <rect x="888" y="0" width="72" height="72" fill="#6ed959"/>
-  <rect x="1080" y="0" width="72" height="72" fill="#6ed959"/>
-  <rect x="936" y="72" width="96" height="72" fill="#6ed959"/>
-  <rect x="1032" y="72" width="96" height="72" fill="#6ed959"/>
-  <rect x="984" y="144" width="96" height="96" fill="#6ed959"/>
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ring-ledger-title ring-ledger-desc" data-role="hero_signature" viewBox="0 0 1200 264">
+  <title id="ring-ledger-title">Ring Ledger Oak glyph</title>
+  <desc id="ring-ledger-desc">Open stepped rings resolve into an Oak trunk and evidence ledger.</desc>
+  <rect id="hero-field" width="1200" height="264" fill="#F5F6F1" data-token="canvas"/>
+  <path id="open-ledger-rule" d="M64 220H600" fill="none" stroke="#CDD3CD" data-token="rule" stroke-width="2" shape-rendering="crispEdges"/>
+  <rect id="ledger-origin" x="64" y="208" width="48" height="24" fill="#173F2D" data-token="forest" shape-rendering="crispEdges"/>
+  <g id="ring-ledger-glyph">
+    <path id="ring-outer" d="M720 184V96H792V48H1032V72H1128V168" fill="none" stroke="#173F2D" data-token="forest" stroke-width="24" stroke-linecap="square" stroke-linejoin="miter" shape-rendering="crispEdges"/>
+    <path id="ring-inner" d="M792 184V120H840V96H1008V120H1080V184" fill="none" stroke="#111512" data-token="ink" stroke-width="24" stroke-linecap="square" stroke-linejoin="miter" shape-rendering="crispEdges"/>
+    <path id="ring-heart" d="M864 184V152H984V184" fill="none" stroke="#173F2D" data-token="forest" stroke-width="24" stroke-linecap="square" stroke-linejoin="miter" shape-rendering="crispEdges"/>
+    <path id="oak-ledger" d="M924 152V232M924 184H852M924 208H1032M924 232H876" fill="none" stroke="#173F2D" data-token="forest" stroke-width="24" stroke-linecap="square" stroke-linejoin="miter" shape-rendering="crispEdges"/>
+  </g>
 </svg>

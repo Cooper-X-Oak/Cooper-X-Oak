@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-role="evidence_black_marker" viewBox="0 0 1200 112">
+  <rect id="black-field" width="1200" height="112" fill="#111512" data-token="blackField"/>
+  <path id="marker-rule" d="M80 56H640" fill="none" stroke="#CDD3CD" data-token="rule" stroke-width="2" shape-rendering="crispEdges"/>
+  <g id="ring-ledger-marker">
+    <path id="marker-outer" d="M780 84V52H828V28H1020V40H1116V76" fill="none" stroke="#CDD3CD" data-token="rule" stroke-width="16" stroke-linecap="square" stroke-linejoin="miter" shape-rendering="crispEdges"/>
+    <path id="marker-inner" d="M840 84V64H888V52H1008V64H1068V84" fill="none" stroke="#CDD3CD" data-token="rule" stroke-width="16" stroke-linecap="square" stroke-linejoin="miter" shape-rendering="crispEdges"/>
+    <path id="marker-ledger" d="M948 52V100M948 76H888M948 88H1044" fill="none" stroke="#CDD3CD" data-token="rule" stroke-width="16" stroke-linecap="square" stroke-linejoin="miter" shape-rendering="crispEdges"/>
+  </g>
+  <rect id="marker-boundary" x="1" y="1" width="1198" height="110" fill="none" stroke="#CDD3CD" data-token="rule" stroke-width="2" shape-rendering="crispEdges"/>
+</svg>

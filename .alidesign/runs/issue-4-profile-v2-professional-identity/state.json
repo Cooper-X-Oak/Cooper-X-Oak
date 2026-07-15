@@ -6,14 +6,16 @@
   "mode": "full",
   "milestone": "M002",
   "issue": "AD-002",
-  "state": "component_domain",
-  "iteration": 0,
+  "state": "accepted",
+  "iteration": 1,
   "active_spec": ".alidesign/runs/issue-4-profile-v2-professional-identity/spec.md",
-  "best_candidate": "user-selected: 03 Ring Ledger; avatar transition and product visual design remain unresolved",
+  "best_candidate": "production contract: Ring Ledger dual-mark transition with native GFM ledger and two visual asset roles",
   "blockers": [],
   "evidence": [
     ".alidesign/runs/issue-4-profile-v2-professional-identity/content-evidence.md",
-    ".alidesign/runs/issue-4-profile-v2-professional-identity/claim-proof-map.md"
+    ".alidesign/runs/issue-4-profile-v2-professional-identity/claim-proof-map.md",
+    "https://github.com/Cooper-X-Oak/Cooper-X-Oak/issues/6",
+    ".alidesign/runs/issue-4-profile-v2-professional-identity/evidence/implementation-verification.md"
   ],
   "records": [
     {
@@ -135,6 +137,51 @@
       "kind": "best_candidate",
       "value": "user-selected: 03 Ring Ledger; avatar transition and product visual design remain unresolved",
       "at": "2026-07-15T14:54:37.876227Z"
+    },
+    {
+      "kind": "decision",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/visual-design-spec.md",
+      "at": "2026-07-15T15:34:39.552932Z"
+    },
+    {
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/craft-criteria.md",
+      "at": "2026-07-15T15:34:40.004589Z"
+    },
+    {
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/interaction-state-matrix.md",
+      "at": "2026-07-15T15:34:40.491728Z"
+    },
+    {
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/implementation-authority.md",
+      "at": "2026-07-15T15:34:40.945719Z"
+    },
+    {
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/routing/revision-004.yaml",
+      "at": "2026-07-15T15:34:41.384587Z"
+    },
+    {
+      "kind": "evidence",
+      "value": "https://github.com/Cooper-X-Oak/Cooper-X-Oak/issues/6",
+      "at": "2026-07-15T15:34:41.810611Z"
+    },
+    {
+      "kind": "best_candidate",
+      "value": "production contract: Ring Ledger dual-mark transition with native GFM ledger and two visual asset roles",
+      "at": "2026-07-15T15:34:42.338291Z"
+    },
+    {
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/implementation-record.md",
+      "at": "2026-07-15T15:51:50.680310Z"
+    },
+    {
+      "kind": "evidence",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/evidence/implementation-verification.md",
+      "at": "2026-07-15T15:51:51.165326Z"
     }
   ],
   "routing_manifest": "routing.yaml",
@@ -159,12 +206,91 @@
       "sha256": "f759571707ba9e0af88731ca7fc627c506cc334fc51d3552e5cfa3ec987235b6",
       "gate": "structure_ready",
       "sealed_at": "2026-07-15T14:13:08.348702Z"
+    },
+    {
+      "revision_id": "revision-004",
+      "revision_ref": "routing/revision-004.yaml",
+      "sha256": "f259fbbc989f49a6d11d0c74b41c8eb0178c727f800ab9062b1ea9e0afd1efd5",
+      "gate": "semantics_ready",
+      "sealed_at": "2026-07-15T15:34:17.956849Z"
+    },
+    {
+      "revision_id": "revision-004",
+      "revision_ref": "routing/revision-004.yaml",
+      "sha256": "f259fbbc989f49a6d11d0c74b41c8eb0178c727f800ab9062b1ea9e0afd1efd5",
+      "gate": "behavior_ready",
+      "sealed_at": "2026-07-15T15:34:50.414562Z"
+    },
+    {
+      "revision_id": "revision-004",
+      "revision_ref": "routing/revision-004.yaml",
+      "sha256": "f259fbbc989f49a6d11d0c74b41c8eb0178c727f800ab9062b1ea9e0afd1efd5",
+      "gate": "implementation_authorized",
+      "sealed_at": "2026-07-15T15:34:51.038123Z"
+    },
+    {
+      "revision_id": "revision-005",
+      "revision_ref": "routing/revision-005.yaml",
+      "sha256": "718e9173d35c8dcd19503cc122f95688409d4e87ea0488ffead71cb62d107b66",
+      "gate": "artifact_runnable",
+      "sealed_at": "2026-07-15T15:52:56.075883Z"
+    },
+    {
+      "revision_id": "revision-006",
+      "revision_ref": "routing/revision-006.yaml",
+      "sha256": "456ba2b10a6f84ff9b17f706f0baa55adf2eecd60691464e35b8133acc1e74b2",
+      "gate": "evaluation_passed",
+      "sealed_at": "2026-07-15T16:12:24.960467Z"
     }
   ],
-  "sealed_evaluations": [],
+  "sealed_evaluations": [
+    {
+      "round": "round-001",
+      "verdict": "passed",
+      "routing_revision": "revision-006",
+      "sealed_at": "2026-07-15T16:12:24.960392Z",
+      "files": [
+        {
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/evaluation/round-001/evidence.json",
+          "sha256": "be818536995519bd283f63be77745a52e7817ca7d6204196c0770abce113db4e"
+        },
+        {
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/evaluation/round-001/invalid-320-dark.png",
+          "sha256": "13e6befac25c4d0fb1faeb11bb17023b01b8df3c23aa9e44f25aaf192df5f6bb"
+        },
+        {
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/evaluation/round-001/invalid-320-images-disabled.png",
+          "sha256": "608b945ad8e18f74520edbb1b4978bbf70eb339ccc06c63247b7c3369ec99abc"
+        },
+        {
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/evaluation/round-001/invalid-320-light.png",
+          "sha256": "7a638ed02c6cd4f79f74c32f628bed42f7843bcd37c43fd5f486d5d2351c4645"
+        },
+        {
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/evaluation/round-001/report.md",
+          "sha256": "5f7ca62e7ef81128c0a274baa748446ca83ef46be31e4920e6195f23e7f6068a"
+        },
+        {
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/evidence/dom-metrics.json",
+          "sha256": "ef69f89a3ab73b75b79efb0c6326029f8930ad5eb5b473fbdb3c4969e3734e8a"
+        },
+        {
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/evidence/implementation-verification.md",
+          "sha256": "02a1ce590435949bd9d1ee9a7deb41f7d51e5d423eb4eaab8b1bb6e8bc2cc6b8"
+        }
+      ],
+      "round_trees": [
+        {
+          "round": "round-001",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/evaluation/round-001",
+          "sha256": "73871a5a52c754cada0e6902c1e6f1d7b5655c889126814a5c19fa572347093c"
+        }
+      ]
+    }
+  ],
   "resume_state": null,
   "created_at": "2026-07-15T12:52:48.108123Z",
-  "updated_at": "2026-07-15T14:54:37.876379Z",
+  "updated_at": "2026-07-15T16:12:24.960622Z",
   "history": [
     {
       "at": "2026-07-15T12:52:48.108140Z",
@@ -345,6 +471,110 @@
       "action": "recorded",
       "kind": "best_candidate",
       "value": "user-selected: 03 Ring Ledger; avatar transition and product visual design remain unresolved"
+    },
+    {
+      "at": "2026-07-15T15:34:17.956877Z",
+      "action": "transition",
+      "from_state": "component_domain",
+      "to_state": "interaction_states",
+      "gate": "semantics_ready",
+      "reason": "User decisions 53-65 and independent adjudications define canonical Ring Ledger asset projection, Hero, Evidence field, and GFM page grammar.",
+      "routing_revision": "revision-004",
+      "routing_sha256": "f259fbbc989f49a6d11d0c74b41c8eb0178c727f800ab9062b1ea9e0afd1efd5"
+    },
+    {
+      "at": "2026-07-15T15:34:39.552953Z",
+      "action": "recorded",
+      "kind": "decision",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/visual-design-spec.md"
+    },
+    {
+      "at": "2026-07-15T15:34:40.004622Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/craft-criteria.md"
+    },
+    {
+      "at": "2026-07-15T15:34:40.491761Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/interaction-state-matrix.md"
+    },
+    {
+      "at": "2026-07-15T15:34:40.945745Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/implementation-authority.md"
+    },
+    {
+      "at": "2026-07-15T15:34:41.384620Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/routing/revision-004.yaml"
+    },
+    {
+      "at": "2026-07-15T15:34:41.810632Z",
+      "action": "recorded",
+      "kind": "evidence",
+      "value": "https://github.com/Cooper-X-Oak/Cooper-X-Oak/issues/6"
+    },
+    {
+      "at": "2026-07-15T15:34:42.338329Z",
+      "action": "recorded",
+      "kind": "best_candidate",
+      "value": "production contract: Ring Ledger dual-mark transition with native GFM ledger and two visual asset roles"
+    },
+    {
+      "at": "2026-07-15T15:34:50.414590Z",
+      "action": "transition",
+      "from_state": "interaction_states",
+      "to_state": "design_ready",
+      "gate": "behavior_ready",
+      "reason": "Static behavior, image-failure, keyboard/link order, 320px reflow, theme behavior, and required craft criteria are declared; motion is traceably not applicable.",
+      "routing_revision": "revision-004",
+      "routing_sha256": "f259fbbc989f49a6d11d0c74b41c8eb0178c727f800ab9062b1ea9e0afd1efd5"
+    },
+    {
+      "at": "2026-07-15T15:34:51.038151Z",
+      "action": "transition",
+      "from_state": "design_ready",
+      "to_state": "implementing",
+      "gate": "implementation_authorized",
+      "reason": "GitHub standard workflow preflight, user authorization, two-role production projection, and all ui_mutation capability barriers are resolved.",
+      "routing_revision": "revision-004",
+      "routing_sha256": "f259fbbc989f49a6d11d0c74b41c8eb0178c727f800ab9062b1ea9e0afd1efd5"
+    },
+    {
+      "at": "2026-07-15T15:51:50.680331Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/implementation-record.md"
+    },
+    {
+      "at": "2026-07-15T15:51:51.165365Z",
+      "action": "recorded",
+      "kind": "evidence",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/evidence/implementation-verification.md"
+    },
+    {
+      "at": "2026-07-15T15:52:56.075909Z",
+      "action": "transition",
+      "from_state": "implementing",
+      "to_state": "evaluating",
+      "gate": "artifact_runnable",
+      "reason": "The schema-3 source, semantic README, preview, four deterministic Ring Ledger SVGs, automated checks, public links, render matrix, and image-failure evidence are complete; revision-005 removes circular evaluation inputs.",
+      "routing_revision": "revision-005",
+      "routing_sha256": "718e9173d35c8dcd19503cc122f95688409d4e87ea0488ffead71cb62d107b66"
+    },
+    {
+      "at": "2026-07-15T16:12:24.960481Z",
+      "action": "transition",
+      "from_state": "evaluating",
+      "to_state": "accepted",
+      "gate": "evaluation_passed",
+      "reason": "Independent release review passed after the provisional 320 capture was rejected and replaced before verdict with CDP-verified 320px screenshots and DOM metrics; gate-only revision-006 assigns each evaluation output to one responsibility.",
+      "routing_revision": "revision-006",
+      "routing_sha256": "456ba2b10a6f84ff9b17f706f0baa55adf2eecd60691464e35b8133acc1e74b2"
     }
   ]
 }

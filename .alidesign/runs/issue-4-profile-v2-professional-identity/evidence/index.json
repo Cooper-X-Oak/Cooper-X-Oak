@@ -16,6 +16,32 @@
       "kind": "historical_baseline",
       "ref": "../../issue-2-profile-redesign/content-evidence.md",
       "scope": "Factual lead only; v1 design and evaluation are not migrated"
+    },
+    {
+      "kind": "public_experiment",
+      "ref": "https://github.com/Cooper-X-Oak/Cooper-X-Oak/issues/6",
+      "scope": "Question, hypothesis, three append-only evidence comments, next step, and counterexample path"
+    },
+    {
+      "kind": "implementation_verification",
+      "ref": "implementation-verification.md",
+      "scope": "Automated contract, XML, contrast, responsive, fallback, link, history, and route checks"
+    },
+    {
+      "kind": "render_matrix",
+      "refs": [
+        "profile-v2-860-light.png",
+        "profile-v2-860-dark.png",
+        "profile-v2-320-light.png",
+        "profile-v2-320-dark.png",
+        "profile-v2-320-images-disabled.png"
+      ],
+      "scope": "Desktop/narrow, light/dark, and image-failure launch evidence"
+    },
+    {
+      "kind": "dom_metrics",
+      "ref": "dom-metrics.json",
+      "scope": "CDP viewport, scroll width, overflow-node, and link-bound measurements for the render matrix"
     }
   ]
 }
