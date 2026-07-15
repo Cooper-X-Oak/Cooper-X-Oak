@@ -1,0 +1,96 @@
+{
+  "schema_version": 2,
+  "run_id": "issue-4-profile-v2-professional-identity",
+  "project": "Cooper-X-Oak-profile-issue-4",
+  "task": "Rebuild Profile v2 from professional AI-native positioning and three art directions",
+  "mode": "full",
+  "milestone": "M002",
+  "issue": "AD-002",
+  "state": "planning",
+  "iteration": 0,
+  "active_spec": ".alidesign/runs/issue-4-profile-v2-professional-identity/spec.md",
+  "best_candidate": "reversible recommendation: concepts/01-proof-as-identity.md; not selected",
+  "blockers": [],
+  "evidence": [
+    ".alidesign/runs/issue-4-profile-v2-professional-identity/content-evidence.md",
+    ".alidesign/runs/issue-4-profile-v2-professional-identity/claim-proof-map.md"
+  ],
+  "records": [
+    {
+      "kind": "active_spec",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/spec.md",
+      "at": "2026-07-15T13:14:02.130828Z"
+    },
+    {
+      "kind": "best_candidate",
+      "value": "reversible recommendation: concepts/01-proof-as-identity.md; not selected",
+      "at": "2026-07-15T13:14:02.254006Z"
+    },
+    {
+      "kind": "evidence",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/content-evidence.md",
+      "at": "2026-07-15T13:14:02.382056Z"
+    },
+    {
+      "kind": "evidence",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/claim-proof-map.md",
+      "at": "2026-07-15T13:14:02.539188Z"
+    }
+  ],
+  "routing_manifest": "routing.yaml",
+  "sealed_routes": [
+    {
+      "revision_id": "revision-001",
+      "revision_ref": "routing/revision-001.yaml",
+      "sha256": "3b7b2e83bf22e8916c887563b08947af450692677b184908b401764e9fc8964a",
+      "gate": "authority_resolved",
+      "sealed_at": "2026-07-15T13:13:23.153451Z"
+    }
+  ],
+  "sealed_evaluations": [],
+  "resume_state": null,
+  "created_at": "2026-07-15T12:52:48.108123Z",
+  "updated_at": "2026-07-15T13:14:02.539351Z",
+  "history": [
+    {
+      "at": "2026-07-15T12:52:48.108140Z",
+      "action": "initialized",
+      "state": "discovery",
+      "mode": "full"
+    },
+    {
+      "at": "2026-07-15T13:13:23.153475Z",
+      "action": "transition",
+      "from_state": "discovery",
+      "to_state": "planning",
+      "gate": "authority_resolved",
+      "reason": null,
+      "routing_revision": "revision-001",
+      "routing_sha256": "3b7b2e83bf22e8916c887563b08947af450692677b184908b401764e9fc8964a"
+    },
+    {
+      "at": "2026-07-15T13:14:02.130868Z",
+      "action": "recorded",
+      "kind": "active_spec",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/spec.md"
+    },
+    {
+      "at": "2026-07-15T13:14:02.254036Z",
+      "action": "recorded",
+      "kind": "best_candidate",
+      "value": "reversible recommendation: concepts/01-proof-as-identity.md; not selected"
+    },
+    {
+      "at": "2026-07-15T13:14:02.382076Z",
+      "action": "recorded",
+      "kind": "evidence",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/content-evidence.md"
+    },
+    {
+      "at": "2026-07-15T13:14:02.539208Z",
+      "action": "recorded",
+      "kind": "evidence",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/claim-proof-map.md"
+    }
+  ]
+}

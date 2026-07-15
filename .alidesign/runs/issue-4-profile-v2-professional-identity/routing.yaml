@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "run_id": "issue-4-profile-v2-professional-identity",
+  "active_revision": "routing/revision-001.yaml",
+  "revisions": [
+    {
+      "id": "revision-001",
+      "path": "routing/revision-001.yaml",
+      "status": "sealed",
+      "sha256": "3b7b2e83bf22e8916c887563b08947af450692677b184908b401764e9fc8964a",
+      "parent_sha256": null,
+      "created_at": "2026-07-15T12:52:48.108227Z",
+      "sealed_at": "2026-07-15T13:07:02.229294Z",
+      "reason": "Initial capability-routing record."
+    }
+  ]
+}

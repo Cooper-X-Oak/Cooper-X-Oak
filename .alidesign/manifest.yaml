@@ -25,7 +25,7 @@ authority:
   components: ".alidesign/declarations/components.md"
   templates: ".alidesign/declarations/templates.md"
   runs: ".alidesign/runs/"
-  task_request: "Conversation approval on 2026-07-15 and GitHub Issue #2"
+  task_request: "Conversation approvals on 2026-07-15; GitHub Issue #2 is the v1 baseline and Issue #4 is the schema-v2 redesign"
   repository_policy: "AGENTS.md"
   platform:
     - "https://docs.github.com/en/account-and-profile/concepts/personal-profile"
@@ -38,8 +38,12 @@ roadmap: ".alidesign/roadmap.md"
 milestones: ".alidesign/milestones/"
 issues: ".alidesign/issues/"
 evaluation_profile: ".alidesign/evaluation-profile.yaml"
+capability_routing:
+  run_manifest_pattern: ".alidesign/runs/{run_id}/routing.yaml"
+  contract: "JSON-compatible YAML; canonical capabilities, sealed revisions, and evaluation rounds are append-only"
 retention:
   commit_control_directory: true
   raw_browser_evidence: "Keep only evidence needed to audit the accepted round."
 unresolved_authority:
   - "No verified contact, website, or social URL; contact CTA is out of scope rather than fabricated."
+  - "Profile v2 has no resolved Cooper-specific personal-brand art-direction provider or selected direction."

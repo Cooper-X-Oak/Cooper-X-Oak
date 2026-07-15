@@ -1,0 +1,21 @@
+{
+  "run_id": "issue-4-profile-v2-professional-identity",
+  "snapshot_date": "2026-07-15",
+  "evidence": [
+    {
+      "kind": "content_inventory",
+      "ref": "../content-evidence.md",
+      "scope": "Public identity, repository maturity, claim limits, and counter-evidence"
+    },
+    {
+      "kind": "claim_proof_map",
+      "ref": "../claim-proof-map.md",
+      "scope": "Allowed wording, direct proof, maturity, and forbidden promotion"
+    },
+    {
+      "kind": "historical_baseline",
+      "ref": "../../issue-2-profile-redesign/content-evidence.md",
+      "scope": "Factual lead only; v1 design and evaluation are not migrated"
+    }
+  ]
+}
