@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Pixel Laboratory RING LEDGER concept board</title>
+  <desc id="desc">A reversible Cooper Oak identity concept showing an abstract Oak glyph, editorial hero, current Capability Routing experiment, and narrow-layout study.</desc>
+  <metadata>{&quot;run_id&quot;:&quot;issue-4-profile-v2-professional-identity&quot;,&quot;board_id&quot;:&quot;03-ring-ledger&quot;,&quot;route_revision&quot;:&quot;revision-003&quot;,&quot;route_sha256&quot;:&quot;26c3b6bec50588928c00bee0c3470e393446e1be5b08641a28a9549ad7a87d51&quot;,&quot;input_sha256&quot;:&quot;83438417693fbb38c0a18367d098cf1504688e04dc847dc8edc349c313bc0b9c&quot;,&quot;artifact_role&quot;:&quot;reversible concept board; not a Profile asset&quot;}</metadata>
+  <rect x="0" y="0" width="1600" height="1000" fill="#F5F6F1"/>
+<text x="72" y="54" fill="#173F2D" font-family="Consolas, &apos;Courier New&apos;, monospace" font-size="13" font-weight="700" letter-spacing="1.4" text-anchor="start">PIXEL LABORATORY / VARIANT 03</text>
+<text x="72" y="92" fill="#111512" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="0.4" text-anchor="start">RING LEDGER</text>
+<text x="72" y="120" fill="#5C655E" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" letter-spacing="0" text-anchor="start">Stepped growth rings bind identity, unfinished history and evidence.</text>
+<line x1="72" y1="139" x2="1528" y2="139" stroke="#111512" stroke-width="2"/>
+<line x1="1272" y1="139" x2="1272" y2="948" stroke="#CDD3CD" stroke-width="1"/>
+<text x="1312" y="169" fill="#173F2D" font-family="Consolas, &apos;Courier New&apos;, monospace" font-size="12" font-weight="700" letter-spacing="1.2" text-anchor="start">NARROW / 360</text>
+<text x="72" y="976" fill="#5C655E" font-family="Consolas, &apos;Courier New&apos;, monospace" font-size="12" font-weight="400" letter-spacing="0.3" text-anchor="start">RISK / Can read as a technical diagram or generic data motif without the Oak trunk.</text>
+<text x="72" y="188" fill="#111512" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="1.4" text-anchor="start">COOPER OAK</text>
+<text x="72" y="238" fill="#111512" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" letter-spacing="0" text-anchor="start">EXPERIMENTS IN KEEPING</text>
+<text x="72" y="291" fill="#111512" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" letter-spacing="0" text-anchor="start">HUMANS IN CONTROL OF</text>
+<text x="72" y="344" fill="#111512" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" letter-spacing="0" text-anchor="start">AI-ASSISTED WORK.</text>
+<text x="72" y="402" fill="#173F2D" font-family="Consolas, &apos;Courier New&apos;, monospace" font-size="13" font-weight="700" letter-spacing="0.65" text-anchor="start">AI WORKFLOW EXPERIMENTER / CURRENTLY TESTING CAPABILITY ROUTING</text>
+<g aria-label="Abstract Oak growth-ring glyph">
+    <path d="M 886.1666666666666 335 V 250.5 H 942.5 V 194.16666666666666 H 1083.3333333333333 V 222.33333333333334 H 1153.75 V 320.9166666666667" fill="none" stroke="#173F2D" stroke-width="17" stroke-linecap="square" stroke-linejoin="miter" shape-rendering="crispEdges"/>
+    <path d="M 942.5 335 V 278.6666666666667 H 970.6666666666666 V 250.5 H 1069.25 V 278.6666666666667 H 1111.5 V 335" fill="none" stroke="#111512" stroke-width="17" stroke-linecap="square" stroke-linejoin="miter" shape-rendering="crispEdges"/>
+    <path d="M 998.8333333333334 335 V 306.83333333333337 H 1055.1666666666667 V 335" fill="none" stroke="#173F2D" stroke-width="17" stroke-linecap="square" stroke-linejoin="miter" shape-rendering="crispEdges"/>
+    <path d="M 1027 306.83333333333337 V 461.75 M 1027 370.20833333333337 H 984.75 M 1027 405.4166666666667 H 1097.4166666666667 M 1027 440.625 H 970.6666666666666 M 1027 461.75 H 1111.5" fill="none" stroke="#173F2D" stroke-width="17" stroke-linecap="square" stroke-linejoin="miter" shape-rendering="crispEdges"/>
+  </g>
+<text x="72" y="530" fill="#173F2D" font-family="Consolas, &apos;Courier New&apos;, monospace" font-size="13" font-weight="700" letter-spacing="1" text-anchor="start">CURRENT EXPERIMENT / CAPABILITY ROUTING</text>
+<line x1="72" y1="552" x2="1224" y2="552" stroke="#111512" stroke-width="2"/>
+<text x="72" y="596" fill="#173F2D" font-family="Consolas, &apos;Courier New&apos;, monospace" font-size="12" font-weight="700" letter-spacing="0.8" text-anchor="start">01 / QUESTION</text>
+<text x="320" y="596" fill="#111512" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="0" text-anchor="start">How should a workflow know which specialist must act next?</text>
+<line x1="72" y1="624" x2="1224" y2="624" stroke="#CDD3CD" stroke-width="1"/>
+<text x="72" y="664" fill="#5C655E" font-family="Consolas, &apos;Courier New&apos;, monospace" font-size="12" font-weight="700" letter-spacing="0.8" text-anchor="start">02 / HYPOTHESIS</text>
+<text x="320" y="664" fill="#111512" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" letter-spacing="0" text-anchor="start">Make capability, provider, inputs, outputs and gates explicit before mutation.</text>
+<line x1="72" y1="692" x2="1224" y2="692" stroke="#CDD3CD" stroke-width="1"/>
+<text x="72" y="732" fill="#5C655E" font-family="Consolas, &apos;Courier New&apos;, monospace" font-size="12" font-weight="700" letter-spacing="0.8" text-anchor="start">03 / EVIDENCE</text>
+<text x="320" y="727" fill="#111512" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" letter-spacing="0" text-anchor="start">The local contract rejects missing visual providers, seals route history</text>
+<text x="320" y="746" fill="#111512" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" letter-spacing="0" text-anchor="start">and keeps UI mutation closed until required capability work exists.</text>
+<line x1="72" y1="766" x2="1224" y2="766" stroke="#CDD3CD" stroke-width="1"/>
+<text x="72" y="800" fill="#5C655E" font-family="Consolas, &apos;Courier New&apos;, monospace" font-size="12" font-weight="700" letter-spacing="0.8" text-anchor="start">04 / NEXT</text>
+<text x="320" y="800" fill="#111512" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" letter-spacing="0" text-anchor="start">Publish a clear case, then learn whether the contract is useful outside this profile experiment.</text>
+<text x="72" y="859" fill="#173F2D" font-family="Consolas, &apos;Courier New&apos;, monospace" font-size="12" font-weight="700" letter-spacing="0.8" text-anchor="start">WORKING PRINCIPLES</text>
+<line x1="72" y1="877" x2="1224" y2="877" stroke="#CDD3CD" stroke-width="1"/>
+<rect x="72" y="903" width="10" height="10" fill="#173F2D"/>
+<text x="90" y="915" fill="#111512" font-family="Consolas, &apos;Courier New&apos;, monospace" font-size="11" font-weight="700" letter-spacing="0.5" text-anchor="start">MAKE CONTROL EXPLICIT</text>
+<rect x="456" y="903" width="10" height="10" fill="#111512"/>
+<text x="474" y="915" fill="#111512" font-family="Consolas, &apos;Courier New&apos;, monospace" font-size="11" font-weight="700" letter-spacing="0.5" text-anchor="start">ROUTE WORK TO SPECIALISTS</text>
+<rect x="840" y="903" width="10" height="10" fill="#111512"/>
+<text x="858" y="915" fill="#111512" font-family="Consolas, &apos;Courier New&apos;, monospace" font-size="11" font-weight="700" letter-spacing="0.5" text-anchor="start">CLAIMS NEED EVIDENCE</text>
+<g aria-label="Abstract Oak growth-ring glyph">
+    <path d="M 1361.6666666666667 248 V 213 H 1385 V 189.66666666666666 H 1443.3333333333333 V 201.33333333333334 H 1472.5 V 242.16666666666666" fill="none" stroke="#173F2D" stroke-width="7" stroke-linecap="square" stroke-linejoin="miter" shape-rendering="crispEdges"/>
+    <path d="M 1385 248 V 224.66666666666666 H 1396.6666666666667 V 213 H 1437.5 V 224.66666666666666 H 1455 V 248" fill="none" stroke="#111512" stroke-width="7" stroke-linecap="square" stroke-linejoin="miter" shape-rendering="crispEdges"/>
+    <path d="M 1408.3333333333333 248 V 236.33333333333331 H 1431.6666666666667 V 248" fill="none" stroke="#173F2D" stroke-width="7" stroke-linecap="square" stroke-linejoin="miter" shape-rendering="crispEdges"/>
+    <path d="M 1420 236.33333333333331 V 300.5 M 1420 262.5833333333333 H 1402.5 M 1420 277.16666666666663 H 1449.1666666666667 M 1420 291.75 H 1396.6666666666667 M 1420 300.5 H 1455" fill="none" stroke="#173F2D" stroke-width="7" stroke-linecap="square" stroke-linejoin="miter" shape-rendering="crispEdges"/>
+  </g>
+<text x="1312" y="326" fill="#111512" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="0.8" text-anchor="start">COOPER OAK</text>
+<text x="1312" y="354" fill="#111512" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="0" text-anchor="start">EXPERIMENTS IN</text>
+<text x="1312" y="376" fill="#111512" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="0" text-anchor="start">KEEPING HUMANS</text>
+<text x="1312" y="398" fill="#111512" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="0" text-anchor="start">IN CONTROL OF</text>
+<text x="1312" y="420" fill="#111512" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="0" text-anchor="start">AI-ASSISTED WORK.</text>
+<line x1="1312" y1="448" x2="1528" y2="448" stroke="#111512" stroke-width="2"/>
+<text x="1312" y="474" fill="#173F2D" font-family="Consolas, &apos;Courier New&apos;, monospace" font-size="9" font-weight="700" letter-spacing="0.55" text-anchor="start">CURRENT EXPERIMENT /</text>
+<text x="1312" y="489" fill="#173F2D" font-family="Consolas, &apos;Courier New&apos;, monospace" font-size="9" font-weight="700" letter-spacing="0.55" text-anchor="start">CAPABILITY ROUTING</text>
+<text x="1312" y="518" fill="#173F2D" font-family="Consolas, &apos;Courier New&apos;, monospace" font-size="9" font-weight="700" letter-spacing="0.45" text-anchor="start">01 / QUESTION</text>
+<text x="1312" y="536" fill="#111512" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">WHO ACTS NEXT?</text>
+<text x="1312" y="568" fill="#5C655E" font-family="Consolas, &apos;Courier New&apos;, monospace" font-size="9" font-weight="700" letter-spacing="0.45" text-anchor="start">02 / HYPOTHESIS</text>
+<text x="1312" y="586" fill="#111512" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" letter-spacing="0" text-anchor="start">ROUTE BEFORE</text>
+<text x="1312" y="601" fill="#111512" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" letter-spacing="0" text-anchor="start">MUTATION.</text>
+<text x="1312" y="632" fill="#5C655E" font-family="Consolas, &apos;Courier New&apos;, monospace" font-size="9" font-weight="700" letter-spacing="0.45" text-anchor="start">03 / EVIDENCE</text>
+<text x="1312" y="650" fill="#111512" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" letter-spacing="0" text-anchor="start">MISSING PROVIDERS</text>
+<text x="1312" y="665" fill="#111512" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" letter-spacing="0" text-anchor="start">BLOCK PROGRESS.</text>
+<text x="1312" y="696" fill="#5C655E" font-family="Consolas, &apos;Courier New&apos;, monospace" font-size="9" font-weight="700" letter-spacing="0.45" text-anchor="start">04 / NEXT</text>
+<text x="1312" y="714" fill="#111512" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" letter-spacing="0" text-anchor="start">TEST BEYOND</text>
+<text x="1312" y="729" fill="#111512" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" letter-spacing="0" text-anchor="start">THIS PROFILE.</text>
+<line x1="1312" y1="754" x2="1528" y2="754" stroke="#CDD3CD" stroke-width="1"/>
+<text x="1312" y="779" fill="#173F2D" font-family="Consolas, &apos;Courier New&apos;, monospace" font-size="9" font-weight="700" letter-spacing="0.55" text-anchor="start">WORKING PRINCIPLES</text>
+<text x="1312" y="808" fill="#111512" font-family="Consolas, &apos;Courier New&apos;, monospace" font-size="9" font-weight="700" letter-spacing="0.15" text-anchor="start">MAKE CONTROL EXPLICIT</text>
+<text x="1312" y="831" fill="#111512" font-family="Consolas, &apos;Courier New&apos;, monospace" font-size="9" font-weight="700" letter-spacing="0.15" text-anchor="start">ROUTE WORK TO SPECIALISTS</text>
+<text x="1312" y="854" fill="#111512" font-family="Consolas, &apos;Courier New&apos;, monospace" font-size="9" font-weight="700" letter-spacing="0.15" text-anchor="start">CLAIMS NEED EVIDENCE</text>
+</svg>

@@ -1,175 +1,146 @@
-# Profile v2 planning specification
+# Profile v2 planning specification — decision round 001
 
-Status: reversible planning contract; not implementation authority.
-Owner phase: `planning`.
+Status: active planning contract; not implementation authority.
+Owner phase: `planning` advancing through `information_architecture` into
+reversible `component_domain` concept exploration.
 
 ## 1. Problem
 
-Profile v1 is truthful, accessible, reproducible, and free of the rejected
-dashboard shell. It remains insufficient as a professional identity because its
-organizing statement is a list of interests and its avatar-derived visual motif
-does not yet express a Cooper-specific method.
+Profile v1 is truthful and mechanically correct, yet its professional identity
+still feels generic and toy-like. The deeper failure is not one banner detail:
+the old workflow could complete every declared stage without ensuring that each
+decision was routed to the required professional capability.
 
-Profile v2 must answer a harder question before layout or styling:
-
-> What consistent professional capability connects Cooper's AI Skills,
-> workflow experiments, released software, and tested systems—and what public
-> proof makes that capability believable?
+Profile v2 must establish a truthful experimental identity, a Cooper-specific
+visual system, and an evidence-led reading structure before touching the
+published Profile.
 
 ## 2. Positioning contract
 
-Working action thesis:
+Approved lead:
 
-> **Cooper Oak makes AI-assisted work inspectable, repeatable, and shippable.**
+> **Experiments in keeping humans in control of AI-assisted work.**
 
-Working support:
+Internal posture: AI workflow experimenter.
 
-> **Agent skills, file-native workflow control planes, and proof-backed tools.**
+Primary visitor: fellow builders and potential collaborators.
 
-This is a planning hypothesis. Final public copy requires explicit review of
-the role label, flagship project, conversion, and bilingual balance.
+Primary action: view the current Capability Routing experiment.
 
-## 3. Primary visitor and outcome
+Desired human impression: curious and rigorous.
 
-Primary visitor: an AI-tooling practitioner, engineer, maintainer, or technical
-collaborator arriving through GitHub work.
+## 3. Content contract
 
-Primary outcome: within five seconds, the visitor understands the current
-AI-native direction, the inspectable/evidence-gated working method, and where to
-open one real proof.
+The Profile contains, in order:
 
-The future primary action must be a normal GFM link, not a visual control inside
-an image. The exact destination depends on selected IA and flagship proof.
+1. identity and inquiry;
+2. current Capability Routing experiment;
+3. three working principles;
+4. one Open Loop, `writing-loop-harness`;
+5. a contextual GitHub discussion exit.
 
-## 4. Planning scope
+The experiment record uses:
 
-This revision produces:
+```text
+QUESTION → HYPOTHESIS → EVIDENCE → NEXT
+```
 
-- authority map;
-- current content-evidence snapshot;
-- positioning and claim-proof map;
-- three materially different art-direction hypotheses;
-- comparison, recommendation, risks, and unresolved choices.
+The Profile provides a concise record and links to a separate case. It does not
+turn the README into the complete case study.
 
-It does not produce:
+## 4. Art-direction contract
 
-- accepted information architecture;
-- selected art direction;
-- visual design specification;
-- craft criteria;
-- implementation plan or authority;
-- modified `profile.json`, README, HTML, generator, or signature assets;
-- a runnable v2 artifact or evaluation round.
+Selected direction: **Pixel Laboratory**.
 
-## 5. Shared truth constraints
+Required visual decisions:
 
-Every concept must:
+- complete editorial pixel grammar;
+- one abstract Oak glyph allowed to evolve from the existing avatar;
+- white-led field, near-black typography, restrained black fields;
+- deep forest green as the identity signal;
+- modern sans-serif for reading and pixel geometry for glyphs, numbering, and
+  short markers;
+- single-column editorial structure;
+- originality sufficient to make the page feel authored rather than templated.
 
-- foreground current AI-native work without overstating maturity;
-- keep released, installable, tested, experimental, prototype, skeleton, and
-  draft labels distinct;
-- use real repository names and proof types rather than invented telemetry;
-- leave GitHub Pins, contribution graph, counts, and activity to GitHub;
-- keep native text sufficient when images fail;
-- avoid contact, adoption, client, company, or impact claims without proof;
-- avoid presenting independent repositories as one integrated runtime.
+Rejected patterns remain those in `AGENTS.md` plus game/HUD, terminal, CRT,
+dashboard, fake-control, status-theater, decorative AI, and body-copy pixel-font
+treatments.
 
-## 6. Shared visual constraints
+## 5. Reversible concept round
 
-All future directions must respect `AGENTS.md`:
+Produce three materially different variants inside Pixel Laboratory:
 
-- one shallow editorial signature visual at most;
-- no cards, fake controls, telemetry, gradients, shadows, animation, or remote
-  assets;
-- no game HUD, terminal chrome, status console, glass, glow, or dashboard grid;
-- flat local light/dark SVG variants with a separately composed mobile variant;
-- GitHub-native headings, paragraphs, lists, and links outside the image;
-- readable typography at desktop, 390px, 320px, and 200% zoom;
-- image failure must preserve identity, claim, and navigation.
+1. Branch Register;
+2. Counterform Canopy;
+3. Ring Ledger.
 
-## 7. Concept requirements
+Every board uses the same approved content and contains:
 
-Each hypothesis must document:
+- an abstract Oak glyph;
+- Hero composition;
+- Current Experiment sample;
+- the three working principles as supporting evidence;
+- a visible narrow-layout reduction or responsive rule;
+- provenance, board ID, route revision, and deterministic render hashes.
 
-1. concept thesis;
-2. Cooper-specific signature;
-3. the positioning problem it solves;
-4. content-to-visual grammar;
-5. desktop composition;
-6. 390px composition;
-7. light/dark rules;
-8. GFM and generator constraints;
-9. AI claim-to-proof behavior;
-10. accessibility;
-11. swap test;
-12. failure risks;
-13. difference from the other two directions;
-14. recommendation and reversal conditions.
+SVG is the vector source. PNG is the local review snapshot. The boards remain
+under this run and are never consumed by the Profile generator.
 
-The three required hypotheses are:
+## 6. Shared truth constraints
 
-- Proof as Identity;
-- Pixel Grammar;
-- Public Field Notes.
+- No old repository becomes a flagship by presentation alone.
+- `writing-loop-harness` is locally useful but not yet a clear installable tool.
+- Capability Routing evidence is local experiment evidence unless separately
+  published.
+- No adoption, users, client, company, production, performance, or maturity
+  claims are invented.
+- Profile v1 may be cited as a weak trigger for the experiment, not publicly
+  dissected or rewritten.
 
-## 8. Comparison criteria
+## 7. Review criteria
 
-The review should judge:
+The concept round must compare:
 
-- professional credibility;
-- clarity of AI-native direction;
-- evidence integrity;
-- Cooper-specific authorship;
-- swap-test resistance;
-- GFM robustness;
-- accessibility;
-- light/dark and narrow-screen behavior;
-- maintenance cost;
-- risk of returning to plastic, toy, HUD, console, or generic editorial style;
-- dependence on missing first-person or professional art-direction input.
+- Cooper-specific authorship and swap-test resistance;
+- clarity of identity and inquiry;
+- content hierarchy and legibility;
+- abstract Oak recognition;
+- editorial coherence;
+- deep-green, black, and white balance;
+- narrow-layout resilience;
+- risk of game, terminal, environmental-logo, app-icon, dashboard, or template
+  readings;
+- whether evidence remains primary rather than decorative.
 
-No numeric average can compensate for a blocker in evidence, authorship,
-accessibility, platform behavior, or capability authority.
+An independent reviewer must evaluate the rendered boards. Numeric averages may
+not hide an authorship, evidence, or legibility blocker.
 
-## 9. Direction-selection gate
+## 8. Current mutation boundary
 
-Before a direction becomes design authority, record:
+This round may change only `.alidesign/**` process artifacts, the run-local
+concept generator/test, and their generated review boards.
 
-- explicit user selection or an authorized selection decision;
-- the chosen role label and flagship proof;
-- the concept elements that are mandatory, optional, and prohibited;
-- a Cooper-specific art-direction provider with traceable inputs/outputs;
-- a fresh route revision that changes `visual_art_direction` from `missing` to
-  `resolved`;
-- conflicts with repository declarations and how they were resolved.
+It must not modify or reference from the boards:
 
-Selection must create `selected-art-direction.md`. It may not silently edit one
-of the hypothesis documents into an accepted design.
+- `profile.json`;
+- `README.md`;
+- `profile.html`;
+- `artifacts/build_profile.mjs`;
+- `assets/profile-signature-light.svg`;
+- `assets/profile-signature-dark.svg`;
+- `assets/profile-signature-mobile-light.svg`;
+- `assets/profile-signature-mobile-dark.svg`.
 
-## 10. Future IA questions
+## 9. Gate contract
 
-After positioning and direction selection, compare at least three information
-structures around:
-
-- action thesis;
-- current AI direction;
-- flagship proof;
-- supporting workflow proof;
-- released/tested delivery proof;
-- method or working principles;
-- repository exit;
-- GitHub-native Pins and activity already visible outside the README.
-
-Do not assume v1's three equal project entries or selected order remains valid.
-
-## 11. Acceptance for this planning revision
-
-- Every identity claim maps to `claim-proof-map.md`.
-- Three concepts are structurally and visually distinct, not copy swaps.
-- Each concept passes a documented swap test or names why it currently fails.
-- A strongest counterargument and missing facts remain visible.
-- Recommendation is separated from final selection.
-- Route revision-001 is sealed and recorded in state.
-- State remains `planning`; `planning_ready` is not claimed.
-- No product source or generated Profile output changes.
-- The v1 run tree remains `341de507f7a7280e505b932bf92cadbd00350388`.
+- `planning_ready` requires the locked decision contract and resolved IA
+  providers.
+- `structure_ready` requires compared IA variants, selected IA, and all three
+  concept-board exploration outputs declared by the active route.
+- Concept boards do not satisfy canonical `visual_design` or product `craft`.
+- UI mutation remains blocked until a board is selected and later visual,
+  craft, implementation, evidence, and independent final-review capabilities
+  are separately resolved.
+- Routing revisions and evaluation rounds remain append-only.
+- Profile v1 and its `round-001` remain immutable old-contract history.

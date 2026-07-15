@@ -12,4 +12,6 @@ assets/profile-signature-*.svg text eol=lf
 .alidesign/**/*.md text eol=lf
 .alidesign/**/*.json text eol=lf
 .alidesign/**/*.yaml text eol=lf
+.alidesign/**/*.mjs text eol=lf
+.alidesign/**/*.svg text eol=lf
 .alidesign/**/*.png binary

@@ -1,209 +1,161 @@
 # Profile v2 positioning
 
-Status: planning hypothesis; requires user review before public copy.
-Evidence basis: `content-evidence.md` and `claim-proof-map.md`.
+Status: user-locked planning declaration from `decision-contract.md`.
+Supersedes: the earlier unaccepted “inspectable, repeatable, and shippable”
+builder hypothesis recorded in Git history and `decisions.md`.
 
 ## Primary visitor
 
-An AI-tooling practitioner, product engineer, open-source maintainer, or
-technical collaborator arriving from a repository, Issue, PR, or public
-discussion and deciding whether Cooper's work is worth reading, using, or
-working alongside.
+A fellow builder or potential collaborator arriving through GitHub and deciding
+whether Cooper's experiments and way of thinking are worth following or
+discussing.
 
 The visitor's real question is:
 
-> Is this another profile full of AI-flavored prototypes, or does this person
-> know how to make AI-assisted work explicit, inspectable, and dependable?
+> Is this person pretending to have a finished AI system, or are they doing
+> careful, honest experiments on a problem I also care about?
 
 ## Five-second cognition
 
 Within five seconds the visitor should understand:
 
-1. Cooper's current professional direction is AI-assisted workflow tooling.
-2. His signature discipline is explicit files, states, gates, and proof.
-3. The page leads to real artifacts that can be installed, run, or verified.
+1. Cooper Oak is experimenting with AI workflows rather than claiming mastery.
+2. The enduring question is how humans keep control of AI-assisted work.
+3. The page leads directly to the current Capability Routing experiment.
 
-## Recommended action thesis
+## Approved lead
 
-> **Cooper Oak makes AI-assisted work inspectable, repeatable, and shippable.**
+> **Experiments in keeping humans in control of AI-assisted work.**
 
-Supporting line:
+This is intentionally an inquiry, not a credential or finished-product claim.
 
-> **Agent skills, file-native workflow control planes, and proof-backed tools.**
+Planning-only Chinese explanation:
 
-Chinese explanation for planning—not automatically final copy:
+> **我在实验：怎样让人在 AI 协作中始终保有明确的控制。**
 
-> **把 AI 协作从模糊提示词，变成有文件、有状态、有门禁、有证据的可执行工作。**
+English remains the public lead. The Chinese line should appear only if it adds
+voice rather than duplicating the same information.
 
-This phrasing describes observable direction and method. It does not award an
-unsupported credential.
+## Public posture
 
-## Professional thesis
+Use **AI workflow experimenter** as the internal positioning label. The final
+Profile should prefer the action sentence over a title badge.
 
-Cooper's coherent professional thread is not “many unrelated projects” and not
-“using AI to make things quickly.” It is:
+Allowed implications:
 
-> Turn ambiguous intent into durable, inspectable work: make inputs explicit,
-> bind the right capability, preserve state, keep human control points visible,
-> and leave proof another person can install, run, or verify.
+- Cooper asks concrete questions about human control in AI-assisted work.
+- Cooper builds and tests small workflow mechanisms.
+- The current experiment makes capabilities, providers, inputs, outputs, and
+  gates explicit.
+- Some earlier ideas worked locally but never became clear, installable tools.
+- Cooper is more capable now and may return to one unfinished idea.
 
-The projects remain independent examples under this thesis:
+Forbidden implications:
 
-- `goal-to-do` turns vague long-running work into an aligned execution contract.
-- `writing-loop-harness` externalizes workflow structure, state, nodes, and
-  gates into files.
-- `loop-preflight` blocks runtime until permissions, capabilities, and evidence
-  are explicit.
-- `LongYinMod_RisingFame` proves release, setup, troubleshooting, and support.
-- `valvetrade-pipeline` proves database boundaries, tests, and CI discipline.
+- AI expert, AI systems architect, governance-platform founder, or established
+  research lab;
+- mature product, broad adoption, production deployment, clients, users,
+  business impact, or performance metrics without new evidence;
+- a finished integrated system spanning the old repositories;
+- a flagship project selected only because the Profile needs one.
 
-They must never be drawn as a fictional integrated runtime or a universal
-`MAP → ALIGN → ORCHESTRATE → SHIP` process.
+## Current experiment
 
-## Current AI direction
+Name: **Capability Routing**.
 
-Recommended direction label:
+Public question:
 
-> **Human-controlled, evidence-gated AI workflows.**
+> How should an AI-assisted workflow know which specialist must act next—and
+> when work must stop because the required capability is missing?
 
-Included:
+Working hypothesis:
 
-- agent Skills;
-- file-native workflow control planes;
-- capability/provider routing;
-- explicit state, gates, and recovery;
-- evidence-backed execution;
-- human approval and support boundaries.
+> Make the required capability, provider, inputs, outputs, deadline, and gate
+> explicit before irreversible work begins.
 
-Excluded:
+Evidence may include the implemented route contract, state gates, append-only
+history, and contract tests. It must be phrased as local experiment evidence,
+not product adoption.
 
-- generic AI tool collections;
-- model or benchmark research without evidence;
-- chatbot-wrapper identity;
-- model-logo and technology badge walls;
-- automation consulting or enterprise-platform claims;
-- “100 projects” as the primary proof of competence.
+The Profile uses a short `QUESTION → HYPOTHESIS → EVIDENCE → NEXT` record and
+links to a separate case for depth.
 
-## Candidate public role labels
+## Open Loop
 
-Ordered from most evidence-safe to most interpretive:
+The only old project intentionally included is `writing-loop-harness`.
 
-1. **Builder of agent skills and workflow control planes** — strongest factual
-   fit, longer and less brand-like.
-2. **Evidence-first AI tooling builder** — compact, action-based, and supported.
-3. **AI-native workflow builder** — recommended candidate, with mild inference.
-4. **AI systems architect** — rejected under current evidence.
+Truthful framing:
 
-The Profile should lead with the action thesis, not make a fixed title carry
-more maturity than the work supports.
+> It became useful locally, but never became a clear, installable tool. It is an
+> open loop I may return to now that I can engineer the contract more clearly.
 
-## Proof promise
+This is not a roadmap promise. Other old repositories do not enter Profile v2
+as proof, filler, or a project grid.
 
-Every important public claim should offer at least one direct route to a
-release, install path, runnable structure, validator, test suite, CI run,
-support boundary, or documented draft status.
+## Working principles
 
-“Proof” is not a self-issued badge such as `LIVE`, `PUBLIC`, `PASSED`, or
-`PRODUCTION`. It is the external artifact itself.
+1. **Make control explicit.**
+2. **Route work to specialists.**
+3. **Claims need evidence.**
 
-## Differentiators
+The Capability Routing case must demonstrate each principle. If it cannot, the
+principle is removed rather than promoted as a manifesto.
 
-### File-native clarity
+## Professional signal
 
-Important intent, rules, state, and handoff live in readable, diffable files
-instead of disappearing inside a conversation or decorative interface.
+Trust should come from:
 
-### Gates before autonomy
+- a precise question;
+- clear uncertainty and scope;
+- explicit contracts and failure conditions;
+- evidence that can be inspected;
+- visible changes of mind;
+- honest boundaries between local usefulness, public clarity, and finished
+  tools.
 
-Execution begins only after source, capability, permission, boundary, and
-evidence are explicit. Blocked-by-default is a control property, not failure
-theater.
+It must not come from fake operational UI, maturity labels, visual density, or
+theatrical AI imagery.
 
-### Proof beyond prompts
+## Conversion
 
-Install paths, releases, validators, tests, CI, troubleshooting, and support
-boundaries demonstrate work that survives beyond a generated answer.
+Primary action: view the current experiment.
 
-### Cross-domain delivery discipline
+Secondary relationship exit: discuss the experiment in a real GitHub context.
+No email, client, hiring, or collaboration CTA is invented.
 
-Released modding software and a tested database pipeline show that the method
-is not confined to Prompt or Agent concepts.
+## Voice
 
-### Honest maturity
+- English-first.
+- First person where it makes the uncertainty or learning more honest.
+- Candid and precise; never inflated, apologetic, or self-dismissive.
+- Curious and rigorous is the desired human impression.
+- Mention the early-learning trail once; do not repeatedly label Cooper a
+  beginner.
 
-Released, installable, tested, experimental, prototype, skeleton, and draft
-remain visibly different. This restraint is part of the professional signal.
+## Information priority
 
-## Information priority implied by the positioning
-
-The future Profile should compare these information areas before implementation:
-
-1. action thesis and current AI direction;
-2. one flagship AI-native proof;
-3. supporting workflow/preflight proof;
-4. delivery proof from released and tested non-AI work;
-5. method or principles only where they add information;
-6. one repository exit;
-7. native Pins, contributions, and activity left to GitHub.
-
-This is not yet an accepted IA or project ordering.
-
-## Non-goals
-
-- résumé, SaaS landing page, console, dashboard, or live status surface;
-- skills or technology badge wall;
-- star, follower, contribution, release, or project-count KPI wall;
-- “vibe coder” as a professional title;
-- productizing several independent repositories into an invented AI OS;
-- copying SignalOps, Alibaba Cloud, or another person's visual system;
-- using futuristic AI imagery to compensate for weak proof;
-- contact, client, adoption, impact, company, or location claims without proof;
-- a visual refresh of the existing v1 signature banner.
+1. Cooper Oak and the approved lead.
+2. Current Capability Routing experiment.
+3. Three evidence-bearing working principles.
+4. One Open Loop: `writing-loop-harness`.
+5. A contextual GitHub discussion exit.
+6. GitHub-native Pins, contributions, and account activity left to GitHub.
 
 ## Strongest counterargument
 
-Only `goal-to-do` currently supplies a released, directly installable original
-AI-native artifact. The workflow harness is experimental, the preflight work is
-a protocol prototype, and the atlas is a draft. A stable senior credential such
-as “AI systems architect” would therefore exceed public maturity.
-
-The action thesis survives this objection because it says what Cooper is
-actively making and how the work is structured. If the flagship proof becomes
-inactive or no longer reflects the public tree, the thesis must be narrowed.
-
-## Open decisions
-
-1. Is the primary conversion collaboration, employment, open-source adoption,
-   or another outcome?
-2. Is `AI-native workflow builder` acceptable as a public role label?
-3. Which project is flagship: `goal-to-do`, `writing-loop-harness`, or
-   `loop-preflight`?
-4. Are the harness and preflight projects separate explorations or one future
-   product line?
-5. Should GitHub Pins be updated outside this repository to reinforce the same
-   identity?
-6. Does the `100 projects` goal remain background, move out of the Profile, or
-   stay in the bio?
-7. Is there any public use, feedback, install, or case evidence not visible in
-   the current repositories?
-8. Is there a verified professional destination or contact route?
-9. Should the final page remain English-first with one Chinese line?
-10. Can Cooper provide first-person motivations if Public Field Notes advances?
+The Capability Routing code is currently a local Skill experiment rather than a
+public, installable product. The Profile therefore cannot ask a visitor to trust
+the experiment merely because its author says it works. The separate case must
+show enough contract and test evidence to support the limited claims, while its
+`NEXT` field states what remains unclear or unpublished.
 
 ## Reversal conditions
 
-Revisit this positioning if:
+Revisit the positioning if:
 
-- a different original project becomes the clearest professional proof;
-- a control-plane project receives a formal release and runnable case;
-- independent adoption evidence supports stronger language;
-- the user rejects workflow tooling as the public professional direction;
-- the public repository tree no longer supports the claim map;
-- the desired conversion materially changes the information hierarchy.
-
-## Clarity gate
-
-The planning hypothesis passes the Evidence Clarity threshold because public
-facts, synthesis, counterargument, unknowns, forbidden language, and reversal
-conditions are separately visible. It does not pass final copy or art-direction
-selection; those remain later decisions.
+- Cooper no longer wants human control to be the public inquiry;
+- the Capability Routing experiment is abandoned or cannot be shown honestly;
+- an actual finished tool becomes a better current focus;
+- the primary audience changes away from fellow builders and collaborators;
+- a public contact or collaboration destination is verified;
+- new evidence supports or refutes a stronger role label.

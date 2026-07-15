@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "run_id": "issue-4-profile-v2-professional-identity",
+  "route_revision": "revision-003",
+  "route_sha256": "26c3b6bec50588928c00bee0c3470e393446e1be5b08641a28a9549ad7a87d51",
+  "dimensions": {
+    "width": 1600,
+    "height": 1000
+  },
+  "source_avatar": {
+    "source": "profile.html#native-github-profile-context",
+    "view_box": "0 0 180 180",
+    "step": 18,
+    "fill": "#6ed959",
+    "path": "M24 24h36v60h18v18h24V84h18V24h36v78h-18v18h-18v18h-18v18H78v-18H60v-18H42v-18H24z"
+  },
+  "palette": {
+    "paper": "#F5F6F1",
+    "ink": "#111512",
+    "forest": "#173F2D",
+    "muted": "#5C655E",
+    "rule": "#CDD3CD",
+    "soft": "#E7EAE4",
+    "white": "#FFFFFF"
+  },
+  "type": {
+    "sans": "Arial, Helvetica, sans-serif",
+    "mono": "Consolas, 'Courier New', monospace"
+  },
+  "content": {
+    "name": "COOPER OAK",
+    "lead": [
+      "EXPERIMENTS IN KEEPING",
+      "HUMANS IN CONTROL OF",
+      "AI-ASSISTED WORK."
+    ],
+    "section": "CURRENT EXPERIMENT / CAPABILITY ROUTING",
+    "question": "How should a workflow know which specialist must act next?",
+    "hypothesis": "Make capability, provider, inputs, outputs and gates explicit before mutation.",
+    "evidence": "The local contract rejects missing visual providers, seals route history and keeps UI mutation closed until required capability work exists.",
+    "next": "Publish a clear case, then learn whether the contract is useful outside this profile experiment.",
+    "narrow_experiment": {
+      "question": [
+        "WHO ACTS NEXT?"
+      ],
+      "hypothesis": [
+        "ROUTE BEFORE",
+        "MUTATION."
+      ],
+      "evidence": [
+        "MISSING PROVIDERS",
+        "BLOCK PROGRESS."
+      ],
+      "next": [
+        "TEST BEYOND",
+        "THIS PROFILE."
+      ]
+    },
+    "principles": [
+      "MAKE CONTROL EXPLICIT",
+      "ROUTE WORK TO SPECIALISTS",
+      "CLAIMS NEED EVIDENCE"
+    ]
+  },
+  "variants": [
+    {
+      "id": "01-branch-register",
+      "name": "BRANCH REGISTER",
+      "thesis": "A branching Oak grid turns growth into a strict editorial register.",
+      "risk": "Can drift into an environmental or institutional logo if the type relationship is weak."
+    },
+    {
+      "id": "02-counterform-canopy",
+      "name": "COUNTERFORM CANOPY",
+      "thesis": "One forest field is cut into an Oak; negative space carries the identity.",
+      "risk": "Can become a temporary app icon or overpower the evidence copy."
+    },
+    {
+      "id": "03-ring-ledger",
+      "name": "RING LEDGER",
+      "thesis": "Stepped growth rings bind identity, unfinished history and evidence.",
+      "risk": "Can read as a technical diagram or generic data motif without the Oak trunk."
+    }
+  ]
+}

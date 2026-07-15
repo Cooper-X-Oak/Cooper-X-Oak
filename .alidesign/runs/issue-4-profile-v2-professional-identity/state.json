@@ -6,10 +6,10 @@
   "mode": "full",
   "milestone": "M002",
   "issue": "AD-002",
-  "state": "planning",
+  "state": "component_domain",
   "iteration": 0,
   "active_spec": ".alidesign/runs/issue-4-profile-v2-professional-identity/spec.md",
-  "best_candidate": "reversible recommendation: concepts/01-proof-as-identity.md; not selected",
+  "best_candidate": "independent recommendation: 03 Ring Ledger; all three concept boards selectable; user selection pending",
   "blockers": [],
   "evidence": [
     ".alidesign/runs/issue-4-profile-v2-professional-identity/content-evidence.md",
@@ -35,6 +35,101 @@
       "kind": "evidence",
       "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/claim-proof-map.md",
       "at": "2026-07-15T13:14:02.539188Z"
+    },
+    {
+      "kind": "decision",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/decision-contract.md",
+      "at": "2026-07-15T14:12:50.261662Z"
+    },
+    {
+      "kind": "best_candidate",
+      "value": "selected direction: Pixel Laboratory; internal board selection pending",
+      "at": "2026-07-15T14:12:50.748143Z"
+    },
+    {
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/routing/revision-003.yaml",
+      "at": "2026-07-15T14:43:31.566906Z"
+    },
+    {
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/selected-art-direction.md",
+      "at": "2026-07-15T14:43:32.098050Z"
+    },
+    {
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/information-architecture-variants.md",
+      "at": "2026-07-15T14:43:32.530170Z"
+    },
+    {
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/information-architecture.md",
+      "at": "2026-07-15T14:43:33.124205Z"
+    },
+    {
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/index.md",
+      "at": "2026-07-15T14:43:33.548046Z"
+    },
+    {
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/concept-boards.json",
+      "at": "2026-07-15T14:43:33.963497Z"
+    },
+    {
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/render-concept-boards.mjs",
+      "at": "2026-07-15T14:43:34.358821Z"
+    },
+    {
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/render-concept-boards.test.mjs",
+      "at": "2026-07-15T14:43:34.805215Z"
+    },
+    {
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/render-manifest.json",
+      "at": "2026-07-15T14:43:35.219001Z"
+    },
+    {
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/boards/01-branch-register.svg",
+      "at": "2026-07-15T14:43:35.744484Z"
+    },
+    {
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/boards/02-counterform-canopy.svg",
+      "at": "2026-07-15T14:43:36.307774Z"
+    },
+    {
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/boards/03-ring-ledger.svg",
+      "at": "2026-07-15T14:43:36.957937Z"
+    },
+    {
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/previews/01-branch-register.png",
+      "at": "2026-07-15T14:43:37.630869Z"
+    },
+    {
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/previews/02-counterform-canopy.png",
+      "at": "2026-07-15T14:43:38.051467Z"
+    },
+    {
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/previews/03-ring-ledger.png",
+      "at": "2026-07-15T14:43:38.585145Z"
+    },
+    {
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/independent-review.md",
+      "at": "2026-07-15T14:43:39.072057Z"
+    },
+    {
+      "kind": "best_candidate",
+      "value": "independent recommendation: 03 Ring Ledger; all three concept boards selectable; user selection pending",
+      "at": "2026-07-15T14:43:39.429804Z"
     }
   ],
   "routing_manifest": "routing.yaml",
@@ -45,12 +140,26 @@
       "sha256": "3b7b2e83bf22e8916c887563b08947af450692677b184908b401764e9fc8964a",
       "gate": "authority_resolved",
       "sealed_at": "2026-07-15T13:13:23.153451Z"
+    },
+    {
+      "revision_id": "revision-002",
+      "revision_ref": "routing/revision-002.yaml",
+      "sha256": "f759571707ba9e0af88731ca7fc627c506cc334fc51d3552e5cfa3ec987235b6",
+      "gate": "planning_ready",
+      "sealed_at": "2026-07-15T14:12:36.677263Z"
+    },
+    {
+      "revision_id": "revision-002",
+      "revision_ref": "routing/revision-002.yaml",
+      "sha256": "f759571707ba9e0af88731ca7fc627c506cc334fc51d3552e5cfa3ec987235b6",
+      "gate": "structure_ready",
+      "sealed_at": "2026-07-15T14:13:08.348702Z"
     }
   ],
   "sealed_evaluations": [],
   "resume_state": null,
   "created_at": "2026-07-15T12:52:48.108123Z",
-  "updated_at": "2026-07-15T13:14:02.539351Z",
+  "updated_at": "2026-07-15T14:43:39.429953Z",
   "history": [
     {
       "at": "2026-07-15T12:52:48.108140Z",
@@ -91,6 +200,140 @@
       "action": "recorded",
       "kind": "evidence",
       "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/claim-proof-map.md"
+    },
+    {
+      "at": "2026-07-15T14:12:36.677286Z",
+      "action": "transition",
+      "from_state": "planning",
+      "to_state": "information_architecture",
+      "gate": "planning_ready",
+      "reason": "User-locked decision contract selects Pixel Laboratory and an evidence-first single-column Profile structure.",
+      "routing_revision": "revision-002",
+      "routing_sha256": "f759571707ba9e0af88731ca7fc627c506cc334fc51d3552e5cfa3ec987235b6"
+    },
+    {
+      "at": "2026-07-15T14:12:50.261710Z",
+      "action": "recorded",
+      "kind": "decision",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/decision-contract.md"
+    },
+    {
+      "at": "2026-07-15T14:12:50.748175Z",
+      "action": "recorded",
+      "kind": "best_candidate",
+      "value": "selected direction: Pixel Laboratory; internal board selection pending"
+    },
+    {
+      "at": "2026-07-15T14:13:08.348737Z",
+      "action": "transition",
+      "from_state": "information_architecture",
+      "to_state": "component_domain",
+      "gate": "structure_ready",
+      "reason": "The evidence-first single-column IA and its alternatives are documented; proceed to reversible Pixel Laboratory concept boards.",
+      "routing_revision": "revision-002",
+      "routing_sha256": "f759571707ba9e0af88731ca7fc627c506cc334fc51d3552e5cfa3ec987235b6"
+    },
+    {
+      "at": "2026-07-15T14:43:31.566938Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/routing/revision-003.yaml"
+    },
+    {
+      "at": "2026-07-15T14:43:32.098073Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/selected-art-direction.md"
+    },
+    {
+      "at": "2026-07-15T14:43:32.530192Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/information-architecture-variants.md"
+    },
+    {
+      "at": "2026-07-15T14:43:33.124244Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/information-architecture.md"
+    },
+    {
+      "at": "2026-07-15T14:43:33.548081Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/index.md"
+    },
+    {
+      "at": "2026-07-15T14:43:33.963520Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/concept-boards.json"
+    },
+    {
+      "at": "2026-07-15T14:43:34.358842Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/render-concept-boards.mjs"
+    },
+    {
+      "at": "2026-07-15T14:43:34.805251Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/render-concept-boards.test.mjs"
+    },
+    {
+      "at": "2026-07-15T14:43:35.219021Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/render-manifest.json"
+    },
+    {
+      "at": "2026-07-15T14:43:35.744510Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/boards/01-branch-register.svg"
+    },
+    {
+      "at": "2026-07-15T14:43:36.307806Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/boards/02-counterform-canopy.svg"
+    },
+    {
+      "at": "2026-07-15T14:43:36.957960Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/boards/03-ring-ledger.svg"
+    },
+    {
+      "at": "2026-07-15T14:43:37.630910Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/previews/01-branch-register.png"
+    },
+    {
+      "at": "2026-07-15T14:43:38.051495Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/previews/02-counterform-canopy.png"
+    },
+    {
+      "at": "2026-07-15T14:43:38.585176Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/previews/03-ring-ledger.png"
+    },
+    {
+      "at": "2026-07-15T14:43:39.072092Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/independent-review.md"
+    },
+    {
+      "at": "2026-07-15T14:43:39.429825Z",
+      "action": "recorded",
+      "kind": "best_candidate",
+      "value": "independent recommendation: 03 Ring Ledger; all three concept boards selectable; user selection pending"
     }
   ]
 }

@@ -1,8 +1,11 @@
 # Profile v2 art-direction hypotheses
 
-Status: reversible comparison; none selected.
+Status: preserved reversible comparison; `Pixel Laboratory` was selected later
+through `decision-contract.md` and `selected-art-direction.md`.
 Guidance provider: `$review-design-quality`.
-Blocked capability: `visual_art_direction` remains `missing`.
+Historical note: revision-001 kept `visual_art_direction` missing. A later
+append-only route resolves the user-selected high-level direction without
+claiming that an internal board, production visual design, or craft has passed.
 
 ## Shared positioning basis
 
@@ -66,7 +69,7 @@ generic indie-maker magazine template.
 | Maintenance | Low | Low after a stable glyph system exists | Medium; “current note” copy ages |
 | Missing authority impact | Blocks final typography/composition | Strongly blocks glyph development | Blocks authorial copy and final editorial voice |
 
-## Recommendation
+## Original recommendation before user selection
 
 Advance **Proof as Identity** to the first review because it transforms the
 strongest existing fact—installable, releasable, testable proof—into brand
@@ -84,9 +87,10 @@ projects.
 
 ## Recommendation is not selection
 
-No `selected-art-direction.md` exists. The recommendation does not resolve
-`visual_art_direction`, does not authorize modifications to `profile.json` or
-generated surfaces, and does not establish IA. A later review must record:
+This section records the historical state before the sequential decision round.
+It is not the active recommendation. `selected-art-direction.md` now records the
+user's explicit Pixel Laboratory selection, while product mutation remains
+blocked. The original review required a later decision to record:
 
 - chosen direction;
 - chosen role label;

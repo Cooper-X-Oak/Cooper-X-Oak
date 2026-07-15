@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "run_id": "issue-4-profile-v2-professional-identity",
-  "active_revision": "routing/revision-001.yaml",
+  "active_revision": "routing/revision-003.yaml",
   "revisions": [
     {
       "id": "revision-001",
@@ -12,6 +12,26 @@
       "created_at": "2026-07-15T12:52:48.108227Z",
       "sealed_at": "2026-07-15T13:07:02.229294Z",
       "reason": "Initial capability-routing record."
+    },
+    {
+      "id": "revision-002",
+      "path": "routing/revision-002.yaml",
+      "status": "sealed",
+      "sha256": "f759571707ba9e0af88731ca7fc627c506cc334fc51d3552e5cfa3ec987235b6",
+      "parent_sha256": "3b7b2e83bf22e8916c887563b08947af450692677b184908b401764e9fc8964a",
+      "created_at": "2026-07-15T14:05:27.494757Z",
+      "sealed_at": "2026-07-15T14:12:15.758203Z",
+      "reason": "Lock the user-approved Pixel Laboratory direction, resolve information architecture, and route three reversible concept boards without authorizing product UI mutation."
+    },
+    {
+      "id": "revision-003",
+      "path": "routing/revision-003.yaml",
+      "status": "sealed",
+      "sha256": "26c3b6bec50588928c00bee0c3470e393446e1be5b08641a28a9549ad7a87d51",
+      "parent_sha256": "f759571707ba9e0af88731ca7fc627c506cc334fc51d3552e5cfa3ec987235b6",
+      "created_at": "2026-07-15T14:26:13.520268Z",
+      "sealed_at": "2026-07-15T14:30:28.323560Z",
+      "reason": "Record an isolated draft review of the three reversible Pixel Laboratory concept boards while keeping canonical product visual design, craft, design review, and UI mutation unresolved."
     }
   ]
 }

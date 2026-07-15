@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "run_id": "issue-4-profile-v2-professional-identity",
+  "route_revision": "revision-003",
+  "route_sha256": "26c3b6bec50588928c00bee0c3470e393446e1be5b08641a28a9549ad7a87d51",
+  "dimensions": {
+    "width": 1600,
+    "height": 1000
+  },
+  "input": {
+    "path": "concept-boards.json",
+    "sha256": "83438417693fbb38c0a18367d098cf1504688e04dc847dc8edc349c313bc0b9c"
+  },
+  "generator": {
+    "path": "render-concept-boards.mjs",
+    "sha256": "70b6cb303039c3732be29283dd5a6c2b636b37ddf73702550e4d9f26710cd0da"
+  },
+  "renderer": {
+    "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "file_version": "150.0.4078.65",
+    "sha256": "d17f5ab0779e0a763cd70752833793a9e7073fcbdd1fba2c0e6ad13fcd135d91",
+    "size": 4970824
+  },
+  "fonts": [
+    {
+      "path": "C:\\Windows\\Fonts\\arial.ttf",
+      "sha256": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+      "size": 1045720
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\arialbd.ttf",
+      "sha256": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
+      "size": 989780
+    }
+  ],
+  "files": [
+    {
+      "board_id": "01-branch-register",
+      "svg": {
+        "path": "boards/01-branch-register.svg",
+        "sha256": "a1ce34955bbff98a2ab81a70f8caab9d60cc7d363c490f23df5cb1d1be5bb62a"
+      },
+      "png": {
+        "path": "previews/01-branch-register.png",
+        "sha256": "e6ecbf0b50439620ccf3694d6b3b9bbe68e68a17effc03e569f48e1c4fb0bf0d"
+      }
+    },
+    {
+      "board_id": "02-counterform-canopy",
+      "svg": {
+        "path": "boards/02-counterform-canopy.svg",
+        "sha256": "41e38602098f91b2ca0b9f24a0c8260841b2dfde4e286cf9e8240cf23a8b9d00"
+      },
+      "png": {
+        "path": "previews/02-counterform-canopy.png",
+        "sha256": "d3da6d0e33a4fe75b36df5481144dbea0cf3afaf2df50291b5bc7496869b3d3e"
+      }
+    },
+    {
+      "board_id": "03-ring-ledger",
+      "svg": {
+        "path": "boards/03-ring-ledger.svg",
+        "sha256": "5400236c8ea3744e6e9890b661c27983a7308e203a383ef6fb1f59c2576cfeb8"
+      },
+      "png": {
+        "path": "previews/03-ring-ledger.png",
+        "sha256": "e7a41bca9b51a15735215f1805aef6fb5ebe4225e1fd4dd2d0b0832ca4b69e58"
+      }
+    }
+  ]
+}
