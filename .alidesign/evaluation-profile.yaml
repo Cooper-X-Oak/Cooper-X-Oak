@@ -1,0 +1,63 @@
+version: 1
+review_modes:
+  draft:
+    minimum_score: 7.5
+    required_evidence:
+      - "Approved task spec and selected IA"
+      - "Content-evidence inventory"
+    blockers:
+      - "unclear_primary_task"
+      - "wrong_page_shape"
+      - "unsupported_content_claim"
+  prototype:
+    minimum_score: 8.0
+    required_evidence:
+      - "Generated README and semantic local preview"
+      - "Desktop and narrow-screen screenshots"
+      - "Light and dark rendering"
+    blockers:
+      - "critical_rendering_failure"
+      - "fake_or_disconnected_control"
+      - "broken_primary_path"
+  release:
+    minimum_score: 8.0
+    required_evidence:
+      - "Generator build and --check drift verification"
+      - "README rendered in GitHub-width desktop and narrow-screen contexts"
+      - "Light and dark screenshots"
+      - "All generated SVGs parsed as XML"
+      - "All published links checked"
+      - "Accessibility and responsive subchecks"
+      - "Complete git diff and git diff --check"
+    blockers:
+      - "unclear_primary_task"
+      - "wrong_domain_logic"
+      - "critical_rendering_failure"
+      - "fake_or_disconnected_control"
+      - "broken_link_or_asset"
+      - "generic_template_output"
+      - "brand_tone_mismatch"
+      - "repeated_content_without_information_gain"
+      - "authoring_source_and_generated_output_drift"
+      - "critical_evidence_missing"
+dimensions:
+  - id: "product_intent"
+    weight: 20
+  - id: "trust_and_domain_fit"
+    weight: 18
+  - id: "information_architecture"
+    weight: 22
+  - id: "interaction_readiness"
+    weight: 6
+  - id: "system_craft"
+    weight: 14
+  - id: "visual_and_brand_expression"
+    weight: 12
+  - id: "accessibility_and_responsive_resilience"
+    weight: 8
+iteration:
+  max_rounds: 3
+  plateau_window: 2
+  minimum_meaningful_improvement: 0.25
+  regression_tolerance: 0.15
+accepted_exceptions: []

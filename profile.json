@@ -1,0 +1,114 @@
+{
+  "version": 2,
+  "github": {
+    "username": "Cooper-X-Oak"
+  },
+  "page": {
+    "type": "brand-landing-content-docs",
+    "primaryAudience": "Technical peers and tool users arriving through GitHub.",
+    "primaryAction": {
+      "label": "See selected work ↓",
+      "href": "#selected-work"
+    },
+    "repositoryExit": {
+      "label": "Browse all repositories →",
+      "url": "https://github.com/Cooper-X-Oak?tab=repositories"
+    }
+  },
+  "identity": {
+    "name": "Cooper Oak",
+    "positioning": "Building game mods, AI tools, and weird useful projects in public.",
+    "supporting": "把想法做成可以下载、安装或验证的作品。",
+    "origin": "Started from scratch in 2026. Goal: 100 projects."
+  },
+  "theme": {
+    "id": "profile-editorial-v1",
+    "colors": {
+      "light": {
+        "canvas": "#f0f0f0",
+        "ink": "#111111",
+        "mutedInk": "#4d4d4d",
+        "brand": "#6ed959",
+        "rule": "#c7c7c7"
+      },
+      "dark": {
+        "canvas": "#111111",
+        "ink": "#f5f5f5",
+        "mutedInk": "#c7c7c7",
+        "brand": "#6ed959",
+        "rule": "#3d444d"
+      }
+    },
+    "signature": {
+      "alt": "Cooper Oak pixel-green editorial signature.",
+      "category": "GAME MODS · AI TOOLS · USEFUL EXPERIMENTS",
+      "metadata": "BUILT IN PUBLIC · 2026—",
+      "desktop": {
+        "width": 1200,
+        "height": 240
+      },
+      "mobile": {
+        "width": 600,
+        "height": 260
+      }
+    }
+  },
+  "featuredWork": [
+    {
+      "repo": "LongYinMod_RisingFame",
+      "url": "https://github.com/Cooper-X-Oak/LongYinMod_RisingFame",
+      "summary": "A released BepInEx mod for LongYinLiZhiZhuan, with documented setup, support boundaries, and troubleshooting.",
+      "evidence": [
+        {
+          "kind": "release",
+          "label": "Latest release",
+          "url": "https://github.com/Cooper-X-Oak/LongYinMod_RisingFame/releases/latest"
+        },
+        {
+          "kind": "documentation",
+          "label": "Setup and support",
+          "url": "https://github.com/Cooper-X-Oak/LongYinMod_RisingFame#readme"
+        }
+      ]
+    },
+    {
+      "repo": "goal-to-do",
+      "url": "https://github.com/Cooper-X-Oak/goal-to-do",
+      "summary": "An installable Codex skill for turning vague, long-running tasks into aligned `/goal` prompts.",
+      "evidence": [
+        {
+          "kind": "install",
+          "label": "Install the skill",
+          "url": "https://github.com/Cooper-X-Oak/goal-to-do/tree/main/skills/goal-todo"
+        },
+        {
+          "kind": "release",
+          "label": "v0.1.0 release",
+          "url": "https://github.com/Cooper-X-Oak/goal-to-do/releases/tag/v0.1.0"
+        }
+      ]
+    },
+    {
+      "repo": "valvetrade-pipeline",
+      "url": "https://github.com/Cooper-X-Oak/valvetrade-pipeline",
+      "summary": "A TypeScript/PostgreSQL pipeline skeleton with database guards, RLS isolation, deduplication, and tests against embedded Postgres.",
+      "evidence": [
+        {
+          "kind": "tests",
+          "label": "Review the tests",
+          "url": "https://github.com/Cooper-X-Oak/valvetrade-pipeline/tree/main/packages/pipeline/test"
+        },
+        {
+          "kind": "ci",
+          "label": "Passing CI",
+          "url": "https://github.com/Cooper-X-Oak/valvetrade-pipeline/actions/runs/28073647116"
+        }
+      ]
+    }
+  ],
+  "principles": [
+    "Ship things people can download, install, or verify.",
+    "Document setup, support boundaries, and failure modes.",
+    "Use tests and public artifacts as proof."
+  ]
+}

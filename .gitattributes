@@ -1,0 +1,15 @@
+.gitattributes text eol=lf
+AGENTS.md text eol=lf
+README.md text eol=lf
+profile.json text eol=lf
+profile.html text eol=lf
+artifacts/build_profile.mjs text eol=lf
+artifacts/build_profile.test.mjs text eol=lf
+assets/profile-signature-*.svg text eol=lf
+.alidesign/*.md text eol=lf
+.alidesign/*.json text eol=lf
+.alidesign/*.yaml text eol=lf
+.alidesign/**/*.md text eol=lf
+.alidesign/**/*.json text eol=lf
+.alidesign/**/*.yaml text eol=lf
+.alidesign/**/*.png binary

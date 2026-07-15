@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "run_id": "issue-2-profile-redesign",
+  "round": "round-001",
+  "review_mode": "release",
+  "created_at": "2026-07-15T10:36:13.229069Z",
+  "artifact_refs": [
+    "profile.json",
+    "artifacts/build_profile.mjs",
+    "README.md",
+    "profile.html",
+    "assets/profile-signature-light.svg",
+    "assets/profile-signature-dark.svg",
+    "assets/profile-signature-mobile-light.svg",
+    "assets/profile-signature-mobile-dark.svg"
+  ],
+  "evidence": [
+    ".alidesign/runs/issue-2-profile-redesign/evidence/implementation-verification.md",
+    ".alidesign/runs/issue-2-profile-redesign/evidence/desktop-light.png",
+    ".alidesign/runs/issue-2-profile-redesign/evidence/desktop-dark.png",
+    ".alidesign/runs/issue-2-profile-redesign/evidence/narrow-390-light.png",
+    ".alidesign/runs/issue-2-profile-redesign/evidence/narrow-320-dark.png",
+    ".alidesign/runs/issue-2-profile-redesign/evidence/zoom-200-light.png",
+    ".alidesign/runs/issue-2-profile-redesign/evidence/image-fallback-light.png",
+    ".alidesign/runs/issue-2-profile-redesign/evidence/platform-smoke.md",
+    ".alidesign/runs/issue-2-profile-redesign/evidence/github-branch-desktop-light.png",
+    ".alidesign/runs/issue-2-profile-redesign/evidence/github-branch-narrow-dark.png"
+  ],
+  "gaps": [
+    {
+      "id": "captured_screen_reader_session",
+      "blocking": false,
+      "owner": "accessibility_followup"
+    }
+  ]
+}
