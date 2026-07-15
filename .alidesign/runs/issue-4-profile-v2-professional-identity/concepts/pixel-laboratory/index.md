@@ -1,6 +1,7 @@
 # Pixel Laboratory — internal concept round
 
-Status: three independently cleared review boards; user selection pending.
+Status: `03 — Ring Ledger` selected by the user; the other two boards remain
+preserved alternatives.
 Authority: [`decision-contract.md`](../../decision-contract.md) and
 [`selected-art-direction.md`](../../selected-art-direction.md).
 Active route: `revision-003` (`26c3b6bec50588928c00bee0c3470e393446e1be5b08641a28a9549ad7a87d51`).
@@ -69,9 +70,9 @@ but cannot merge every motif into a decorative kit.
   canopy rings make the Oak-growth/evidence relationship the most authored and
   least transferable of the three.
 
-The recommendation is evidence, not a user selection. Canonical product
-`visual_design`, `craft`, `design_review`, implementation projection, and UI
-mutation remain unresolved.
+The user selected `03 — Ring Ledger` after reviewing all three cleared boards.
+Canonical product `visual_design`, `craft`, `design_review`, implementation
+projection, and UI mutation remain unresolved.
 
 ## Files and provenance
 

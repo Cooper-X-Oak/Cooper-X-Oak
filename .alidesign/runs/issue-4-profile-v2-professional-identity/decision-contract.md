@@ -143,3 +143,14 @@ The user authorized generation and pushing of these run-scoped concept boards
 to Draft PR #5. This authorization does not extend to the published Profile.
 `visual_design`, product `craft`, implementation projection, and final design
 review remain separate required capabilities.
+
+## Post-concept selection
+
+- On 2026-07-15, in decision question 52, the user explicitly selected
+  **`03 — Ring Ledger`** as Profile v2's single mother system.
+- The selection agrees with the independent concept recommendation but remains
+  a separate user-authored decision.
+- This resolves the internal concept variant only; it does not resolve product
+  `visual_design`, `craft`, implementation, or final review.
+- The relationship between the new Ring Ledger signature and the current GitHub
+  account avatar remains unanswered and must not be inferred.

@@ -75,6 +75,16 @@ Each board must include glyph, Hero, and Current Experiment sample. A chosen
 variant may later combine one secondary property from another board only through
 an explicit decision; it may not collapse the three boards into an average.
 
+## Internal variant selection
+
+After the three boards passed independent concept review, the user explicitly
+selected **`03 — Ring Ledger`** as the sole mother system for product visual
+design. Branch Register and Counterform Canopy remain preserved alternatives,
+not ingredients to blend into Ring Ledger by default.
+
+The Profile/account-avatar transition remains unresolved. Two attempts to ask
+that decision returned no answer, so this contract does not infer one.
+
 ## Failure gates
 
 Reject a board when any of these is true:
@@ -89,7 +99,7 @@ Reject a board when any of these is true:
 
 ## Boundary to production
 
-Selecting Pixel Laboratory resolves the high-level art direction only. Product
-UI mutation remains blocked until one internal variant is selected and separate
-`visual_design`, `craft`, implementation, evidence, and independent final-review
-capabilities are resolved and completed.
+Selecting Pixel Laboratory and Ring Ledger resolves the high-level art direction
+and internal mother system only. Product UI mutation remains blocked until
+separate `visual_design`, `craft`, implementation, evidence, and independent
+final-review capabilities are resolved and completed.
