@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "run_id": "issue-2-profile-redesign",
+  "project": "Cooper-X-Oak-profile-issue-2",
+  "task": "Redesign GitHub profile using AliDesign engineering for GitHub Issue #2",
+  "mode": "full",
+  "milestone": "M001",
+  "issue": "AD-001",
+  "state": "accepted",
+  "iteration": 1,
+  "active_spec": ".alidesign/runs/issue-2-profile-redesign/spec.md",
+  "best_candidate": "IA-A-flagship-first-evidence-landing",
+  "blockers": [],
+  "evidence": [
+    ".alidesign/runs/issue-2-profile-redesign/content-evidence.md",
+    ".alidesign/runs/issue-2-profile-redesign/evidence/implementation-verification.md",
+    ".alidesign/runs/issue-2-profile-redesign/evaluation/round-001/report.md"
+  ],
+  "records": [
+    {
+      "kind": "active_spec",
+      "value": ".alidesign/runs/issue-2-profile-redesign/spec.md",
+      "at": "2026-07-15T10:07:47.122029Z"
+    },
+    {
+      "kind": "evidence",
+      "value": ".alidesign/runs/issue-2-profile-redesign/content-evidence.md",
+      "at": "2026-07-15T10:07:47.726170Z"
+    },
+    {
+      "kind": "decision",
+      "value": ".alidesign/runs/issue-2-profile-redesign/decisions.md",
+      "at": "2026-07-15T10:07:48.296293Z"
+    },
+    {
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-2-profile-redesign/information-architecture.md",
+      "at": "2026-07-15T10:14:19.780537Z"
+    },
+    {
+      "kind": "best_candidate",
+      "value": "IA-A-flagship-first-evidence-landing",
+      "at": "2026-07-15T10:14:20.336958Z"
+    },
+    {
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-2-profile-redesign/component-domain-map.md",
+      "at": "2026-07-15T10:16:30.994911Z"
+    },
+    {
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-2-profile-redesign/interaction-state-matrix.md",
+      "at": "2026-07-15T10:17:14.723205Z"
+    },
+    {
+      "kind": "artifact",
+      "value": "profile.json",
+      "at": "2026-07-15T10:35:55.192387Z"
+    },
+    {
+      "kind": "artifact",
+      "value": "artifacts/build_profile.mjs",
+      "at": "2026-07-15T10:35:55.738285Z"
+    },
+    {
+      "kind": "artifact",
+      "value": "README.md",
+      "at": "2026-07-15T10:35:56.222746Z"
+    },
+    {
+      "kind": "artifact",
+      "value": "profile.html",
+      "at": "2026-07-15T10:35:56.704159Z"
+    },
+    {
+      "kind": "evidence",
+      "value": ".alidesign/runs/issue-2-profile-redesign/evidence/implementation-verification.md",
+      "at": "2026-07-15T10:35:57.144628Z"
+    },
+    {
+      "kind": "evidence",
+      "value": ".alidesign/runs/issue-2-profile-redesign/evaluation/round-001/report.md",
+      "at": "2026-07-15T10:48:51.541460Z"
+    }
+  ],
+  "resume_state": null,
+  "created_at": "2026-07-15T09:57:42.228369Z",
+  "updated_at": "2026-07-15T10:49:04.290059Z",
+  "history": [
+    {
+      "at": "2026-07-15T09:57:42.228387Z",
+      "action": "initialized",
+      "state": "discovery",
+      "mode": "full"
+    },
+    {
+      "at": "2026-07-15T10:07:47.122063Z",
+      "action": "recorded",
+      "kind": "active_spec",
+      "value": ".alidesign/runs/issue-2-profile-redesign/spec.md"
+    },
+    {
+      "at": "2026-07-15T10:07:47.726199Z",
+      "action": "recorded",
+      "kind": "evidence",
+      "value": ".alidesign/runs/issue-2-profile-redesign/content-evidence.md"
+    },
+    {
+      "at": "2026-07-15T10:07:48.296332Z",
+      "action": "recorded",
+      "kind": "decision",
+      "value": ".alidesign/runs/issue-2-profile-redesign/decisions.md"
+    },
+    {
+      "at": "2026-07-15T10:07:48.846622Z",
+      "action": "transition",
+      "from_state": "discovery",
+      "to_state": "planning",
+      "gate": "authority_resolved",
+      "reason": "User direction, repository policy, GitHub platform rules, public profile facts, content evidence, scope, and evaluation basis are recorded."
+    },
+    {
+      "at": "2026-07-15T10:13:24.171526Z",
+      "action": "transition",
+      "from_state": "planning",
+      "to_state": "information_architecture",
+      "gate": "planning_ready",
+      "reason": "The six-layer spec, truthful content inventory, primary task, non-goals, boundary conditions, and release acceptance criteria are complete."
+    },
+    {
+      "at": "2026-07-15T10:14:19.780588Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-2-profile-redesign/information-architecture.md"
+    },
+    {
+      "at": "2026-07-15T10:14:20.336999Z",
+      "action": "recorded",
+      "kind": "best_candidate",
+      "value": "IA-A-flagship-first-evidence-landing"
+    },
+    {
+      "at": "2026-07-15T10:14:20.814757Z",
+      "action": "transition",
+      "from_state": "information_architecture",
+      "to_state": "component_domain",
+      "gate": "structure_ready",
+      "reason": "Variant A is selected from three task-distinct structures; region responsibilities, proof order, growth rules, navigation, and responsive transformations are explicit."
+    },
+    {
+      "at": "2026-07-15T10:16:30.994943Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-2-profile-redesign/component-domain-map.md"
+    },
+    {
+      "at": "2026-07-15T10:16:31.627489Z",
+      "action": "transition",
+      "from_state": "component_domain",
+      "to_state": "interaction_states",
+      "gate": "semantics_ready",
+      "reason": "Domain objects, truthful proof semantics, component boundaries, visual tokens, template scope, and deprecated dashboard patterns are explicit."
+    },
+    {
+      "at": "2026-07-15T10:17:14.723244Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": ".alidesign/runs/issue-2-profile-redesign/interaction-state-matrix.md"
+    },
+    {
+      "at": "2026-07-15T10:17:15.192033Z",
+      "action": "transition",
+      "from_state": "interaction_states",
+      "to_state": "design_ready",
+      "gate": "behavior_ready",
+      "reason": "All applicable native link, keyboard, image fallback, theme, narrow-width, zoom, and failure behaviors are specified; inapplicable UI states are explicitly excluded."
+    },
+    {
+      "at": "2026-07-15T10:17:15.617009Z",
+      "action": "transition",
+      "from_state": "design_ready",
+      "to_state": "implementing",
+      "gate": "implementation_authorized",
+      "reason": "The user explicitly authorized local implementation; github-standard-development preflight, Issue #2, task branch, and dedicated worktree are established."
+    },
+    {
+      "at": "2026-07-15T10:35:55.192424Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": "profile.json"
+    },
+    {
+      "at": "2026-07-15T10:35:55.738313Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": "artifacts/build_profile.mjs"
+    },
+    {
+      "at": "2026-07-15T10:35:56.222776Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": "README.md"
+    },
+    {
+      "at": "2026-07-15T10:35:56.704185Z",
+      "action": "recorded",
+      "kind": "artifact",
+      "value": "profile.html"
+    },
+    {
+      "at": "2026-07-15T10:35:57.144658Z",
+      "action": "recorded",
+      "kind": "evidence",
+      "value": ".alidesign/runs/issue-2-profile-redesign/evidence/implementation-verification.md"
+    },
+    {
+      "at": "2026-07-15T10:35:57.567503Z",
+      "action": "transition",
+      "from_state": "implementing",
+      "to_state": "evaluating",
+      "gate": "artifact_runnable",
+      "reason": "The v2 source, generator, README, semantic preview, four responsive signature assets, tests, XML parsing, published-link checks, and desktop/narrow light/dark evidence are complete."
+    },
+    {
+      "at": "2026-07-15T10:48:51.541492Z",
+      "action": "recorded",
+      "kind": "evidence",
+      "value": ".alidesign/runs/issue-2-profile-redesign/evaluation/round-001/report.md"
+    },
+    {
+      "at": "2026-07-15T10:49:04.289797Z",
+      "action": "transition",
+      "from_state": "evaluating",
+      "to_state": "accepted",
+      "gate": "evaluation_passed",
+      "reason": "Independent release evaluation scored 8.95/10 against an 8.0 threshold; all configured blockers are false and required build, GFM, link, XML, responsive, theme, fallback, keyboard, and source-integrity evidence is present."
+    }
+  ]
+}

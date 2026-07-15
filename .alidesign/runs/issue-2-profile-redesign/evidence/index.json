@@ -1,0 +1,12 @@
+{
+  "run_id": "issue-2-profile-redesign",
+  "evidence": [
+    "implementation-verification.md",
+    "desktop-light.png",
+    "desktop-dark.png",
+    "narrow-390-light.png",
+    "narrow-320-dark.png",
+    "zoom-200-light.png",
+    "image-fallback-light.png"
+  ]
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="signature-title signature-desc" viewBox="0 0 600 260">
+  <title id="signature-title">COOPER OAK</title>
+  <desc id="signature-desc">Cooper Oak pixel-green editorial signature.</desc>
+  <rect width="600" height="260" fill="#f0f0f0"/>
+  <text x="32" y="82" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="800">COOPER OAK</text>
+  <text x="32" y="136" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="600">GAME MODS · AI TOOLS</text>
+  <text x="32" y="174" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="600">USEFUL EXPERIMENTS</text>
+  <text x="32" y="226" fill="#4d4d4d" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="500">BUILT IN PUBLIC · 2026—</text>
+  <rect x="520" y="0" width="48" height="48" fill="#6ed959"/>
+  <rect x="568" y="48" width="32" height="48" fill="#6ed959"/>
+  <rect x="536" y="96" width="64" height="48" fill="#6ed959"/>
+  <rect x="568" y="144" width="32" height="116" fill="#6ed959"/>
+  <rect x="32" y="246" width="200" height="14" fill="#6ed959"/>
+</svg>

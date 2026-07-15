@@ -1,0 +1,45 @@
+version: 1
+project: "Cooper-X-Oak/Cooper-X-Oak"
+workflow:
+  skill: "$alidesign-engineering"
+  control_root: ".alidesign"
+  allowed_modes:
+    - "full"
+    - "evaluation-loop"
+scope:
+  include:
+    - "GitHub profile README information architecture and content"
+    - "One responsive, non-interactive signature visual"
+    - "Structured authoring source, generator, local preview, and generated profile assets"
+    - "Task-scoped design declarations and evaluation evidence"
+  exclude:
+    - "GitHub avatar replacement"
+    - "GitHub social/profile field changes"
+    - "Pinned repository changes"
+    - "Unrelated repository UI or legacy asset cleanup"
+    - "New frameworks or runtime dependencies"
+authority:
+  domain: ".alidesign/declarations/domain.md"
+  craft: ".alidesign/declarations/craft.md"
+  design_system: ".alidesign/declarations/design-system.md"
+  components: ".alidesign/declarations/components.md"
+  templates: ".alidesign/declarations/templates.md"
+  runs: ".alidesign/runs/"
+  task_request: "Conversation approval on 2026-07-15 and GitHub Issue #2"
+  repository_policy: "AGENTS.md"
+  platform:
+    - "https://docs.github.com/en/account-and-profile/concepts/personal-profile"
+    - "https://docs.github.com/en/account-and-profile/reference/profile-reference"
+    - "https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax"
+  public_facts:
+    - "GitHub GraphQL/API snapshot recorded in the active run content evidence"
+    - "Public repository READMEs and release pages linked by the active run"
+roadmap: ".alidesign/roadmap.md"
+milestones: ".alidesign/milestones/"
+issues: ".alidesign/issues/"
+evaluation_profile: ".alidesign/evaluation-profile.yaml"
+retention:
+  commit_control_directory: true
+  raw_browser_evidence: "Keep only evidence needed to audit the accepted round."
+unresolved_authority:
+  - "No verified contact, website, or social URL; contact CTA is out of scope rather than fabricated."
