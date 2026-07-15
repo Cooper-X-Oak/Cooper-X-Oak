@@ -21,14 +21,12 @@
     ".alidesign/runs/issue-2-profile-redesign/evidence/narrow-390-light.png",
     ".alidesign/runs/issue-2-profile-redesign/evidence/narrow-320-dark.png",
     ".alidesign/runs/issue-2-profile-redesign/evidence/zoom-200-light.png",
-    ".alidesign/runs/issue-2-profile-redesign/evidence/image-fallback-light.png"
+    ".alidesign/runs/issue-2-profile-redesign/evidence/image-fallback-light.png",
+    ".alidesign/runs/issue-2-profile-redesign/evidence/platform-smoke.md",
+    ".alidesign/runs/issue-2-profile-redesign/evidence/github-branch-desktop-light.png",
+    ".alidesign/runs/issue-2-profile-redesign/evidence/github-branch-narrow-dark.png"
   ],
   "gaps": [
-    {
-      "id": "branch_render_smoke",
-      "blocking": false,
-      "owner": "repository_delivery"
-    },
     {
       "id": "captured_screen_reader_session",
       "blocking": false,

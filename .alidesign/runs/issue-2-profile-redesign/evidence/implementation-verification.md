@@ -79,9 +79,10 @@ Screenshots:
   text while retaining the H1, all three projects, eleven native links, and a
   no-overflow 390px document.
 
-## Known release boundary
+## GitHub platform smoke
 
 The local preview exercises the complete shared view model and responsive
 assets, and the GitHub GFM API confirms the relevant sanitized structure. The
-repository branch/PR render remains the final visual platform smoke check
-before merge.
+public branch rendered the desktop light and 390px dark variants with the
+expected assets, headings, primary anchor, and no README overflow. See
+[`platform-smoke.md`](platform-smoke.md).

@@ -31,9 +31,8 @@
 
 ## Evidence gaps
 
-- A pushed branch/PR screenshot is deferred to the repository delivery phase.
-  GitHub's authenticated GFM API already confirms the sanitized structure, so
-  this is a non-blocking platform smoke check before merge.
+- The pushed branch-render screenshot gap was resolved after the evaluation
+  gate; see `../../evidence/platform-smoke.md`.
 - No captured screen-reader session. Native heading/link semantics, image
   fallback, keyboard focus, and Enter activation are verified; this is a
   non-blocking evidence gap for the current static Profile scope.
@@ -80,6 +79,14 @@ launch before micro-tuning.
 
 ## Next legal transition or stop reason
 
-Transition `evaluating -> accepted` through `release_evaluation_passed`, then
-continue the GitHub workflow with an intentional commit, branch push, draft PR,
-and the remaining branch-render smoke check before merge.
+The run transitioned `evaluating -> accepted` through `evaluation_passed`.
+Repository delivery then continued with an intentional commit, branch push,
+Draft PR #3, and the branch-render smoke check.
+
+## Post-gate platform evidence
+
+GitHub's public branch view returned HTTP 200 and rendered the expected desktop
+light and 390px dark mobile signature variants, one H1, two H2 sections, three
+project H3 headings, three responsive sources, the primary anchor, and no
+README overflow. PR #3 is mergeable with a clean merge state; the repository
+reports no branch checks. See `../../evidence/platform-smoke.md`.

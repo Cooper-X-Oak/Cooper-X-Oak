@@ -14,7 +14,8 @@
   "evidence": [
     ".alidesign/runs/issue-2-profile-redesign/content-evidence.md",
     ".alidesign/runs/issue-2-profile-redesign/evidence/implementation-verification.md",
-    ".alidesign/runs/issue-2-profile-redesign/evaluation/round-001/report.md"
+    ".alidesign/runs/issue-2-profile-redesign/evaluation/round-001/report.md",
+    ".alidesign/runs/issue-2-profile-redesign/evidence/platform-smoke.md"
   ],
   "records": [
     {
@@ -81,11 +82,16 @@
       "kind": "evidence",
       "value": ".alidesign/runs/issue-2-profile-redesign/evaluation/round-001/report.md",
       "at": "2026-07-15T10:48:51.541460Z"
+    },
+    {
+      "kind": "evidence",
+      "value": ".alidesign/runs/issue-2-profile-redesign/evidence/platform-smoke.md",
+      "at": "2026-07-15T10:58:35.985210Z"
     }
   ],
   "resume_state": null,
   "created_at": "2026-07-15T09:57:42.228369Z",
-  "updated_at": "2026-07-15T10:49:04.290059Z",
+  "updated_at": "2026-07-15T10:58:35.985553Z",
   "history": [
     {
       "at": "2026-07-15T09:57:42.228387Z",
@@ -234,6 +240,12 @@
       "to_state": "accepted",
       "gate": "evaluation_passed",
       "reason": "Independent release evaluation scored 8.95/10 against an 8.0 threshold; all configured blockers are false and required build, GFM, link, XML, responsive, theme, fallback, keyboard, and source-integrity evidence is present."
+    },
+    {
+      "at": "2026-07-15T10:58:35.985244Z",
+      "action": "recorded",
+      "kind": "evidence",
+      "value": ".alidesign/runs/issue-2-profile-redesign/evidence/platform-smoke.md"
     }
   ]
 }
