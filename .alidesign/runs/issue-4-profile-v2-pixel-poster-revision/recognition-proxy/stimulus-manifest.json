@@ -1,0 +1,18 @@
+﻿{
+    "method":  "nearest-neighbor projection from one monochrome raster source",
+    "source_sha256":  "279598209cddc26719dd1a9f50d843076633596f8567cc2497035c3e63147b7f",
+    "stimuli":  [
+                    {
+                        "file":  "stimulus-a.png",
+                        "width":  860,
+                        "height":  573,
+                        "sha256":  "4aa5563d8ef36b130f7254d48bbaf5a03eedc062d5abaa81a5ba9a7e3f5b60bf"
+                    },
+                    {
+                        "file":  "stimulus-b.png",
+                        "width":  320,
+                        "height":  213,
+                        "sha256":  "ac4765fc22dda921f251750b743ab9dda66ec6e335056098ade87da9bedf28c0"
+                    }
+                ]
+}

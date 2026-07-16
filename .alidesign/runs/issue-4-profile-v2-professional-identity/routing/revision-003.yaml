@@ -1,0 +1,1659 @@
+{
+  "schema_version": 1,
+  "run_id": "issue-4-profile-v2-professional-identity",
+  "mode": "full",
+  "revision": "revision-003",
+  "supersedes": "revision-002",
+  "supersedes_sha256": "f759571707ba9e0af88731ca7fc627c506cc334fc51d3552e5cfa3ec987235b6",
+  "created_at": "2026-07-15T14:26:13.520268Z",
+  "change_reason": "Record an isolated draft review of the three reversible Pixel Laboratory concept boards while keeping canonical product visual design, craft, design review, and UI mutation unresolved.",
+  "context": {
+    "artifact_type": "github_profile",
+    "platform": "github",
+    "renderer": "gfm",
+    "interaction_model": "static",
+    "has_visual_surface": true,
+    "task_traits": [
+      "brand_identity",
+      "professional_positioning",
+      "high_impact_design",
+      "structure_high_impact",
+      "user_locked_direction",
+      "pixel_identity_system",
+      "reversible_concept_boards",
+      "deterministic_vector_concept_boards"
+    ]
+  },
+  "actors": {
+    "author": "codex-main",
+    "gate_resolver": "alidesign-gate-resolver"
+  },
+  "precedence": [
+    "user_explicit",
+    "project_or_brand",
+    "platform_or_domain",
+    "framework",
+    "stage_specific",
+    "generic_fallback"
+  ],
+  "bindings": [
+    {
+      "capability": "design_authority",
+      "phase": "discovery",
+      "required_when": "always",
+      "optional": false,
+      "status": "resolved",
+      "resolve_by": "authority_resolved",
+      "complete_by": "authority_resolved",
+      "barriers": [],
+      "provider": {
+        "kind": "skill",
+        "ref": "$alidesign-engineering",
+        "role": "authority",
+        "specificity": "user_explicit",
+        "actor": "codex-main",
+        "match": {
+          "platform": [
+            "github"
+          ],
+          "artifact_type": [
+            "github_profile"
+          ]
+        },
+        "exclude": {}
+      },
+      "candidates": [
+        {
+          "kind": "skill",
+          "ref": "$alidesign-engineering",
+          "role": "authority",
+          "specificity": "user_explicit",
+          "actor": "codex-main",
+          "match": {
+            "platform": [
+              "github"
+            ],
+            "artifact_type": [
+              "github_profile"
+            ]
+          },
+          "exclude": {},
+          "available": true
+        }
+      ],
+      "selection_override": null,
+      "inputs": [
+        {
+          "kind": "file",
+          "ref": "AGENTS.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/brief.md"
+        },
+        {
+          "kind": "user_instruction",
+          "ref": "Use AliDesign with a capability router; preserve v1 and restart v2 from positioning and three art directions."
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/decisions.md"
+        }
+      ],
+      "decision": {
+        "rationale": "The user explicitly selected AliDesign, authorized the repository workflow, and required capability-level dispatch before any UI mutation.",
+        "evidence_refs": [
+          "GitHub Issue #4",
+          "AGENTS.md",
+          "current user authorization"
+        ],
+        "rule_refs": [
+          "$alidesign-engineering#resolve-design-authority"
+        ]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "planning_specification",
+      "phase": "planning",
+      "required_when": "always",
+      "optional": false,
+      "status": "resolved",
+      "resolve_by": "authority_resolved",
+      "complete_by": "planning_ready",
+      "barriers": [],
+      "provider": {
+        "kind": "skill",
+        "ref": "$evidence-clarity-loop",
+        "role": "guidance",
+        "specificity": "stage_specific",
+        "actor": "codex-main",
+        "match": {
+          "artifact_type": [
+            "github_profile"
+          ]
+        },
+        "exclude": {}
+      },
+      "candidates": [
+        {
+          "kind": "skill",
+          "ref": "$evidence-clarity-loop",
+          "role": "guidance",
+          "specificity": "stage_specific",
+          "actor": "codex-main",
+          "match": {
+            "artifact_type": [
+              "github_profile"
+            ]
+          },
+          "exclude": {},
+          "available": true
+        }
+      ],
+      "selection_override": null,
+      "inputs": [
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/brief.md"
+        },
+        {
+          "kind": "file",
+          "ref": "profile.json"
+        },
+        {
+          "kind": "user_instruction",
+          "ref": "Restart v2 from positioning and three art directions rather than tuning the v1 banner."
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/spec.md"
+        }
+      ],
+      "decision": {
+        "rationale": "Evidence Clarity Loop separates public facts, design inference, unresolved user choices, and irreversible implementation decisions.",
+        "evidence_refs": [
+          "current user critique",
+          "v1 accepted engineering baseline"
+        ],
+        "rule_refs": [
+          "references/workflow.md#stage-1-understanding-and-planning"
+        ]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "positioning",
+      "phase": "planning",
+      "required_when": {
+        "field": {
+          "name": "task_traits",
+          "op": "contains",
+          "value": "professional_positioning"
+        }
+      },
+      "optional": false,
+      "status": "resolved",
+      "resolve_by": "authority_resolved",
+      "complete_by": "planning_ready",
+      "barriers": [],
+      "provider": {
+        "kind": "skill",
+        "ref": "$evidence-clarity-loop",
+        "role": "guidance",
+        "specificity": "stage_specific",
+        "actor": "codex-main",
+        "match": {
+          "artifact_type": [
+            "github_profile"
+          ],
+          "platform": [
+            "github"
+          ]
+        },
+        "exclude": {}
+      },
+      "candidates": [
+        {
+          "kind": "skill",
+          "ref": "$evidence-clarity-loop",
+          "role": "guidance",
+          "specificity": "stage_specific",
+          "actor": "codex-main",
+          "match": {
+            "artifact_type": [
+              "github_profile"
+            ],
+            "platform": [
+              "github"
+            ]
+          },
+          "exclude": {},
+          "available": true
+        }
+      ],
+      "selection_override": null,
+      "inputs": [
+        {
+          "kind": "file",
+          "ref": "profile.json"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-2-profile-redesign/content-evidence.md"
+        },
+        {
+          "kind": "user_instruction",
+          "ref": "The Profile needs a more professional and distinctive AI-native identity."
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/positioning.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/claim-proof-map.md"
+        }
+      ],
+      "decision": {
+        "rationale": "Professional positioning is the explicit starting point for v2 and must be grounded before any art direction is selected.",
+        "evidence_refs": [
+          "current user request",
+          "v1 brand-expression gap"
+        ],
+        "rule_refs": [
+          "references/capability-routing.md#conditional-capabilities"
+        ]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "design_research",
+      "phase": "planning",
+      "required_when": {
+        "field": {
+          "name": "task_traits",
+          "op": "contains",
+          "value": "high_impact_design"
+        }
+      },
+      "optional": false,
+      "status": "resolved",
+      "resolve_by": "authority_resolved",
+      "complete_by": "planning_ready",
+      "barriers": [],
+      "provider": {
+        "kind": "skill",
+        "ref": "$evidence-clarity-loop",
+        "role": "guidance",
+        "specificity": "stage_specific",
+        "actor": "codex-main",
+        "match": {
+          "artifact_type": [
+            "github_profile"
+          ]
+        },
+        "exclude": {}
+      },
+      "candidates": [
+        {
+          "kind": "skill",
+          "ref": "$evidence-clarity-loop",
+          "role": "guidance",
+          "specificity": "stage_specific",
+          "actor": "codex-main",
+          "match": {
+            "artifact_type": [
+              "github_profile"
+            ]
+          },
+          "exclude": {},
+          "available": true
+        }
+      ],
+      "selection_override": null,
+      "inputs": [
+        {
+          "kind": "file",
+          "ref": "profile.json"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-2-profile-redesign/content-evidence.md"
+        },
+        {
+          "kind": "record",
+          "ref": "Public GitHub API snapshot captured 2026-07-15"
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/content-evidence.md"
+        }
+      ],
+      "decision": {
+        "rationale": "Changing a public professional identity is high-impact; claims, maturity labels, counter-evidence, and unknowns require an explicit evidence snapshot.",
+        "evidence_refs": [
+          "GitHub API snapshot",
+          "repository READMEs",
+          "v1 content inventory"
+        ],
+        "rule_refs": [
+          "references/capability-routing.md#conditional-capabilities"
+        ]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "art_direction_hypotheses",
+      "phase": "planning",
+      "required_when": {
+        "field": {
+          "name": "task_traits",
+          "op": "contains",
+          "value": "brand_identity"
+        }
+      },
+      "optional": false,
+      "status": "resolved",
+      "resolve_by": "authority_resolved",
+      "complete_by": "planning_ready",
+      "barriers": [],
+      "provider": {
+        "kind": "skill",
+        "ref": "$review-design-quality",
+        "role": "guidance",
+        "specificity": "generic_fallback",
+        "actor": "codex-main",
+        "match": {
+          "artifact_type": [
+            "github_profile"
+          ],
+          "platform": [
+            "github"
+          ],
+          "renderer": [
+            "gfm"
+          ],
+          "has_visual_surface": [
+            true
+          ]
+        },
+        "exclude": {}
+      },
+      "candidates": [
+        {
+          "kind": "skill",
+          "ref": "$review-design-quality",
+          "role": "guidance",
+          "specificity": "generic_fallback",
+          "actor": "codex-main",
+          "match": {
+            "artifact_type": [
+              "github_profile"
+            ],
+            "platform": [
+              "github"
+            ],
+            "renderer": [
+              "gfm"
+            ],
+            "has_visual_surface": [
+              true
+            ]
+          },
+          "exclude": {},
+          "available": true
+        }
+      ],
+      "selection_override": null,
+      "inputs": [
+        {
+          "kind": "skill",
+          "ref": "$review-design-quality"
+        },
+        {
+          "kind": "file",
+          "ref": "AGENTS.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/positioning.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/claim-proof-map.md"
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/art-direction-variants.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/01-proof-as-identity.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/02-pixel-grammar.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/03-public-field-notes.md"
+        }
+      ],
+      "decision": {
+        "rationale": "The general design-quality Skill may structure three reversible, evidence-linked hypotheses. It does not supply or approve the missing Cooper-specific personal-brand art direction.",
+        "evidence_refs": [
+          "positioning.md",
+          "claim-proof-map.md",
+          "v1 design-quality gap"
+        ],
+        "rule_refs": [
+          "$review-design-quality#reversible-exploration",
+          "references/capability-routing.md#ui-mutation-barrier"
+        ]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "decision_contract",
+      "phase": "planning",
+      "required_when": "always",
+      "optional": false,
+      "status": "resolved",
+      "resolve_by": "planning_ready",
+      "complete_by": "planning_ready",
+      "barriers": [],
+      "provider": {
+        "kind": "skill",
+        "ref": "$evidence-clarity-loop",
+        "role": "guidance",
+        "specificity": "stage_specific",
+        "actor": "codex-main",
+        "match": {
+          "artifact_type": [
+            "github_profile"
+          ],
+          "platform": [
+            "github"
+          ]
+        },
+        "exclude": {}
+      },
+      "candidates": [
+        {
+          "kind": "skill",
+          "ref": "$evidence-clarity-loop",
+          "role": "guidance",
+          "specificity": "stage_specific",
+          "actor": "codex-main",
+          "match": {
+            "artifact_type": [
+              "github_profile"
+            ],
+            "platform": [
+              "github"
+            ]
+          },
+          "exclude": {},
+          "available": true
+        }
+      ],
+      "selection_override": null,
+      "inputs": [
+        {
+          "kind": "user_instruction",
+          "ref": "The sequential Profile v2 decision interview, including only answers explicitly locked by Cooper Oak."
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/content-evidence.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/claim-proof-map.md"
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/decision-contract.md"
+        }
+      ],
+      "decision": {
+        "rationale": "Evidence Clarity Loop structures explicit user answers without upgrading inference into fact; the user instructions remain the authority input.",
+        "evidence_refs": [
+          "sequential decision interview",
+          "decision-contract.md"
+        ],
+        "rule_refs": [
+          "$evidence-clarity-loop",
+          "references/workflow.md#stage-1-understanding-and-planning"
+        ]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "visual_art_direction",
+      "phase": "component_domain",
+      "required_when": {
+        "any": [
+          {
+            "field": {
+              "name": "has_visual_surface",
+              "op": "eq",
+              "value": true
+            }
+          },
+          {
+            "field": {
+              "name": "task_traits",
+              "op": "contains",
+              "value": "brand_identity"
+            }
+          }
+        ]
+      },
+      "optional": false,
+      "status": "resolved",
+      "resolve_by": "implementation_authorized",
+      "complete_by": "implementation_authorized",
+      "barriers": [
+        "ui_mutation"
+      ],
+      "provider": {
+        "kind": "skill",
+        "ref": "$review-design-quality",
+        "role": "guidance",
+        "specificity": "generic_fallback",
+        "actor": "codex-main",
+        "match": {
+          "artifact_type": [
+            "github_profile"
+          ],
+          "platform": [
+            "github"
+          ],
+          "renderer": [
+            "gfm"
+          ],
+          "has_visual_surface": [
+            true
+          ]
+        },
+        "exclude": {}
+      },
+      "candidates": [
+        {
+          "kind": "skill",
+          "ref": "$review-design-quality",
+          "role": "guidance",
+          "specificity": "generic_fallback",
+          "actor": "codex-main",
+          "match": {
+            "artifact_type": [
+              "github_profile"
+            ],
+            "platform": [
+              "github"
+            ],
+            "renderer": [
+              "gfm"
+            ],
+            "has_visual_surface": [
+              true
+            ]
+          },
+          "exclude": {},
+          "available": true
+        }
+      ],
+      "selection_override": null,
+      "inputs": [
+        {
+          "kind": "skill",
+          "ref": "$review-design-quality"
+        },
+        {
+          "kind": "file",
+          "ref": "AGENTS.md"
+        },
+        {
+          "kind": "file",
+          "ref": "profile.json"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/decision-contract.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/positioning.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/claim-proof-map.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/art-direction-variants.md"
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/selected-art-direction.md"
+        }
+      ],
+      "decision": {
+        "rationale": "Cooper Oak supplied the missing brand basis and explicitly selected Pixel Laboratory. Review Design Quality may develop that user-authored direction but may not replace it with generic styling; the direction still does not complete production visual design or craft.",
+        "evidence_refs": [
+          "decision-contract.md",
+          "art-direction-variants.md",
+          "selected-art-direction.md"
+        ],
+        "rule_refs": [
+          "$review-design-quality#route-before-acting",
+          "references/capability-routing.md#ui-mutation-barrier"
+        ]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "information_architecture",
+      "phase": "information_architecture",
+      "required_when": "always",
+      "optional": false,
+      "status": "resolved",
+      "resolve_by": "planning_ready",
+      "complete_by": "structure_ready",
+      "barriers": [],
+      "provider": {
+        "kind": "skill",
+        "ref": "$review-design-quality",
+        "role": "guidance",
+        "specificity": "generic_fallback",
+        "actor": "codex-main",
+        "match": {
+          "artifact_type": [
+            "github_profile"
+          ],
+          "platform": [
+            "github"
+          ],
+          "renderer": [
+            "gfm"
+          ]
+        },
+        "exclude": {}
+      },
+      "candidates": [
+        {
+          "kind": "skill",
+          "ref": "$review-design-quality",
+          "role": "guidance",
+          "specificity": "generic_fallback",
+          "actor": "codex-main",
+          "match": {
+            "artifact_type": [
+              "github_profile"
+            ],
+            "platform": [
+              "github"
+            ],
+            "renderer": [
+              "gfm"
+            ]
+          },
+          "exclude": {},
+          "available": true
+        }
+      ],
+      "selection_override": null,
+      "inputs": [
+        {
+          "kind": "skill",
+          "ref": "$review-design-quality"
+        },
+        {
+          "kind": "file",
+          "ref": "AGENTS.md"
+        },
+        {
+          "kind": "file",
+          "ref": "profile.json"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/decision-contract.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/spec.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/positioning.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/content-evidence.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/selected-art-direction.md"
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/information-architecture.md"
+        }
+      ],
+      "decision": {
+        "rationale": "Review Design Quality applies the explicit user-selected single-column evidence-first structure to GitHub/GFM constraints without inventing additional sections.",
+        "evidence_refs": [
+          "decision-contract.md",
+          "information-architecture-variants.md",
+          "selected-art-direction.md"
+        ],
+        "rule_refs": [
+          "references/workflow.md#stage-2-information-architecture"
+        ]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "ia_variants",
+      "phase": "information_architecture",
+      "required_when": {
+        "field": {
+          "name": "task_traits",
+          "op": "contains",
+          "value": "structure_high_impact"
+        }
+      },
+      "optional": false,
+      "status": "resolved",
+      "resolve_by": "planning_ready",
+      "complete_by": "structure_ready",
+      "barriers": [],
+      "provider": {
+        "kind": "skill",
+        "ref": "$review-design-quality",
+        "role": "guidance",
+        "specificity": "generic_fallback",
+        "actor": "codex-main",
+        "match": {
+          "artifact_type": [
+            "github_profile"
+          ],
+          "platform": [
+            "github"
+          ],
+          "renderer": [
+            "gfm"
+          ]
+        },
+        "exclude": {}
+      },
+      "candidates": [
+        {
+          "kind": "skill",
+          "ref": "$review-design-quality",
+          "role": "guidance",
+          "specificity": "generic_fallback",
+          "actor": "codex-main",
+          "match": {
+            "artifact_type": [
+              "github_profile"
+            ],
+            "platform": [
+              "github"
+            ],
+            "renderer": [
+              "gfm"
+            ]
+          },
+          "exclude": {},
+          "available": true
+        }
+      ],
+      "selection_override": null,
+      "inputs": [
+        {
+          "kind": "skill",
+          "ref": "$review-design-quality"
+        },
+        {
+          "kind": "file",
+          "ref": "AGENTS.md"
+        },
+        {
+          "kind": "file",
+          "ref": "profile.json"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/decision-contract.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/spec.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/positioning.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/content-evidence.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/selected-art-direction.md"
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/information-architecture-variants.md"
+        }
+      ],
+      "decision": {
+        "rationale": "The public identity change is structurally high-impact; Review Design Quality compares evidence-first, method-first, and growth-first structures against the locked user contract before preserving the selected order.",
+        "evidence_refs": [
+          "decision-contract.md",
+          "information-architecture-variants.md"
+        ],
+        "rule_refs": [
+          "references/workflow.md#stage-2-information-architecture"
+        ]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "concept_board_exploration",
+      "phase": "component_domain",
+      "required_when": "always",
+      "optional": false,
+      "status": "resolved",
+      "resolve_by": "structure_ready",
+      "complete_by": "semantics_ready",
+      "barriers": [],
+      "provider": {
+        "kind": "skill",
+        "ref": "$review-design-quality",
+        "role": "guidance",
+        "specificity": "generic_fallback",
+        "actor": "codex-main",
+        "match": {
+          "artifact_type": [
+            "github_profile"
+          ],
+          "platform": [
+            "github"
+          ],
+          "renderer": [
+            "gfm"
+          ],
+          "has_visual_surface": [
+            true
+          ]
+        },
+        "exclude": {}
+      },
+      "candidates": [
+        {
+          "kind": "skill",
+          "ref": "$review-design-quality",
+          "role": "guidance",
+          "specificity": "generic_fallback",
+          "actor": "codex-main",
+          "match": {
+            "artifact_type": [
+              "github_profile"
+            ],
+            "platform": [
+              "github"
+            ],
+            "renderer": [
+              "gfm"
+            ],
+            "has_visual_surface": [
+              true
+            ]
+          },
+          "exclude": {},
+          "available": true
+        }
+      ],
+      "selection_override": null,
+      "inputs": [
+        {
+          "kind": "skill",
+          "ref": "$review-design-quality"
+        },
+        {
+          "kind": "file",
+          "ref": "AGENTS.md"
+        },
+        {
+          "kind": "file",
+          "ref": "profile.json"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/decision-contract.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/selected-art-direction.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/information-architecture.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/information-architecture-variants.md"
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/index.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/concept-boards.json"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/render-concept-boards.mjs"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/render-concept-boards.test.mjs"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/render-manifest.json"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/boards/01-branch-register.svg"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/boards/02-counterform-canopy.svg"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/boards/03-ring-ledger.svg"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/previews/01-branch-register.png"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/previews/02-counterform-canopy.png"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/previews/03-ring-ledger.png"
+        }
+      ],
+      "decision": {
+        "rationale": "Three deterministic run-scoped boards compare materially different compositions inside the user-selected Pixel Laboratory direction. They are reversible evidence and are never consumed by the Profile generator.",
+        "evidence_refs": [
+          "decision-contract.md",
+          "selected-art-direction.md",
+          "information-architecture.md"
+        ],
+        "rule_refs": [
+          "$review-design-quality#apply-the-workflow",
+          "references/workflow.md#stage-3-component-and-domain-semantics"
+        ]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "concept_board_review",
+      "phase": "component_domain",
+      "required_when": "always",
+      "optional": false,
+      "status": "resolved",
+      "resolve_by": "semantics_ready",
+      "complete_by": "semantics_ready",
+      "barriers": [],
+      "provider": {
+        "kind": "skill",
+        "ref": "$review-design-quality",
+        "role": "review",
+        "specificity": "generic_fallback",
+        "actor": "codex-independent-concept-reviewer",
+        "match": {
+          "artifact_type": [
+            "github_profile"
+          ],
+          "platform": [
+            "github"
+          ],
+          "renderer": [
+            "gfm"
+          ],
+          "has_visual_surface": [
+            true
+          ]
+        },
+        "exclude": {}
+      },
+      "candidates": [
+        {
+          "kind": "skill",
+          "ref": "$review-design-quality",
+          "role": "review",
+          "specificity": "generic_fallback",
+          "actor": "codex-independent-concept-reviewer",
+          "match": {
+            "artifact_type": [
+              "github_profile"
+            ],
+            "platform": [
+              "github"
+            ],
+            "renderer": [
+              "gfm"
+            ],
+            "has_visual_surface": [
+              true
+            ]
+          },
+          "exclude": {},
+          "available": true
+        }
+      ],
+      "selection_override": null,
+      "inputs": [
+        {
+          "kind": "skill",
+          "ref": "$review-design-quality"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/decision-contract.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/selected-art-direction.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/information-architecture.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/index.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/concept-boards.json"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/boards/01-branch-register.svg"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/boards/02-counterform-canopy.svg"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/boards/03-ring-ledger.svg"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/previews/01-branch-register.png"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/previews/02-counterform-canopy.png"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/previews/03-ring-ledger.png"
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/concepts/pixel-laboratory/independent-review.md"
+        }
+      ],
+      "decision": {
+        "rationale": "A distinct reviewer in a fresh context compares the three reversible boards before user selection. This draft concept review cannot satisfy the canonical product design_review capability.",
+        "evidence_refs": [
+          "decision-contract.md",
+          "selected-art-direction.md",
+          "information-architecture.md",
+          "pixel-laboratory PNG previews"
+        ],
+        "rule_refs": [
+          "$review-design-quality#review-mode",
+          "references/capability-routing.md#evaluator-isolation"
+        ]
+      },
+      "isolation": {
+        "independent": true,
+        "method": "fresh subagent context"
+      }
+    },
+    {
+      "capability": "domain_semantics",
+      "phase": "component_domain",
+      "required_when": {
+        "field": {
+          "name": "task_traits",
+          "op": "contains",
+          "value": "domain_sensitive"
+        }
+      },
+      "optional": false,
+      "status": "not_applicable",
+      "resolve_by": "structure_ready",
+      "complete_by": "semantics_ready",
+      "barriers": [],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [],
+      "outputs": [],
+      "decision": {
+        "rationale": "The current planning contract does not declare a separate domain-sensitive model beyond GitHub/GFM platform constraints.",
+        "evidence_refs": [
+          "routing context"
+        ],
+        "rule_refs": [
+          "references/workflow.md#stage-3-component-and-domain-semantics"
+        ]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "component_semantics",
+      "phase": "component_domain",
+      "required_when": {
+        "field": {
+          "name": "task_traits",
+          "op": "contains",
+          "value": "custom_components"
+        }
+      },
+      "optional": false,
+      "status": "not_applicable",
+      "resolve_by": "structure_ready",
+      "complete_by": "semantics_ready",
+      "barriers": [],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [],
+      "outputs": [],
+      "decision": {
+        "rationale": "The current planning contract does not yet authorize a custom component system; that decision may be appended after art-direction selection.",
+        "evidence_refs": [
+          "routing context"
+        ],
+        "rule_refs": [
+          "references/workflow.md#stage-3-component-and-domain-semantics"
+        ]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "visual_design",
+      "phase": "component_domain",
+      "required_when": {
+        "field": {
+          "name": "has_visual_surface",
+          "op": "eq",
+          "value": true
+        }
+      },
+      "optional": false,
+      "status": "missing",
+      "resolve_by": "semantics_ready",
+      "complete_by": "implementation_authorized",
+      "barriers": [
+        "ui_mutation"
+      ],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/selected-art-direction.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/information-architecture.md"
+        },
+        {
+          "kind": "file",
+          "ref": "AGENTS.md"
+        },
+        {
+          "kind": "file",
+          "ref": "profile.json"
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/visual-design-spec.md"
+        }
+      ],
+      "decision": {
+        "rationale": "Visual design is required, but it cannot resolve before a legitimate art-direction provider and explicit direction selection exist.",
+        "evidence_refs": [
+          "current user request",
+          "visual_art_direction capability gap"
+        ],
+        "rule_refs": [
+          "references/capability-routing.md#ui-mutation-barrier"
+        ]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "craft",
+      "phase": "interaction_states",
+      "required_when": {
+        "field": {
+          "name": "has_visual_surface",
+          "op": "eq",
+          "value": true
+        }
+      },
+      "optional": false,
+      "status": "missing",
+      "resolve_by": "behavior_ready",
+      "complete_by": "behavior_ready",
+      "barriers": [
+        "ui_mutation"
+      ],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/selected-art-direction.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/visual-design-spec.md"
+        },
+        {
+          "kind": "file",
+          "ref": "AGENTS.md"
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/craft-criteria.md"
+        }
+      ],
+      "decision": {
+        "rationale": "The GitHub Profile is static but visual; motion is skippable, while typography, composition, contrast, and authorship craft remain required before UI mutation.",
+        "evidence_refs": [
+          "routing context",
+          "current user critique"
+        ],
+        "rule_refs": [
+          "references/capability-routing.md#static-does-not-skip-craft"
+        ]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "interaction_behavior",
+      "phase": "interaction_states",
+      "required_when": {
+        "not": {
+          "field": {
+            "name": "interaction_model",
+            "op": "eq",
+            "value": "static"
+          }
+        }
+      },
+      "optional": false,
+      "status": "not_applicable",
+      "resolve_by": "interaction_authority_resolved",
+      "complete_by": "behavior_ready",
+      "barriers": [],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [],
+      "outputs": [],
+      "decision": {
+        "rationale": "The initial task profile is static.",
+        "evidence_refs": [
+          "routing context"
+        ],
+        "rule_refs": [
+          "references/workflow.md#stage-4-interaction-states"
+        ]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "motion",
+      "phase": "interaction_states",
+      "required_when": {
+        "not": {
+          "field": {
+            "name": "interaction_model",
+            "op": "eq",
+            "value": "static"
+          }
+        }
+      },
+      "optional": false,
+      "status": "not_applicable",
+      "resolve_by": "interaction_authority_resolved",
+      "complete_by": "behavior_ready",
+      "barriers": [],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [],
+      "outputs": [],
+      "decision": {
+        "rationale": "The initial task profile is static and has no custom motion.",
+        "evidence_refs": [
+          "routing context"
+        ],
+        "rule_refs": [
+          "references/capability-routing.md#static-does-not-skip-craft"
+        ]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "implementation_authority",
+      "phase": "design_ready",
+      "required_when": "always",
+      "optional": false,
+      "status": "missing",
+      "resolve_by": "implementation_authorized",
+      "complete_by": "implementation_authorized",
+      "barriers": [
+        "ui_mutation"
+      ],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [
+        {
+          "kind": "file",
+          "ref": "AGENTS.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/selected-art-direction.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/visual-design-spec.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/craft-criteria.md"
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/implementation-authority.md"
+        }
+      ],
+      "decision": {
+        "rationale": "Resolve the repository and implementation workflow before mutation.",
+        "evidence_refs": [],
+        "rule_refs": [
+          "references/workflow.md#implementation-bridge"
+        ]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "implementation_projection",
+      "phase": "implementing",
+      "required_when": "always",
+      "optional": false,
+      "status": "missing",
+      "resolve_by": "implementation_authorized",
+      "complete_by": "artifact_runnable",
+      "barriers": [
+        "ui_mutation"
+      ],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [
+        {
+          "kind": "file",
+          "ref": "profile.json"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/information-architecture.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/selected-art-direction.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/visual-design-spec.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/craft-criteria.md"
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/implementation-record.md"
+        }
+      ],
+      "decision": {
+        "rationale": "Select the platform/framework capability that projects approved declarations into the artifact.",
+        "evidence_refs": [],
+        "rule_refs": [
+          "references/workflow.md#implementation-bridge"
+        ]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "evidence_collection",
+      "phase": "evaluation",
+      "required_when": "always",
+      "optional": false,
+      "status": "missing",
+      "resolve_by": "evaluation_ready",
+      "complete_by": "evaluation_passed",
+      "barriers": [],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [
+        {
+          "kind": "file",
+          "ref": "README.md"
+        },
+        {
+          "kind": "file",
+          "ref": "profile.html"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/evaluation-profile.yaml"
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/evaluation/round-001/evidence.json"
+        }
+      ],
+      "decision": {
+        "rationale": "Select deterministic evidence collectors appropriate to the artifact.",
+        "evidence_refs": [],
+        "rule_refs": [
+          "references/evaluation.md#collect-applicable-evidence"
+        ]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "design_review",
+      "phase": "evaluation",
+      "required_when": {
+        "any": [
+          {
+            "field": {
+              "name": "has_visual_surface",
+              "op": "eq",
+              "value": true
+            }
+          },
+          {
+            "field": {
+              "name": "task_traits",
+              "op": "contains",
+              "value": "brand_identity"
+            }
+          }
+        ]
+      },
+      "optional": false,
+      "status": "missing",
+      "resolve_by": "evaluation_ready",
+      "complete_by": "evaluation_passed",
+      "barriers": [],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [
+        {
+          "kind": "file",
+          "ref": "README.md"
+        },
+        {
+          "kind": "file",
+          "ref": "profile.html"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/positioning.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/selected-art-direction.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/craft-criteria.md"
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/evaluation/round-001/report.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/evaluation/round-001/evidence.json"
+        }
+      ],
+      "decision": {
+        "rationale": "Brand-bearing work requires an independently assigned reviewer in a fresh context; no reviewer is claimed before runnable v2 evidence exists.",
+        "evidence_refs": [
+          "routing context",
+          "independent review contract"
+        ],
+        "rule_refs": [
+          "references/evaluation.md#separate-three-responsibilities"
+        ]
+      },
+      "isolation": {
+        "independent": false,
+        "method": ""
+      }
+    },
+    {
+      "capability": "gate_resolution",
+      "phase": "evaluation",
+      "required_when": "always",
+      "optional": false,
+      "status": "missing",
+      "resolve_by": "evaluation_ready",
+      "complete_by": "evaluation_passed",
+      "barriers": [],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [
+        {
+          "kind": "file",
+          "ref": ".alidesign/evaluation-profile.yaml"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/evaluation/round-001/evidence.json"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/evaluation/round-001/report.md"
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/evaluation/round-001/report.md"
+        },
+        {
+          "kind": "file",
+          "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/evaluation/round-001/evidence.json"
+        }
+      ],
+      "decision": {
+        "rationale": "Use AliDesign only to resolve the selected evaluation contract, not to invent it.",
+        "evidence_refs": [],
+        "rule_refs": [
+          "references/evaluation.md#produce-a-gate-result"
+        ]
+      },
+      "isolation": null
+    }
+  ]
+}

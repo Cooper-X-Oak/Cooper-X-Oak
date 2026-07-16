@@ -1,0 +1,199 @@
+{
+  "schema_version": 2,
+  "run_id": "issue-4-profile-v2-whole-page-interface-revision",
+  "project": "Cooper-X-Oak-profile-issue-4",
+  "task": "Redesign the complete GitHub Profile page system while preserving the two current Pixel Oak visual roles byte-for-byte",
+  "mode": "full",
+  "milestone": "M004",
+  "issue": "AD-004",
+  "state": "accepted",
+  "iteration": 1,
+  "active_spec": null,
+  "best_candidate": null,
+  "blockers": [],
+  "evidence": [],
+  "records": [],
+  "routing_manifest": "routing.yaml",
+  "sealed_routes": [
+    {
+      "revision_id": "revision-001",
+      "revision_ref": "routing/revision-001.yaml",
+      "sha256": "e57eb341cc816369c50ce25d8ad69e4e5f6ac7fec4312d5277bd661018a9cacc",
+      "gate": "authority_resolved",
+      "sealed_at": "2026-07-16T07:26:06.898276Z"
+    },
+    {
+      "revision_id": "revision-001",
+      "revision_ref": "routing/revision-001.yaml",
+      "sha256": "e57eb341cc816369c50ce25d8ad69e4e5f6ac7fec4312d5277bd661018a9cacc",
+      "gate": "planning_ready",
+      "sealed_at": "2026-07-16T07:26:07.148193Z"
+    },
+    {
+      "revision_id": "revision-001",
+      "revision_ref": "routing/revision-001.yaml",
+      "sha256": "e57eb341cc816369c50ce25d8ad69e4e5f6ac7fec4312d5277bd661018a9cacc",
+      "gate": "structure_ready",
+      "sealed_at": "2026-07-16T07:26:07.414227Z"
+    },
+    {
+      "revision_id": "revision-001",
+      "revision_ref": "routing/revision-001.yaml",
+      "sha256": "e57eb341cc816369c50ce25d8ad69e4e5f6ac7fec4312d5277bd661018a9cacc",
+      "gate": "semantics_ready",
+      "sealed_at": "2026-07-16T07:26:07.625754Z"
+    },
+    {
+      "revision_id": "revision-001",
+      "revision_ref": "routing/revision-001.yaml",
+      "sha256": "e57eb341cc816369c50ce25d8ad69e4e5f6ac7fec4312d5277bd661018a9cacc",
+      "gate": "behavior_ready",
+      "sealed_at": "2026-07-16T07:26:07.819794Z"
+    },
+    {
+      "revision_id": "revision-001",
+      "revision_ref": "routing/revision-001.yaml",
+      "sha256": "e57eb341cc816369c50ce25d8ad69e4e5f6ac7fec4312d5277bd661018a9cacc",
+      "gate": "implementation_authorized",
+      "sealed_at": "2026-07-16T07:26:08.043459Z"
+    },
+    {
+      "revision_id": "revision-001",
+      "revision_ref": "routing/revision-001.yaml",
+      "sha256": "e57eb341cc816369c50ce25d8ad69e4e5f6ac7fec4312d5277bd661018a9cacc",
+      "gate": "artifact_runnable",
+      "sealed_at": "2026-07-16T07:35:06.001359Z"
+    },
+    {
+      "revision_id": "revision-001",
+      "revision_ref": "routing/revision-001.yaml",
+      "sha256": "e57eb341cc816369c50ce25d8ad69e4e5f6ac7fec4312d5277bd661018a9cacc",
+      "gate": "evaluation_passed",
+      "sealed_at": "2026-07-16T07:40:42.563046Z"
+    }
+  ],
+  "sealed_evaluations": [
+    {
+      "round": "round-001",
+      "verdict": "passed",
+      "routing_revision": "revision-001",
+      "sealed_at": "2026-07-16T07:40:42.562965Z",
+      "files": [
+        {
+          "ref": ".alidesign/runs/issue-4-profile-v2-whole-page-interface-revision/evaluation/round-001/evidence.json",
+          "sha256": "87349a584b50c8a217b642ed61c6b509f2fdb2b55536946502cde7e4ace493b4"
+        },
+        {
+          "ref": ".alidesign/runs/issue-4-profile-v2-whole-page-interface-revision/evaluation/round-001/report.md",
+          "sha256": "b10f14e299cb56d645be68a70ba7aca7a930c01cc361645c6882d823b1b3e614"
+        },
+        {
+          "ref": ".alidesign/runs/issue-4-profile-v2-whole-page-interface-revision/evidence/production-metrics.json",
+          "sha256": "8def71666c96ef363f7e950186cb8215166faabf1162b525a072f001e43d90bb"
+        },
+        {
+          "ref": ".alidesign/runs/issue-4-profile-v2-whole-page-interface-revision/evidence/profile-320-light.png",
+          "sha256": "652395c94635e44b7f2220aaee592b4556cadfea508c59670373d48b0fc44ea9"
+        }
+      ],
+      "round_trees": [
+        {
+          "round": "round-001",
+          "ref": ".alidesign/runs/issue-4-profile-v2-whole-page-interface-revision/evaluation/round-001",
+          "sha256": "baba0731222fdb26283d7e05c0bc408727d70933dd5bd4f251c4b49357dd530f"
+        }
+      ]
+    }
+  ],
+  "resume_state": null,
+  "created_at": "2026-07-16T07:21:08.759360Z",
+  "updated_at": "2026-07-16T07:40:42.563310Z",
+  "history": [
+    {
+      "at": "2026-07-16T07:21:08.759425Z",
+      "action": "initialized",
+      "state": "discovery",
+      "mode": "full"
+    },
+    {
+      "at": "2026-07-16T07:26:06.898303Z",
+      "action": "transition",
+      "from_state": "discovery",
+      "to_state": "planning",
+      "gate": "authority_resolved",
+      "reason": "User froze the production SVGs and authorized a whole-page redesign; applicable project, platform, prior-run, and Skill authority is resolved in sealed routing revision-001.",
+      "routing_revision": "revision-001",
+      "routing_sha256": "e57eb341cc816369c50ce25d8ad69e4e5f6ac7fec4312d5277bd661018a9cacc"
+    },
+    {
+      "at": "2026-07-16T07:26:07.148222Z",
+      "action": "transition",
+      "from_state": "planning",
+      "to_state": "information_architecture",
+      "gate": "planning_ready",
+      "reason": "The task boundary, truthful content, frozen assets, composition contract, prohibitions, and observable acceptance are complete.",
+      "routing_revision": "revision-001",
+      "routing_sha256": "e57eb341cc816369c50ce25d8ad69e4e5f6ac7fec4312d5277bd661018a9cacc"
+    },
+    {
+      "at": "2026-07-16T07:26:07.414257Z",
+      "action": "transition",
+      "from_state": "information_architecture",
+      "to_state": "component_domain",
+      "gate": "structure_ready",
+      "reason": "The editorial control-ledger IA and rejected alternatives are documented with a 320px and image-failure contract.",
+      "routing_revision": "revision-001",
+      "routing_sha256": "e57eb341cc816369c50ce25d8ad69e4e5f6ac7fec4312d5277bd661018a9cacc"
+    },
+    {
+      "at": "2026-07-16T07:26:07.625781Z",
+      "action": "transition",
+      "from_state": "component_domain",
+      "to_state": "interaction_states",
+      "gate": "semantics_ready",
+      "reason": "Native GFM/HTML roles, truthful field/value meanings, asset allowlist, and visual specification are explicit.",
+      "routing_revision": "revision-001",
+      "routing_sha256": "e57eb341cc816369c50ce25d8ad69e4e5f6ac7fec4312d5277bd661018a9cacc"
+    },
+    {
+      "at": "2026-07-16T07:26:07.819844Z",
+      "action": "transition",
+      "from_state": "interaction_states",
+      "to_state": "design_ready",
+      "gate": "behavior_ready",
+      "reason": "The static surface legitimately skips motion and application states while retaining required craft, responsive, keyboard, theme, and failure checks.",
+      "routing_revision": "revision-001",
+      "routing_sha256": "e57eb341cc816369c50ce25d8ad69e4e5f6ac7fec4312d5277bd661018a9cacc"
+    },
+    {
+      "at": "2026-07-16T07:26:08.043485Z",
+      "action": "transition",
+      "from_state": "design_ready",
+      "to_state": "implementing",
+      "gate": "implementation_authorized",
+      "reason": "The existing isolated issue worktree, profile.json source, deterministic generator, verification plan, and Draft PR delivery boundary are resolved.",
+      "routing_revision": "revision-001",
+      "routing_sha256": "e57eb341cc816369c50ce25d8ad69e4e5f6ac7fec4312d5277bd661018a9cacc"
+    },
+    {
+      "at": "2026-07-16T07:35:06.001385Z",
+      "action": "transition",
+      "from_state": "implementing",
+      "to_state": "evaluating",
+      "gate": "artifact_runnable",
+      "reason": "The whole-page ledger projection is runnable; 23 tests, six-output drift, four frozen SVG hashes, five viewport cases, five tables, eight links, and zero overflow nodes pass.",
+      "routing_revision": "revision-001",
+      "routing_sha256": "e57eb341cc816369c50ce25d8ad69e4e5f6ac7fec4312d5277bd661018a9cacc"
+    },
+    {
+      "at": "2026-07-16T07:40:42.563063Z",
+      "action": "transition",
+      "from_state": "evaluating",
+      "to_state": "accepted",
+      "gate": "evaluation_passed",
+      "reason": "Round-001 independent release review passed: the redesign is materially whole-page, all five viewport states pass, four SVGs remain byte-identical, and no blocker or directed revision remains.",
+      "routing_revision": "revision-001",
+      "routing_sha256": "e57eb341cc816369c50ce25d8ad69e4e5f6ac7fec4312d5277bd661018a9cacc"
+    }
+  ]
+}

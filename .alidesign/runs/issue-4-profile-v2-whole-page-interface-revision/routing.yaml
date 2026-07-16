@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "run_id": "issue-4-profile-v2-whole-page-interface-revision",
+  "active_revision": "routing/revision-001.yaml",
+  "revisions": [
+    {
+      "id": "revision-001",
+      "path": "routing/revision-001.yaml",
+      "status": "sealed",
+      "sha256": "e57eb341cc816369c50ce25d8ad69e4e5f6ac7fec4312d5277bd661018a9cacc",
+      "parent_sha256": null,
+      "created_at": "2026-07-16T07:21:08.760311Z",
+      "sealed_at": "2026-07-16T07:25:20.888466Z",
+      "reason": "Initial capability-routing record."
+    }
+  ]
+}

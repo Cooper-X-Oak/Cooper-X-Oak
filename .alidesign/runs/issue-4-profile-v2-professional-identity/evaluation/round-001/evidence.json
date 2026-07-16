@@ -1,0 +1,89 @@
+{
+  "schema_version": 2,
+  "run_id": "issue-4-profile-v2-professional-identity",
+  "round": "round-001",
+  "review_mode": "independent_release_review",
+  "status": "final",
+  "verdict": "passed",
+  "routing_revision": "revision-006",
+  "created_at": "2026-07-15T15:54:57.833756Z",
+  "finalized_at": "2026-07-15T16:16:00Z",
+  "role_bindings": {
+    "evidence_collector": "codex-main",
+    "design_reviewer": "codex-design-evaluator-019f664b-38d1-79f3-ba6b-2a9c059f5c6c",
+    "gate_resolver": "alidesign-gate-resolver"
+  },
+  "artifact_refs": [
+    "profile.json",
+    "README.md",
+    "profile.html",
+    "assets/profile-signature-light.svg",
+    "assets/profile-signature-dark.svg",
+    "assets/profile-evidence-light.svg",
+    "assets/profile-evidence-dark.svg"
+  ],
+  "evidence": [
+    {
+      "kind": "canonical_contract",
+      "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/visual-design-spec.md",
+      "result": "passed"
+    },
+    {
+      "kind": "implementation_verification",
+      "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/evidence/implementation-verification.md",
+      "result": "passed"
+    },
+    {
+      "kind": "dom_metrics",
+      "ref": ".alidesign/runs/issue-4-profile-v2-professional-identity/evidence/dom-metrics.json",
+      "result": "5/5 captures have equal client and scroll width, no overflow nodes, and in-viewport link bounds"
+    },
+    {
+      "kind": "render_matrix",
+      "refs": [
+        ".alidesign/runs/issue-4-profile-v2-professional-identity/evidence/profile-v2-860-light.png",
+        ".alidesign/runs/issue-4-profile-v2-professional-identity/evidence/profile-v2-860-dark.png",
+        ".alidesign/runs/issue-4-profile-v2-professional-identity/evidence/profile-v2-320-light.png",
+        ".alidesign/runs/issue-4-profile-v2-professional-identity/evidence/profile-v2-320-dark.png",
+        ".alidesign/runs/issue-4-profile-v2-professional-identity/evidence/profile-v2-320-images-disabled.png"
+      ],
+      "result": "passed"
+    },
+    {
+      "kind": "rejected_capture_history",
+      "refs": [
+        "invalid-320-light.png",
+        "invalid-320-dark.png",
+        "invalid-320-images-disabled.png"
+      ],
+      "result": "rejected before verdict because bitmap width did not equal the layout viewport; retained for audit only"
+    },
+    {
+      "kind": "automated_regression",
+      "result": "Profile 21/21; generated outputs current; concept 4/4; route history verified; four SVG XML parses; git diff check clean"
+    },
+    {
+      "kind": "public_evidence",
+      "refs": [
+        "https://github.com/Cooper-X-Oak/Cooper-X-Oak/issues/6",
+        "https://github.com/Cooper-X-Oak/Cooper-X-Oak/issues/6#issuecomment-4982339925",
+        "https://github.com/Cooper-X-Oak/Cooper-X-Oak/issues/6#issuecomment-4982340403",
+        "https://github.com/Cooper-X-Oak/Cooper-X-Oak/issues/6#issuecomment-4982340744",
+        "https://github.com/Cooper-X-Oak/writing-loop-harness"
+      ],
+      "result": "passed"
+    },
+    {
+      "kind": "independent_design_review",
+      "actor": "codex-design-evaluator-019f664b-38d1-79f3-ba6b-2a9c059f5c6c",
+      "result": "passed; Q61-Q65 and all eight release-quality dimensions passed; no blocker"
+    }
+  ],
+  "gaps": [
+    {
+      "kind": "post_push_platform_smoke",
+      "blocking": false,
+      "requirement": "After push, verify the Draft PR branch's GitHub GFM/CDN/theme render, links, assets, and narrow behavior; stop and append a round if the platform surface regresses."
+    }
+  ]
+}

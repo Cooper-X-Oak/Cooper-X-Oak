@@ -1,10 +1,18 @@
 import assert from "node:assert/strict";
+import { createHash } from "node:crypto";
 import { readFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import test from "node:test";
 import { fileURLToPath } from "node:url";
 
-import { renderOutputs, validateProfile } from "./build_profile.mjs";
+import {
+  RING_LEDGER_MODEL,
+  normalizeThemeProjection,
+  renderOutputs,
+  validateOutputs,
+  validateProfile,
+  validateRingLedgerSvg
+} from "./build_profile.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const source = JSON.parse(await readFile(resolve(ROOT, "profile.json"), "utf8"));
@@ -13,59 +21,87 @@ function cloneProfile() {
   return structuredClone(source);
 }
 
-test("accepts the approved v2 profile contract", () => {
-  assert.equal(validateProfile(cloneProfile()).version, 2);
+function hexToRgb(hex) {
+  return [1, 3, 5].map((index) => Number.parseInt(hex.slice(index, index + 2), 16) / 255);
+}
+
+function luminance(hex) {
+  const [r, g, b] = hexToRgb(hex).map((value) => value <= 0.04045
+    ? value / 12.92
+    : ((value + 0.055) / 1.055) ** 2.4);
+  return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+}
+
+function contrast(a, b) {
+  const first = luminance(a);
+  const second = luminance(b);
+  return (Math.max(first, second) + 0.05) / (Math.min(first, second) + 0.05);
+}
+
+test("accepts the approved Pixel Oak source contract", () => {
+  assert.equal(validateProfile(cloneProfile()).version, 3);
 });
 
-test("rejects the retired v1 evidence-console contract", () => {
+test("rejects the retired editorial-v1 source contract", () => {
   const config = cloneProfile();
-  config.version = 1;
-  assert.throws(() => validateProfile(config), /rejected evidence-console schema/);
+  config.version = 2;
+  assert.throws(() => validateProfile(config), /version must be 3/);
 });
 
-test("rejects missing or redirected primary action", () => {
-  const config = cloneProfile();
-  config.page.primaryAction.href = "https://example.com";
-  assert.throws(() => validateProfile(config), /must resolve to #selected-work/);
-});
-
-test("rejects duplicate featured repositories", () => {
-  const config = cloneProfile();
-  config.featuredWork[2].repo = config.featuredWork[0].repo;
-  config.featuredWork[2].url = config.featuredWork[0].url;
-  assert.throws(() => validateProfile(config), /duplicates another selected project/);
-});
-
-test("rejects featured work without public proof", () => {
-  const config = cloneProfile();
-  config.featuredWork[0].evidence = [];
-  assert.throws(() => validateProfile(config), /one or two proof links/);
-});
-
-test("rejects non-HTTPS evidence", () => {
-  const config = cloneProfile();
-  config.featuredWork[0].evidence[0].url = "http://github.com/Cooper-X-Oak/LongYinMod_RisingFame/releases/latest";
-  assert.throws(() => validateProfile(config), /must use HTTPS/);
-});
-
-test("rejects URL traversal after canonical parsing", () => {
-  const config = cloneProfile();
-  config.featuredWork[0].evidence[0].url = "https://github.com/Cooper-X-Oak/LongYinMod_RisingFame/releases/../../outside";
-  assert.throws(() => validateProfile(config), /canonical serialized URL|inside LongYinMod_RisingFame/);
-});
-
-test("rejects legacy dashboard fields anywhere in the model", () => {
+test("rejects unsupported source fields instead of silently rendering them", () => {
   const config = cloneProfile();
   config.page.status = "BUILDING IN PUBLIC";
-  assert.throws(() => validateProfile(config), /rejected evidence-console field/);
+  assert.throws(() => validateProfile(config), /unsupported fields: status/);
+});
+
+test("locks the single native H1 and lead", () => {
+  for (const mutate of [
+    (config) => { config.identity.name = "Cooper Oak"; },
+    (config) => { config.identity.lead = "Building AI systems in public."; }
+  ]) {
+    const config = cloneProfile();
+    mutate(config);
+    assert.throws(() => validateProfile(config), /single identity heading|locked lead/);
+  }
+});
+
+test("requires exactly three distinct Issue-comment proof destinations", () => {
+  const missing = cloneProfile();
+  missing.experiment.evidence.pop();
+  assert.throws(() => validateProfile(missing), /exactly three proof sentences/);
+
+  const duplicate = cloneProfile();
+  duplicate.experiment.evidence[2].url = duplicate.experiment.evidence[1].url;
+  assert.throws(() => validateProfile(duplicate), /duplicates another proof destination/);
+
+  const issueRoot = cloneProfile();
+  issueRoot.experiment.evidence[0].url = issueRoot.discuss.url;
+  assert.throws(() => validateProfile(issueRoot), /specific append-only evidence comment/);
+});
+
+test("locks principle order and proof relationship", () => {
+  const config = cloneProfile();
+  config.principles.reverse();
+  assert.throws(() => validateProfile(config), /locked principle order/);
+});
+
+test("keeps writing-loop-harness as the only honest Open loop", () => {
+  const config = cloneProfile();
+  config.openLoop.repo = "goal-to-do";
+  assert.throws(() => validateProfile(config), /only Open loop/);
+});
+
+test("keeps the counterexample action on the dedicated public Issue", () => {
+  const config = cloneProfile();
+  config.discuss.url = "https://github.com/Cooper-X-Oak/Cooper-X-Oak/issues/4";
+  assert.throws(() => validateProfile(config), /dedicated public experiment Issue/);
 });
 
 test("rejects prose that can inject GFM block structure", () => {
   for (const mutate of [
-    (config) => { config.identity.supporting = "## Fake section"; },
-    (config) => { config.featuredWork[0].summary = "---"; },
-    (config) => { config.principles[0] = "- Unexpected nested list"; },
-    (config) => { config.identity.origin = "1. Unexpected list"; }
+    (config) => { config.experiment.question = "## Fake section"; },
+    (config) => { config.experiment.evidence[0].statement = "- Fake nested list"; },
+    (config) => { config.openLoop.closure = "---"; }
   ]) {
     const config = cloneProfile();
     mutate(config);
@@ -73,64 +109,167 @@ test("rejects prose that can inject GFM block structure", () => {
   }
 });
 
-test("renders deterministically from one view model", () => {
+test("renders deterministically from one source model", () => {
   const first = renderOutputs(cloneProfile());
   const second = renderOutputs(cloneProfile());
   assert.deepEqual(first, second);
   assert.equal(Object.keys(first).length, 6);
 });
 
-test("generated surfaces exclude the rejected console language", () => {
-  const outputs = renderOutputs(cloneProfile());
-  const joined = Object.values(outputs).join("\n");
-  assert.doesNotMatch(joined, /OPERATING STATE|CURRENT DECISION FOCUS|MODULE REGISTRY|PUBLIC LAB|Evidence Ledger|role="button"|<button/i);
-  assert.match(outputs["README.md"], /^# Cooper Oak$/m);
-  assert.match(outputs["profile.html"], /id="selected-work"/);
-  const h1Position = outputs["profile.html"].indexOf("<h1");
-  assert.doesNotMatch(outputs["profile.html"].slice(0, h1Position), /<h[2-6]\b/);
+test("renders the complete Pixel Oak editorial interface grammar", () => {
+  const readme = renderOutputs(cloneProfile())["README.md"];
+  assert.deepEqual([...readme.matchAll(/^# (.+)$/gm)].map((match) => match[1]), ["COOPER OAK"]);
+  assert.deepEqual([...readme.matchAll(/^## (.+)$/gm)].map((match) => match[1]), [
+    "02 — Current experiment",
+    "03 — Working principles",
+    "04 — Open loop",
+    "05 — Discuss on GitHub"
+  ]);
+  assert.equal([...readme.matchAll(/^<table>$/gm)].length, 5);
+  assert.match(readme, /NOW<br>ACTIVE/);
+  assert.match(readme, />QUESTION<\/th>[\s\S]+>HYPOTHESIS<\/th>[\s\S]+profile-evidence-light\.svg[\s\S]+>EVIDENCE<\/th>[\s\S]+>NEXT<\/th>/);
+  assert.equal([...readme.matchAll(/0[1-3] \/ PRINCIPLE/g)].length, 3);
+  assert.match(readme, /UNFINISHED<br>RECORD/);
+  assert.match(readme, /COUNTER<br>EXAMPLE/);
 });
 
-test("generated signature assets are local, static, and theme-aware", () => {
+test("freezes production assets to two visual roles with theme projections", () => {
   const outputs = renderOutputs(cloneProfile());
+  const names = Object.keys(outputs).filter((name) => name.endsWith(".svg"));
+  assert.deepEqual(names, [
+    "assets/profile-signature-light.svg",
+    "assets/profile-signature-dark.svg",
+    "assets/profile-evidence-light.svg",
+    "assets/profile-evidence-dark.svg"
+  ]);
+  assert.doesNotMatch(outputs["README.md"], /max-width:|mobile|section-marker/i);
+  assert.equal([...outputs["README.md"].matchAll(/<picture>/g)].length, 2);
+});
+
+test("keeps every identity, experiment, proof, and action out of SVG", () => {
+  const config = cloneProfile();
+  const outputs = renderOutputs(config);
+  const svg = Object.entries(outputs)
+    .filter(([name]) => name.endsWith(".svg"))
+    .map(([, value]) => value)
+    .join("\n");
+  for (const forbidden of [
+    config.identity.name,
+    config.identity.lead,
+    config.experiment.name,
+    ...config.experiment.evidence.map((item) => item.statement),
+    config.discuss.label,
+    config.discuss.url
+  ]) assert.ok(!svg.includes(forbidden), `SVG duplicated semantic content: ${forbidden}`);
+});
+
+test("keeps light and dark geometry structurally identical", () => {
+  const outputs = renderOutputs(cloneProfile());
+  assert.equal(
+    normalizeThemeProjection(outputs["assets/profile-signature-light.svg"]),
+    normalizeThemeProjection(outputs["assets/profile-signature-dark.svg"])
+  );
+  assert.equal(
+    normalizeThemeProjection(outputs["assets/profile-evidence-light.svg"]),
+    normalizeThemeProjection(outputs["assets/profile-evidence-dark.svg"])
+  );
+});
+
+test("keeps the Pixel Oak above the locked 30 by 65 percent bounds", () => {
+  const { glyphBounds, viewBoxWidth, viewBoxHeight } = RING_LEDGER_MODEL.hero;
+  assert.ok(glyphBounds.width / viewBoxWidth >= 0.3);
+  assert.ok(glyphBounds.height / viewBoxHeight >= 0.65);
+  assert.ok(viewBoxWidth - (glyphBounds.x + glyphBounds.width) >= 2);
+});
+
+test("freezes the D03/D04 silhouette and structure topology", () => {
+  const canonicalRows = (rows) => {
+    const cells = [];
+    rows.forEach((ranges, y) => ranges.forEach(([start, end]) => {
+      for (let x = start; x <= end; x += 1) cells.push([x, y]);
+    }));
+    return cells.sort(([ax, ay], [bx, by]) => ay - by || ax - bx).map(([x, y]) => `${x},${y}`).join(";");
+  };
+  const structureRows = [];
+  for (const [y, ranges] of Object.entries(RING_LEDGER_MODEL.hero.structureRows)) structureRows[Number(y)] = ranges;
+  const hash = (value) => createHash("sha256").update(value).digest("hex");
+  assert.equal(hash(canonicalRows(RING_LEDGER_MODEL.hero.silhouetteRows)), "395c18d10bb21004519f0134ac2dfbeb4b2686323d9b357fd46c4958e2335203");
+  assert.equal(hash(canonicalRows(structureRows)), "0c0c241fcce8c7c888e7c1ae36cd8863e4b2c474d9bebcf00d92a5fb01ebdd7e");
+});
+
+test("keeps all generated SVG local, static, flat, and parseable by contract", () => {
+  const config = cloneProfile();
+  const outputs = renderOutputs(config);
+  validateRingLedgerSvg(outputs["assets/profile-signature-light.svg"], config, "hero");
+  validateRingLedgerSvg(outputs["assets/profile-signature-dark.svg"], config, "hero");
+  validateRingLedgerSvg(outputs["assets/profile-evidence-light.svg"], config, "evidence");
+  validateRingLedgerSvg(outputs["assets/profile-evidence-dark.svg"], config, "evidence");
   for (const [name, value] of Object.entries(outputs)) {
     if (!name.endsWith(".svg")) continue;
     const withoutNamespace = value.replace('xmlns="http://www.w3.org/2000/svg"', "");
-    assert.doesNotMatch(withoutNamespace, /<script|<foreignObject|https?:\/\/|<animate|url\(/i);
-    assert.match(value, /#6ed959/);
+    assert.doesNotMatch(withoutNamespace, /<script|<foreignObject|https?:\/\/|<animate|<filter|Gradient|url\(|<text/i);
+    assert.match(value, /^<\?xml version="1\.0" encoding="UTF-8"\?>/);
+    assert.match(value, /<\/svg>\n$/);
   }
-  assert.match(outputs["README.md"], /prefers-color-scheme: dark/);
-  assert.match(outputs["README.md"], /max-width: 600px/);
 });
 
-test("mobile signature and preview derive copy and avatar colors from the source", () => {
+test("meets non-text contrast for Hero and Evidence geometry", () => {
   const config = cloneProfile();
-  config.theme.signature.category = "MODS · SKILLS · TESTED SYSTEMS";
-  config.theme.colors.light.canvas = "#eeeeee";
-  config.theme.colors.light.brand = "#55aa55";
-  config.theme.colors.dark.brand = "#55aa55";
+  for (const mode of ["light", "dark"]) {
+    const tokens = config.theme.tokens[mode];
+    assert.ok(contrast(tokens.forest, tokens.canvas) >= 3, `${mode} Hero forest contrast failed`);
+    assert.ok(contrast(tokens.structure, tokens.canvas) >= 2.5, `${mode} Hero structure visibility failed`);
+    assert.ok(contrast(tokens.structure, tokens.forest) < 2, `${mode} structure must remain subordinate to the Oak`);
+    assert.ok(contrast(tokens.rule, tokens.blackField) >= 3, `${mode} Evidence rule contrast failed`);
+  }
+});
+
+test("rejects viewport assets and a third visual role even after generation", () => {
+  const config = cloneProfile();
   const outputs = renderOutputs(config);
-  assert.match(outputs["assets/profile-signature-mobile-light.svg"], />MODS · SKILLS<\/text>/);
-  assert.match(outputs["assets/profile-signature-mobile-light.svg"], />TESTED SYSTEMS<\/text>/);
-  assert.doesNotMatch(outputs["assets/profile-signature-mobile-light.svg"], /GAME MODS/);
-  assert.match(outputs["profile.html"], /<rect width="180" height="180" fill="#eeeeee"/);
-  assert.match(outputs["profile.html"], /<path fill="#55aa55"/);
+  outputs["README.md"] = outputs["README.md"].replace(
+    '<source media="(prefers-color-scheme: dark)"',
+    '<source media="(max-width: 600px)" srcset="./assets/mobile.svg">\n  <source media="(prefers-color-scheme: dark)"'
+  );
+  assert.throws(() => validateOutputs(outputs, config), /viewport asset|theme source/);
+});
+
+test("keeps the Evidence marker decorative and adjacent to ledger semantics", () => {
+  const outputs = renderOutputs(cloneProfile());
+  const readme = outputs["README.md"];
+  assert.match(readme, /profile-evidence-light\.svg" alt="">\n      <\/picture>\n    <\/td>[\s\S]+>EVIDENCE<\/th>/);
+  assert.doesNotMatch(readme, /<img[^>]+\b(?:width|height)=/i);
+  assert.match(outputs["assets/profile-evidence-light.svg"], /aria-hidden="true" focusable="false"/);
+  assert.doesNotMatch(outputs["assets/profile-evidence-light.svg"], /<title|<desc|>Evidence<|issuecomment|提交反例/i);
+});
+
+test("keeps the generated preview semantic, responsive, and script-free", () => {
+  const preview = renderOutputs(cloneProfile())["profile.html"];
+  assert.match(preview, /<meta name="viewport"/);
+  assert.equal([...preview.matchAll(/<h1>/g)].length, 1);
+  assert.equal([...preview.matchAll(/<h2 id=/g)].length, 4);
+  assert.equal([...preview.matchAll(/<table class="ledger/g)].length, 5);
+  assert.equal([...preview.matchAll(/class="micro">0[1-3] \/ PRINCIPLE/g)].length, 3);
+  assert.doesNotMatch(preview, /<script|<button|role="button"|display:\s*none|javascript:/i);
+});
+
+test("freezes all four production SVG files byte-for-byte", () => {
+  const outputs = renderOutputs(cloneProfile());
+  const hash = (value) => createHash("sha256").update(value).digest("hex");
+  assert.deepEqual({
+    heroLight: hash(outputs["assets/profile-signature-light.svg"]),
+    heroDark: hash(outputs["assets/profile-signature-dark.svg"]),
+    evidenceLight: hash(outputs["assets/profile-evidence-light.svg"]),
+    evidenceDark: hash(outputs["assets/profile-evidence-dark.svg"])
+  }, {
+    heroLight: "2d54d6f74a4a76bccfcd97dcca672348c0cd384a161b185208c25ad423ea46ea",
+    heroDark: "7f61fd6fa27428dc512c26dedfb13baa6e4ef6a921aa320226bfa847720a588d",
+    evidenceLight: "2ae45e21e5f11822a971c7be0fdbb8453519f4341ab5d6f4313da8ea79e27e91",
+    evidenceDark: "2ae45e21e5f11822a971c7be0fdbb8453519f4341ab5d6f4313da8ea79e27e91"
+  });
 });
 
 test("all generated text uses the repository LF contract", () => {
   const outputs = renderOutputs(cloneProfile());
-  for (const [name, value] of Object.entries(outputs)) {
-    assert.doesNotMatch(value, /\r/, `${name} contains a carriage return.`);
-  }
-});
-
-test("GFM links use angle-delimited destinations and preserve parentheses", () => {
-  const config = cloneProfile();
-  config.featuredWork[0].evidence[0].url = "https://github.com/Cooper-X-Oak/LongYinMod_RisingFame/releases/latest?label=(stable)";
-  const outputs = renderOutputs(config);
-  for (const project of config.featuredWork) {
-    assert.match(outputs["README.md"], new RegExp(`\\]\\(<${project.url.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}>\\)`));
-    for (const proof of project.evidence) {
-      assert.ok(outputs["README.md"].includes(`](<${proof.url}>)`));
-    }
-  }
+  for (const [name, value] of Object.entries(outputs)) assert.doesNotMatch(value, /\r/, `${name} contains a carriage return.`);
 });

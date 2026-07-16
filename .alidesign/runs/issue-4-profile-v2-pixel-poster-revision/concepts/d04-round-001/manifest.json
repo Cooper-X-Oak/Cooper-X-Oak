@@ -1,0 +1,35 @@
+{
+  "silhouette": "a-three-crown-positive-y",
+  "tokens": {
+    "bone": "#F2EFE4",
+    "ink": "#0D100E",
+    "forest": "#347A55",
+    "signal": "#3B9648"
+  },
+  "outputs": [
+    {
+      "id": "01-shoulder-slice",
+      "oakArea": 403,
+      "structureArea": 85,
+      "outerCellSetFrozen": true,
+      "trunkCenterMaxX": 13,
+      "rightRootTouched": false
+    },
+    {
+      "id": "02-stepped-inset",
+      "oakArea": 403,
+      "structureArea": 69,
+      "outerCellSetFrozen": true,
+      "trunkCenterMaxX": 13,
+      "rightRootTouched": false
+    },
+    {
+      "id": "03-deep-left-cut",
+      "oakArea": 403,
+      "structureArea": 84,
+      "outerCellSetFrozen": true,
+      "trunkCenterMaxX": 13,
+      "rightRootTouched": false
+    }
+  ]
+}

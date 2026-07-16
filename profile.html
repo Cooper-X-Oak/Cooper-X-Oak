@@ -3,63 +3,66 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="light dark">
-  <title>Cooper Oak — profile preview</title>
+  <title>COOPER OAK · GitHub Profile preview</title>
   <style>
     :root {
       color-scheme: light dark;
       --page: #ffffff;
       --ink: #1f2328;
-      --muted: #636c76;
-      --rule: #d0d7de;
+      --muted: #59636e;
+      --rule: #d1d9e0;
       --link: #0969da;
-      --code: #eff1f3;
+      --forest: #347A55;
     }
     * { box-sizing: border-box; }
-    html { scroll-behavior: auto; }
+    html { background: var(--page); }
     body {
-      margin: 0;
       background: var(--page);
       color: var(--ink);
       font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
     }
     a { color: var(--link); text-underline-offset: .2em; }
     a:focus-visible { outline: 3px solid var(--link); outline-offset: 3px; }
-    .context {
+    .platform-bar {
       border-bottom: 1px solid var(--rule);
       color: var(--muted);
-      padding: 14px 24px;
+      font-size: 13px;
+      padding: 12px 24px;
     }
-    .context strong { color: var(--ink); margin-right: 12px; }
-    .layout {
+    .platform-bar strong { color: var(--ink); margin-right: 12px; }
+    .profile-shell {
       display: grid;
       gap: 32px;
-      grid-template-columns: 260px minmax(0, 860px);
+      grid-template-columns: 264px minmax(0, 860px);
       margin: 0 auto;
       max-width: 1216px;
       padding: 32px 24px 80px;
     }
-    .identity { min-width: 0; }
+    .native-profile { color: var(--muted); }
     .avatar {
-      background: #f0f0f0;
+      background: #F0F0F0;
+      border: 1px solid var(--rule);
       border-radius: 50%;
       display: block;
       height: auto;
-      max-width: 180px;
+      max-width: 220px;
       width: 100%;
     }
-    .identity-name { font-size: 24px; font-weight: 600; line-height: 1.25; margin: 16px 0 0; }
-    .username { color: var(--muted); font-size: 18px; margin: 0 0 16px; }
-    .bio { margin: 0; }
+    .native-name { color: var(--ink); font-size: 24px; font-weight: 600; margin: 16px 0 0; }
+    .native-user { font-size: 20px; margin: 0 0 16px; }
+    .native-note { font-size: 13px; }
     .readme { min-width: 0; }
-    .readme picture, .readme picture img { display: block; width: 100%; }
+    .readme picture { display: block; max-width: 100%; }
+    .readme img { display: block; height: auto; max-width: 100%; }
     .readme h1 {
       border-bottom: 1px solid var(--rule);
       font-size: 2em;
       line-height: 1.25;
-      margin: 24px 0 16px;
+      margin: 20px 0 8px;
       padding-bottom: .3em;
     }
+    .lead { font-size: 20px; line-height: 1.45; margin: 0 0 20px; max-width: 42em; }
     .readme h2 {
       border-bottom: 1px solid var(--rule);
       font-size: 1.5em;
@@ -67,16 +70,25 @@
       margin: 32px 0 16px;
       padding-bottom: .3em;
     }
-    .readme h3 { font-size: 1.25em; line-height: 1.3; margin: 24px 0 8px; overflow-wrap: anywhere; }
     .readme p { margin: 0 0 16px; }
-    .supporting { font-size: 17px; }
-    .origin { color: var(--muted); }
-    .primary { display: inline-block; font-weight: 600; margin: 4px 0 8px; }
-    .project { border: 0; margin: 0; padding: 0; }
-    .project .evidence { font-size: 14px; }
-    code { background: var(--code); border-radius: 3px; padding: .15em .35em; }
-    ul { padding-left: 1.5em; }
-    .repository-exit { font-weight: 600; margin-top: 24px; }
+    .experiment-name { color: var(--forest); font-weight: 700; }
+    .ledger {
+      border-collapse: collapse;
+      display: table;
+      margin: 0 0 28px;
+      table-layout: fixed;
+      width: 100%;
+    }
+    .ledger th, .ledger td { border: 1px solid var(--rule); padding: 14px 16px; text-align: left; vertical-align: top; }
+    .ledger th { color: var(--muted); font-size: 12px; letter-spacing: .04em; overflow-wrap: anywhere; width: 24%; }
+    .ledger ol { margin: 0; }
+    .ledger p:last-child { margin-bottom: 0; }
+    .ledger .asset-cell { padding: 0; }
+    .principle-strip td { width: 33.333%; }
+    .micro { color: var(--muted); display: block; font-size: 11px; letter-spacing: .04em; margin-bottom: 8px; }
+    .readme ol, .readme ul { padding-left: 1.6em; }
+    .readme li { margin: 8px 0; }
+    .readme hr { border: 0; border-top: 1px solid var(--rule); margin: 36px 0 0; }
     @media (prefers-color-scheme: dark) {
       :root {
         --page: #0d1117;
@@ -84,78 +96,90 @@
         --muted: #8d96a0;
         --rule: #30363d;
         --link: #4493f8;
-        --code: #161b22;
+        --forest: #347A55;
       }
     }
     @media (max-width: 900px) {
-      .layout { grid-template-columns: 1fr; padding-top: 24px; }
-      .identity { align-items: center; display: grid; gap: 0 16px; grid-template-columns: 72px 1fr; }
+      .profile-shell { grid-template-columns: 1fr; padding-top: 24px; }
+      .native-profile { align-items: center; display: grid; gap: 0 16px; grid-template-columns: 72px 1fr; }
       .avatar { grid-row: 1 / span 3; max-width: 72px; }
-      .identity-name { margin-top: 0; }
-      .username { margin-bottom: 0; }
-      .bio { grid-column: 1 / -1; margin-top: 12px; }
+      .native-name { font-size: 20px; margin-top: 0; }
+      .native-user { font-size: 16px; margin-bottom: 0; }
+      .native-note { grid-column: 1 / -1; }
     }
     @media (max-width: 480px) {
-      .context { padding: 12px 16px; }
-      .context span { display: block; }
-      .layout { gap: 24px; padding: 20px 16px 64px; }
+      .platform-bar { padding: 10px 12px; }
+      .profile-shell { gap: 24px; padding: 16px 12px 64px; }
       .readme h1 { font-size: 1.75em; }
       .readme h2 { font-size: 1.35em; }
-      .readme h3 { font-size: 1.15em; }
+      .readme h3 { font-size: 1.12em; }
+      .lead { font-size: 18px; margin-bottom: 32px; }
+      .ledger th, .ledger td { padding: 10px 8px; }
+      .ledger th { font-size: 10px; width: 28%; }
+      .principle-strip td { overflow-wrap: anywhere; }
     }
   </style>
 </head>
 <body>
-  <header class="context"><strong>Cooper-X-Oak</strong><span>GitHub profile content preview</span></header>
-  <main class="layout">
-    <aside class="identity" aria-label="Native GitHub profile context">
-      <svg class="avatar" viewBox="0 0 180 180" role="img" aria-label="Pixel-green Cooper Oak avatar motif">
-        <rect width="180" height="180" fill="#f0f0f0"/>
+  <header class="platform-bar"><strong>Cooper-X-Oak</strong>GitHub Profile content preview</header>
+  <main class="profile-shell">
+    <aside class="native-profile" aria-label="Native GitHub Profile context">
+      <svg class="avatar" viewBox="0 0 180 180" role="img" aria-label="Current pixel-green Cooper Oak account avatar">
+        <rect width="180" height="180" fill="#F0F0F0"/>
         <path fill="#6ed959" d="M24 24h36v60h18v18h24V84h18V24h36v78h-18v18h-18v18h-18v18H78v-18H60v-18H42v-18H24z"/>
       </svg>
-      <p class="identity-name">Cooper Oak</p>
-      <p class="username">Cooper-X-Oak</p>
-      <p class="bio">Building game mods, AI tools, and weird useful projects in public.</p>
+      <p class="native-name">Cooper Oak</p>
+      <p class="native-user">Cooper-X-Oak</p>
+      <p class="native-note">Account avatar remains unchanged for the launch transition. The README introduces the Pixel Oak monument.</p>
     </aside>
-    <article class="readme" aria-label="Generated profile README">
+    <article class="readme" aria-label="Generated Profile README">
       <picture>
-        <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/profile-signature-mobile-dark.svg">
         <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-signature-dark.svg">
-        <source media="(max-width: 600px)" srcset="./assets/profile-signature-mobile-light.svg">
-        <img src="./assets/profile-signature-light.svg" alt="Cooper Oak pixel-green editorial signature." width="1200">
+        <img src="./assets/profile-signature-light.svg" alt="Pixel Oak monument poster.">
       </picture>
-      <h1>Cooper Oak</h1>
-      <p><strong>Building game mods, AI tools, and weird useful projects in public.</strong></p>
-      <p class="supporting" lang="zh-CN">把想法做成可以下载、安装或验证的作品。</p>
-      <p class="origin">Started from scratch in 2026. Goal: 100 projects.</p>
-      <p><a class="primary" href="#selected-work">See selected work ↓</a></p>
-      <section id="selected-work" aria-labelledby="selected-work-heading">
-        <h2 id="selected-work-heading">Selected work</h2>
-        <section class="project">
-          <h3><a href="https://github.com/Cooper-X-Oak/LongYinMod_RisingFame">LongYinMod_RisingFame</a></h3>
-          <p>A released BepInEx mod for LongYinLiZhiZhuan, with documented setup, support boundaries, and troubleshooting.</p>
-          <p class="evidence"><a href="https://github.com/Cooper-X-Oak/LongYinMod_RisingFame/releases/latest">Latest release</a> <span aria-hidden="true">·</span> <a href="https://github.com/Cooper-X-Oak/LongYinMod_RisingFame#readme">Setup and support</a></p>
-        </section>
-        <section class="project">
-          <h3><a href="https://github.com/Cooper-X-Oak/goal-to-do">goal-to-do</a></h3>
-          <p>An installable Codex skill for turning vague, long-running tasks into aligned <code>/goal</code> prompts.</p>
-          <p class="evidence"><a href="https://github.com/Cooper-X-Oak/goal-to-do/tree/main/skills/goal-todo">Install the skill</a> <span aria-hidden="true">·</span> <a href="https://github.com/Cooper-X-Oak/goal-to-do/releases/tag/v0.1.0">v0.1.0 release</a></p>
-        </section>
-        <section class="project">
-          <h3><a href="https://github.com/Cooper-X-Oak/valvetrade-pipeline">valvetrade-pipeline</a></h3>
-          <p>A TypeScript/PostgreSQL pipeline skeleton with database guards, RLS isolation, deduplication, and tests against embedded Postgres.</p>
-          <p class="evidence"><a href="https://github.com/Cooper-X-Oak/valvetrade-pipeline/tree/main/packages/pipeline/test">Review the tests</a> <span aria-hidden="true">·</span> <a href="https://github.com/Cooper-X-Oak/valvetrade-pipeline/actions/runs/28073647116">Passing CI</a></p>
-        </section>
+      <h1>COOPER OAK</h1>
+      <p class="lead">Experiments in keeping humans in control of AI-assisted work.</p>
+      <table class="ledger opening-register">
+        <tr>
+          <th><span class="micro">NOW<br>ACTIVE</span></th>
+          <td><span class="experiment-name">Capability Routing</span><br>A bounded workflow experiment: name the required specialist and the stopping condition before irreversible work.</td>
+        </tr>
+      </table>
+      <section aria-labelledby="current-experiment">
+        <h2 id="current-experiment">02 — Current experiment</h2>
+        <table class="ledger experiment-ledger">
+          <tr><th>QUESTION</th><td>How should an AI-assisted workflow know which specialist must act next—and when must it stop because the required capability is missing?</td></tr>
+          <tr><th>HYPOTHESIS</th><td>Before irreversible work, declare the required capability, applicable provider, authority inputs, expected outputs, deadline, and gate. If a required capability is unresolved, the workflow stops.</td></tr>
+          <tr><td class="asset-cell" colspan="2">
+          <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-evidence-dark.svg">
+            <img src="./assets/profile-evidence-light.svg" alt="">
+          </picture>
+          </td></tr>
+          <tr><th>EVIDENCE</th><td><ol>
+          <li><a href="https://github.com/Cooper-X-Oak/Cooper-X-Oak/issues/6#issuecomment-4982339925">A missing required visual provider blocks UI mutation instead of letting a generic fallback improvise the design.</a></li>
+          <li><a href="https://github.com/Cooper-X-Oak/Cooper-X-Oak/issues/6#issuecomment-4982340403">An applicable brand or platform provider beats a generic provider, while a CloudAI-scoped provider is excluded from this GitHub Profile.</a></li>
+          <li><a href="https://github.com/Cooper-X-Oak/Cooper-X-Oak/issues/6#issuecomment-4982340744">Route revisions and evaluation rounds stay append-only, so later decisions cannot silently rewrite earlier evidence.</a></li>
+          </ol></td></tr>
+          <tr><th>NEXT</th><td>Test the contract beyond this Profile and collect the smallest counterexamples where it routes the wrong specialist or closes the gate at the wrong time.</td></tr>
+        </table>
       </section>
-      <section aria-labelledby="how-i-work">
-        <h2 id="how-i-work">How I work</h2>
-        <ul>
-          <li>Ship things people can download, install, or verify.</li>
-          <li>Document setup, support boundaries, and failure modes.</li>
-          <li>Use tests and public artifacts as proof.</li>
-        </ul>
+      <section aria-labelledby="working-principles">
+        <h2 id="working-principles">03 — Working principles</h2>
+        <table class="ledger principle-strip"><tr>
+            <td><span class="micro">01 / PRINCIPLE</span><a href="https://github.com/Cooper-X-Oak/Cooper-X-Oak/issues/6#issuecomment-4982339925">Make control explicit.</a></td>
+            <td><span class="micro">02 / PRINCIPLE</span><a href="https://github.com/Cooper-X-Oak/Cooper-X-Oak/issues/6#issuecomment-4982340403">Route work to specialists.</a></td>
+            <td><span class="micro">03 / PRINCIPLE</span><a href="https://github.com/Cooper-X-Oak/Cooper-X-Oak/issues/6#issuecomment-4982340744">Claims need evidence.</a></td>
+        </tr></table>
       </section>
-      <p class="repository-exit"><a href="https://github.com/Cooper-X-Oak?tab=repositories">Browse all repositories →</a></p>
+      <section aria-labelledby="open-loop">
+        <h2 id="open-loop">04 — Open loop</h2>
+        <table class="ledger"><tr><th>UNFINISHED<br>RECORD</th><td>Older repositories record a path from trial and error toward finishing and clarifying work. <a href="https://github.com/Cooper-X-Oak/writing-loop-harness">writing-loop-harness</a> worked locally and was useful, but it never became a clear, installable tool. The loop closes when it becomes installable—not when it gets a more ambitious label.</td></tr></table>
+      </section>
+      <section aria-labelledby="discuss-on-github">
+        <h2 id="discuss-on-github">05 — Discuss on GitHub</h2>
+        <table class="ledger"><tr><th>COUNTER<br>EXAMPLE</th><td>I am looking for cases where the routing contract chooses the wrong specialist or stops at the wrong boundary.<br><strong><a href="https://github.com/Cooper-X-Oak/Cooper-X-Oak/issues/6">提交反例 →</a></strong></td></tr></table>
+      </section>
     </article>
   </main>
 </body>

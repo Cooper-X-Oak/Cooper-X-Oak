@@ -1,0 +1,1248 @@
+[
+  {
+    "id": "profile-860-light",
+    "width": 1280,
+    "height": 900,
+    "colorScheme": "light",
+    "metrics": {
+      "innerWidth": 1280,
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "overflowNodes": [],
+      "links": [
+        {
+          "tag": "a",
+          "text": "A missing required visual provider blocks UI mutation instead of letting a generic fallback improvis",
+          "left": 600.75,
+          "right": 1170.75,
+          "top": 1393.984375,
+          "bottom": 1439.78125,
+          "width": 570,
+          "height": 45.796875,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "An applicable brand or platform provider beats a generic provider, while a CloudAI-scoped provider i",
+          "left": 600.75,
+          "right": 1189.421875,
+          "top": 1451.578125,
+          "bottom": 1497.375,
+          "width": 588.671875,
+          "height": 45.796875,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Route revisions and evaluation rounds stay append-only, so later decisions cannot silently rewrite e",
+          "left": 600.75,
+          "right": 1178.8125,
+          "top": 1509.171875,
+          "bottom": 1554.96875,
+          "width": 578.0625,
+          "height": 45.796875,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Make control explicit.",
+          "left": 369,
+          "right": 519.671875,
+          "top": 1786.59375,
+          "bottom": 1807.59375,
+          "width": 150.671875,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Route work to specialists.",
+          "left": 655.328125,
+          "right": 833.234375,
+          "top": 1786.59375,
+          "bottom": 1807.59375,
+          "width": 177.90625,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Claims need evidence.",
+          "left": 941.65625,
+          "right": 1097.984375,
+          "top": 1786.59375,
+          "bottom": 1807.59375,
+          "width": 156.328125,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "writing-loop-harness",
+          "left": 617.46875,
+          "right": 764.828125,
+          "top": 1952.375,
+          "bottom": 1973.375,
+          "width": 147.359375,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "提交反例 →",
+          "left": 575.15625,
+          "right": 657.375,
+          "top": 2192.546875,
+          "bottom": 2213.546875,
+          "width": 82.21875,
+          "height": 21,
+          "src": ""
+        }
+      ],
+      "tables": [
+        {
+          "tag": "table",
+          "text": "NOWACTIVE Capability RoutingA bounded workflow experiment: name the required specialist and the stop",
+          "left": 352,
+          "right": 1212,
+          "top": 774.0625,
+          "bottom": 878.453125,
+          "width": 860,
+          "height": 104.390625,
+          "src": ""
+        },
+        {
+          "tag": "table",
+          "text": "QUESTIONHow should an AI-assisted workflow know which specialist must act next—and when must it stop",
+          "left": 352,
+          "right": 1212,
+          "top": 964.640625,
+          "bottom": 1659.359375,
+          "width": 860,
+          "height": 694.71875,
+          "src": ""
+        },
+        {
+          "tag": "table",
+          "text": "01 / PRINCIPLEMake control explicit. 02 / PRINCIPLERoute work to specialists. 03 / PRINCIPLEClaims n",
+          "left": 352,
+          "right": 1212,
+          "top": 1745.546875,
+          "bottom": 1825.390625,
+          "width": 860,
+          "height": 79.84375,
+          "src": ""
+        },
+        {
+          "tag": "table",
+          "text": "UNFINISHEDRECORDOlder repositories record a path from trial and error toward finishing and clarifyin",
+          "left": 352,
+          "right": 1212,
+          "top": 1911.578125,
+          "bottom": 2040.765625,
+          "width": 860,
+          "height": 129.1875,
+          "src": ""
+        },
+        {
+          "tag": "table",
+          "text": "COUNTEREXAMPLEI am looking for cases where the routing contract chooses the wrong specialist or stop",
+          "left": 352,
+          "right": 1212,
+          "top": 2126.953125,
+          "bottom": 2231.34375,
+          "width": 860,
+          "height": 104.390625,
+          "src": ""
+        }
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "COOPER OAK",
+          "left": 352,
+          "right": 1212,
+          "top": 670.46875,
+          "bottom": 721.0625,
+          "width": 860,
+          "height": 50.59375,
+          "src": ""
+        },
+        {
+          "tag": "h2",
+          "text": "02 — Current experiment",
+          "left": 352,
+          "right": 1212,
+          "top": 910.453125,
+          "bottom": 948.640625,
+          "width": 860,
+          "height": 38.1875,
+          "src": ""
+        },
+        {
+          "tag": "h2",
+          "text": "03 — Working principles",
+          "left": 352,
+          "right": 1212,
+          "top": 1691.359375,
+          "bottom": 1729.546875,
+          "width": 860,
+          "height": 38.1875,
+          "src": ""
+        },
+        {
+          "tag": "h2",
+          "text": "04 — Open loop",
+          "left": 352,
+          "right": 1212,
+          "top": 1857.390625,
+          "bottom": 1895.578125,
+          "width": 860,
+          "height": 38.1875,
+          "src": ""
+        },
+        {
+          "tag": "h2",
+          "text": "05 — Discuss on GitHub",
+          "left": 352,
+          "right": 1212,
+          "top": 2072.765625,
+          "bottom": 2110.953125,
+          "width": 860,
+          "height": 38.1875,
+          "src": ""
+        }
+      ],
+      "hero": {
+        "tag": "img",
+        "text": "Pixel Oak monument poster.",
+        "left": 352,
+        "right": 1211.984375,
+        "top": 77.140625,
+        "bottom": 650.46875,
+        "width": 859.984375,
+        "height": 573.328125,
+        "src": "./assets/profile-signature-light.svg"
+      },
+      "evidenceImage": {
+        "tag": "img",
+        "text": "",
+        "left": 353,
+        "right": 1210.96875,
+        "top": 1147.625,
+        "bottom": 1369.984375,
+        "width": 857.96875,
+        "height": 222.359375,
+        "src": "./assets/profile-evidence-light.svg"
+      },
+      "h1": {
+        "tag": "h1",
+        "text": "COOPER OAK",
+        "left": 352,
+        "right": 1212,
+        "top": 670.46875,
+        "bottom": 721.0625,
+        "width": 860,
+        "height": 50.59375,
+        "src": ""
+      }
+    }
+  },
+  {
+    "id": "profile-860-dark",
+    "width": 1280,
+    "height": 900,
+    "colorScheme": "dark",
+    "metrics": {
+      "innerWidth": 1280,
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "overflowNodes": [],
+      "links": [
+        {
+          "tag": "a",
+          "text": "A missing required visual provider blocks UI mutation instead of letting a generic fallback improvis",
+          "left": 600.75,
+          "right": 1170.75,
+          "top": 1393.984375,
+          "bottom": 1439.78125,
+          "width": 570,
+          "height": 45.796875,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "An applicable brand or platform provider beats a generic provider, while a CloudAI-scoped provider i",
+          "left": 600.75,
+          "right": 1189.421875,
+          "top": 1451.578125,
+          "bottom": 1497.375,
+          "width": 588.671875,
+          "height": 45.796875,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Route revisions and evaluation rounds stay append-only, so later decisions cannot silently rewrite e",
+          "left": 600.75,
+          "right": 1178.8125,
+          "top": 1509.171875,
+          "bottom": 1554.96875,
+          "width": 578.0625,
+          "height": 45.796875,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Make control explicit.",
+          "left": 369,
+          "right": 519.671875,
+          "top": 1786.59375,
+          "bottom": 1807.59375,
+          "width": 150.671875,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Route work to specialists.",
+          "left": 655.328125,
+          "right": 833.234375,
+          "top": 1786.59375,
+          "bottom": 1807.59375,
+          "width": 177.90625,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Claims need evidence.",
+          "left": 941.65625,
+          "right": 1097.984375,
+          "top": 1786.59375,
+          "bottom": 1807.59375,
+          "width": 156.328125,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "writing-loop-harness",
+          "left": 617.46875,
+          "right": 764.828125,
+          "top": 1952.375,
+          "bottom": 1973.375,
+          "width": 147.359375,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "提交反例 →",
+          "left": 575.15625,
+          "right": 657.375,
+          "top": 2192.546875,
+          "bottom": 2213.546875,
+          "width": 82.21875,
+          "height": 21,
+          "src": ""
+        }
+      ],
+      "tables": [
+        {
+          "tag": "table",
+          "text": "NOWACTIVE Capability RoutingA bounded workflow experiment: name the required specialist and the stop",
+          "left": 352,
+          "right": 1212,
+          "top": 774.0625,
+          "bottom": 878.453125,
+          "width": 860,
+          "height": 104.390625,
+          "src": ""
+        },
+        {
+          "tag": "table",
+          "text": "QUESTIONHow should an AI-assisted workflow know which specialist must act next—and when must it stop",
+          "left": 352,
+          "right": 1212,
+          "top": 964.640625,
+          "bottom": 1659.359375,
+          "width": 860,
+          "height": 694.71875,
+          "src": ""
+        },
+        {
+          "tag": "table",
+          "text": "01 / PRINCIPLEMake control explicit. 02 / PRINCIPLERoute work to specialists. 03 / PRINCIPLEClaims n",
+          "left": 352,
+          "right": 1212,
+          "top": 1745.546875,
+          "bottom": 1825.390625,
+          "width": 860,
+          "height": 79.84375,
+          "src": ""
+        },
+        {
+          "tag": "table",
+          "text": "UNFINISHEDRECORDOlder repositories record a path from trial and error toward finishing and clarifyin",
+          "left": 352,
+          "right": 1212,
+          "top": 1911.578125,
+          "bottom": 2040.765625,
+          "width": 860,
+          "height": 129.1875,
+          "src": ""
+        },
+        {
+          "tag": "table",
+          "text": "COUNTEREXAMPLEI am looking for cases where the routing contract chooses the wrong specialist or stop",
+          "left": 352,
+          "right": 1212,
+          "top": 2126.953125,
+          "bottom": 2231.34375,
+          "width": 860,
+          "height": 104.390625,
+          "src": ""
+        }
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "COOPER OAK",
+          "left": 352,
+          "right": 1212,
+          "top": 670.46875,
+          "bottom": 721.0625,
+          "width": 860,
+          "height": 50.59375,
+          "src": ""
+        },
+        {
+          "tag": "h2",
+          "text": "02 — Current experiment",
+          "left": 352,
+          "right": 1212,
+          "top": 910.453125,
+          "bottom": 948.640625,
+          "width": 860,
+          "height": 38.1875,
+          "src": ""
+        },
+        {
+          "tag": "h2",
+          "text": "03 — Working principles",
+          "left": 352,
+          "right": 1212,
+          "top": 1691.359375,
+          "bottom": 1729.546875,
+          "width": 860,
+          "height": 38.1875,
+          "src": ""
+        },
+        {
+          "tag": "h2",
+          "text": "04 — Open loop",
+          "left": 352,
+          "right": 1212,
+          "top": 1857.390625,
+          "bottom": 1895.578125,
+          "width": 860,
+          "height": 38.1875,
+          "src": ""
+        },
+        {
+          "tag": "h2",
+          "text": "05 — Discuss on GitHub",
+          "left": 352,
+          "right": 1212,
+          "top": 2072.765625,
+          "bottom": 2110.953125,
+          "width": 860,
+          "height": 38.1875,
+          "src": ""
+        }
+      ],
+      "hero": {
+        "tag": "img",
+        "text": "Pixel Oak monument poster.",
+        "left": 352,
+        "right": 1211.984375,
+        "top": 77.140625,
+        "bottom": 650.46875,
+        "width": 859.984375,
+        "height": 573.328125,
+        "src": "./assets/profile-signature-light.svg"
+      },
+      "evidenceImage": {
+        "tag": "img",
+        "text": "",
+        "left": 353,
+        "right": 1210.96875,
+        "top": 1147.625,
+        "bottom": 1369.984375,
+        "width": 857.96875,
+        "height": 222.359375,
+        "src": "./assets/profile-evidence-light.svg"
+      },
+      "h1": {
+        "tag": "h1",
+        "text": "COOPER OAK",
+        "left": 352,
+        "right": 1212,
+        "top": 670.46875,
+        "bottom": 721.0625,
+        "width": 860,
+        "height": 50.59375,
+        "src": ""
+      }
+    }
+  },
+  {
+    "id": "profile-320-light",
+    "width": 320,
+    "height": 800,
+    "colorScheme": "light",
+    "metrics": {
+      "innerWidth": 320,
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "overflowNodes": [],
+      "links": [
+        {
+          "tag": "a",
+          "text": "A missing required visual provider blocks UI mutation instead of letting a generic fallback improvis",
+          "left": 129.1875,
+          "right": 287.171875,
+          "top": 1317.046875,
+          "bottom": 1462.03125,
+          "width": 157.984375,
+          "height": 144.984375,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "An applicable brand or platform provider beats a generic provider, while a CloudAI-scoped provider i",
+          "left": 129.1875,
+          "right": 296.1875,
+          "top": 1473.828125,
+          "bottom": 1643.609375,
+          "width": 167,
+          "height": 169.78125,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Route revisions and evaluation rounds stay append-only, so later decisions cannot silently rewrite e",
+          "left": 129.1875,
+          "right": 288.28125,
+          "top": 1655.40625,
+          "bottom": 1800.390625,
+          "width": 159.09375,
+          "height": 144.984375,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Make control explicit.",
+          "left": 21,
+          "right": 74.03125,
+          "top": 2111.46875,
+          "bottom": 2182.0625,
+          "width": 53.03125,
+          "height": 70.59375,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Route work to specialists.",
+          "left": 119.328125,
+          "right": 199.484375,
+          "top": 2111.46875,
+          "bottom": 2182.0625,
+          "width": 80.15625,
+          "height": 70.59375,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Claims need evidence.",
+          "left": 217.65625,
+          "right": 283.640625,
+          "top": 2111.46875,
+          "bottom": 2182.0625,
+          "width": 65.984375,
+          "height": 70.59375,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "writing-loop-harness",
+          "left": 103.59375,
+          "right": 269.40625,
+          "top": 2364.703125,
+          "bottom": 2410.5,
+          "width": 165.8125,
+          "height": 45.796875,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "提交反例 →",
+          "left": 103.59375,
+          "right": 185.8125,
+          "top": 2816.3125,
+          "bottom": 2837.3125,
+          "width": 82.21875,
+          "height": 21,
+          "src": ""
+        }
+      ],
+      "tables": [
+        {
+          "tag": "table",
+          "text": "NOWACTIVE Capability RoutingA bounded workflow experiment: name the required specialist and the stop",
+          "left": 12,
+          "right": 308,
+          "top": 577.46875,
+          "bottom": 748.25,
+          "width": 296,
+          "height": 170.78125,
+          "src": ""
+        },
+        {
+          "tag": "table",
+          "text": "QUESTIONHow should an AI-assisted workflow know which specialist must act next—and when must it stop",
+          "left": 12,
+          "right": 308,
+          "top": 830.703125,
+          "bottom": 1991.96875,
+          "width": 296,
+          "height": 1161.265625,
+          "src": ""
+        },
+        {
+          "tag": "table",
+          "text": "01 / PRINCIPLEMake control explicit. 02 / PRINCIPLERoute work to specialists. 03 / PRINCIPLEClaims n",
+          "left": 12,
+          "right": 308,
+          "top": 2074.421875,
+          "bottom": 2195.859375,
+          "width": 296,
+          "height": 121.4375,
+          "src": ""
+        },
+        {
+          "tag": "table",
+          "text": "UNFINISHEDRECORDOlder repositories record a path from trial and error toward finishing and clarifyin",
+          "left": 12,
+          "right": 308,
+          "top": 2278.3125,
+          "bottom": 2597.875,
+          "width": 296,
+          "height": 319.5625,
+          "src": ""
+        },
+        {
+          "tag": "table",
+          "text": "COUNTEREXAMPLEI am looking for cases where the routing contract chooses the wrong specialist or stop",
+          "left": 12,
+          "right": 308,
+          "top": 2680.328125,
+          "bottom": 2851.109375,
+          "width": 296,
+          "height": 170.78125,
+          "src": ""
+        }
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "COOPER OAK",
+          "left": 12,
+          "right": 308,
+          "top": 456.890625,
+          "bottom": 501.28125,
+          "width": 296,
+          "height": 44.390625,
+          "src": ""
+        },
+        {
+          "tag": "h2",
+          "text": "02 — Current experiment",
+          "left": 12,
+          "right": 308,
+          "top": 780.25,
+          "bottom": 814.703125,
+          "width": 296,
+          "height": 34.453125,
+          "src": ""
+        },
+        {
+          "tag": "h2",
+          "text": "03 — Working principles",
+          "left": 12,
+          "right": 308,
+          "top": 2023.96875,
+          "bottom": 2058.421875,
+          "width": 296,
+          "height": 34.453125,
+          "src": ""
+        },
+        {
+          "tag": "h2",
+          "text": "04 — Open loop",
+          "left": 12,
+          "right": 308,
+          "top": 2227.859375,
+          "bottom": 2262.3125,
+          "width": 296,
+          "height": 34.453125,
+          "src": ""
+        },
+        {
+          "tag": "h2",
+          "text": "05 — Discuss on GitHub",
+          "left": 12,
+          "right": 308,
+          "top": 2629.875,
+          "bottom": 2664.328125,
+          "width": 296,
+          "height": 34.453125,
+          "src": ""
+        }
+      ],
+      "hero": {
+        "tag": "img",
+        "text": "Pixel Oak monument poster.",
+        "left": 12,
+        "right": 307.984375,
+        "top": 239.5625,
+        "bottom": 436.890625,
+        "width": 295.984375,
+        "height": 197.328125,
+        "src": "./assets/profile-signature-light.svg"
+      },
+      "evidenceImage": {
+        "tag": "img",
+        "text": "",
+        "left": 13,
+        "right": 306.96875,
+        "top": 1220.859375,
+        "bottom": 1297.046875,
+        "width": 293.96875,
+        "height": 76.1875,
+        "src": "./assets/profile-evidence-light.svg"
+      },
+      "h1": {
+        "tag": "h1",
+        "text": "COOPER OAK",
+        "left": 12,
+        "right": 308,
+        "top": 456.890625,
+        "bottom": 501.28125,
+        "width": 296,
+        "height": 44.390625,
+        "src": ""
+      }
+    }
+  },
+  {
+    "id": "profile-320-dark",
+    "width": 320,
+    "height": 800,
+    "colorScheme": "dark",
+    "metrics": {
+      "innerWidth": 320,
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "overflowNodes": [],
+      "links": [
+        {
+          "tag": "a",
+          "text": "A missing required visual provider blocks UI mutation instead of letting a generic fallback improvis",
+          "left": 129.1875,
+          "right": 287.171875,
+          "top": 1317.046875,
+          "bottom": 1462.03125,
+          "width": 157.984375,
+          "height": 144.984375,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "An applicable brand or platform provider beats a generic provider, while a CloudAI-scoped provider i",
+          "left": 129.1875,
+          "right": 296.1875,
+          "top": 1473.828125,
+          "bottom": 1643.609375,
+          "width": 167,
+          "height": 169.78125,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Route revisions and evaluation rounds stay append-only, so later decisions cannot silently rewrite e",
+          "left": 129.1875,
+          "right": 288.28125,
+          "top": 1655.40625,
+          "bottom": 1800.390625,
+          "width": 159.09375,
+          "height": 144.984375,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Make control explicit.",
+          "left": 21,
+          "right": 74.03125,
+          "top": 2111.46875,
+          "bottom": 2182.0625,
+          "width": 53.03125,
+          "height": 70.59375,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Route work to specialists.",
+          "left": 119.328125,
+          "right": 199.484375,
+          "top": 2111.46875,
+          "bottom": 2182.0625,
+          "width": 80.15625,
+          "height": 70.59375,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Claims need evidence.",
+          "left": 217.65625,
+          "right": 283.640625,
+          "top": 2111.46875,
+          "bottom": 2182.0625,
+          "width": 65.984375,
+          "height": 70.59375,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "writing-loop-harness",
+          "left": 103.59375,
+          "right": 269.40625,
+          "top": 2364.703125,
+          "bottom": 2410.5,
+          "width": 165.8125,
+          "height": 45.796875,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "提交反例 →",
+          "left": 103.59375,
+          "right": 185.8125,
+          "top": 2816.3125,
+          "bottom": 2837.3125,
+          "width": 82.21875,
+          "height": 21,
+          "src": ""
+        }
+      ],
+      "tables": [
+        {
+          "tag": "table",
+          "text": "NOWACTIVE Capability RoutingA bounded workflow experiment: name the required specialist and the stop",
+          "left": 12,
+          "right": 308,
+          "top": 577.46875,
+          "bottom": 748.25,
+          "width": 296,
+          "height": 170.78125,
+          "src": ""
+        },
+        {
+          "tag": "table",
+          "text": "QUESTIONHow should an AI-assisted workflow know which specialist must act next—and when must it stop",
+          "left": 12,
+          "right": 308,
+          "top": 830.703125,
+          "bottom": 1991.96875,
+          "width": 296,
+          "height": 1161.265625,
+          "src": ""
+        },
+        {
+          "tag": "table",
+          "text": "01 / PRINCIPLEMake control explicit. 02 / PRINCIPLERoute work to specialists. 03 / PRINCIPLEClaims n",
+          "left": 12,
+          "right": 308,
+          "top": 2074.421875,
+          "bottom": 2195.859375,
+          "width": 296,
+          "height": 121.4375,
+          "src": ""
+        },
+        {
+          "tag": "table",
+          "text": "UNFINISHEDRECORDOlder repositories record a path from trial and error toward finishing and clarifyin",
+          "left": 12,
+          "right": 308,
+          "top": 2278.3125,
+          "bottom": 2597.875,
+          "width": 296,
+          "height": 319.5625,
+          "src": ""
+        },
+        {
+          "tag": "table",
+          "text": "COUNTEREXAMPLEI am looking for cases where the routing contract chooses the wrong specialist or stop",
+          "left": 12,
+          "right": 308,
+          "top": 2680.328125,
+          "bottom": 2851.109375,
+          "width": 296,
+          "height": 170.78125,
+          "src": ""
+        }
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "COOPER OAK",
+          "left": 12,
+          "right": 308,
+          "top": 456.890625,
+          "bottom": 501.28125,
+          "width": 296,
+          "height": 44.390625,
+          "src": ""
+        },
+        {
+          "tag": "h2",
+          "text": "02 — Current experiment",
+          "left": 12,
+          "right": 308,
+          "top": 780.25,
+          "bottom": 814.703125,
+          "width": 296,
+          "height": 34.453125,
+          "src": ""
+        },
+        {
+          "tag": "h2",
+          "text": "03 — Working principles",
+          "left": 12,
+          "right": 308,
+          "top": 2023.96875,
+          "bottom": 2058.421875,
+          "width": 296,
+          "height": 34.453125,
+          "src": ""
+        },
+        {
+          "tag": "h2",
+          "text": "04 — Open loop",
+          "left": 12,
+          "right": 308,
+          "top": 2227.859375,
+          "bottom": 2262.3125,
+          "width": 296,
+          "height": 34.453125,
+          "src": ""
+        },
+        {
+          "tag": "h2",
+          "text": "05 — Discuss on GitHub",
+          "left": 12,
+          "right": 308,
+          "top": 2629.875,
+          "bottom": 2664.328125,
+          "width": 296,
+          "height": 34.453125,
+          "src": ""
+        }
+      ],
+      "hero": {
+        "tag": "img",
+        "text": "Pixel Oak monument poster.",
+        "left": 12,
+        "right": 307.984375,
+        "top": 239.5625,
+        "bottom": 436.890625,
+        "width": 295.984375,
+        "height": 197.328125,
+        "src": "./assets/profile-signature-light.svg"
+      },
+      "evidenceImage": {
+        "tag": "img",
+        "text": "",
+        "left": 13,
+        "right": 306.96875,
+        "top": 1220.859375,
+        "bottom": 1297.046875,
+        "width": 293.96875,
+        "height": 76.1875,
+        "src": "./assets/profile-evidence-light.svg"
+      },
+      "h1": {
+        "tag": "h1",
+        "text": "COOPER OAK",
+        "left": 12,
+        "right": 308,
+        "top": 456.890625,
+        "bottom": 501.28125,
+        "width": 296,
+        "height": 44.390625,
+        "src": ""
+      }
+    }
+  },
+  {
+    "id": "profile-320-images-disabled",
+    "width": 320,
+    "height": 800,
+    "colorScheme": "light",
+    "imagesDisabled": true,
+    "metrics": {
+      "innerWidth": 320,
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "overflowNodes": [],
+      "links": [
+        {
+          "tag": "a",
+          "text": "A missing required visual provider blocks UI mutation instead of letting a generic fallback improvis",
+          "left": 129.1875,
+          "right": 287.171875,
+          "top": 1068.328125,
+          "bottom": 1213.3125,
+          "width": 157.984375,
+          "height": 144.984375,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "An applicable brand or platform provider beats a generic provider, while a CloudAI-scoped provider i",
+          "left": 129.1875,
+          "right": 296.1875,
+          "top": 1225.109375,
+          "bottom": 1394.890625,
+          "width": 167,
+          "height": 169.78125,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Route revisions and evaluation rounds stay append-only, so later decisions cannot silently rewrite e",
+          "left": 129.1875,
+          "right": 288.28125,
+          "top": 1406.6875,
+          "bottom": 1551.671875,
+          "width": 159.09375,
+          "height": 144.984375,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Make control explicit.",
+          "left": 21,
+          "right": 74.03125,
+          "top": 1862.75,
+          "bottom": 1933.34375,
+          "width": 53.03125,
+          "height": 70.59375,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Route work to specialists.",
+          "left": 119.328125,
+          "right": 199.484375,
+          "top": 1862.75,
+          "bottom": 1933.34375,
+          "width": 80.15625,
+          "height": 70.59375,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Claims need evidence.",
+          "left": 217.65625,
+          "right": 283.640625,
+          "top": 1862.75,
+          "bottom": 1933.34375,
+          "width": 65.984375,
+          "height": 70.59375,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "writing-loop-harness",
+          "left": 103.59375,
+          "right": 269.40625,
+          "top": 2115.984375,
+          "bottom": 2161.78125,
+          "width": 165.8125,
+          "height": 45.796875,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "提交反例 →",
+          "left": 103.59375,
+          "right": 185.8125,
+          "top": 2567.59375,
+          "bottom": 2588.59375,
+          "width": 82.21875,
+          "height": 21,
+          "src": ""
+        }
+      ],
+      "tables": [
+        {
+          "tag": "table",
+          "text": "NOWACTIVE Capability RoutingA bounded workflow experiment: name the required specialist and the stop",
+          "left": 12,
+          "right": 308,
+          "top": 404.9375,
+          "bottom": 575.71875,
+          "width": 296,
+          "height": 170.78125,
+          "src": ""
+        },
+        {
+          "tag": "table",
+          "text": "QUESTIONHow should an AI-assisted workflow know which specialist must act next—and when must it stop",
+          "left": 12,
+          "right": 308,
+          "top": 658.171875,
+          "bottom": 1743.25,
+          "width": 296,
+          "height": 1085.078125,
+          "src": ""
+        },
+        {
+          "tag": "table",
+          "text": "01 / PRINCIPLEMake control explicit. 02 / PRINCIPLERoute work to specialists. 03 / PRINCIPLEClaims n",
+          "left": 12,
+          "right": 308,
+          "top": 1825.703125,
+          "bottom": 1947.140625,
+          "width": 296,
+          "height": 121.4375,
+          "src": ""
+        },
+        {
+          "tag": "table",
+          "text": "UNFINISHEDRECORDOlder repositories record a path from trial and error toward finishing and clarifyin",
+          "left": 12,
+          "right": 308,
+          "top": 2029.59375,
+          "bottom": 2349.15625,
+          "width": 296,
+          "height": 319.5625,
+          "src": ""
+        },
+        {
+          "tag": "table",
+          "text": "COUNTEREXAMPLEI am looking for cases where the routing contract chooses the wrong specialist or stop",
+          "left": 12,
+          "right": 308,
+          "top": 2431.609375,
+          "bottom": 2602.390625,
+          "width": 296,
+          "height": 170.78125,
+          "src": ""
+        }
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "COOPER OAK",
+          "left": 12,
+          "right": 308,
+          "top": 284.359375,
+          "bottom": 328.75,
+          "width": 296,
+          "height": 44.390625,
+          "src": ""
+        },
+        {
+          "tag": "h2",
+          "text": "02 — Current experiment",
+          "left": 12,
+          "right": 308,
+          "top": 607.71875,
+          "bottom": 642.171875,
+          "width": 296,
+          "height": 34.453125,
+          "src": ""
+        },
+        {
+          "tag": "h2",
+          "text": "03 — Working principles",
+          "left": 12,
+          "right": 308,
+          "top": 1775.25,
+          "bottom": 1809.703125,
+          "width": 296,
+          "height": 34.453125,
+          "src": ""
+        },
+        {
+          "tag": "h2",
+          "text": "04 — Open loop",
+          "left": 12,
+          "right": 308,
+          "top": 1979.140625,
+          "bottom": 2013.59375,
+          "width": 296,
+          "height": 34.453125,
+          "src": ""
+        },
+        {
+          "tag": "h2",
+          "text": "05 — Discuss on GitHub",
+          "left": 12,
+          "right": 308,
+          "top": 2381.15625,
+          "bottom": 2415.609375,
+          "width": 296,
+          "height": 34.453125,
+          "src": ""
+        }
+      ],
+      "hero": {
+        "tag": "img",
+        "text": "Pixel Oak monument poster.",
+        "left": 12,
+        "right": 308,
+        "top": 239.5625,
+        "bottom": 264.359375,
+        "width": 296,
+        "height": 24.796875,
+        "src": "./assets/profile-signature-light.svg"
+      },
+      "evidenceImage": {
+        "tag": "img",
+        "text": "",
+        "left": 13,
+        "right": 307,
+        "top": 1048.328125,
+        "bottom": 1048.328125,
+        "width": 294,
+        "height": 0,
+        "src": "./assets/profile-evidence-light.svg"
+      },
+      "h1": {
+        "tag": "h1",
+        "text": "COOPER OAK",
+        "left": 12,
+        "right": 308,
+        "top": 284.359375,
+        "bottom": 328.75,
+        "width": 296,
+        "height": 44.390625,
+        "src": ""
+      }
+    }
+  }
+]

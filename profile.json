@@ -1,114 +1,98 @@
 {
-  "version": 2,
+  "version": 3,
   "github": {
     "username": "Cooper-X-Oak"
   },
   "page": {
-    "type": "brand-landing-content-docs",
-    "primaryAudience": "Technical peers and tool users arriving through GitHub.",
-    "primaryAction": {
-      "label": "See selected work ↓",
-      "href": "#selected-work"
-    },
-    "repositoryExit": {
-      "label": "Browse all repositories →",
-      "url": "https://github.com/Cooper-X-Oak?tab=repositories"
-    }
+    "type": "github-profile-pixel-oak-control-ledger",
+    "primaryAudience": "Fellow builders and potential collaborators arriving through GitHub."
   },
   "identity": {
-    "name": "Cooper Oak",
-    "positioning": "Building game mods, AI tools, and weird useful projects in public.",
-    "supporting": "把想法做成可以下载、安装或验证的作品。",
-    "origin": "Started from scratch in 2026. Goal: 100 projects."
+    "name": "COOPER OAK",
+    "lead": "Experiments in keeping humans in control of AI-assisted work."
   },
-  "theme": {
-    "id": "profile-editorial-v1",
-    "colors": {
-      "light": {
-        "canvas": "#f0f0f0",
-        "ink": "#111111",
-        "mutedInk": "#4d4d4d",
-        "brand": "#6ed959",
-        "rule": "#c7c7c7"
+  "experiment": {
+    "name": "Capability Routing",
+    "context": "A bounded workflow experiment: name the required specialist and the stopping condition before irreversible work.",
+    "question": "How should an AI-assisted workflow know which specialist must act next—and when must it stop because the required capability is missing?",
+    "hypothesis": "Before irreversible work, declare the required capability, applicable provider, authority inputs, expected outputs, deadline, and gate. If a required capability is unresolved, the workflow stops.",
+    "evidence": [
+      {
+        "statement": "A missing required visual provider blocks UI mutation instead of letting a generic fallback improvise the design.",
+        "url": "https://github.com/Cooper-X-Oak/Cooper-X-Oak/issues/6#issuecomment-4982339925"
       },
-      "dark": {
-        "canvas": "#111111",
-        "ink": "#f5f5f5",
-        "mutedInk": "#c7c7c7",
-        "brand": "#6ed959",
-        "rule": "#3d444d"
-      }
-    },
-    "signature": {
-      "alt": "Cooper Oak pixel-green editorial signature.",
-      "category": "GAME MODS · AI TOOLS · USEFUL EXPERIMENTS",
-      "metadata": "BUILT IN PUBLIC · 2026—",
-      "desktop": {
-        "width": 1200,
-        "height": 240
+      {
+        "statement": "An applicable brand or platform provider beats a generic provider, while a CloudAI-scoped provider is excluded from this GitHub Profile.",
+        "url": "https://github.com/Cooper-X-Oak/Cooper-X-Oak/issues/6#issuecomment-4982340403"
       },
-      "mobile": {
-        "width": 600,
-        "height": 260
+      {
+        "statement": "Route revisions and evaluation rounds stay append-only, so later decisions cannot silently rewrite earlier evidence.",
+        "url": "https://github.com/Cooper-X-Oak/Cooper-X-Oak/issues/6#issuecomment-4982340744"
       }
-    }
+    ],
+    "next": "Test the contract beyond this Profile and collect the smallest counterexamples where it routes the wrong specialist or closes the gate at the wrong time."
   },
-  "featuredWork": [
+  "principles": [
     {
-      "repo": "LongYinMod_RisingFame",
-      "url": "https://github.com/Cooper-X-Oak/LongYinMod_RisingFame",
-      "summary": "A released BepInEx mod for LongYinLiZhiZhuan, with documented setup, support boundaries, and troubleshooting.",
-      "evidence": [
-        {
-          "kind": "release",
-          "label": "Latest release",
-          "url": "https://github.com/Cooper-X-Oak/LongYinMod_RisingFame/releases/latest"
-        },
-        {
-          "kind": "documentation",
-          "label": "Setup and support",
-          "url": "https://github.com/Cooper-X-Oak/LongYinMod_RisingFame#readme"
-        }
-      ]
+      "label": "Make control explicit.",
+      "url": "https://github.com/Cooper-X-Oak/Cooper-X-Oak/issues/6#issuecomment-4982339925"
     },
     {
-      "repo": "goal-to-do",
-      "url": "https://github.com/Cooper-X-Oak/goal-to-do",
-      "summary": "An installable Codex skill for turning vague, long-running tasks into aligned `/goal` prompts.",
-      "evidence": [
-        {
-          "kind": "install",
-          "label": "Install the skill",
-          "url": "https://github.com/Cooper-X-Oak/goal-to-do/tree/main/skills/goal-todo"
-        },
-        {
-          "kind": "release",
-          "label": "v0.1.0 release",
-          "url": "https://github.com/Cooper-X-Oak/goal-to-do/releases/tag/v0.1.0"
-        }
-      ]
+      "label": "Route work to specialists.",
+      "url": "https://github.com/Cooper-X-Oak/Cooper-X-Oak/issues/6#issuecomment-4982340403"
     },
     {
-      "repo": "valvetrade-pipeline",
-      "url": "https://github.com/Cooper-X-Oak/valvetrade-pipeline",
-      "summary": "A TypeScript/PostgreSQL pipeline skeleton with database guards, RLS isolation, deduplication, and tests against embedded Postgres.",
-      "evidence": [
-        {
-          "kind": "tests",
-          "label": "Review the tests",
-          "url": "https://github.com/Cooper-X-Oak/valvetrade-pipeline/tree/main/packages/pipeline/test"
-        },
-        {
-          "kind": "ci",
-          "label": "Passing CI",
-          "url": "https://github.com/Cooper-X-Oak/valvetrade-pipeline/actions/runs/28073647116"
-        }
-      ]
+      "label": "Claims need evidence.",
+      "url": "https://github.com/Cooper-X-Oak/Cooper-X-Oak/issues/6#issuecomment-4982340744"
     }
   ],
-  "principles": [
-    "Ship things people can download, install, or verify.",
-    "Document setup, support boundaries, and failure modes.",
-    "Use tests and public artifacts as proof."
-  ]
+  "openLoop": {
+    "repo": "writing-loop-harness",
+    "url": "https://github.com/Cooper-X-Oak/writing-loop-harness",
+    "continuity": "Older repositories record a path from trial and error toward finishing and clarifying work.",
+    "truth": "writing-loop-harness worked locally and was useful, but it never became a clear, installable tool.",
+    "closure": "The loop closes when it becomes installable—not when it gets a more ambitious label."
+  },
+  "discuss": {
+    "context": "I am looking for cases where the routing contract chooses the wrong specialist or stops at the wrong boundary.",
+    "label": "提交反例",
+    "url": "https://github.com/Cooper-X-Oak/Cooper-X-Oak/issues/6"
+  },
+  "theme": {
+    "id": "pixel-oak-poster-v2",
+    "tokens": {
+      "light": {
+        "canvas": "#F2EFE4",
+        "ink": "#0D100E",
+        "forest": "#347A55",
+        "structure": "#5C8E70",
+        "signal": "#3B9648",
+        "muted": "#5C655E",
+        "rule": "#A7AEA6",
+        "blackField": "#0D100E"
+      },
+      "dark": {
+        "canvas": "#0D100E",
+        "ink": "#F2EFE4",
+        "forest": "#347A55",
+        "structure": "#285F45",
+        "signal": "#3B9648",
+        "muted": "#9BA69E",
+        "rule": "#66736B",
+        "blackField": "#020403"
+      }
+    },
+    "assets": {
+      "heroSignature": {
+        "alt": "Pixel Oak monument poster.",
+        "width": 1200,
+        "height": 800
+      },
+      "evidenceBlackMarker": {
+        "alt": "",
+        "width": 1200,
+        "height": 311
+      }
+    }
+  }
 }

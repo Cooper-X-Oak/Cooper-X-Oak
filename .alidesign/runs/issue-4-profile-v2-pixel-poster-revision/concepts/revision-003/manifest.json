@@ -1,0 +1,83 @@
+{
+  "revision": 3,
+  "tokens": {
+    "bone": "#F2EFE4",
+    "ink": "#0D100E",
+    "forest": "#347A55",
+    "signal": "#3B9648"
+  },
+  "oakArea": 440,
+  "outputs": [
+    {
+      "variant": "02a-shallow-shoulder",
+      "mode": "light",
+      "desktop": "02a-shallow-shoulder-light.svg",
+      "narrow": "02a-shallow-shoulder-light-320.svg",
+      "oakArea": 440,
+      "structureArea": 96
+    },
+    {
+      "variant": "02a-shallow-shoulder",
+      "mode": "dark",
+      "desktop": "02a-shallow-shoulder-dark.svg",
+      "narrow": "02a-shallow-shoulder-dark-320.svg",
+      "oakArea": 440,
+      "structureArea": 96
+    },
+    {
+      "variant": "02b-balanced-inset",
+      "mode": "light",
+      "desktop": "02b-balanced-inset-light.svg",
+      "narrow": "02b-balanced-inset-light-320.svg",
+      "oakArea": 440,
+      "structureArea": 90
+    },
+    {
+      "variant": "02b-balanced-inset",
+      "mode": "dark",
+      "desktop": "02b-balanced-inset-dark.svg",
+      "narrow": "02b-balanced-inset-dark-320.svg",
+      "oakArea": 440,
+      "structureArea": 90
+    },
+    {
+      "variant": "02c-root-closure",
+      "mode": "light",
+      "desktop": "02c-root-closure-light.svg",
+      "narrow": "02c-root-closure-light-320.svg",
+      "oakArea": 440,
+      "structureArea": 81
+    },
+    {
+      "variant": "02c-root-closure",
+      "mode": "dark",
+      "desktop": "02c-root-closure-dark.svg",
+      "narrow": "02c-root-closure-dark-320.svg",
+      "oakArea": 440,
+      "structureArea": 81
+    }
+  ],
+  "comparisons": [
+    {
+      "left": "02a-shallow-shoulder",
+      "right": "02b-balanced-inset",
+      "intersection": 88,
+      "symmetricDifference": 10,
+      "jaccard": 0.898
+    },
+    {
+      "left": "02a-shallow-shoulder",
+      "right": "02c-root-closure",
+      "intersection": 78,
+      "symmetricDifference": 21,
+      "jaccard": 0.788
+    },
+    {
+      "left": "02b-balanced-inset",
+      "right": "02c-root-closure",
+      "intersection": 79,
+      "symmetricDifference": 13,
+      "jaccard": 0.859
+    }
+  ]
+}

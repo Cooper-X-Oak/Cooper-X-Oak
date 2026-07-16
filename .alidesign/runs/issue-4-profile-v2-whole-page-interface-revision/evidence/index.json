@@ -1,0 +1,12 @@
+{
+  "run_id": "issue-4-profile-v2-whole-page-interface-revision",
+  "evidence": [
+    {"kind":"metrics","ref":"production-metrics.json","scope":"860/320 light/dark and 320 images-disabled"},
+    {"kind":"screenshot","ref":"profile-860-light.png","scope":"desktop light"},
+    {"kind":"screenshot","ref":"profile-860-dark.png","scope":"desktop dark"},
+    {"kind":"screenshot","ref":"profile-320-light.png","scope":"true 320 light"},
+    {"kind":"screenshot","ref":"profile-320-dark.png","scope":"true 320 dark"},
+    {"kind":"screenshot","ref":"profile-320-images-disabled.png","scope":"true 320 images disabled"},
+    {"kind":"toolchain","ref":"collect-production-evidence.mjs","scope":"CDP collector"}
+  ]
+}

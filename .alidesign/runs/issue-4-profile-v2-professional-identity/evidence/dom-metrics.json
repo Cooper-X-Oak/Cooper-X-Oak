@@ -1,0 +1,292 @@
+[
+  {
+    "name": "profile-v2-860-light",
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 1800,
+      "devicePixelRatio": 1
+    },
+    "document": {
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "bodyClientWidth": 1280,
+      "bodyScrollWidth": 1280,
+      "scrollHeight": 1800
+    },
+    "overflowNodes": [],
+    "links": [
+      {
+        "text": "A missing required visual provider blocks UI mutation instead of letting a generic fallback improvise the design.",
+        "left": 377.59375,
+        "right": 1160.859375
+      },
+      {
+        "text": "An applicable brand or platform provider beats a generic provider, while a CloudAI-scoped provider is excluded from this GitHub Profile.",
+        "left": 377.59375,
+        "right": 1201.421875
+      },
+      {
+        "text": "Route revisions and evaluation rounds stay append-only, so later decisions cannot silently rewrite earlier evidence.",
+        "left": 377.59375,
+        "right": 1180.625
+      },
+      {
+        "text": "Make control explicit.",
+        "left": 377.59375,
+        "right": 528.265625
+      },
+      {
+        "text": "Route work to specialists.",
+        "left": 377.59375,
+        "right": 555.5
+      },
+      {
+        "text": "Claims need evidence.",
+        "left": 377.59375,
+        "right": 533.921875
+      },
+      {
+        "text": "writing-loop-harness",
+        "left": 980.890625,
+        "right": 1128.25
+      },
+      {
+        "text": "提交反例",
+        "left": 1141.3125,
+        "right": 1205.3125
+      }
+    ]
+  },
+  {
+    "name": "profile-v2-860-dark",
+    "viewport": {
+      "innerWidth": 1280,
+      "innerHeight": 1800,
+      "devicePixelRatio": 1
+    },
+    "document": {
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "bodyClientWidth": 1280,
+      "bodyScrollWidth": 1280,
+      "scrollHeight": 1800
+    },
+    "overflowNodes": [],
+    "links": [
+      {
+        "text": "A missing required visual provider blocks UI mutation instead of letting a generic fallback improvise the design.",
+        "left": 377.59375,
+        "right": 1160.859375
+      },
+      {
+        "text": "An applicable brand or platform provider beats a generic provider, while a CloudAI-scoped provider is excluded from this GitHub Profile.",
+        "left": 377.59375,
+        "right": 1201.421875
+      },
+      {
+        "text": "Route revisions and evaluation rounds stay append-only, so later decisions cannot silently rewrite earlier evidence.",
+        "left": 377.59375,
+        "right": 1180.625
+      },
+      {
+        "text": "Make control explicit.",
+        "left": 377.59375,
+        "right": 528.265625
+      },
+      {
+        "text": "Route work to specialists.",
+        "left": 377.59375,
+        "right": 555.5
+      },
+      {
+        "text": "Claims need evidence.",
+        "left": 377.59375,
+        "right": 533.921875
+      },
+      {
+        "text": "writing-loop-harness",
+        "left": 980.890625,
+        "right": 1128.25
+      },
+      {
+        "text": "提交反例",
+        "left": 1141.3125,
+        "right": 1205.3125
+      }
+    ]
+  },
+  {
+    "name": "profile-v2-320-light",
+    "viewport": {
+      "innerWidth": 320,
+      "innerHeight": 2600,
+      "devicePixelRatio": 1
+    },
+    "document": {
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "bodyClientWidth": 320,
+      "bodyScrollWidth": 320,
+      "scrollHeight": 2600
+    },
+    "overflowNodes": [],
+    "links": [
+      {
+        "text": "A missing required visual provider blocks UI mutation instead of letting a generic fallback improvise the design.",
+        "left": 37.59375,
+        "right": 307.09375
+      },
+      {
+        "text": "An applicable brand or platform provider beats a generic provider, while a CloudAI-scoped provider is excluded from this GitHub Profile.",
+        "left": 37.59375,
+        "right": 283.265625
+      },
+      {
+        "text": "Route revisions and evaluation rounds stay append-only, so later decisions cannot silently rewrite earlier evidence.",
+        "left": 37.59375,
+        "right": 306.640625
+      },
+      {
+        "text": "Make control explicit.",
+        "left": 37.59375,
+        "right": 188.265625
+      },
+      {
+        "text": "Route work to specialists.",
+        "left": 37.59375,
+        "right": 215.5
+      },
+      {
+        "text": "Claims need evidence.",
+        "left": 37.59375,
+        "right": 193.921875
+      },
+      {
+        "text": "writing-loop-harness",
+        "left": 54.3125,
+        "right": 201.671875
+      },
+      {
+        "text": "提交反例",
+        "left": 224.3125,
+        "right": 288.3125
+      }
+    ]
+  },
+  {
+    "name": "profile-v2-320-dark",
+    "viewport": {
+      "innerWidth": 320,
+      "innerHeight": 2600,
+      "devicePixelRatio": 1
+    },
+    "document": {
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "bodyClientWidth": 320,
+      "bodyScrollWidth": 320,
+      "scrollHeight": 2600
+    },
+    "overflowNodes": [],
+    "links": [
+      {
+        "text": "A missing required visual provider blocks UI mutation instead of letting a generic fallback improvise the design.",
+        "left": 37.59375,
+        "right": 307.09375
+      },
+      {
+        "text": "An applicable brand or platform provider beats a generic provider, while a CloudAI-scoped provider is excluded from this GitHub Profile.",
+        "left": 37.59375,
+        "right": 283.265625
+      },
+      {
+        "text": "Route revisions and evaluation rounds stay append-only, so later decisions cannot silently rewrite earlier evidence.",
+        "left": 37.59375,
+        "right": 306.640625
+      },
+      {
+        "text": "Make control explicit.",
+        "left": 37.59375,
+        "right": 188.265625
+      },
+      {
+        "text": "Route work to specialists.",
+        "left": 37.59375,
+        "right": 215.5
+      },
+      {
+        "text": "Claims need evidence.",
+        "left": 37.59375,
+        "right": 193.921875
+      },
+      {
+        "text": "writing-loop-harness",
+        "left": 54.3125,
+        "right": 201.671875
+      },
+      {
+        "text": "提交反例",
+        "left": 224.3125,
+        "right": 288.3125
+      }
+    ]
+  },
+  {
+    "name": "profile-v2-320-images-disabled",
+    "viewport": {
+      "innerWidth": 320,
+      "innerHeight": 2600,
+      "devicePixelRatio": 1
+    },
+    "document": {
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "bodyClientWidth": 320,
+      "bodyScrollWidth": 320,
+      "scrollHeight": 2600
+    },
+    "overflowNodes": [],
+    "links": [
+      {
+        "text": "A missing required visual provider blocks UI mutation instead of letting a generic fallback improvise the design.",
+        "left": 37.59375,
+        "right": 307.09375
+      },
+      {
+        "text": "An applicable brand or platform provider beats a generic provider, while a CloudAI-scoped provider is excluded from this GitHub Profile.",
+        "left": 37.59375,
+        "right": 283.265625
+      },
+      {
+        "text": "Route revisions and evaluation rounds stay append-only, so later decisions cannot silently rewrite earlier evidence.",
+        "left": 37.59375,
+        "right": 306.640625
+      },
+      {
+        "text": "Make control explicit.",
+        "left": 37.59375,
+        "right": 188.265625
+      },
+      {
+        "text": "Route work to specialists.",
+        "left": 37.59375,
+        "right": 215.5
+      },
+      {
+        "text": "Claims need evidence.",
+        "left": 37.59375,
+        "right": 193.921875
+      },
+      {
+        "text": "writing-loop-harness",
+        "left": 54.3125,
+        "right": 201.671875
+      },
+      {
+        "text": "提交反例",
+        "left": 224.3125,
+        "right": 288.3125
+      }
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "run_id": "issue-4-profile-v2-whole-page-interface-revision",
+  "round": "round-001",
+  "review_mode": "release",
+  "status": "final",
+  "verdict": "passed",
+  "routing_revision": "revision-001",
+  "created_at": "2026-07-16T07:35:33.533367Z",
+  "role_bindings": {
+    "evidence_collector": "codex-evidence-collector",
+    "design_reviewer": "codex-independent-design-reviewer",
+    "gate_resolver": "alidesign-gate-resolver"
+  },
+  "artifact_refs": [
+    "README.md",
+    "profile.html",
+    "profile.json",
+    "artifacts/build_profile.mjs",
+    "artifacts/build_profile.test.mjs"
+  ],
+  "evidence": [
+    {"kind":"metrics","ref":".alidesign/runs/issue-4-profile-v2-whole-page-interface-revision/evidence/production-metrics.json"},
+    {"kind":"screenshot","ref":".alidesign/runs/issue-4-profile-v2-whole-page-interface-revision/evidence/profile-860-light.png"},
+    {"kind":"screenshot","ref":".alidesign/runs/issue-4-profile-v2-whole-page-interface-revision/evidence/profile-860-dark.png"},
+    {"kind":"screenshot","ref":".alidesign/runs/issue-4-profile-v2-whole-page-interface-revision/evidence/profile-320-light.png"},
+    {"kind":"screenshot","ref":".alidesign/runs/issue-4-profile-v2-whole-page-interface-revision/evidence/profile-320-dark.png"},
+    {"kind":"screenshot","ref":".alidesign/runs/issue-4-profile-v2-whole-page-interface-revision/evidence/profile-320-images-disabled.png"},
+    {"kind":"verification","ref":".alidesign/runs/issue-4-profile-v2-whole-page-interface-revision/implementation-record.md"},
+    {"kind":"independent_review","ref":".alidesign/runs/issue-4-profile-v2-whole-page-interface-revision/evaluation/round-001/report.md"}
+  ],
+  "gaps": [
+    {"blocking":false,"description":"Post-push GitHub branch-render smoke is mandatory after the new commit exists."}
+  ]
+}

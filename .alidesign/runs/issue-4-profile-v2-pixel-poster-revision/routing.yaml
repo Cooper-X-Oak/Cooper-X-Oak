@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "run_id": "issue-4-profile-v2-pixel-poster-revision",
+  "active_revision": "routing/revision-009.yaml",
+  "revisions": [
+    {
+      "id": "revision-001",
+      "path": "routing/revision-001.yaml",
+      "status": "sealed",
+      "sha256": "e288946435b66333b6da00ba0bfc2a0a072c22306eb9d693c6e6038b00c2603d",
+      "parent_sha256": null,
+      "created_at": "2026-07-15T16:45:25.540543Z",
+      "sealed_at": "2026-07-15T16:48:54.374051Z",
+      "reason": "Initial capability-routing record."
+    },
+    {
+      "id": "revision-002",
+      "path": "routing/revision-002.yaml",
+      "status": "sealed",
+      "sha256": "261275d0d3c074ad580aef40d8c4a79831e8d6bea711c5b90b1f23cfa264f957",
+      "parent_sha256": "e288946435b66333b6da00ba0bfc2a0a072c22306eb9d693c6e6038b00c2603d",
+      "created_at": "2026-07-15T16:55:58.437794Z",
+      "sealed_at": "2026-07-15T16:57:17.463990Z",
+      "reason": "Complete planning outputs and route the selected offset full-tree information architecture."
+    },
+    {
+      "id": "revision-003",
+      "path": "routing/revision-003.yaml",
+      "status": "sealed",
+      "sha256": "470bcbe1a477a0cbbecfb8634d672b6188ced22ccea3a767446ae1522c1923ce",
+      "parent_sha256": "261275d0d3c074ad580aef40d8c4a79831e8d6bea711c5b90b1f23cfa264f957",
+      "created_at": "2026-07-15T17:20:31.339772Z",
+      "sealed_at": "2026-07-16T01:25:19.129648Z",
+      "reason": "Record D06 page grammar and directed D07 concept revisions; keep UI mutation closed while D01 and D04 are reworked."
+    },
+    {
+      "id": "revision-004",
+      "path": "routing/revision-004.yaml",
+      "status": "sealed",
+      "sha256": "37e0222830d56c58d9f69440a345643f9021f5fabb8d38273f8c534bbec176f5",
+      "parent_sha256": "470bcbe1a477a0cbbecfb8634d672b6188ced22ccea3a767446ae1522c1923ce",
+      "created_at": "2026-07-16T01:25:54.223119Z",
+      "sealed_at": "2026-07-16T01:26:22.187005Z",
+      "reason": "Correct implementation provider applicability fields before state transition; preserve sealed revision-003 unchanged."
+    },
+    {
+      "id": "revision-005",
+      "path": "routing/revision-005.yaml",
+      "status": "sealed",
+      "sha256": "d9d8771615611db22a907c757f8d144d4c18113301e2051ea0fc45d897117bdb",
+      "parent_sha256": "37e0222830d56c58d9f69440a345643f9021f5fabb8d38273f8c534bbec176f5",
+      "created_at": "2026-07-16T01:37:17.313365Z",
+      "sealed_at": "2026-07-16T01:38:55.960393Z",
+      "reason": "Resolve the production CDP evidence collector before evaluation entry; preserve earlier sealed routes."
+    },
+    {
+      "id": "revision-006",
+      "path": "routing/revision-006.yaml",
+      "status": "sealed",
+      "sha256": "d70175c6ba498538dba1c441cbf0810819b61e36695b8946a10826770e305dcf",
+      "parent_sha256": "d9d8771615611db22a907c757f8d144d4c18113301e2051ea0fc45d897117bdb",
+      "created_at": "2026-07-16T01:40:25.094444Z",
+      "sealed_at": "2026-07-16T01:41:46.409894Z",
+      "reason": "Separate final production review from the user-appointed D03/D04 guidance actor to satisfy AliDesign release isolation."
+    },
+    {
+      "id": "revision-007",
+      "path": "routing/revision-007.yaml",
+      "status": "sealed",
+      "sha256": "35ad2f5442efda5314f49a0baa998ded6e99bb15098b6ea364102d3909f62c7c",
+      "parent_sha256": "d70175c6ba498538dba1c441cbf0810819b61e36695b8946a10826770e305dcf",
+      "created_at": "2026-07-16T01:46:16.308946Z",
+      "sealed_at": "2026-07-16T01:46:42.754829Z",
+      "reason": "Bind append-only round-001 release report and final evidence before recording the directed revision."
+    },
+    {
+      "id": "revision-008",
+      "path": "routing/revision-008.yaml",
+      "status": "sealed",
+      "sha256": "86b256ac70656855d2c458cf8759a388e7ae18cb7559a7b109474dfefde6d2db",
+      "parent_sha256": "35ad2f5442efda5314f49a0baa998ded6e99bb15098b6ea364102d3909f62c7c",
+      "created_at": "2026-07-16T01:49:23.525626Z",
+      "sealed_at": "2026-07-16T01:49:48.075253Z",
+      "reason": "Project directed revision R-001 and bind append-only round-002 CDP evidence without changing D03/D04."
+    },
+    {
+      "id": "revision-009",
+      "path": "routing/revision-009.yaml",
+      "status": "sealed",
+      "sha256": "325ad7a5b3f0b27b526bd5da794720b85ef89bb1742b0fce05a77597b96877cc",
+      "parent_sha256": "86b256ac70656855d2c458cf8759a388e7ae18cb7559a7b109474dfefde6d2db",
+      "created_at": "2026-07-16T01:52:11.942253Z",
+      "sealed_at": "2026-07-16T01:52:33.454173Z",
+      "reason": "Bind the independent round-002 passed review and final evidence for evaluation_passed."
+    }
+  ]
+}

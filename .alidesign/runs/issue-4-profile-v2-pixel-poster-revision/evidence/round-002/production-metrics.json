@@ -1,0 +1,678 @@
+[
+  {
+    "id": "profile-v2-poster-860-light",
+    "width": 1280,
+    "height": 900,
+    "colorScheme": "light",
+    "metrics": {
+      "innerWidth": 1280,
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "overflowNodes": [],
+      "links": [
+        {
+          "tag": "a",
+          "text": "A missing required visual provider blocks UI mutation instead of letting a gener",
+          "left": 377.59375,
+          "right": 1160.859375,
+          "top": 1425.3125,
+          "bottom": 1446.3125,
+          "width": 783.265625,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "An applicable brand or platform provider beats a generic provider, while a Cloud",
+          "left": 377.59375,
+          "right": 1201.421875,
+          "top": 1458.109375,
+          "bottom": 1503.90625,
+          "width": 823.828125,
+          "height": 45.796875,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Route revisions and evaluation rounds stay append-only, so later decisions canno",
+          "left": 377.59375,
+          "right": 1180.625,
+          "top": 1515.703125,
+          "bottom": 1536.703125,
+          "width": 803.03125,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Make control explicit.",
+          "left": 377.59375,
+          "right": 528.265625,
+          "top": 1770.75,
+          "bottom": 1791.75,
+          "width": 150.671875,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Route work to specialists.",
+          "left": 377.59375,
+          "right": 555.5,
+          "top": 1803.546875,
+          "bottom": 1824.546875,
+          "width": 177.90625,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Claims need evidence.",
+          "left": 377.59375,
+          "right": 533.921875,
+          "top": 1836.34375,
+          "bottom": 1857.34375,
+          "width": 156.328125,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "writing-loop-harness",
+          "left": 980.890625,
+          "right": 1128.25,
+          "top": 1984.328125,
+          "bottom": 2005.328125,
+          "width": 147.359375,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "提交反例",
+          "left": 1141.3125,
+          "right": 1205.3125,
+          "top": 2181.90625,
+          "bottom": 2202.90625,
+          "width": 64,
+          "height": 21,
+          "src": ""
+        }
+      ],
+      "hero": {
+        "tag": "img",
+        "text": "Pixel Oak monument poster.",
+        "left": 352,
+        "right": 1211.984375,
+        "top": 77.140625,
+        "bottom": 650.46875,
+        "width": 859.984375,
+        "height": 573.328125,
+        "src": "./assets/profile-signature-light.svg"
+      },
+      "evidenceImage": {
+        "tag": "img",
+        "text": "",
+        "left": 352,
+        "right": 1211.953125,
+        "top": 1135.96875,
+        "bottom": 1358.84375,
+        "width": 859.953125,
+        "height": 222.875,
+        "src": "./assets/profile-evidence-light.svg"
+      },
+      "h1": {
+        "tag": "h1",
+        "text": "COOPER OAK",
+        "left": 352,
+        "right": 1212,
+        "top": 670.46875,
+        "bottom": 721.0625,
+        "width": 860,
+        "height": 50.59375,
+        "src": ""
+      }
+    }
+  },
+  {
+    "id": "profile-v2-poster-860-dark",
+    "width": 1280,
+    "height": 900,
+    "colorScheme": "dark",
+    "metrics": {
+      "innerWidth": 1280,
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "overflowNodes": [],
+      "links": [
+        {
+          "tag": "a",
+          "text": "A missing required visual provider blocks UI mutation instead of letting a gener",
+          "left": 377.59375,
+          "right": 1160.859375,
+          "top": 1425.3125,
+          "bottom": 1446.3125,
+          "width": 783.265625,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "An applicable brand or platform provider beats a generic provider, while a Cloud",
+          "left": 377.59375,
+          "right": 1201.421875,
+          "top": 1458.109375,
+          "bottom": 1503.90625,
+          "width": 823.828125,
+          "height": 45.796875,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Route revisions and evaluation rounds stay append-only, so later decisions canno",
+          "left": 377.59375,
+          "right": 1180.625,
+          "top": 1515.703125,
+          "bottom": 1536.703125,
+          "width": 803.03125,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Make control explicit.",
+          "left": 377.59375,
+          "right": 528.265625,
+          "top": 1770.75,
+          "bottom": 1791.75,
+          "width": 150.671875,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Route work to specialists.",
+          "left": 377.59375,
+          "right": 555.5,
+          "top": 1803.546875,
+          "bottom": 1824.546875,
+          "width": 177.90625,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Claims need evidence.",
+          "left": 377.59375,
+          "right": 533.921875,
+          "top": 1836.34375,
+          "bottom": 1857.34375,
+          "width": 156.328125,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "writing-loop-harness",
+          "left": 980.890625,
+          "right": 1128.25,
+          "top": 1984.328125,
+          "bottom": 2005.328125,
+          "width": 147.359375,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "提交反例",
+          "left": 1141.3125,
+          "right": 1205.3125,
+          "top": 2181.90625,
+          "bottom": 2202.90625,
+          "width": 64,
+          "height": 21,
+          "src": ""
+        }
+      ],
+      "hero": {
+        "tag": "img",
+        "text": "Pixel Oak monument poster.",
+        "left": 352,
+        "right": 1211.984375,
+        "top": 77.140625,
+        "bottom": 650.46875,
+        "width": 859.984375,
+        "height": 573.328125,
+        "src": "./assets/profile-signature-light.svg"
+      },
+      "evidenceImage": {
+        "tag": "img",
+        "text": "",
+        "left": 352,
+        "right": 1211.953125,
+        "top": 1135.96875,
+        "bottom": 1358.84375,
+        "width": 859.953125,
+        "height": 222.875,
+        "src": "./assets/profile-evidence-light.svg"
+      },
+      "h1": {
+        "tag": "h1",
+        "text": "COOPER OAK",
+        "left": 352,
+        "right": 1212,
+        "top": 670.46875,
+        "bottom": 721.0625,
+        "width": 860,
+        "height": 50.59375,
+        "src": ""
+      }
+    }
+  },
+  {
+    "id": "profile-v2-poster-320-light",
+    "width": 320,
+    "height": 800,
+    "colorScheme": "light",
+    "metrics": {
+      "innerWidth": 320,
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "overflowNodes": [],
+      "links": [
+        {
+          "tag": "a",
+          "text": "A missing required visual provider blocks UI mutation instead of letting a gener",
+          "left": 37.59375,
+          "right": 307.09375,
+          "top": 1273.34375,
+          "bottom": 1343.9375,
+          "width": 269.5,
+          "height": 70.59375,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "An applicable brand or platform provider beats a generic provider, while a Cloud",
+          "left": 37.59375,
+          "right": 283.265625,
+          "top": 1355.734375,
+          "bottom": 1451.125,
+          "width": 245.671875,
+          "height": 95.390625,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Route revisions and evaluation rounds stay append-only, so later decisions canno",
+          "left": 37.59375,
+          "right": 306.640625,
+          "top": 1462.921875,
+          "bottom": 1558.3125,
+          "width": 269.046875,
+          "height": 95.390625,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Make control explicit.",
+          "left": 37.59375,
+          "right": 188.265625,
+          "top": 1836.9375,
+          "bottom": 1857.9375,
+          "width": 150.671875,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Route work to specialists.",
+          "left": 37.59375,
+          "right": 215.5,
+          "top": 1869.734375,
+          "bottom": 1890.734375,
+          "width": 177.90625,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Claims need evidence.",
+          "left": 37.59375,
+          "right": 193.921875,
+          "top": 1902.53125,
+          "bottom": 1923.53125,
+          "width": 156.328125,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "writing-loop-harness",
+          "left": 54.3125,
+          "right": 201.671875,
+          "top": 2096.375,
+          "bottom": 2117.375,
+          "width": 147.359375,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "提交反例",
+          "left": 224.3125,
+          "right": 288.3125,
+          "top": 2389.40625,
+          "bottom": 2410.40625,
+          "width": 64,
+          "height": 21,
+          "src": ""
+        }
+      ],
+      "hero": {
+        "tag": "img",
+        "text": "Pixel Oak monument poster.",
+        "left": 12,
+        "right": 307.984375,
+        "top": 239.5625,
+        "bottom": 436.890625,
+        "width": 295.984375,
+        "height": 197.328125,
+        "src": "./assets/profile-signature-light.svg"
+      },
+      "evidenceImage": {
+        "tag": "img",
+        "text": "",
+        "left": 12,
+        "right": 307.953125,
+        "top": 1131.453125,
+        "bottom": 1208.15625,
+        "width": 295.953125,
+        "height": 76.703125,
+        "src": "./assets/profile-evidence-light.svg"
+      },
+      "h1": {
+        "tag": "h1",
+        "text": "COOPER OAK",
+        "left": 12,
+        "right": 308,
+        "top": 456.890625,
+        "bottom": 501.28125,
+        "width": 296,
+        "height": 44.390625,
+        "src": ""
+      }
+    }
+  },
+  {
+    "id": "profile-v2-poster-320-dark",
+    "width": 320,
+    "height": 800,
+    "colorScheme": "dark",
+    "metrics": {
+      "innerWidth": 320,
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "overflowNodes": [],
+      "links": [
+        {
+          "tag": "a",
+          "text": "A missing required visual provider blocks UI mutation instead of letting a gener",
+          "left": 37.59375,
+          "right": 307.09375,
+          "top": 1273.34375,
+          "bottom": 1343.9375,
+          "width": 269.5,
+          "height": 70.59375,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "An applicable brand or platform provider beats a generic provider, while a Cloud",
+          "left": 37.59375,
+          "right": 283.265625,
+          "top": 1355.734375,
+          "bottom": 1451.125,
+          "width": 245.671875,
+          "height": 95.390625,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Route revisions and evaluation rounds stay append-only, so later decisions canno",
+          "left": 37.59375,
+          "right": 306.640625,
+          "top": 1462.921875,
+          "bottom": 1558.3125,
+          "width": 269.046875,
+          "height": 95.390625,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Make control explicit.",
+          "left": 37.59375,
+          "right": 188.265625,
+          "top": 1836.9375,
+          "bottom": 1857.9375,
+          "width": 150.671875,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Route work to specialists.",
+          "left": 37.59375,
+          "right": 215.5,
+          "top": 1869.734375,
+          "bottom": 1890.734375,
+          "width": 177.90625,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Claims need evidence.",
+          "left": 37.59375,
+          "right": 193.921875,
+          "top": 1902.53125,
+          "bottom": 1923.53125,
+          "width": 156.328125,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "writing-loop-harness",
+          "left": 54.3125,
+          "right": 201.671875,
+          "top": 2096.375,
+          "bottom": 2117.375,
+          "width": 147.359375,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "提交反例",
+          "left": 224.3125,
+          "right": 288.3125,
+          "top": 2389.40625,
+          "bottom": 2410.40625,
+          "width": 64,
+          "height": 21,
+          "src": ""
+        }
+      ],
+      "hero": {
+        "tag": "img",
+        "text": "Pixel Oak monument poster.",
+        "left": 12,
+        "right": 307.984375,
+        "top": 239.5625,
+        "bottom": 436.890625,
+        "width": 295.984375,
+        "height": 197.328125,
+        "src": "./assets/profile-signature-light.svg"
+      },
+      "evidenceImage": {
+        "tag": "img",
+        "text": "",
+        "left": 12,
+        "right": 307.953125,
+        "top": 1131.453125,
+        "bottom": 1208.15625,
+        "width": 295.953125,
+        "height": 76.703125,
+        "src": "./assets/profile-evidence-light.svg"
+      },
+      "h1": {
+        "tag": "h1",
+        "text": "COOPER OAK",
+        "left": 12,
+        "right": 308,
+        "top": 456.890625,
+        "bottom": 501.28125,
+        "width": 296,
+        "height": 44.390625,
+        "src": ""
+      }
+    }
+  },
+  {
+    "id": "profile-v2-poster-320-images-disabled",
+    "width": 320,
+    "height": 800,
+    "colorScheme": "light",
+    "imagesDisabled": true,
+    "metrics": {
+      "innerWidth": 320,
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "overflowNodes": [],
+      "links": [
+        {
+          "tag": "a",
+          "text": "A missing required visual provider blocks UI mutation instead of letting a gener",
+          "left": 37.59375,
+          "right": 307.09375,
+          "top": 1024.109375,
+          "bottom": 1094.703125,
+          "width": 269.5,
+          "height": 70.59375,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "An applicable brand or platform provider beats a generic provider, while a Cloud",
+          "left": 37.59375,
+          "right": 283.265625,
+          "top": 1106.5,
+          "bottom": 1201.890625,
+          "width": 245.671875,
+          "height": 95.390625,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Route revisions and evaluation rounds stay append-only, so later decisions canno",
+          "left": 37.59375,
+          "right": 306.640625,
+          "top": 1213.6875,
+          "bottom": 1309.078125,
+          "width": 269.046875,
+          "height": 95.390625,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Make control explicit.",
+          "left": 37.59375,
+          "right": 188.265625,
+          "top": 1587.703125,
+          "bottom": 1608.703125,
+          "width": 150.671875,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Route work to specialists.",
+          "left": 37.59375,
+          "right": 215.5,
+          "top": 1620.5,
+          "bottom": 1641.5,
+          "width": 177.90625,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "Claims need evidence.",
+          "left": 37.59375,
+          "right": 193.921875,
+          "top": 1653.296875,
+          "bottom": 1674.296875,
+          "width": 156.328125,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "writing-loop-harness",
+          "left": 54.3125,
+          "right": 201.671875,
+          "top": 1847.140625,
+          "bottom": 1868.140625,
+          "width": 147.359375,
+          "height": 21,
+          "src": ""
+        },
+        {
+          "tag": "a",
+          "text": "提交反例",
+          "left": 224.3125,
+          "right": 288.3125,
+          "top": 2140.171875,
+          "bottom": 2161.171875,
+          "width": 64,
+          "height": 21,
+          "src": ""
+        }
+      ],
+      "hero": {
+        "tag": "img",
+        "text": "Pixel Oak monument poster.",
+        "left": 12,
+        "right": 308,
+        "top": 239.5625,
+        "bottom": 264.359375,
+        "width": 296,
+        "height": 24.796875,
+        "src": "./assets/profile-signature-light.svg"
+      },
+      "evidenceImage": {
+        "tag": "img",
+        "text": "",
+        "left": 12,
+        "right": 308,
+        "top": 958.921875,
+        "bottom": 958.921875,
+        "width": 296,
+        "height": 0,
+        "src": "./assets/profile-evidence-light.svg"
+      },
+      "h1": {
+        "tag": "h1",
+        "text": "COOPER OAK",
+        "left": 12,
+        "right": 308,
+        "top": 284.359375,
+        "bottom": 328.75,
+        "width": 296,
+        "height": 44.390625,
+        "src": ""
+      }
+    }
+  }
+]
