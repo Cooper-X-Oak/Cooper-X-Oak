@@ -1,0 +1,264 @@
+{
+  "schema_version": 2,
+  "run_id": "issue-4-profile-v2-pixel-poster-revision",
+  "project": "Cooper-X-Oak-profile-issue-4",
+  "task": "Revise Profile v2 into a pixel Oak monument poster after explicit user visual rejection",
+  "mode": "full",
+  "milestone": "M003",
+  "issue": "AD-003",
+  "state": "accepted",
+  "iteration": 2,
+  "active_spec": null,
+  "best_candidate": null,
+  "blockers": [],
+  "evidence": [],
+  "records": [],
+  "routing_manifest": "routing.yaml",
+  "sealed_routes": [
+    {
+      "revision_id": "revision-001",
+      "revision_ref": "routing/revision-001.yaml",
+      "sha256": "e288946435b66333b6da00ba0bfc2a0a072c22306eb9d693c6e6038b00c2603d",
+      "gate": "authority_resolved",
+      "sealed_at": "2026-07-15T16:49:13.909349Z"
+    },
+    {
+      "revision_id": "revision-002",
+      "revision_ref": "routing/revision-002.yaml",
+      "sha256": "261275d0d3c074ad580aef40d8c4a79831e8d6bea711c5b90b1f23cfa264f957",
+      "gate": "planning_ready",
+      "sealed_at": "2026-07-15T16:57:17.793371Z"
+    },
+    {
+      "revision_id": "revision-002",
+      "revision_ref": "routing/revision-002.yaml",
+      "sha256": "261275d0d3c074ad580aef40d8c4a79831e8d6bea711c5b90b1f23cfa264f957",
+      "gate": "structure_ready",
+      "sealed_at": "2026-07-15T16:57:29.203232Z"
+    },
+    {
+      "revision_id": "revision-004",
+      "revision_ref": "routing/revision-004.yaml",
+      "sha256": "37e0222830d56c58d9f69440a345643f9021f5fabb8d38273f8c534bbec176f5",
+      "gate": "semantics_ready",
+      "sealed_at": "2026-07-16T01:26:28.415389Z"
+    },
+    {
+      "revision_id": "revision-004",
+      "revision_ref": "routing/revision-004.yaml",
+      "sha256": "37e0222830d56c58d9f69440a345643f9021f5fabb8d38273f8c534bbec176f5",
+      "gate": "behavior_ready",
+      "sealed_at": "2026-07-16T01:26:45.579473Z"
+    },
+    {
+      "revision_id": "revision-004",
+      "revision_ref": "routing/revision-004.yaml",
+      "sha256": "37e0222830d56c58d9f69440a345643f9021f5fabb8d38273f8c534bbec176f5",
+      "gate": "implementation_authorized",
+      "sealed_at": "2026-07-16T01:26:53.258597Z"
+    },
+    {
+      "revision_id": "revision-006",
+      "revision_ref": "routing/revision-006.yaml",
+      "sha256": "d70175c6ba498538dba1c441cbf0810819b61e36695b8946a10826770e305dcf",
+      "gate": "artifact_runnable",
+      "sealed_at": "2026-07-16T01:41:53.771642Z"
+    },
+    {
+      "revision_id": "revision-007",
+      "revision_ref": "routing/revision-007.yaml",
+      "sha256": "35ad2f5442efda5314f49a0baa998ded6e99bb15098b6ea364102d3909f62c7c",
+      "gate": "evaluation_recorded",
+      "sealed_at": "2026-07-16T01:46:53.438025Z"
+    },
+    {
+      "revision_id": "revision-008",
+      "revision_ref": "routing/revision-008.yaml",
+      "sha256": "86b256ac70656855d2c458cf8759a388e7ae18cb7559a7b109474dfefde6d2db",
+      "gate": "artifact_runnable",
+      "sealed_at": "2026-07-16T01:49:57.388845Z"
+    },
+    {
+      "revision_id": "revision-009",
+      "revision_ref": "routing/revision-009.yaml",
+      "sha256": "325ad7a5b3f0b27b526bd5da794720b85ef89bb1742b0fce05a77597b96877cc",
+      "gate": "evaluation_passed",
+      "sealed_at": "2026-07-16T01:52:43.866753Z"
+    }
+  ],
+  "sealed_evaluations": [
+    {
+      "round": "round-001",
+      "verdict": "needs_revision",
+      "routing_revision": "revision-007",
+      "sealed_at": "2026-07-16T01:46:53.437970Z",
+      "files": [
+        {
+          "ref": ".alidesign/runs/issue-4-profile-v2-pixel-poster-revision/evaluation/round-001/evidence.json",
+          "sha256": "024dc7a8c90cb9ea75999c9e978ebceaa4ac4b73364bfd242b80c54f60aea4a6"
+        },
+        {
+          "ref": ".alidesign/runs/issue-4-profile-v2-pixel-poster-revision/evaluation/round-001/report.md",
+          "sha256": "fd95bf5183fe79ffd21843f53d338976c5226f53dc59a948677bdc841459be26"
+        },
+        {
+          "ref": ".alidesign/runs/issue-4-profile-v2-pixel-poster-revision/evidence/production-metrics.json",
+          "sha256": "0e38d0654e2555bd501336d1257929a7e4f02d0662813115ca55816cef723b3b"
+        },
+        {
+          "ref": ".alidesign/runs/issue-4-profile-v2-pixel-poster-revision/evidence/profile-v2-poster-320-light.png",
+          "sha256": "b3e40379b91b6623056a5c9bca8052690ac2d7ed0846d9a0c76e294cb2f0aedc"
+        }
+      ],
+      "round_trees": [
+        {
+          "round": "round-001",
+          "ref": ".alidesign/runs/issue-4-profile-v2-pixel-poster-revision/evaluation/round-001",
+          "sha256": "507552d1d898c98bad8bafb53bd54e2884f6acf4da2d764f589ff8224afc5a4b"
+        }
+      ]
+    },
+    {
+      "round": "round-002",
+      "verdict": "passed",
+      "routing_revision": "revision-009",
+      "sealed_at": "2026-07-16T01:52:43.866699Z",
+      "files": [
+        {
+          "ref": ".alidesign/runs/issue-4-profile-v2-pixel-poster-revision/evaluation/round-002/evidence.json",
+          "sha256": "274d40c32cca7fd4404b15f525d703e4e60fa3d1ec6b68b79024f841716e0892"
+        },
+        {
+          "ref": ".alidesign/runs/issue-4-profile-v2-pixel-poster-revision/evaluation/round-002/report.md",
+          "sha256": "ba07bd643c5d8f7312dff184b360b5e68e8e526cbdae3ea6d4f1abcb440831e5"
+        },
+        {
+          "ref": ".alidesign/runs/issue-4-profile-v2-pixel-poster-revision/evidence/round-002/production-metrics.json",
+          "sha256": "f287116f4e5fbd95bf53866004d039f115e15699a601f4a0150441ea3f0f670b"
+        },
+        {
+          "ref": ".alidesign/runs/issue-4-profile-v2-pixel-poster-revision/evidence/round-002/profile-v2-poster-320-light.png",
+          "sha256": "ce88d4c177a6b5d13e5476fe3e23a3a6872a265a7a10ccd79efa73dd7460515b"
+        }
+      ],
+      "round_trees": [
+        {
+          "round": "round-002",
+          "ref": ".alidesign/runs/issue-4-profile-v2-pixel-poster-revision/evaluation/round-002",
+          "sha256": "3e63c529c5064601264aadff3f1032dd08a9a48b4ea51dd9bba681cccdc263cd"
+        }
+      ]
+    }
+  ],
+  "resume_state": null,
+  "created_at": "2026-07-15T16:45:25.540434Z",
+  "updated_at": "2026-07-16T01:52:43.866935Z",
+  "history": [
+    {
+      "at": "2026-07-15T16:45:25.540451Z",
+      "action": "initialized",
+      "state": "discovery",
+      "mode": "full"
+    },
+    {
+      "at": "2026-07-15T16:49:13.909375Z",
+      "action": "transition",
+      "from_state": "discovery",
+      "to_state": "planning",
+      "gate": "authority_resolved",
+      "reason": "User-authorized pixel-poster revision with design control delegated to task 019f664b-38d1-79f3-ba6b-2a9c059f5c6c; old accepted run preserved.",
+      "routing_revision": "revision-001",
+      "routing_sha256": "e288946435b66333b6da00ba0bfc2a0a072c22306eb9d693c6e6038b00c2603d"
+    },
+    {
+      "at": "2026-07-15T16:57:17.793395Z",
+      "action": "transition",
+      "from_state": "planning",
+      "to_state": "information_architecture",
+      "gate": "planning_ready",
+      "reason": "Locked pixel-poster positioning, Oak skeleton, offset full-tree Hero composition, and selected GFM structure through the user-appointed design controller.",
+      "routing_revision": "revision-002",
+      "routing_sha256": "261275d0d3c074ad580aef40d8c4a79831e8d6bea711c5b90b1f23cfa264f957"
+    },
+    {
+      "at": "2026-07-15T16:57:29.203271Z",
+      "action": "transition",
+      "from_state": "information_architecture",
+      "to_state": "component_domain",
+      "gate": "structure_ready",
+      "reason": "Selected offset full-tree poster IA and preserved meaningful structural alternatives with responsive and image-failure behavior.",
+      "routing_revision": "revision-002",
+      "routing_sha256": "261275d0d3c074ad580aef40d8c4a79831e8d6bea711c5b90b1f23cfa264f957"
+    },
+    {
+      "at": "2026-07-16T01:26:28.415424Z",
+      "action": "transition",
+      "from_state": "component_domain",
+      "to_state": "interaction_states",
+      "gate": "semantics_ready",
+      "reason": "D03/D04 artifact review accepted the forest-first shallow-facet projection; canonical visual declarations are complete and the unauthorized human-evidence gate is revoked.",
+      "routing_revision": "revision-004",
+      "routing_sha256": "37e0222830d56c58d9f69440a345643f9021f5fabb8d38273f8c534bbec176f5"
+    },
+    {
+      "at": "2026-07-16T01:26:45.579508Z",
+      "action": "transition",
+      "from_state": "interaction_states",
+      "to_state": "design_ready",
+      "gate": "behavior_ready",
+      "reason": "Static GitHub Profile legitimately skips motion and interaction behavior while completing required craft criteria for theme, responsive, image-failure, and semantic states.",
+      "routing_revision": "revision-004",
+      "routing_sha256": "37e0222830d56c58d9f69440a345643f9021f5fabb8d38273f8c534bbec176f5"
+    },
+    {
+      "at": "2026-07-16T01:26:53.258646Z",
+      "action": "transition",
+      "from_state": "design_ready",
+      "to_state": "implementing",
+      "gate": "implementation_authorized",
+      "reason": "The effective AGENTS.md authorizes github-standard-development, profile.json remains the source of truth, the deterministic generator owns projection, and automatic merge remains prohibited.",
+      "routing_revision": "revision-004",
+      "routing_sha256": "37e0222830d56c58d9f69440a345643f9021f5fabb8d38273f8c534bbec176f5"
+    },
+    {
+      "at": "2026-07-16T01:41:53.771668Z",
+      "action": "transition",
+      "from_state": "implementing",
+      "to_state": "evaluating",
+      "gate": "artifact_runnable",
+      "reason": "The deterministic Pixel Oak generator produced all six artifacts; 22 contract tests, drift, SVG XML, hash, responsive CDP metrics, and image-failure checks pass.",
+      "routing_revision": "revision-006",
+      "routing_sha256": "d70175c6ba498538dba1c441cbf0810819b61e36695b8946a10826770e305dcf"
+    },
+    {
+      "at": "2026-07-16T01:46:53.438039Z",
+      "action": "transition",
+      "from_state": "evaluating",
+      "to_state": "implementing",
+      "gate": "evaluation_recorded",
+      "reason": "Round-001 independently found one bounded image-failure projection defect; preserve the failed round append-only and return to implementation for directed revision R-001.",
+      "routing_revision": "revision-007",
+      "routing_sha256": "35ad2f5442efda5314f49a0baa998ded6e99bb15098b6ea364102d3909f62c7c"
+    },
+    {
+      "at": "2026-07-16T01:49:57.388873Z",
+      "action": "transition",
+      "from_state": "implementing",
+      "to_state": "evaluating",
+      "gate": "artifact_runnable",
+      "reason": "Directed revision R-001 is implemented: broken Hero collapses to a 24.8px alt line, decorative Evidence collapses to 0px, H1 follows within 20px, and all five CDP cases retain zero overflow with eight links in bounds.",
+      "routing_revision": "revision-008",
+      "routing_sha256": "86b256ac70656855d2c458cf8759a388e7ae18cb7559a7b109474dfefde6d2db"
+    },
+    {
+      "at": "2026-07-16T01:52:43.866768Z",
+      "action": "transition",
+      "from_state": "evaluating",
+      "to_state": "accepted",
+      "gate": "evaluation_passed",
+      "reason": "Round-002 independent release review passed; R-001 is closed, all loaded and image-failure states pass, and no blocker or directed revision remains.",
+      "routing_revision": "revision-009",
+      "routing_sha256": "325ad7a5b3f0b27b526bd5da794720b85ef89bb1742b0fce05a77597b96877cc"
+    }
+  ]
+}

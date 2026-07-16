@@ -1,0 +1,252 @@
+﻿{
+    "schema_version":  1,
+    "capture_command":  "brave --headless=new --disable-gpu --hide-scrollbars --window-size=320,213 --screenshot=\u003cpng\u003e \u003cintrinsic-320-svg\u003e",
+    "records":  [
+                    {
+                        "png":  "02a-shallow-shoulder-dark-320.png",
+                        "input_svg":  "02a-shallow-shoulder-dark-320.svg",
+                        "input_sha256":  "11efaba8fb18e2cad0311ae0a9681567f0bdf3d712c5c49fe152332a2ed19e18",
+                        "renderer":  "Brave headless",
+                        "viewport":  "320x213",
+                        "device_scale_factor":  1,
+                        "width":  320,
+                        "height":  213,
+                        "unique_colors":  4,
+                        "token_counts":  {
+                                             "bone":  3366,
+                                             "ink":  52551,
+                                             "forest":  12099,
+                                             "signal":  144
+                                         },
+                        "non_background_bbox":  {
+                                                    "left":  42,
+                                                    "top":  36,
+                                                    "right":  307,
+                                                    "bottom":  177,
+                                                    "width":  266,
+                                                    "height":  142
+                                                },
+                        "oak_bbox":  {
+                                         "left":  119,
+                                         "top":  36,
+                                         "right":  307,
+                                         "bottom":  177,
+                                         "width":  189,
+                                         "height":  142
+                                     },
+                        "signal_bbox":  {
+                                            "left":  42,
+                                            "top":  160,
+                                            "right":  53,
+                                            "bottom":  171,
+                                            "width":  12,
+                                            "height":  12
+                                        }
+                    },
+                    {
+                        "png":  "02a-shallow-shoulder-light-320.png",
+                        "input_svg":  "02a-shallow-shoulder-light-320.svg",
+                        "input_sha256":  "1b54082be019266b9a9bc3f4338a21fbcc51977c18fbf27656b9e1fce1914633",
+                        "renderer":  "Brave headless",
+                        "viewport":  "320x213",
+                        "device_scale_factor":  1,
+                        "width":  320,
+                        "height":  213,
+                        "unique_colors":  4,
+                        "token_counts":  {
+                                             "bone":  52551,
+                                             "ink":  3366,
+                                             "forest":  12099,
+                                             "signal":  144
+                                         },
+                        "non_background_bbox":  {
+                                                    "left":  42,
+                                                    "top":  36,
+                                                    "right":  307,
+                                                    "bottom":  177,
+                                                    "width":  266,
+                                                    "height":  142
+                                                },
+                        "oak_bbox":  {
+                                         "left":  119,
+                                         "top":  36,
+                                         "right":  307,
+                                         "bottom":  177,
+                                         "width":  189,
+                                         "height":  142
+                                     },
+                        "signal_bbox":  {
+                                            "left":  42,
+                                            "top":  160,
+                                            "right":  53,
+                                            "bottom":  171,
+                                            "width":  12,
+                                            "height":  12
+                                        }
+                    },
+                    {
+                        "png":  "02b-balanced-inset-dark-320.png",
+                        "input_svg":  "02b-balanced-inset-dark-320.svg",
+                        "input_sha256":  "e7fa5d89751861610c6d16658e7ccc337c263b430ca1403f66140c377012288e",
+                        "renderer":  "Brave headless",
+                        "viewport":  "320x213",
+                        "device_scale_factor":  1,
+                        "width":  320,
+                        "height":  213,
+                        "unique_colors":  4,
+                        "token_counts":  {
+                                             "bone":  3156,
+                                             "ink":  52551,
+                                             "forest":  12309,
+                                             "signal":  144
+                                         },
+                        "non_background_bbox":  {
+                                                    "left":  42,
+                                                    "top":  36,
+                                                    "right":  307,
+                                                    "bottom":  177,
+                                                    "width":  266,
+                                                    "height":  142
+                                                },
+                        "oak_bbox":  {
+                                         "left":  119,
+                                         "top":  36,
+                                         "right":  307,
+                                         "bottom":  177,
+                                         "width":  189,
+                                         "height":  142
+                                     },
+                        "signal_bbox":  {
+                                            "left":  42,
+                                            "top":  160,
+                                            "right":  53,
+                                            "bottom":  171,
+                                            "width":  12,
+                                            "height":  12
+                                        }
+                    },
+                    {
+                        "png":  "02b-balanced-inset-light-320.png",
+                        "input_svg":  "02b-balanced-inset-light-320.svg",
+                        "input_sha256":  "d8a914265f24cd620752d96e2cdc8da1a213504a4ca9803b071a62e17b61ab70",
+                        "renderer":  "Brave headless",
+                        "viewport":  "320x213",
+                        "device_scale_factor":  1,
+                        "width":  320,
+                        "height":  213,
+                        "unique_colors":  4,
+                        "token_counts":  {
+                                             "bone":  52551,
+                                             "ink":  3156,
+                                             "forest":  12309,
+                                             "signal":  144
+                                         },
+                        "non_background_bbox":  {
+                                                    "left":  42,
+                                                    "top":  36,
+                                                    "right":  307,
+                                                    "bottom":  177,
+                                                    "width":  266,
+                                                    "height":  142
+                                                },
+                        "oak_bbox":  {
+                                         "left":  119,
+                                         "top":  36,
+                                         "right":  307,
+                                         "bottom":  177,
+                                         "width":  189,
+                                         "height":  142
+                                     },
+                        "signal_bbox":  {
+                                            "left":  42,
+                                            "top":  160,
+                                            "right":  53,
+                                            "bottom":  171,
+                                            "width":  12,
+                                            "height":  12
+                                        }
+                    },
+                    {
+                        "png":  "02c-root-closure-dark-320.png",
+                        "input_svg":  "02c-root-closure-dark-320.svg",
+                        "input_sha256":  "510fe97bb09290bfb02b44f53d68274de16e9ee49d213476ea7b60d2ea72cdfe",
+                        "renderer":  "Brave headless",
+                        "viewport":  "320x213",
+                        "device_scale_factor":  1,
+                        "width":  320,
+                        "height":  213,
+                        "unique_colors":  4,
+                        "token_counts":  {
+                                             "bone":  2832,
+                                             "ink":  52551,
+                                             "forest":  12633,
+                                             "signal":  144
+                                         },
+                        "non_background_bbox":  {
+                                                    "left":  42,
+                                                    "top":  36,
+                                                    "right":  307,
+                                                    "bottom":  177,
+                                                    "width":  266,
+                                                    "height":  142
+                                                },
+                        "oak_bbox":  {
+                                         "left":  119,
+                                         "top":  36,
+                                         "right":  307,
+                                         "bottom":  177,
+                                         "width":  189,
+                                         "height":  142
+                                     },
+                        "signal_bbox":  {
+                                            "left":  42,
+                                            "top":  160,
+                                            "right":  53,
+                                            "bottom":  171,
+                                            "width":  12,
+                                            "height":  12
+                                        }
+                    },
+                    {
+                        "png":  "02c-root-closure-light-320.png",
+                        "input_svg":  "02c-root-closure-light-320.svg",
+                        "input_sha256":  "895c4c7b0f55534334a37026bc27b6f26e5f229e40164b6bb112613e19b192f9",
+                        "renderer":  "Brave headless",
+                        "viewport":  "320x213",
+                        "device_scale_factor":  1,
+                        "width":  320,
+                        "height":  213,
+                        "unique_colors":  4,
+                        "token_counts":  {
+                                             "bone":  52551,
+                                             "ink":  2832,
+                                             "forest":  12633,
+                                             "signal":  144
+                                         },
+                        "non_background_bbox":  {
+                                                    "left":  42,
+                                                    "top":  36,
+                                                    "right":  307,
+                                                    "bottom":  177,
+                                                    "width":  266,
+                                                    "height":  142
+                                                },
+                        "oak_bbox":  {
+                                         "left":  119,
+                                         "top":  36,
+                                         "right":  307,
+                                         "bottom":  177,
+                                         "width":  189,
+                                         "height":  142
+                                     },
+                        "signal_bbox":  {
+                                            "left":  42,
+                                            "top":  160,
+                                            "right":  53,
+                                            "bottom":  171,
+                                            "width":  12,
+                                            "height":  12
+                                        }
+                    }
+                ]
+}

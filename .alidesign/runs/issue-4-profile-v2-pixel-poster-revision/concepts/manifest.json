@@ -1,0 +1,52 @@
+{
+  "tokens": {
+    "bone": "#F2EFE4",
+    "ink": "#0D100E",
+    "forest": "#347A55",
+    "signal": "#3B9648"
+  },
+  "variants": [
+    {
+      "filename": "01-shoulder-weighted-light.svg",
+      "variant": "01-shoulder-weighted",
+      "mode": "light",
+      "oakArea": 478,
+      "structureArea": 87
+    },
+    {
+      "filename": "01-shoulder-weighted-dark.svg",
+      "variant": "01-shoulder-weighted",
+      "mode": "dark",
+      "oakArea": 478,
+      "structureArea": 87
+    },
+    {
+      "filename": "02-balanced-light.svg",
+      "variant": "02-balanced",
+      "mode": "light",
+      "oakArea": 478,
+      "structureArea": 79
+    },
+    {
+      "filename": "02-balanced-dark.svg",
+      "variant": "02-balanced",
+      "mode": "dark",
+      "oakArea": 478,
+      "structureArea": 79
+    },
+    {
+      "filename": "03-grounded-light.svg",
+      "variant": "03-grounded",
+      "mode": "light",
+      "oakArea": 478,
+      "structureArea": 82
+    },
+    {
+      "filename": "03-grounded-dark.svg",
+      "variant": "03-grounded",
+      "mode": "dark",
+      "oakArea": 478,
+      "structureArea": 82
+    }
+  ]
+}

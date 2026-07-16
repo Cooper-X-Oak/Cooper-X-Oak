@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-signature-dark.svg">
-  <img src="./assets/profile-signature-light.svg" alt="Ring Ledger Oak glyph." width="1200" height="264">
+  <img src="./assets/profile-signature-light.svg" alt="Pixel Oak monument poster.">
 </picture>
 
 # COOPER OAK
@@ -21,7 +21,7 @@ Before irreversible work, declare the required capability, applicable provider, 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-evidence-dark.svg">
-  <img src="./assets/profile-evidence-light.svg" alt="" width="1200" height="112">
+  <img src="./assets/profile-evidence-light.svg" alt="">
 </picture>
 
 ### Evidence

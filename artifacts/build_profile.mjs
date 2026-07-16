@@ -15,7 +15,7 @@ const OUTPUT_PATHS = Object.freeze({
   "assets/profile-evidence-dark.svg": resolve(ROOT, "assets/profile-evidence-dark.svg")
 });
 
-const TOKEN_KEYS = Object.freeze(["canvas", "ink", "forest", "muted", "rule", "blackField"]);
+const TOKEN_KEYS = Object.freeze(["canvas", "ink", "forest", "structure", "signal", "muted", "rule", "blackField"]);
 const HEX_PATTERN = /^#[0-9A-F]{6}$/;
 const PLACEHOLDER_PATTERN = /(?:^|[\s:])(?:TODO|TBD)(?:$|[\s:])|[Ll]orem ipsum|[Aa]dd your|[Yy]our (?:url|link|website)/;
 const GFM_BLOCK_PATTERN = /^(?:#{1,6}(?:\s|$)|>|(?:[-+*]|\d+[.)])\s|(?:-{3,}|_{3,}|\*{3,})$)/;
@@ -26,24 +26,32 @@ export const RING_LEDGER_MODEL = Object.freeze({
   hero: Object.freeze({
     role: "hero_signature",
     width: 1200,
-    height: 264,
-    glyphBounds: Object.freeze({ x: 708, y: 36, width: 432, height: 208 }),
-    paths: Object.freeze([
-      Object.freeze({ id: "ring-outer", d: "M720 184V96H792V48H1032V72H1128V168", token: "forest", strokeWidth: 24 }),
-      Object.freeze({ id: "ring-inner", d: "M792 184V120H840V96H1008V120H1080V184", token: "ink", strokeWidth: 24 }),
-      Object.freeze({ id: "ring-heart", d: "M864 184V152H984V184", token: "forest", strokeWidth: 24 }),
-      Object.freeze({ id: "oak-ledger", d: "M924 152V232M924 184H852M924 208H1032M924 232H876", token: "forest", strokeWidth: 24 })
-    ])
+    height: 800,
+    viewBoxWidth: 54,
+    viewBoxHeight: 36,
+    glyphBounds: Object.freeze({ x: 20, y: 5, width: 32, height: 24 }),
+    silhouetteRows: Object.freeze([
+      [[14,18]], [[12,20]], [[5,9],[11,21],[24,27]], [[3,29]],
+      [[1,30]], [[0,30]], [[0,31]], [[1,31]], [[2,30]], [[5,28]],
+      [[4,26]], [[8,25]], [[10,23]], [[11,21]], [[12,20]], [[13,19]],
+      [[13,19]], [[13,18]], [[12,18]], [[12,19]], [[11,20]],
+      [[8,12],[14,18],[20,23]], [[5,10],[14,18],[21,26]],
+      [[3,7],[14,17],[24,28]]
+    ]),
+    structureRows: Object.freeze({
+      5:[[2,11]], 6:[[2,11]], 7:[[4,12]], 8:[[5,14]], 9:[[6,14]], 10:[[6,14]],
+      11:[[13,14]], 12:[[13,13]], 13:[[13,13]], 14:[[13,13]], 15:[[13,13]],
+      16:[[13,13]], 17:[[13,13]], 18:[[12,13]], 19:[[12,12]], 20:[[11,12]],
+      21:[[9,12]], 22:[[7,10]]
+    })
   }),
   evidence: Object.freeze({
     role: "evidence_black_marker",
     width: 1200,
-    height: 112,
-    paths: Object.freeze([
-      Object.freeze({ id: "marker-outer", d: "M780 84V52H828V28H1020V40H1116V76", token: "rule", strokeWidth: 16 }),
-      Object.freeze({ id: "marker-inner", d: "M840 84V64H888V52H1008V64H1068V84", token: "rule", strokeWidth: 16 }),
-      Object.freeze({ id: "marker-ledger", d: "M948 52V100M948 76H888M948 88H1044", token: "rule", strokeWidth: 16 })
-    ])
+    height: 311,
+    viewBoxWidth: 54,
+    viewBoxHeight: 14,
+    paths: Object.freeze([])
   })
 });
 
@@ -119,7 +127,7 @@ function validateTokens(tokens, path) {
 
 export function validateProfile(config) {
   assertKeys(config, ["version", "github", "page", "identity", "experiment", "principles", "openLoop", "discuss", "theme"], "profile");
-  assert(config.version === 3, "profile.json version must be 3 for the Ring Ledger contract.");
+  assert(config.version === 3, "profile.json version must be 3 for the Pixel Oak Profile contract.");
 
   assertKeys(config.github, ["username"], "profile.github");
   const username = requireLine(config.github.username, "profile.github.username");
@@ -172,7 +180,7 @@ export function validateProfile(config) {
   assert(requireGitHubUrl(config.discuss.url, "profile.discuss.url").href === EXPERIMENT_ISSUE, "The discussion action must target the dedicated public experiment Issue.");
 
   assertKeys(config.theme, ["id", "tokens", "assets"], "profile.theme");
-  assert(config.theme.id === "ring-ledger-v2", "profile.theme.id must be ring-ledger-v2.");
+  assert(config.theme.id === "pixel-oak-poster-v2", "profile.theme.id must be pixel-oak-poster-v2.");
   assertKeys(config.theme.tokens, ["light", "dark"], "profile.theme.tokens");
   validateTokens(config.theme.tokens.light, "profile.theme.tokens.light");
   validateTokens(config.theme.tokens.dark, "profile.theme.tokens.dark");
@@ -230,7 +238,7 @@ function renderPicture(view, role, indent = "") {
   return [
     `${indent}<picture>`,
     `${indent}  <source media="(prefers-color-scheme: dark)" srcset="${refs.dark}">`,
-    `${indent}  <img src="${refs.light}" alt="${escapeHtml(declaration.alt)}" width="${declaration.width}" height="${declaration.height}">`,
+    `${indent}  <img src="${refs.light}" alt="${escapeHtml(declaration.alt)}">`,
     `${indent}</picture>`
   ].join("\n");
 }
@@ -239,19 +247,48 @@ function renderPath(path, tokens, indent = "  ") {
   return `${indent}<path id="${path.id}" d="${path.d}" fill="none" stroke="${tokens[path.token]}" data-token="${path.token}" stroke-width="${path.strokeWidth}" stroke-linecap="square" stroke-linejoin="miter" shape-rendering="crispEdges"/>`;
 }
 
+function rowsToCells(rows) {
+  const cells = new Set();
+  rows.forEach((ranges, y) => ranges.forEach(([start, end]) => {
+    for (let x = start; x <= end; x += 1) cells.add(`${x},${y}`);
+  }));
+  return cells;
+}
+
+function structureToCells(rows) {
+  const cells = new Set();
+  for (const [y, ranges] of Object.entries(rows)) {
+    for (const [start, end] of ranges) {
+      for (let x = start; x <= end; x += 1) cells.add(`${x},${y}`);
+    }
+  }
+  return cells;
+}
+
+function renderCells(cells, token, color) {
+  return [...cells]
+    .map((cell) => cell.split(",").map(Number))
+    .sort(([ax, ay], [bx, by]) => ay - by || ax - bx)
+    .map(([x, y]) => `    <rect x="${x + 20}" y="${y + 5}" width="1" height="1" fill="${color}" data-token="${token}" shape-rendering="crispEdges"/>`)
+    .join("\n");
+}
+
 function renderHeroSvg(view, mode) {
   const model = RING_LEDGER_MODEL.hero;
   const tokens = view.theme.tokens[mode];
-  const paths = model.paths.map((path) => renderPath(path, tokens, "    ")).join("\n");
+  const oak = rowsToCells(model.silhouetteRows);
+  const structure = structureToCells(model.structureRows);
+  const forest = new Set([...oak].filter((cell) => !structure.has(cell)));
   return `<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ring-ledger-title ring-ledger-desc" data-role="${model.role}" viewBox="0 0 ${model.width} ${model.height}">
-  <title id="ring-ledger-title">Ring Ledger Oak glyph</title>
-  <desc id="ring-ledger-desc">Open stepped rings resolve into an Oak trunk and evidence ledger.</desc>
-  <rect id="hero-field" width="${model.width}" height="${model.height}" fill="${tokens.canvas}" data-token="canvas"/>
-  <path id="open-ledger-rule" d="M64 220H600" fill="none" stroke="${tokens.rule}" data-token="rule" stroke-width="2" shape-rendering="crispEdges"/>
-  <rect id="ledger-origin" x="64" y="208" width="48" height="24" fill="${tokens.forest}" data-token="forest" shape-rendering="crispEdges"/>
-  <g id="ring-ledger-glyph">
-${paths}
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pixel-oak-title pixel-oak-desc" data-role="${model.role}" width="${model.width}" height="${model.height}" viewBox="0 0 ${model.viewBoxWidth} ${model.viewBoxHeight}" shape-rendering="crispEdges">
+  <title id="pixel-oak-title">Pixel Oak monument</title>
+  <desc id="pixel-oak-desc">A wide stepped Oak grows from a quiet ledger field.</desc>
+  <rect id="hero-field" width="${model.viewBoxWidth}" height="${model.viewBoxHeight}" fill="${tokens.canvas}" data-token="canvas"/>
+  <path id="open-ledger-rule" d="M4 29H17" fill="none" stroke="${tokens.rule}" data-token="rule" stroke-width=".25" shape-rendering="crispEdges"/>
+  <rect id="ledger-origin" x="4" y="27" width="2" height="2" fill="${tokens.signal}" data-token="signal" shape-rendering="crispEdges"/>
+  <g id="pixel-oak-monument">
+${renderCells(forest, "forest", tokens.forest)}
+${renderCells(structure, "structure", tokens.structure)}
   </g>
 </svg>
 `;
@@ -259,16 +296,24 @@ ${paths}
 
 function renderEvidenceSvg(view, mode) {
   const model = RING_LEDGER_MODEL.evidence;
-  const tokens = view.theme.tokens[mode];
-  const paths = model.paths.map((path) => renderPath(path, tokens, "    ")).join("\n");
+  const tokens = view.theme.tokens.dark;
+  const hero = RING_LEDGER_MODEL.hero;
+  const oak = rowsToCells(hero.silhouetteRows);
+  const structure = structureToCells(hero.structureRows);
+  const crop = (cells, token, color) => [...cells]
+    .map((cell) => cell.split(",").map(Number))
+    .filter(([x, y]) => x >= 7 && x <= 24 && y >= 17 && y <= 23)
+    .sort(([ax, ay], [bx, by]) => ay - by || ax - bx)
+    .map(([x, y]) => `  <rect x="${18 + (x - 7) * 2}" y="${(y - 17) * 2}" width="2" height="2" fill="${color}" data-token="${token}" shape-rendering="crispEdges"/>`)
+    .join("\n");
+  const forest = new Set([...oak].filter((cell) => !structure.has(cell)));
   return `<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-role="${model.role}" viewBox="0 0 ${model.width} ${model.height}">
-  <rect id="black-field" width="${model.width}" height="${model.height}" fill="${tokens.blackField}" data-token="blackField"/>
-  <path id="marker-rule" d="M80 56H640" fill="none" stroke="${tokens.rule}" data-token="rule" stroke-width="2" shape-rendering="crispEdges"/>
-  <g id="ring-ledger-marker">
-${paths}
-  </g>
-  <rect id="marker-boundary" x="1" y="1" width="1198" height="110" fill="none" stroke="${tokens.rule}" data-token="rule" stroke-width="2" shape-rendering="crispEdges"/>
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-role="${model.role}" width="${model.width}" height="${model.height}" viewBox="0 0 ${model.viewBoxWidth} ${model.viewBoxHeight}" shape-rendering="crispEdges">
+  <rect id="black-field" width="${model.viewBoxWidth}" height="${model.viewBoxHeight}" fill="${tokens.blackField}" data-token="blackField"/>
+${crop(forest, "forest", tokens.forest)}
+${crop(structure, "ink", tokens.ink)}
+  <rect x="4" y="8" width="2" height="2" fill="${tokens.signal}" data-token="signal" shape-rendering="crispEdges"/>
+  <rect id="marker-boundary" x=".125" y=".125" width="53.75" height="13.75" fill="none" stroke="${tokens.rule}" data-token="rule" stroke-width=".25" shape-rendering="crispEdges"/>
 </svg>
 `;
 }
@@ -412,8 +457,8 @@ export function renderPreview(view) {
     .native-user { font-size: 20px; margin: 0 0 16px; }
     .native-note { font-size: 13px; }
     .readme { min-width: 0; }
-    .readme picture, .readme img { display: block; max-width: 100%; }
-    .readme img { height: auto; width: 100%; }
+    .readme picture { display: block; max-width: 100%; }
+    .readme img { display: block; height: auto; max-width: 100%; }
     .readme h1 {
       border-bottom: 1px solid var(--rule);
       font-size: 2em;
@@ -474,7 +519,7 @@ export function renderPreview(view) {
       </svg>
       <p class="native-name">Cooper Oak</p>
       <p class="native-user">${escapeHtml(view.username)}</p>
-      <p class="native-note">Account avatar remains unchanged for the launch transition. The README introduces Ring Ledger.</p>
+      <p class="native-note">Account avatar remains unchanged for the launch transition. The README introduces the Pixel Oak monument.</p>
     </aside>
     <article class="readme" aria-label="Generated Profile README">
 ${renderPicture(view, "hero", "      ")}
@@ -534,7 +579,9 @@ export function validateRingLedgerSvg(source, config, role) {
   assert(source.startsWith('<?xml version="1.0" encoding="UTF-8"?>'), `${role} SVG must declare UTF-8 XML.`);
   assert(source.includes('xmlns="http://www.w3.org/2000/svg"'), `${role} SVG must declare the SVG namespace.`);
   assert(source.includes(`data-role="${model.role}"`), `${role} SVG role changed.`);
-  assert(source.includes(`viewBox="0 0 ${model.width} ${model.height}"`), `${role} SVG viewBox changed.`);
+  const viewBoxWidth = model.viewBoxWidth ?? model.width;
+  const viewBoxHeight = model.viewBoxHeight ?? model.height;
+  assert(source.includes(`viewBox="0 0 ${viewBoxWidth} ${viewBoxHeight}"`), `${role} SVG viewBox changed.`);
   assert(source.trimEnd().endsWith("</svg>"), `${role} SVG must close its root element.`);
   assert(!/<(?:script|foreignObject|animate|set|filter|linearGradient|radialGradient|text|style|a)\b/i.test(source), `${role} SVG contains prohibited content.`);
   const sourceWithoutNamespace = source.replace('xmlns="http://www.w3.org/2000/svg"', "");
@@ -545,9 +592,15 @@ export function validateRingLedgerSvg(source, config, role) {
     ...Object.values(config.theme.tokens.dark)
   ]);
   for (const color of findHexColors(source)) assert(allowedColors.has(color), `${role} SVG contains undeclared color ${color}.`);
-  for (const path of model.paths) {
+  for (const path of model.paths ?? []) {
     assert(source.includes(`id="${path.id}" d="${path.d}"`), `${role} SVG is missing canonical path ${path.id}.`);
     assert(source.includes(`data-token="${path.token}"`), `${role} SVG is missing token ownership for ${path.id}.`);
+  }
+  if (role === "hero") {
+    assert(source.includes('id="pixel-oak-monument"'), "Hero must contain the canonical Pixel Oak monument.");
+    assert((source.match(/data-token="forest"/g) ?? []).length > 250, "Hero forest silhouette is incomplete.");
+    assert((source.match(/data-token="structure"/g) ?? []).length >= 78, "Hero structure facet is incomplete.");
+    assert((source.match(/data-token="signal"/g) ?? []).length === 1, "Hero must contain exactly one optical signal.");
   }
   assert(!/COOPER OAK|Experiments in keeping|Capability Routing|required visual provider|CloudAI|append-only|提交反例/i.test(source), `${role} SVG contains semantic Profile copy.`);
   if (role === "evidence") {
@@ -575,7 +628,8 @@ export function validateOutputs(outputs, config) {
   assert(readme.indexOf("profile-signature-light.svg") < readme.indexOf("# COOPER OAK"), "Hero signature must precede H1.");
   assert(readme.indexOf("# COOPER OAK") < readme.indexOf(config.identity.lead) && readme.indexOf(config.identity.lead) < readme.indexOf("## 02 — Current experiment"), "Hero semantic order changed.");
   assert(readme.indexOf("profile-evidence-light.svg") < readme.indexOf("### Evidence") && readme.indexOf("### Evidence") < readme.indexOf("### Next"), "Evidence marker adjacency or order changed.");
-  assert(readme.includes('alt="" width="1200" height="112"'), "Evidence marker must use empty alt text.");
+  assert(readme.includes('profile-evidence-light.svg" alt="">'), "Evidence marker must use empty alt text.");
+  assert(!/<img[^>]+\b(?:width|height)=/i.test(readme), "README images must not reserve a broken-resource aspect-ratio box.");
   const evidenceSection = readme.slice(readme.indexOf("### Evidence"), readme.indexOf("### Next"));
   assert(countMatches(evidenceSection, /^\d\. \[.+\]\(<https:\/\/github\.com\/.+\)$/gm) === 3, "Evidence must contain exactly three natural-language proof links.");
   assert(countMatches(readme, /^- \[.+\]\(<https:\/\/github\.com\/.+\)$/gm) === 3, "Working principles must contain exactly three native link rows.");
@@ -604,9 +658,9 @@ export function validateOutputs(outputs, config) {
   assert(normalizeThemeProjection(heroLight) === normalizeThemeProjection(heroDark), "Hero light/dark geometry drifted.");
   assert(normalizeThemeProjection(evidenceLight) === normalizeThemeProjection(evidenceDark), "Evidence light/dark geometry drifted.");
   const bounds = RING_LEDGER_MODEL.hero.glyphBounds;
-  assert(bounds.width / RING_LEDGER_MODEL.hero.width >= 0.3, "Hero glyph width fell below 30%.");
-  assert(bounds.height / RING_LEDGER_MODEL.hero.height >= 0.65, "Hero glyph height fell below 65%.");
-  assert(RING_LEDGER_MODEL.hero.width - (bounds.x + bounds.width) >= 60, "Hero right safe edge fell below 60 units.");
+  assert(bounds.width / RING_LEDGER_MODEL.hero.viewBoxWidth >= 0.3, "Hero glyph width fell below 30%.");
+  assert(bounds.height / RING_LEDGER_MODEL.hero.viewBoxHeight >= 0.65, "Hero glyph height fell below 65%.");
+  assert(RING_LEDGER_MODEL.hero.viewBoxWidth - (bounds.x + bounds.width) >= 2, "Hero right safe edge fell below two pixel units.");
 
   for (const [name, output] of Object.entries(outputs)) {
     assert(!/\r/.test(output), `${name} contains a carriage return.`);

@@ -1,0 +1,388 @@
+[
+  {
+    "id": "profile-v2-poster-860-light",
+    "width": 1280,
+    "height": 900,
+    "colorScheme": "light",
+    "metrics": {
+      "innerWidth": 1280,
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "overflowNodes": [],
+      "links": [
+        {
+          "tag": "a",
+          "text": "A missing required visual provider blocks UI mutation instead of letting a gener",
+          "left": 377.59375,
+          "right": 1160.859375,
+          "width": 783.265625
+        },
+        {
+          "tag": "a",
+          "text": "An applicable brand or platform provider beats a generic provider, while a Cloud",
+          "left": 377.59375,
+          "right": 1201.421875,
+          "width": 823.828125
+        },
+        {
+          "tag": "a",
+          "text": "Route revisions and evaluation rounds stay append-only, so later decisions canno",
+          "left": 377.59375,
+          "right": 1180.625,
+          "width": 803.03125
+        },
+        {
+          "tag": "a",
+          "text": "Make control explicit.",
+          "left": 377.59375,
+          "right": 528.265625,
+          "width": 150.671875
+        },
+        {
+          "tag": "a",
+          "text": "Route work to specialists.",
+          "left": 377.59375,
+          "right": 555.5,
+          "width": 177.90625
+        },
+        {
+          "tag": "a",
+          "text": "Claims need evidence.",
+          "left": 377.59375,
+          "right": 533.921875,
+          "width": 156.328125
+        },
+        {
+          "tag": "a",
+          "text": "writing-loop-harness",
+          "left": 980.890625,
+          "right": 1128.25,
+          "width": 147.359375
+        },
+        {
+          "tag": "a",
+          "text": "提交反例",
+          "left": 1141.3125,
+          "right": 1205.3125,
+          "width": 64
+        }
+      ],
+      "hero": {
+        "tag": "img",
+        "text": "Pixel Oak monument poster.",
+        "left": 352,
+        "right": 1212,
+        "width": 860
+      }
+    }
+  },
+  {
+    "id": "profile-v2-poster-860-dark",
+    "width": 1280,
+    "height": 900,
+    "colorScheme": "dark",
+    "metrics": {
+      "innerWidth": 1280,
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "overflowNodes": [],
+      "links": [
+        {
+          "tag": "a",
+          "text": "A missing required visual provider blocks UI mutation instead of letting a gener",
+          "left": 377.59375,
+          "right": 1160.859375,
+          "width": 783.265625
+        },
+        {
+          "tag": "a",
+          "text": "An applicable brand or platform provider beats a generic provider, while a Cloud",
+          "left": 377.59375,
+          "right": 1201.421875,
+          "width": 823.828125
+        },
+        {
+          "tag": "a",
+          "text": "Route revisions and evaluation rounds stay append-only, so later decisions canno",
+          "left": 377.59375,
+          "right": 1180.625,
+          "width": 803.03125
+        },
+        {
+          "tag": "a",
+          "text": "Make control explicit.",
+          "left": 377.59375,
+          "right": 528.265625,
+          "width": 150.671875
+        },
+        {
+          "tag": "a",
+          "text": "Route work to specialists.",
+          "left": 377.59375,
+          "right": 555.5,
+          "width": 177.90625
+        },
+        {
+          "tag": "a",
+          "text": "Claims need evidence.",
+          "left": 377.59375,
+          "right": 533.921875,
+          "width": 156.328125
+        },
+        {
+          "tag": "a",
+          "text": "writing-loop-harness",
+          "left": 980.890625,
+          "right": 1128.25,
+          "width": 147.359375
+        },
+        {
+          "tag": "a",
+          "text": "提交反例",
+          "left": 1141.3125,
+          "right": 1205.3125,
+          "width": 64
+        }
+      ],
+      "hero": {
+        "tag": "img",
+        "text": "Pixel Oak monument poster.",
+        "left": 352,
+        "right": 1212,
+        "width": 860
+      }
+    }
+  },
+  {
+    "id": "profile-v2-poster-320-light",
+    "width": 320,
+    "height": 800,
+    "colorScheme": "light",
+    "metrics": {
+      "innerWidth": 320,
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "overflowNodes": [],
+      "links": [
+        {
+          "tag": "a",
+          "text": "A missing required visual provider blocks UI mutation instead of letting a gener",
+          "left": 37.59375,
+          "right": 307.09375,
+          "width": 269.5
+        },
+        {
+          "tag": "a",
+          "text": "An applicable brand or platform provider beats a generic provider, while a Cloud",
+          "left": 37.59375,
+          "right": 283.265625,
+          "width": 245.671875
+        },
+        {
+          "tag": "a",
+          "text": "Route revisions and evaluation rounds stay append-only, so later decisions canno",
+          "left": 37.59375,
+          "right": 306.640625,
+          "width": 269.046875
+        },
+        {
+          "tag": "a",
+          "text": "Make control explicit.",
+          "left": 37.59375,
+          "right": 188.265625,
+          "width": 150.671875
+        },
+        {
+          "tag": "a",
+          "text": "Route work to specialists.",
+          "left": 37.59375,
+          "right": 215.5,
+          "width": 177.90625
+        },
+        {
+          "tag": "a",
+          "text": "Claims need evidence.",
+          "left": 37.59375,
+          "right": 193.921875,
+          "width": 156.328125
+        },
+        {
+          "tag": "a",
+          "text": "writing-loop-harness",
+          "left": 54.3125,
+          "right": 201.671875,
+          "width": 147.359375
+        },
+        {
+          "tag": "a",
+          "text": "提交反例",
+          "left": 224.3125,
+          "right": 288.3125,
+          "width": 64
+        }
+      ],
+      "hero": {
+        "tag": "img",
+        "text": "Pixel Oak monument poster.",
+        "left": 12,
+        "right": 308,
+        "width": 296
+      }
+    }
+  },
+  {
+    "id": "profile-v2-poster-320-dark",
+    "width": 320,
+    "height": 800,
+    "colorScheme": "dark",
+    "metrics": {
+      "innerWidth": 320,
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "overflowNodes": [],
+      "links": [
+        {
+          "tag": "a",
+          "text": "A missing required visual provider blocks UI mutation instead of letting a gener",
+          "left": 37.59375,
+          "right": 307.09375,
+          "width": 269.5
+        },
+        {
+          "tag": "a",
+          "text": "An applicable brand or platform provider beats a generic provider, while a Cloud",
+          "left": 37.59375,
+          "right": 283.265625,
+          "width": 245.671875
+        },
+        {
+          "tag": "a",
+          "text": "Route revisions and evaluation rounds stay append-only, so later decisions canno",
+          "left": 37.59375,
+          "right": 306.640625,
+          "width": 269.046875
+        },
+        {
+          "tag": "a",
+          "text": "Make control explicit.",
+          "left": 37.59375,
+          "right": 188.265625,
+          "width": 150.671875
+        },
+        {
+          "tag": "a",
+          "text": "Route work to specialists.",
+          "left": 37.59375,
+          "right": 215.5,
+          "width": 177.90625
+        },
+        {
+          "tag": "a",
+          "text": "Claims need evidence.",
+          "left": 37.59375,
+          "right": 193.921875,
+          "width": 156.328125
+        },
+        {
+          "tag": "a",
+          "text": "writing-loop-harness",
+          "left": 54.3125,
+          "right": 201.671875,
+          "width": 147.359375
+        },
+        {
+          "tag": "a",
+          "text": "提交反例",
+          "left": 224.3125,
+          "right": 288.3125,
+          "width": 64
+        }
+      ],
+      "hero": {
+        "tag": "img",
+        "text": "Pixel Oak monument poster.",
+        "left": 12,
+        "right": 308,
+        "width": 296
+      }
+    }
+  },
+  {
+    "id": "profile-v2-poster-320-images-disabled",
+    "width": 320,
+    "height": 800,
+    "colorScheme": "light",
+    "imagesDisabled": true,
+    "metrics": {
+      "innerWidth": 320,
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "overflowNodes": [],
+      "links": [
+        {
+          "tag": "a",
+          "text": "A missing required visual provider blocks UI mutation instead of letting a gener",
+          "left": 37.59375,
+          "right": 307.09375,
+          "width": 269.5
+        },
+        {
+          "tag": "a",
+          "text": "An applicable brand or platform provider beats a generic provider, while a Cloud",
+          "left": 37.59375,
+          "right": 283.265625,
+          "width": 245.671875
+        },
+        {
+          "tag": "a",
+          "text": "Route revisions and evaluation rounds stay append-only, so later decisions canno",
+          "left": 37.59375,
+          "right": 306.640625,
+          "width": 269.046875
+        },
+        {
+          "tag": "a",
+          "text": "Make control explicit.",
+          "left": 37.59375,
+          "right": 188.265625,
+          "width": 150.671875
+        },
+        {
+          "tag": "a",
+          "text": "Route work to specialists.",
+          "left": 37.59375,
+          "right": 215.5,
+          "width": 177.90625
+        },
+        {
+          "tag": "a",
+          "text": "Claims need evidence.",
+          "left": 37.59375,
+          "right": 193.921875,
+          "width": 156.328125
+        },
+        {
+          "tag": "a",
+          "text": "writing-loop-harness",
+          "left": 54.3125,
+          "right": 201.671875,
+          "width": 147.359375
+        },
+        {
+          "tag": "a",
+          "text": "提交反例",
+          "left": 224.3125,
+          "right": 288.3125,
+          "width": 64
+        }
+      ],
+      "hero": {
+        "tag": "img",
+        "text": "Pixel Oak monument poster.",
+        "left": 12,
+        "right": 308,
+        "width": 296
+      }
+    }
+  }
+]

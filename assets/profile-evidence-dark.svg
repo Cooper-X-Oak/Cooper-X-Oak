@@ -1,11 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-role="evidence_black_marker" viewBox="0 0 1200 112">
-  <rect id="black-field" width="1200" height="112" fill="#020403" data-token="blackField"/>
-  <path id="marker-rule" d="M80 56H640" fill="none" stroke="#607066" data-token="rule" stroke-width="2" shape-rendering="crispEdges"/>
-  <g id="ring-ledger-marker">
-    <path id="marker-outer" d="M780 84V52H828V28H1020V40H1116V76" fill="none" stroke="#607066" data-token="rule" stroke-width="16" stroke-linecap="square" stroke-linejoin="miter" shape-rendering="crispEdges"/>
-    <path id="marker-inner" d="M840 84V64H888V52H1008V64H1068V84" fill="none" stroke="#607066" data-token="rule" stroke-width="16" stroke-linecap="square" stroke-linejoin="miter" shape-rendering="crispEdges"/>
-    <path id="marker-ledger" d="M948 52V100M948 76H888M948 88H1044" fill="none" stroke="#607066" data-token="rule" stroke-width="16" stroke-linecap="square" stroke-linejoin="miter" shape-rendering="crispEdges"/>
-  </g>
-  <rect id="marker-boundary" x="1" y="1" width="1198" height="110" fill="none" stroke="#607066" data-token="rule" stroke-width="2" shape-rendering="crispEdges"/>
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-role="evidence_black_marker" width="1200" height="311" viewBox="0 0 54 14" shape-rendering="crispEdges">
+  <rect id="black-field" width="54" height="14" fill="#020403" data-token="blackField"/>
+  <rect x="32" y="0" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="34" y="0" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="36" y="0" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="38" y="0" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="40" y="0" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="32" y="2" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="34" y="2" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="36" y="2" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="38" y="2" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="40" y="2" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="30" y="4" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="32" y="4" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="34" y="4" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="36" y="4" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="38" y="4" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="40" y="4" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="42" y="4" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="30" y="6" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="32" y="6" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="34" y="6" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="36" y="6" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="38" y="6" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="40" y="6" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="42" y="6" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="44" y="6" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="20" y="8" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="32" y="8" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="34" y="8" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="36" y="8" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="38" y="8" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="40" y="8" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="44" y="8" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="46" y="8" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="48" y="8" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="50" y="8" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="32" y="10" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="34" y="10" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="36" y="10" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="38" y="10" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="40" y="10" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="46" y="10" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="48" y="10" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="50" y="10" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="52" y="10" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="18" y="12" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="32" y="12" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="34" y="12" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="36" y="12" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="38" y="12" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="52" y="12" width="2" height="2" fill="#347A55" data-token="forest" shape-rendering="crispEdges"/>
+  <rect x="30" y="0" width="2" height="2" fill="#F2EFE4" data-token="ink" shape-rendering="crispEdges"/>
+  <rect x="28" y="2" width="2" height="2" fill="#F2EFE4" data-token="ink" shape-rendering="crispEdges"/>
+  <rect x="30" y="2" width="2" height="2" fill="#F2EFE4" data-token="ink" shape-rendering="crispEdges"/>
+  <rect x="28" y="4" width="2" height="2" fill="#F2EFE4" data-token="ink" shape-rendering="crispEdges"/>
+  <rect x="26" y="6" width="2" height="2" fill="#F2EFE4" data-token="ink" shape-rendering="crispEdges"/>
+  <rect x="28" y="6" width="2" height="2" fill="#F2EFE4" data-token="ink" shape-rendering="crispEdges"/>
+  <rect x="22" y="8" width="2" height="2" fill="#F2EFE4" data-token="ink" shape-rendering="crispEdges"/>
+  <rect x="24" y="8" width="2" height="2" fill="#F2EFE4" data-token="ink" shape-rendering="crispEdges"/>
+  <rect x="26" y="8" width="2" height="2" fill="#F2EFE4" data-token="ink" shape-rendering="crispEdges"/>
+  <rect x="28" y="8" width="2" height="2" fill="#F2EFE4" data-token="ink" shape-rendering="crispEdges"/>
+  <rect x="18" y="10" width="2" height="2" fill="#F2EFE4" data-token="ink" shape-rendering="crispEdges"/>
+  <rect x="20" y="10" width="2" height="2" fill="#F2EFE4" data-token="ink" shape-rendering="crispEdges"/>
+  <rect x="22" y="10" width="2" height="2" fill="#F2EFE4" data-token="ink" shape-rendering="crispEdges"/>
+  <rect x="24" y="10" width="2" height="2" fill="#F2EFE4" data-token="ink" shape-rendering="crispEdges"/>
+  <rect x="4" y="8" width="2" height="2" fill="#3B9648" data-token="signal" shape-rendering="crispEdges"/>
+  <rect id="marker-boundary" x=".125" y=".125" width="53.75" height="13.75" fill="none" stroke="#66736B" data-token="rule" stroke-width=".25" shape-rendering="crispEdges"/>
 </svg>

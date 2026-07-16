@@ -1,0 +1,77 @@
+{
+  "revision": 2,
+  "tokens": {
+    "bone": "#F2EFE4",
+    "ink": "#0D100E",
+    "forest": "#347A55",
+    "signal": "#3B9648"
+  },
+  "oakArea": 440,
+  "outputs": [
+    {
+      "filename": "01-shoulder-weighted-light.svg",
+      "variant": "01-shoulder-weighted",
+      "mode": "light",
+      "oakArea": 440,
+      "structureArea": 101
+    },
+    {
+      "filename": "01-shoulder-weighted-dark.svg",
+      "variant": "01-shoulder-weighted",
+      "mode": "dark",
+      "oakArea": 440,
+      "structureArea": 101
+    },
+    {
+      "filename": "02-balanced-light.svg",
+      "variant": "02-balanced",
+      "mode": "light",
+      "oakArea": 440,
+      "structureArea": 90
+    },
+    {
+      "filename": "02-balanced-dark.svg",
+      "variant": "02-balanced",
+      "mode": "dark",
+      "oakArea": 440,
+      "structureArea": 90
+    },
+    {
+      "filename": "03-grounded-light.svg",
+      "variant": "03-grounded",
+      "mode": "light",
+      "oakArea": 440,
+      "structureArea": 80
+    },
+    {
+      "filename": "03-grounded-dark.svg",
+      "variant": "03-grounded",
+      "mode": "dark",
+      "oakArea": 440,
+      "structureArea": 80
+    }
+  ],
+  "comparisons": [
+    {
+      "left": "01-shoulder-weighted",
+      "right": "02-balanced",
+      "intersection": 87,
+      "symmetricDifference": 17,
+      "jaccard": 0.837
+    },
+    {
+      "left": "01-shoulder-weighted",
+      "right": "03-grounded",
+      "intersection": 73,
+      "symmetricDifference": 35,
+      "jaccard": 0.676
+    },
+    {
+      "left": "02-balanced",
+      "right": "03-grounded",
+      "intersection": 75,
+      "symmetricDifference": 20,
+      "jaccard": 0.789
+    }
+  ]
+}

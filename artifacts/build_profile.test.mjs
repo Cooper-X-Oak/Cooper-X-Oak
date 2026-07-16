@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { createHash } from "node:crypto";
 import { readFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import test from "node:test";
@@ -37,7 +38,7 @@ function contrast(a, b) {
   return (Math.max(first, second) + 0.05) / (Math.min(first, second) + 0.05);
 }
 
-test("accepts the approved Ring Ledger source contract", () => {
+test("accepts the approved Pixel Oak source contract", () => {
   assert.equal(validateProfile(cloneProfile()).version, 3);
 });
 
@@ -170,11 +171,26 @@ test("keeps light and dark geometry structurally identical", () => {
   );
 });
 
-test("keeps the Hero glyph above the locked 30 by 65 percent bounds", () => {
-  const { glyphBounds, width, height } = RING_LEDGER_MODEL.hero;
-  assert.ok(glyphBounds.width / width >= 0.3);
-  assert.ok(glyphBounds.height / height >= 0.65);
-  assert.ok(width - (glyphBounds.x + glyphBounds.width) >= 60);
+test("keeps the Pixel Oak above the locked 30 by 65 percent bounds", () => {
+  const { glyphBounds, viewBoxWidth, viewBoxHeight } = RING_LEDGER_MODEL.hero;
+  assert.ok(glyphBounds.width / viewBoxWidth >= 0.3);
+  assert.ok(glyphBounds.height / viewBoxHeight >= 0.65);
+  assert.ok(viewBoxWidth - (glyphBounds.x + glyphBounds.width) >= 2);
+});
+
+test("freezes the D03/D04 silhouette and structure topology", () => {
+  const canonicalRows = (rows) => {
+    const cells = [];
+    rows.forEach((ranges, y) => ranges.forEach(([start, end]) => {
+      for (let x = start; x <= end; x += 1) cells.push([x, y]);
+    }));
+    return cells.sort(([ax, ay], [bx, by]) => ay - by || ax - bx).map(([x, y]) => `${x},${y}`).join(";");
+  };
+  const structureRows = [];
+  for (const [y, ranges] of Object.entries(RING_LEDGER_MODEL.hero.structureRows)) structureRows[Number(y)] = ranges;
+  const hash = (value) => createHash("sha256").update(value).digest("hex");
+  assert.equal(hash(canonicalRows(RING_LEDGER_MODEL.hero.silhouetteRows)), "395c18d10bb21004519f0134ac2dfbeb4b2686323d9b357fd46c4958e2335203");
+  assert.equal(hash(canonicalRows(structureRows)), "0c0c241fcce8c7c888e7c1ae36cd8863e4b2c474d9bebcf00d92a5fb01ebdd7e");
 });
 
 test("keeps all generated SVG local, static, flat, and parseable by contract", () => {
@@ -198,6 +214,8 @@ test("meets non-text contrast for Hero and Evidence geometry", () => {
   for (const mode of ["light", "dark"]) {
     const tokens = config.theme.tokens[mode];
     assert.ok(contrast(tokens.forest, tokens.canvas) >= 3, `${mode} Hero forest contrast failed`);
+    assert.ok(contrast(tokens.structure, tokens.canvas) >= 2.5, `${mode} Hero structure visibility failed`);
+    assert.ok(contrast(tokens.structure, tokens.forest) < 2, `${mode} structure must remain subordinate to the Oak`);
     assert.ok(contrast(tokens.rule, tokens.blackField) >= 3, `${mode} Evidence rule contrast failed`);
   }
 });
@@ -215,7 +233,8 @@ test("rejects viewport assets and a third visual role even after generation", ()
 test("keeps the Evidence marker decorative and adjacent to native semantics", () => {
   const outputs = renderOutputs(cloneProfile());
   const readme = outputs["README.md"];
-  assert.match(readme, /profile-evidence-light\.svg" alt="" width="1200" height="112">\n<\/picture>\n\n### Evidence/);
+  assert.match(readme, /profile-evidence-light\.svg" alt="">\n<\/picture>\n\n### Evidence/);
+  assert.doesNotMatch(readme, /<img[^>]+\b(?:width|height)=/i);
   assert.match(outputs["assets/profile-evidence-light.svg"], /aria-hidden="true" focusable="false"/);
   assert.doesNotMatch(outputs["assets/profile-evidence-light.svg"], /<title|<desc|>Evidence<|issuecomment|提交反例/i);
 });

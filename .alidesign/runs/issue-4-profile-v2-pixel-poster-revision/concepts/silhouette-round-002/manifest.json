@@ -1,0 +1,23 @@
+{
+  "grid": "32x24",
+  "manifest": [
+    {
+      "id": "a-three-crown-positive-y",
+      "area": 403,
+      "enclosedBackgroundCells": 0,
+      "longestRootRun": 6
+    },
+    {
+      "id": "b-exposed-branch-frame",
+      "area": 336,
+      "enclosedBackgroundCells": 0,
+      "longestRootRun": 6
+    },
+    {
+      "id": "c-wind-shaped-offset",
+      "area": 387,
+      "enclosedBackgroundCells": 0,
+      "longestRootRun": 6
+    }
+  ]
+}

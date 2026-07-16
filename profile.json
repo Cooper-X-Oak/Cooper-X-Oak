@@ -59,35 +59,39 @@
     "url": "https://github.com/Cooper-X-Oak/Cooper-X-Oak/issues/6"
   },
   "theme": {
-    "id": "ring-ledger-v2",
+    "id": "pixel-oak-poster-v2",
     "tokens": {
       "light": {
-        "canvas": "#F5F6F1",
-        "ink": "#111512",
-        "forest": "#173F2D",
+        "canvas": "#F2EFE4",
+        "ink": "#0D100E",
+        "forest": "#347A55",
+        "structure": "#5C8E70",
+        "signal": "#3B9648",
         "muted": "#5C655E",
-        "rule": "#CDD3CD",
-        "blackField": "#111512"
+        "rule": "#A7AEA6",
+        "blackField": "#0D100E"
       },
       "dark": {
-        "canvas": "#0D1110",
-        "ink": "#F2F4EF",
-        "forest": "#85B99A",
+        "canvas": "#0D100E",
+        "ink": "#F2EFE4",
+        "forest": "#347A55",
+        "structure": "#285F45",
+        "signal": "#3B9648",
         "muted": "#9BA69E",
-        "rule": "#607066",
+        "rule": "#66736B",
         "blackField": "#020403"
       }
     },
     "assets": {
       "heroSignature": {
-        "alt": "Ring Ledger Oak glyph.",
+        "alt": "Pixel Oak monument poster.",
         "width": 1200,
-        "height": 264
+        "height": 800
       },
       "evidenceBlackMarker": {
         "alt": "",
         "width": 1200,
-        "height": 112
+        "height": 311
       }
     }
   }
