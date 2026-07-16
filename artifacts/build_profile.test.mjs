@@ -116,7 +116,7 @@ test("renders deterministically from one source model", () => {
   assert.equal(Object.keys(first).length, 6);
 });
 
-test("renders the exact native GFM ledger grammar", () => {
+test("renders the complete Pixel Oak editorial interface grammar", () => {
   const readme = renderOutputs(cloneProfile())["README.md"];
   assert.deepEqual([...readme.matchAll(/^# (.+)$/gm)].map((match) => match[1]), ["COOPER OAK"]);
   assert.deepEqual([...readme.matchAll(/^## (.+)$/gm)].map((match) => match[1]), [
@@ -125,8 +125,12 @@ test("renders the exact native GFM ledger grammar", () => {
     "04 — Open loop",
     "05 — Discuss on GitHub"
   ]);
-  assert.deepEqual([...readme.matchAll(/^### (.+)$/gm)].map((match) => match[1]), ["Question", "Hypothesis", "Evidence", "Next"]);
-  assert.equal([...readme.matchAll(/^---$/gm)].length, 3);
+  assert.equal([...readme.matchAll(/^<table>$/gm)].length, 5);
+  assert.match(readme, /NOW<br>ACTIVE/);
+  assert.match(readme, />QUESTION<\/th>[\s\S]+>HYPOTHESIS<\/th>[\s\S]+profile-evidence-light\.svg[\s\S]+>EVIDENCE<\/th>[\s\S]+>NEXT<\/th>/);
+  assert.equal([...readme.matchAll(/0[1-3] \/ PRINCIPLE/g)].length, 3);
+  assert.match(readme, /UNFINISHED<br>RECORD/);
+  assert.match(readme, /COUNTER<br>EXAMPLE/);
 });
 
 test("freezes production assets to two visual roles with theme projections", () => {
@@ -139,7 +143,7 @@ test("freezes production assets to two visual roles with theme projections", () 
     "assets/profile-evidence-dark.svg"
   ]);
   assert.doesNotMatch(outputs["README.md"], /max-width:|mobile|section-marker/i);
-  assert.equal([...outputs["README.md"].matchAll(/^<picture>$/gm)].length, 2);
+  assert.equal([...outputs["README.md"].matchAll(/<picture>/g)].length, 2);
 });
 
 test("keeps every identity, experiment, proof, and action out of SVG", () => {
@@ -230,10 +234,10 @@ test("rejects viewport assets and a third visual role even after generation", ()
   assert.throws(() => validateOutputs(outputs, config), /viewport asset|theme source/);
 });
 
-test("keeps the Evidence marker decorative and adjacent to native semantics", () => {
+test("keeps the Evidence marker decorative and adjacent to ledger semantics", () => {
   const outputs = renderOutputs(cloneProfile());
   const readme = outputs["README.md"];
-  assert.match(readme, /profile-evidence-light\.svg" alt="">\n<\/picture>\n\n### Evidence/);
+  assert.match(readme, /profile-evidence-light\.svg" alt="">\n      <\/picture>\n    <\/td>[\s\S]+>EVIDENCE<\/th>/);
   assert.doesNotMatch(readme, /<img[^>]+\b(?:width|height)=/i);
   assert.match(outputs["assets/profile-evidence-light.svg"], /aria-hidden="true" focusable="false"/);
   assert.doesNotMatch(outputs["assets/profile-evidence-light.svg"], /<title|<desc|>Evidence<|issuecomment|提交反例/i);
@@ -244,9 +248,25 @@ test("keeps the generated preview semantic, responsive, and script-free", () => 
   assert.match(preview, /<meta name="viewport"/);
   assert.equal([...preview.matchAll(/<h1>/g)].length, 1);
   assert.equal([...preview.matchAll(/<h2 id=/g)].length, 4);
-  assert.equal([...preview.matchAll(/<h3>/g)].length, 4);
-  assert.equal([...preview.matchAll(/<hr>/g)].length, 3);
+  assert.equal([...preview.matchAll(/<table class="ledger/g)].length, 5);
+  assert.equal([...preview.matchAll(/class="micro">0[1-3] \/ PRINCIPLE/g)].length, 3);
   assert.doesNotMatch(preview, /<script|<button|role="button"|display:\s*none|javascript:/i);
+});
+
+test("freezes all four production SVG files byte-for-byte", () => {
+  const outputs = renderOutputs(cloneProfile());
+  const hash = (value) => createHash("sha256").update(value).digest("hex");
+  assert.deepEqual({
+    heroLight: hash(outputs["assets/profile-signature-light.svg"]),
+    heroDark: hash(outputs["assets/profile-signature-dark.svg"]),
+    evidenceLight: hash(outputs["assets/profile-evidence-light.svg"]),
+    evidenceDark: hash(outputs["assets/profile-evidence-dark.svg"])
+  }, {
+    heroLight: "2d54d6f74a4a76bccfcd97dcca672348c0cd384a161b185208c25ad423ea46ea",
+    heroDark: "7f61fd6fa27428dc512c26dedfb13baa6e4ef6a921aa320226bfa847720a588d",
+    evidenceLight: "2ae45e21e5f11822a971c7be0fdbb8453519f4341ab5d6f4313da8ea79e27e91",
+    evidenceDark: "2ae45e21e5f11822a971c7be0fdbb8453519f4341ab5d6f4313da8ea79e27e91"
+  });
 });
 
 test("all generated text uses the repository LF contract", () => {

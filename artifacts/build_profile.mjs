@@ -134,7 +134,7 @@ export function validateProfile(config) {
   assert(REPO_PATTERN.test(username), "profile.github.username contains unsupported characters.");
 
   assertKeys(config.page, ["type", "primaryAudience"], "profile.page");
-  assert(config.page.type === "github-profile-experiment-ledger", "profile.page.type must be github-profile-experiment-ledger.");
+  assert(config.page.type === "github-profile-pixel-oak-control-ledger", "profile.page.type must be github-profile-pixel-oak-control-ledger.");
   requireLine(config.page.primaryAudience, "profile.page.primaryAudience");
 
   assertKeys(config.identity, ["name", "lead"], "profile.identity");
@@ -324,14 +324,14 @@ export function normalizeThemeProjection(svg) {
 
 export function renderReadme(view) {
   const evidence = view.experiment.evidence
-    .map((item, index) => `${index + 1}. ${markdownLink(item.statement, item.url)}`)
+    .map((item) => `      <li>${htmlLink(item.statement, item.url)}</li>`)
     .join("\n");
   const principles = view.principles
-    .map((item) => `- ${markdownLink(item.label, item.url)}`)
+    .map((item, index) => `    <td valign="top"><sub>0${index + 1} / PRINCIPLE</sub><br>${htmlLink(item.label, item.url)}</td>`)
     .join("\n");
-  const linkedTruth = markdownText(view.openLoop.truth).replace(
-    markdownText(view.openLoop.repo),
-    markdownLink(view.openLoop.repo, view.openLoop.url)
+  const linkedTruth = escapeHtml(view.openLoop.truth).replace(
+    escapeHtml(view.openLoop.repo),
+    htmlLink(view.openLoop.repo, view.openLoop.url)
   );
 
   return `${renderPicture(view, "hero")}
@@ -340,45 +340,68 @@ export function renderReadme(view) {
 
 ${markdownText(view.identity.lead)}
 
+<table>
+  <tr>
+    <th align="left" valign="top"><sub>NOW<br>ACTIVE</sub></th>
+    <td><strong>${escapeHtml(view.experiment.name)}</strong><br>${escapeHtml(view.experiment.context)}</td>
+  </tr>
+</table>
+
 ## 02 — Current experiment
 
-**${markdownText(view.experiment.name)}.** ${markdownText(view.experiment.context)}
-
-### Question
-
-${markdownText(view.experiment.question)}
-
-### Hypothesis
-
-${markdownText(view.experiment.hypothesis)}
-
-${renderPicture(view, "evidence")}
-
-### Evidence
-
+<table>
+  <tr>
+    <th align="left" valign="top">QUESTION</th>
+    <td>${escapeHtml(view.experiment.question)}</td>
+  </tr>
+  <tr>
+    <th align="left" valign="top">HYPOTHESIS</th>
+    <td>${escapeHtml(view.experiment.hypothesis)}</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+${renderPicture(view, "evidence", "      ")}
+    </td>
+  </tr>
+  <tr>
+    <th align="left" valign="top">EVIDENCE</th>
+    <td>
+      <ol>
 ${evidence}
-
-### Next
-
-${markdownText(view.experiment.next)}
-
----
+      </ol>
+    </td>
+  </tr>
+  <tr>
+    <th align="left" valign="top">NEXT</th>
+    <td>${escapeHtml(view.experiment.next)}</td>
+  </tr>
+</table>
 
 ## 03 — Working principles
 
+<table>
+  <tr>
 ${principles}
-
----
+  </tr>
+</table>
 
 ## 04 — Open loop
 
-${markdownText(view.openLoop.continuity)} ${linkedTruth} ${markdownText(view.openLoop.closure)}
-
----
+<table>
+  <tr>
+    <th align="left" valign="top">UNFINISHED<br>RECORD</th>
+    <td>${escapeHtml(view.openLoop.continuity)} ${linkedTruth} ${escapeHtml(view.openLoop.closure)}</td>
+  </tr>
+</table>
 
 ## 05 — Discuss on GitHub
 
-${markdownText(view.discuss.context)} ${markdownLink(view.discuss.label, view.discuss.url)}.
+<table>
+  <tr>
+    <th align="left" valign="top">COUNTER<br>EXAMPLE</th>
+    <td>${escapeHtml(view.discuss.context)}<br><strong>${htmlLink(`${view.discuss.label} →`, view.discuss.url)}</strong></td>
+  </tr>
+</table>
 
 <!-- Generated from profile.json by artifacts/build_profile.mjs. Do not edit by hand. -->
 `;
@@ -393,7 +416,7 @@ export function renderPreview(view) {
     .map((item) => `          <li>${htmlLink(item.statement, item.url)}</li>`)
     .join("\n");
   const principles = view.principles
-    .map((item) => `          <li>${htmlLink(item.label, item.url)}</li>`)
+    .map((item, index) => `            <td><span class="micro">0${index + 1} / PRINCIPLE</span>${htmlLink(item.label, item.url)}</td>`)
     .join("\n");
   const linkedTruth = escapeHtml(view.openLoop.truth).replace(
     escapeHtml(view.openLoop.repo),
@@ -466,7 +489,7 @@ export function renderPreview(view) {
       margin: 20px 0 8px;
       padding-bottom: .3em;
     }
-    .lead { font-size: 20px; line-height: 1.45; margin: 0 0 40px; max-width: 42em; }
+    .lead { font-size: 20px; line-height: 1.45; margin: 0 0 20px; max-width: 42em; }
     .readme h2 {
       border-bottom: 1px solid var(--rule);
       font-size: 1.5em;
@@ -474,10 +497,22 @@ export function renderPreview(view) {
       margin: 32px 0 16px;
       padding-bottom: .3em;
     }
-    .readme h3 { font-size: 1.18em; line-height: 1.35; margin: 24px 0 8px; }
     .readme p { margin: 0 0 16px; }
     .experiment-name { color: var(--forest); font-weight: 700; }
-    .evidence-marker { margin-top: 28px; }
+    .ledger {
+      border-collapse: collapse;
+      display: table;
+      margin: 0 0 28px;
+      table-layout: fixed;
+      width: 100%;
+    }
+    .ledger th, .ledger td { border: 1px solid var(--rule); padding: 14px 16px; text-align: left; vertical-align: top; }
+    .ledger th { color: var(--muted); font-size: 12px; letter-spacing: .04em; overflow-wrap: anywhere; width: 24%; }
+    .ledger ol { margin: 0; }
+    .ledger p:last-child { margin-bottom: 0; }
+    .ledger .asset-cell { padding: 0; }
+    .principle-strip td { width: 33.333%; }
+    .micro { color: var(--muted); display: block; font-size: 11px; letter-spacing: .04em; margin-bottom: 8px; }
     .readme ol, .readme ul { padding-left: 1.6em; }
     .readme li { margin: 8px 0; }
     .readme hr { border: 0; border-top: 1px solid var(--rule); margin: 36px 0 0; }
@@ -506,6 +541,9 @@ export function renderPreview(view) {
       .readme h2 { font-size: 1.35em; }
       .readme h3 { font-size: 1.12em; }
       .lead { font-size: 18px; margin-bottom: 32px; }
+      .ledger th, .ledger td { padding: 10px 8px; }
+      .ledger th { font-size: 10px; width: 28%; }
+      .principle-strip td { overflow-wrap: anywhere; }
     }
   </style>
 </head>
@@ -525,39 +563,39 @@ export function renderPreview(view) {
 ${renderPicture(view, "hero", "      ")}
       <h1>${escapeHtml(view.identity.name)}</h1>
       <p class="lead">${escapeHtml(view.identity.lead)}</p>
+      <table class="ledger opening-register">
+        <tr>
+          <th><span class="micro">NOW<br>ACTIVE</span></th>
+          <td><span class="experiment-name">${escapeHtml(view.experiment.name)}</span><br>${escapeHtml(view.experiment.context)}</td>
+        </tr>
+      </table>
       <section aria-labelledby="current-experiment">
         <h2 id="current-experiment">02 — Current experiment</h2>
-        <p><span class="experiment-name">${escapeHtml(view.experiment.name)}.</span> ${escapeHtml(view.experiment.context)}</p>
-        <h3>Question</h3>
-        <p>${escapeHtml(view.experiment.question)}</p>
-        <h3>Hypothesis</h3>
-        <p>${escapeHtml(view.experiment.hypothesis)}</p>
-        <div class="evidence-marker">
+        <table class="ledger experiment-ledger">
+          <tr><th>QUESTION</th><td>${escapeHtml(view.experiment.question)}</td></tr>
+          <tr><th>HYPOTHESIS</th><td>${escapeHtml(view.experiment.hypothesis)}</td></tr>
+          <tr><td class="asset-cell" colspan="2">
 ${renderPicture(view, "evidence", "          ")}
-        </div>
-        <h3>Evidence</h3>
-        <ol>
+          </td></tr>
+          <tr><th>EVIDENCE</th><td><ol>
 ${evidence}
-        </ol>
-        <h3>Next</h3>
-        <p>${escapeHtml(view.experiment.next)}</p>
+          </ol></td></tr>
+          <tr><th>NEXT</th><td>${escapeHtml(view.experiment.next)}</td></tr>
+        </table>
       </section>
-      <hr>
       <section aria-labelledby="working-principles">
         <h2 id="working-principles">03 — Working principles</h2>
-        <ul>
+        <table class="ledger principle-strip"><tr>
 ${principles}
-        </ul>
+        </tr></table>
       </section>
-      <hr>
       <section aria-labelledby="open-loop">
         <h2 id="open-loop">04 — Open loop</h2>
-        <p>${escapeHtml(view.openLoop.continuity)} ${linkedTruth} ${escapeHtml(view.openLoop.closure)}</p>
+        <table class="ledger"><tr><th>UNFINISHED<br>RECORD</th><td>${escapeHtml(view.openLoop.continuity)} ${linkedTruth} ${escapeHtml(view.openLoop.closure)}</td></tr></table>
       </section>
-      <hr>
       <section aria-labelledby="discuss-on-github">
         <h2 id="discuss-on-github">05 — Discuss on GitHub</h2>
-        <p>${escapeHtml(view.discuss.context)} ${htmlLink(view.discuss.label, view.discuss.url)}.</p>
+        <table class="ledger"><tr><th>COUNTER<br>EXAMPLE</th><td>${escapeHtml(view.discuss.context)}<br><strong>${htmlLink(`${view.discuss.label} →`, view.discuss.url)}</strong></td></tr></table>
       </section>
     </article>
   </main>
@@ -617,31 +655,30 @@ export function validateOutputs(outputs, config) {
   const readme = outputs["README.md"];
   const h1 = [...readme.matchAll(/^# (.+)$/gm)].map((match) => match[1]);
   const h2 = [...readme.matchAll(/^## (.+)$/gm)].map((match) => match[1]);
-  const h3 = [...readme.matchAll(/^### (.+)$/gm)].map((match) => match[1]);
   assert(JSON.stringify(h1) === JSON.stringify(["COOPER OAK"]), "README must contain exactly the locked H1.");
   assert(JSON.stringify(h2) === JSON.stringify(["02 — Current experiment", "03 — Working principles", "04 — Open loop", "05 — Discuss on GitHub"]), "README H2 ledger changed.");
-  assert(JSON.stringify(h3) === JSON.stringify(["Question", "Hypothesis", "Evidence", "Next"]), "README experiment fields changed.");
-  assert(countMatches(readme, /^---$/gm) === 3, "README must contain exactly three top-level thematic breaks.");
-  assert(countMatches(readme, /^<picture>$/gm) === 2, "README must reference exactly the two approved visual roles.");
+  assert(countMatches(readme, /<picture>/g) === 2, "README must reference exactly the two approved visual roles.");
   assert(countMatches(readme, /media="\(prefers-color-scheme: dark\)"/g) === 2, "Each visual role must expose one dark theme source.");
-  assert(!/max-width:|profile-signature-mobile|section-marker|<table|<button|role="button"|```|^>\s|badge|telemetry|dashboard|terminal|prompt/i.test(readme), "README contains a viewport asset, layout hack, fake control, or rejected UI language.");
+  assert(countMatches(readme, /^<table>$/gm) === 5, "README must contain the opening register, experiment ledger, principles strip, Open loop record, and Discuss action table.");
+  assert(readme.includes("UNFINISHED<br>RECORD") && readme.includes("COUNTER<br>EXAMPLE"), "Long ledger labels must carry an explicit narrow-width break opportunity.");
+  assert(!/max-width:|profile-signature-mobile|section-marker|<button|role="button"|```|^>\s|badge|telemetry|dashboard|terminal|prompt|style=/i.test(readme), "README contains a viewport asset, fake control, custom style, or rejected UI language.");
   assert(readme.indexOf("profile-signature-light.svg") < readme.indexOf("# COOPER OAK"), "Hero signature must precede H1.");
   assert(readme.indexOf("# COOPER OAK") < readme.indexOf(config.identity.lead) && readme.indexOf(config.identity.lead) < readme.indexOf("## 02 — Current experiment"), "Hero semantic order changed.");
-  assert(readme.indexOf("profile-evidence-light.svg") < readme.indexOf("### Evidence") && readme.indexOf("### Evidence") < readme.indexOf("### Next"), "Evidence marker adjacency or order changed.");
+  assert(readme.indexOf("profile-evidence-light.svg") < readme.indexOf(">EVIDENCE</th>") && readme.indexOf(">EVIDENCE</th>") < readme.indexOf(">NEXT</th>"), "Evidence marker adjacency or order changed.");
   assert(readme.includes('profile-evidence-light.svg" alt="">'), "Evidence marker must use empty alt text.");
   assert(!/<img[^>]+\b(?:width|height)=/i.test(readme), "README images must not reserve a broken-resource aspect-ratio box.");
-  const evidenceSection = readme.slice(readme.indexOf("### Evidence"), readme.indexOf("### Next"));
-  assert(countMatches(evidenceSection, /^\d\. \[.+\]\(<https:\/\/github\.com\/.+\)$/gm) === 3, "Evidence must contain exactly three natural-language proof links.");
-  assert(countMatches(readme, /^- \[.+\]\(<https:\/\/github\.com\/.+\)$/gm) === 3, "Working principles must contain exactly three native link rows.");
-  assert(countMatches(readme, new RegExp(`\\[${config.openLoop.repo}\\]\\(<${config.openLoop.url}>\\)`, "g")) === 1, "Open loop must contain one writing-loop-harness record.");
-  assert(countMatches(readme, new RegExp(`\\[${config.discuss.label}\\]\\(<${config.discuss.url}>\\)`, "g")) === 1, "Discuss must contain one contextual counterexample link.");
+  const evidenceSection = readme.slice(readme.indexOf(">EVIDENCE</th>"), readme.indexOf(">NEXT</th>"));
+  assert(countMatches(evidenceSection, /<li><a href="https:\/\/github\.com\/.+">.+<\/a><\/li>/g) === 3, "Evidence must contain exactly three natural-language proof links.");
+  assert(countMatches(readme, /0[1-3] \/ PRINCIPLE/g) === 3, "Working principles must contain exactly three numbered entries.");
+  assert(countMatches(readme, new RegExp(`<a href="${config.openLoop.url}">${config.openLoop.repo}</a>`, "g")) === 1, "Open loop must contain one writing-loop-harness record.");
+  assert(countMatches(readme, new RegExp(`<a href="${config.discuss.url}">${config.discuss.label} →</a>`, "g")) === 1, "Discuss must contain one contextual counterexample link.");
   assert(!PLACEHOLDER_PATTERN.test(readme), "README contains placeholder copy.");
 
   const preview = outputs["profile.html"];
   assert(preview.includes('<meta name="viewport"'), "Preview must declare a responsive viewport.");
   assert(!/<script\b|<button\b|role="button"|javascript:|display:\s*none/i.test(preview), "Preview must remain semantic, script-free, and visible by default.");
-  assert(countMatches(preview, /<h1>/g) === 1 && countMatches(preview, /<h2 id=/g) === 4 && countMatches(preview, /<h3>/g) === 4, "Preview heading outline changed.");
-  assert(countMatches(preview, /<hr>/g) === 3, "Preview must contain exactly three thematic breaks.");
+  assert(countMatches(preview, /<h1>/g) === 1 && countMatches(preview, /<h2 id=/g) === 4, "Preview heading outline changed.");
+  assert(countMatches(preview, /<table class="ledger/g) === 5, "Preview must expose all five interface tables.");
   assert(countMatches(preview, /<picture>/g) === 2, "Preview must reference exactly two visual roles.");
   for (const item of config.experiment.evidence) assert(preview.includes(`href="${escapeHtml(item.url)}"`), `Preview is missing proof URL ${item.url}.`);
   assert(preview.includes(`href="${escapeHtml(config.openLoop.url)}"`), "Preview is missing the Open loop repository.");
