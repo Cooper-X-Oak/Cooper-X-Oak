@@ -108,11 +108,12 @@ export function validateProfile(config) {
   assert(repositoryExit.origin === "https://github.com" && repositoryExit.pathname === `/${username}`, "The repository exit must stay on the public GitHub profile.");
   assert(repositoryExit.searchParams.get("tab") === "repositories" && [...repositoryExit.searchParams].length === 1 && !repositoryExit.hash, "The repository exit must target the GitHub repositories tab without extra state.");
 
-  assertKeys(config.showcase, ["url", "image", "alt", "label"], "profile.showcase");
+  assertKeys(config.showcase, ["url", "image", "alt", "label", "caption"], "profile.showcase");
   requireHttps(config.showcase.url, "profile.showcase.url");
   assert(config.showcase.image === "./assets/fox-profile-story.gif", "profile.showcase.image must use the local Fox story GIF.");
   requireText(config.showcase.alt, "profile.showcase.alt");
   requireText(config.showcase.label, "profile.showcase.label");
+  requireText(config.showcase.caption, "profile.showcase.caption");
 
   assertKeys(config.identity, ["name", "positioning", "supporting", "origin"], "profile.identity");
   for (const key of ["name", "positioning", "supporting", "origin"]) {
@@ -239,7 +240,8 @@ function renderShowcase(view, indent = "") {
     `${indent}  <picture>`,
     `${indent}    <img src="${escapeHtml(view.showcase.image)}" alt="${escapeHtml(view.showcase.alt)}" width="1200">`,
     `${indent}  </picture>`,
-    `${indent}</a>`
+    `${indent}</a>`,
+    `${indent}<p><a href="${escapeHtml(view.showcase.url)}">${escapeHtml(view.showcase.caption)}</a></p>`
   ].join("\n");
 }
 
