@@ -20,6 +20,7 @@ Started from scratch in 2026. Goal: 100 projects.
     <img src="./assets/fox-profile-story.gif" alt="A low-poly fox travels along an abstract path in the responsive profile story." width="1200">
   </picture>
 </a>
+<p><a href="https://cooper-x-oak.github.io/">Visit my personal homepage →</a></p>
 
 ---
 

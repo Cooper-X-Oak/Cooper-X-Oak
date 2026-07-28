@@ -19,7 +19,8 @@
     "url": "https://cooper-x-oak.github.io/",
     "image": "./assets/fox-profile-story.gif",
     "alt": "A low-poly fox travels along an abstract path in the responsive profile story.",
-    "label": "Open the responsive Fox profile story"
+    "label": "Open the responsive Fox profile story",
+    "caption": "Visit my personal homepage →"
   },
   "identity": {
     "name": "Cooper Oak",
