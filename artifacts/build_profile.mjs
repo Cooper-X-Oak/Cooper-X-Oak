@@ -89,7 +89,7 @@ export function validateProfile(config) {
     fail("profile.json version 1 is the rejected evidence-console schema; migrate to version 2.");
   }
   assert(config.version === 2, "profile.json version must be 2.");
-  assertKeys(config, ["version", "github", "page", "identity", "theme", "featuredWork", "principles"], "profile");
+  assertKeys(config, ["version", "github", "page", "showcase", "identity", "theme", "featuredWork", "principles"], "profile");
   scanLegacyKeys(config);
 
   assertKeys(config.github, ["username"], "profile.github");
@@ -107,6 +107,12 @@ export function validateProfile(config) {
   const repositoryExit = requireHttps(config.page.repositoryExit.url, "profile.page.repositoryExit.url");
   assert(repositoryExit.origin === "https://github.com" && repositoryExit.pathname === `/${username}`, "The repository exit must stay on the public GitHub profile.");
   assert(repositoryExit.searchParams.get("tab") === "repositories" && [...repositoryExit.searchParams].length === 1 && !repositoryExit.hash, "The repository exit must target the GitHub repositories tab without extra state.");
+
+  assertKeys(config.showcase, ["url", "image", "alt", "label"], "profile.showcase");
+  requireHttps(config.showcase.url, "profile.showcase.url");
+  assert(config.showcase.image === "./assets/fox-profile-story.gif", "profile.showcase.image must use the local Fox story GIF.");
+  requireText(config.showcase.alt, "profile.showcase.alt");
+  requireText(config.showcase.label, "profile.showcase.label");
 
   assertKeys(config.identity, ["name", "positioning", "supporting", "origin"], "profile.identity");
   for (const key of ["name", "positioning", "supporting", "origin"]) {
@@ -201,6 +207,7 @@ export function createViewModel(config) {
   return Object.freeze({
     username: config.github.username,
     page: config.page,
+    showcase: config.showcase,
     identity: config.identity,
     theme: config.theme,
     projects: config.featuredWork,
@@ -223,6 +230,16 @@ function renderPicture(view, indent = "") {
     `${indent}  <source media="(max-width: 600px)" srcset="${view.assets.mobileLight}">`,
     `${indent}  <img src="${view.assets.light}" alt="${alt}" width="1200">`,
     `${indent}</picture>`
+  ].join("\n");
+}
+
+function renderShowcase(view, indent = "") {
+  return [
+    `${indent}<a href="${escapeHtml(view.showcase.url)}" aria-label="${escapeHtml(view.showcase.label)}">`,
+    `${indent}  <picture>`,
+    `${indent}    <img src="${escapeHtml(view.showcase.image)}" alt="${escapeHtml(view.showcase.alt)}" width="1200">`,
+    `${indent}  </picture>`,
+    `${indent}</a>`
   ].join("\n");
 }
 
@@ -298,6 +315,8 @@ ${markdownText(view.identity.supporting)}
 ${markdownText(view.identity.origin)}
 
 [${markdownText(view.page.primaryAction.label)}](${view.page.primaryAction.href})
+
+${renderShowcase(view)}
 
 ---
 
@@ -455,6 +474,7 @@ ${renderPicture(view, "      ")}
       <p class="supporting" lang="zh-CN">${escapeHtml(view.identity.supporting)}</p>
       <p class="origin">${escapeHtml(view.identity.origin)}</p>
       <p><a class="primary" href="${escapeHtml(view.page.primaryAction.href)}">${escapeHtml(view.page.primaryAction.label)}</a></p>
+${renderShowcase(view, "      ")}
       <section id="selected-work" aria-labelledby="selected-work-heading">
         <h2 id="selected-work-heading">Selected work</h2>
 ${projectBlocks}

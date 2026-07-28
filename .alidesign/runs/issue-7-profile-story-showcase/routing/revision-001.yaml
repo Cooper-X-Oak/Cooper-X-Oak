@@ -1,0 +1,505 @@
+{
+  "schema_version": 1,
+  "run_id": "issue-7-profile-story-showcase",
+  "mode": "full",
+  "revision": "revision-001",
+  "supersedes": null,
+  "supersedes_sha256": null,
+  "created_at": "2026-07-28T09:55:32.062118Z",
+  "change_reason": "Initial capability resolution.",
+  "context": {
+    "artifact_type": "",
+    "platform": "",
+    "renderer": "",
+    "interaction_model": "static",
+    "has_visual_surface": false,
+    "task_traits": []
+  },
+  "actors": {
+    "author": "",
+    "gate_resolver": ""
+  },
+  "precedence": [
+    "user_explicit",
+    "project_or_brand",
+    "platform_or_domain",
+    "framework",
+    "stage_specific",
+    "generic_fallback"
+  ],
+  "bindings": [
+    {
+      "capability": "design_authority",
+      "phase": "discovery",
+      "required_when": "always",
+      "optional": false,
+      "status": "missing",
+      "resolve_by": "authority_resolved",
+      "complete_by": "authority_resolved",
+      "barriers": [],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [],
+      "outputs": [],
+      "decision": {
+        "rationale": "Resolve applicable user, project, platform, brand, domain, and Skill authority.",
+        "evidence_refs": [],
+        "rule_refs": ["$alidesign-engineering#resolve-design-authority"]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "planning_specification",
+      "phase": "planning",
+      "required_when": "always",
+      "optional": false,
+      "status": "missing",
+      "resolve_by": "authority_resolved",
+      "complete_by": "planning_ready",
+      "barriers": [],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [],
+      "outputs": [],
+      "decision": {
+        "rationale": "Select the capability that turns the task into an evidence-backed specification.",
+        "evidence_refs": [],
+        "rule_refs": ["references/workflow.md#stage-1-understanding-and-planning"]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "positioning",
+      "phase": "planning",
+      "required_when": {
+        "field": {
+          "name": "task_traits",
+          "op": "contains",
+          "value": "professional_positioning"
+        }
+      },
+      "optional": false,
+      "status": "not_applicable",
+      "resolve_by": "authority_resolved",
+      "complete_by": "planning_ready",
+      "barriers": [],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [],
+      "outputs": [],
+      "decision": {
+        "rationale": "The initial task profile does not request professional positioning.",
+        "evidence_refs": ["routing context"],
+        "rule_refs": ["references/capability-routing.md#conditional-capabilities"]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "design_research",
+      "phase": "planning",
+      "required_when": {
+        "field": {
+          "name": "task_traits",
+          "op": "contains",
+          "value": "high_impact_design"
+        }
+      },
+      "optional": false,
+      "status": "not_applicable",
+      "resolve_by": "authority_resolved",
+      "complete_by": "planning_ready",
+      "barriers": [],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [],
+      "outputs": [],
+      "decision": {
+        "rationale": "The initial task profile does not mark the design decision as high impact.",
+        "evidence_refs": ["routing context"],
+        "rule_refs": ["references/capability-routing.md#conditional-capabilities"]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "visual_art_direction",
+      "phase": "component_domain",
+      "required_when": {
+        "any": [
+          {
+            "field": {
+              "name": "has_visual_surface",
+              "op": "eq",
+              "value": true
+            }
+          },
+          {
+            "field": {
+              "name": "task_traits",
+              "op": "contains",
+              "value": "brand_identity"
+            }
+          }
+        ]
+      },
+      "optional": false,
+      "status": "not_applicable",
+      "resolve_by": "implementation_authorized",
+      "complete_by": "implementation_authorized",
+      "barriers": ["ui_mutation"],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [],
+      "outputs": [],
+      "decision": {
+        "rationale": "The initial task profile has no visual or brand-bearing surface.",
+        "evidence_refs": ["routing context"],
+        "rule_refs": ["references/capability-routing.md#ui-mutation-barrier"]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "information_architecture",
+      "phase": "information_architecture",
+      "required_when": "always",
+      "optional": false,
+      "status": "missing",
+      "resolve_by": "planning_ready",
+      "complete_by": "structure_ready",
+      "barriers": [],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [],
+      "outputs": [],
+      "decision": {
+        "rationale": "Select a structure capability that fits the artifact and platform.",
+        "evidence_refs": [],
+        "rule_refs": ["references/workflow.md#stage-2-information-architecture"]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "ia_variants",
+      "phase": "information_architecture",
+      "required_when": {
+        "field": {
+          "name": "task_traits",
+          "op": "contains",
+          "value": "structure_high_impact"
+        }
+      },
+      "optional": false,
+      "status": "not_applicable",
+      "resolve_by": "planning_ready",
+      "complete_by": "structure_ready",
+      "barriers": [],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [],
+      "outputs": [],
+      "decision": {
+        "rationale": "The initial task profile does not require structural variants.",
+        "evidence_refs": ["routing context"],
+        "rule_refs": ["references/workflow.md#stage-2-information-architecture"]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "domain_semantics",
+      "phase": "component_domain",
+      "required_when": {
+        "field": {
+          "name": "task_traits",
+          "op": "contains",
+          "value": "domain_sensitive"
+        }
+      },
+      "optional": false,
+      "status": "not_applicable",
+      "resolve_by": "structure_ready",
+      "complete_by": "semantics_ready",
+      "barriers": [],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [],
+      "outputs": [],
+      "decision": {
+        "rationale": "The initial task profile does not require domain-specific semantics.",
+        "evidence_refs": ["routing context"],
+        "rule_refs": ["references/workflow.md#stage-3-component-and-domain-semantics"]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "component_semantics",
+      "phase": "component_domain",
+      "required_when": {
+        "field": {
+          "name": "task_traits",
+          "op": "contains",
+          "value": "custom_components"
+        }
+      },
+      "optional": false,
+      "status": "not_applicable",
+      "resolve_by": "structure_ready",
+      "complete_by": "semantics_ready",
+      "barriers": [],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [],
+      "outputs": [],
+      "decision": {
+        "rationale": "The initial task profile does not require custom component semantics.",
+        "evidence_refs": ["routing context"],
+        "rule_refs": ["references/workflow.md#stage-3-component-and-domain-semantics"]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "visual_design",
+      "phase": "component_domain",
+      "required_when": {
+        "field": {
+          "name": "has_visual_surface",
+          "op": "eq",
+          "value": true
+        }
+      },
+      "optional": false,
+      "status": "not_applicable",
+      "resolve_by": "semantics_ready",
+      "complete_by": "implementation_authorized",
+      "barriers": ["ui_mutation"],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [],
+      "outputs": [],
+      "decision": {
+        "rationale": "The initial task profile has no visual surface.",
+        "evidence_refs": ["routing context"],
+        "rule_refs": ["references/capability-routing.md#ui-mutation-barrier"]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "craft",
+      "phase": "interaction_states",
+      "required_when": {
+        "field": {
+          "name": "has_visual_surface",
+          "op": "eq",
+          "value": true
+        }
+      },
+      "optional": false,
+      "status": "not_applicable",
+      "resolve_by": "behavior_ready",
+      "complete_by": "behavior_ready",
+      "barriers": ["ui_mutation"],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [],
+      "outputs": [],
+      "decision": {
+        "rationale": "The initial task profile has no visual surface requiring craft review.",
+        "evidence_refs": ["routing context"],
+        "rule_refs": ["references/capability-routing.md#static-does-not-skip-craft"]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "interaction_behavior",
+      "phase": "interaction_states",
+      "required_when": {
+        "not": {
+          "field": {
+            "name": "interaction_model",
+            "op": "eq",
+            "value": "static"
+          }
+        }
+      },
+      "optional": false,
+      "status": "not_applicable",
+      "resolve_by": "interaction_authority_resolved",
+      "complete_by": "behavior_ready",
+      "barriers": [],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [],
+      "outputs": [],
+      "decision": {
+        "rationale": "The initial task profile is static.",
+        "evidence_refs": ["routing context"],
+        "rule_refs": ["references/workflow.md#stage-4-interaction-states"]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "motion",
+      "phase": "interaction_states",
+      "required_when": {
+        "not": {
+          "field": {
+            "name": "interaction_model",
+            "op": "eq",
+            "value": "static"
+          }
+        }
+      },
+      "optional": false,
+      "status": "not_applicable",
+      "resolve_by": "interaction_authority_resolved",
+      "complete_by": "behavior_ready",
+      "barriers": [],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [],
+      "outputs": [],
+      "decision": {
+        "rationale": "The initial task profile is static and has no custom motion.",
+        "evidence_refs": ["routing context"],
+        "rule_refs": ["references/capability-routing.md#static-does-not-skip-craft"]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "implementation_authority",
+      "phase": "design_ready",
+      "required_when": "always",
+      "optional": false,
+      "status": "missing",
+      "resolve_by": "implementation_authorized",
+      "complete_by": "implementation_authorized",
+      "barriers": ["ui_mutation"],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [],
+      "outputs": [],
+      "decision": {
+        "rationale": "Resolve the repository and implementation workflow before mutation.",
+        "evidence_refs": [],
+        "rule_refs": ["references/workflow.md#implementation-bridge"]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "implementation_projection",
+      "phase": "implementing",
+      "required_when": "always",
+      "optional": false,
+      "status": "missing",
+      "resolve_by": "implementation_authorized",
+      "complete_by": "artifact_runnable",
+      "barriers": ["ui_mutation"],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [],
+      "outputs": [],
+      "decision": {
+        "rationale": "Select the platform/framework capability that projects approved declarations into the artifact.",
+        "evidence_refs": [],
+        "rule_refs": ["references/workflow.md#implementation-bridge"]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "evidence_collection",
+      "phase": "evaluation",
+      "required_when": "always",
+      "optional": false,
+      "status": "missing",
+      "resolve_by": "evaluation_ready",
+      "complete_by": "evaluation_passed",
+      "barriers": [],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [],
+      "outputs": [],
+      "decision": {
+        "rationale": "Select deterministic evidence collectors appropriate to the artifact.",
+        "evidence_refs": [],
+        "rule_refs": ["references/evaluation.md#collect-applicable-evidence"]
+      },
+      "isolation": null
+    },
+    {
+      "capability": "design_review",
+      "phase": "evaluation",
+      "required_when": {
+        "any": [
+          {
+            "field": {
+              "name": "has_visual_surface",
+              "op": "eq",
+              "value": true
+            }
+          },
+          {
+            "field": {
+              "name": "task_traits",
+              "op": "contains",
+              "value": "brand_identity"
+            }
+          }
+        ]
+      },
+      "optional": false,
+      "status": "not_applicable",
+      "resolve_by": "evaluation_ready",
+      "complete_by": "evaluation_passed",
+      "barriers": [],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [],
+      "outputs": [],
+      "decision": {
+        "rationale": "The initial task profile has no visual surface requiring design review.",
+        "evidence_refs": ["routing context"],
+        "rule_refs": ["references/evaluation.md#separate-three-responsibilities"]
+      },
+      "isolation": {
+        "independent": false,
+        "method": ""
+      }
+    },
+    {
+      "capability": "gate_resolution",
+      "phase": "evaluation",
+      "required_when": "always",
+      "optional": false,
+      "status": "missing",
+      "resolve_by": "evaluation_ready",
+      "complete_by": "evaluation_passed",
+      "barriers": [],
+      "provider": null,
+      "candidates": [],
+      "selection_override": null,
+      "inputs": [],
+      "outputs": [],
+      "decision": {
+        "rationale": "Use AliDesign only to resolve the selected evaluation contract, not to invent it.",
+        "evidence_refs": [],
+        "rule_refs": ["references/evaluation.md#produce-a-gate-result"]
+      },
+      "isolation": null
+    }
+  ]
+}

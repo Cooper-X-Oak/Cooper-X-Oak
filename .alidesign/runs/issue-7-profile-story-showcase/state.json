@@ -1,0 +1,30 @@
+{
+  "schema_version": 2,
+  "run_id": "issue-7-profile-story-showcase",
+  "project": "issue-7",
+  "task": "Showcase the verified responsive GitHub Pages profile story in the GitHub account profile.",
+  "mode": "full",
+  "milestone": "M002",
+  "issue": "AD-002",
+  "state": "discovery",
+  "iteration": 0,
+  "active_spec": null,
+  "best_candidate": null,
+  "blockers": [],
+  "evidence": [],
+  "records": [],
+  "routing_manifest": "routing.yaml",
+  "sealed_routes": [],
+  "sealed_evaluations": [],
+  "resume_state": null,
+  "created_at": "2026-07-28T09:55:32.062118Z",
+  "updated_at": "2026-07-28T09:55:32.079117Z",
+  "history": [
+    {
+      "at": "2026-07-28T09:55:32.062118Z",
+      "action": "initialized",
+      "state": "discovery",
+      "mode": "full"
+    }
+  ]
+}
